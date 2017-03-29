@@ -5,9 +5,9 @@ SRC_DIR = "src"
 
 
 ufos = [
-	os.path.join(SRC_DIR, "RC-Light.ufo"),
-	os.path.join(SRC_DIR, "RC-Regular.ufo"),
-	os.path.join(SRC_DIR, "RC-Bold.ufo"),
+	os.path.join(SRC_DIR, "Radio-Canada-Light.ufo"),
+	os.path.join(SRC_DIR, "Radio-Canada-Regular.ufo"),
+	os.path.join(SRC_DIR, "Radio-Canada-Bold.ufo"),
 ]
 
 project = FontProject()
