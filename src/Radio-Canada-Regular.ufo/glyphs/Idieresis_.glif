@@ -3,8 +3,8 @@
   <advance width="436"/>
   <unicode hex="00CF"/>
   <outline>
-    <component base="dieresis.cap" xOffset="-82"/>
     <component base="I"/>
+    <component base="dieresis.cap" xOffset="-82"/>
   </outline>
   <lib>
     <dict>
@@ -59,6 +59,13 @@
           <integer>436</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

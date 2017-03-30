@@ -3,8 +3,8 @@
   <advance width="450"/>
   <unicode hex="00CE"/>
   <outline>
-    <component base="circumflex.cap" xOffset="-75.0"/>
     <component base="I"/>
+    <component base="circumflex.cap" xOffset="-75.0"/>
   </outline>
   <lib>
     <dict>
@@ -59,6 +59,13 @@
           <integer>450</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

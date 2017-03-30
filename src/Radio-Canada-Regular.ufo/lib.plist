@@ -32,6 +32,9 @@
 		<real>0.5</real>
 		<real>0.7</real>
 	</array>
+	<key>com.typemytype.robofont.guides</key>
+	<array>
+	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
 	<key>com.typemytype.robofont.layerOrder</key>
@@ -48,7 +51,7 @@
 			<key>ascending</key>
 			<array>
 				<string>.notdef</string>
-				<string>.null</string>
+				<string>NULL</string>
 				<string>CR</string>
 				<string>space</string>
 				<string>uni00A0</string>
@@ -359,34 +362,34 @@
 				<string>asciicircum</string>
 				<string>asciitilde</string>
 				<string>grave</string>
-				<string>gravecap</string>
+				<string>grave.cap</string>
 				<string>acute</string>
-				<string>acutecap</string>
+				<string>acute.cap</string>
 				<string>circumflex</string>
-				<string>circumflexcap</string>
+				<string>circumflex.cap</string>
 				<string>caron</string>
-				<string>caroncap</string>
-				<string>caronalt</string>
+				<string>caron.cap</string>
+				<string>caron.alt</string>
 				<string>tilde</string>
-				<string>tildecap</string>
+				<string>tilde.cap</string>
 				<string>dieresis</string>
-				<string>dieresiscap</string>
+				<string>dieresis.cap</string>
 				<string>macron</string>
-				<string>macroncap</string>
+				<string>macron.cap</string>
 				<string>uni02C9</string>
 				<string>breve</string>
-				<string>brevecap</string>
+				<string>breve.cap</string>
 				<string>ring</string>
-				<string>ringcap</string>
+				<string>ring.cap</string>
 				<string>hungarumlaut</string>
-				<string>hungarumlautcap</string>
+				<string>hungarumlaut.cap</string>
 				<string>dotaccent</string>
-				<string>dotaccentcap</string>
+				<string>dotaccent.cap</string>
 				<string>cedilla</string>
-				<string>dotbelowcomb</string>
+				<string>dotbelow</string>
 				<string>ogonek</string>
 				<string>commaaccent</string>
-				<string>commaaccentalt</string>
+				<string>commaaccent.alt</string>
 				<string>uni00AD</string>
 				<string>hyphen</string>
 				<string>endash</string>
@@ -424,8 +427,8 @@
 				<string>quotedblbase</string>
 				<string>guilsinglleft</string>
 				<string>guilsinglright</string>
-				<string>guillemotleft</string>
-				<string>guillemotright</string>
+				<string>guillemetleft</string>
+				<string>guillemetright</string>
 				<string>paragraph</string>
 				<string>uniF8FF</string>
 				<string>numbersign</string>
@@ -493,17 +496,29 @@
 				<string>summation</string>
 				<string>product</string>
 				<string>lozenge</string>
+				<string>aring.ss01</string>
+				<string>ucircumflex.ss01</string>
+				<string>acircumflex.ss01</string>
+				<string>uacute.ss01</string>
+				<string>a.ss01</string>
+				<string>adieresis.ss01</string>
+				<string>u.ss01</string>
+				<string>agrave.ss01</string>
+				<string>atilde.ss01</string>
+				<string>ugrave.ss01</string>
+				<string>aacute.ss01</string>
+				<string>udieresis.ss01</string>
 			</array>
 			<key>type</key>
 			<string>glyphList</string>
 		</dict>
 	</array>
 	<key>com.typemytype.robofont.templateCharacterSet</key>
-	<string>latin-plus</string>
+	<string>rc-plus</string>
 	<key>public.glyphOrder</key>
 	<array>
 		<string>.notdef</string>
-		<string>.null</string>
+		<string>NULL</string>
 		<string>CR</string>
 		<string>space</string>
 		<string>uni00A0</string>
@@ -814,34 +829,34 @@
 		<string>asciicircum</string>
 		<string>asciitilde</string>
 		<string>grave</string>
-		<string>gravecap</string>
+		<string>grave.cap</string>
 		<string>acute</string>
-		<string>acutecap</string>
+		<string>acute.cap</string>
 		<string>circumflex</string>
-		<string>circumflexcap</string>
+		<string>circumflex.cap</string>
 		<string>caron</string>
-		<string>caroncap</string>
-		<string>caronalt</string>
+		<string>caron.cap</string>
+		<string>caron.alt</string>
 		<string>tilde</string>
-		<string>tildecap</string>
+		<string>tilde.cap</string>
 		<string>dieresis</string>
-		<string>dieresiscap</string>
+		<string>dieresis.cap</string>
 		<string>macron</string>
-		<string>macroncap</string>
+		<string>macron.cap</string>
 		<string>uni02C9</string>
 		<string>breve</string>
-		<string>brevecap</string>
+		<string>breve.cap</string>
 		<string>ring</string>
-		<string>ringcap</string>
+		<string>ring.cap</string>
 		<string>hungarumlaut</string>
-		<string>hungarumlautcap</string>
+		<string>hungarumlaut.cap</string>
 		<string>dotaccent</string>
-		<string>dotaccentcap</string>
+		<string>dotaccent.cap</string>
 		<string>cedilla</string>
-		<string>dotbelowcomb</string>
+		<string>dotbelow</string>
 		<string>ogonek</string>
 		<string>commaaccent</string>
-		<string>commaaccentalt</string>
+		<string>commaaccent.alt</string>
 		<string>uni00AD</string>
 		<string>hyphen</string>
 		<string>endash</string>
@@ -879,8 +894,8 @@
 		<string>quotedblbase</string>
 		<string>guilsinglleft</string>
 		<string>guilsinglright</string>
-		<string>guillemotleft</string>
-		<string>guillemotright</string>
+		<string>guillemetleft</string>
+		<string>guillemetright</string>
 		<string>paragraph</string>
 		<string>uniF8FF</string>
 		<string>numbersign</string>
@@ -949,26 +964,17 @@
 		<string>product</string>
 		<string>lozenge</string>
 		<string>aring.ss01</string>
-		<string>circumflex.cap</string>
-		<string>dieresis.cap</string>
-		<string>acute.cap</string>
 		<string>ucircumflex.ss01</string>
-		<string>ring.cap</string>
 		<string>acircumflex.ss01</string>
 		<string>uacute.ss01</string>
-		<string>grave.cap</string>
+		<string>a.ss01</string>
 		<string>adieresis.ss01</string>
 		<string>u.ss01</string>
-		<string>a.ss01</string>
-		<string>guillemetleft</string>
-		<string>tilde.cap</string>
-		<string>atilde.ss01</string>
-		<string>guillemetright</string>
-		<string>ugrave.ss01</string>
 		<string>agrave.ss01</string>
+		<string>atilde.ss01</string>
+		<string>ugrave.ss01</string>
 		<string>aacute.ss01</string>
 		<string>udieresis.ss01</string>
-		<string>NULL</string>
 	</array>
 </dict>
 </plist>
