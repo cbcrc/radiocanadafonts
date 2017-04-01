@@ -2,7 +2,7 @@
 NULL
 CR
 space
-nobreakspace
+nbspace
 A
 B
 C
@@ -225,7 +225,7 @@ Scedilla
 scedilla
 Scommaaccent
 scommaaccent
-uni1E9E
+Germandbls
 germandbls
 germandbls.alt
 Tcaron
@@ -291,7 +291,7 @@ ij
 IJacute
 ijacute
 Schwa
-schwa
+ipa:schwa
 f_f
 fi
 f_i
@@ -324,7 +324,7 @@ dieresis
 dieresis.cap
 macron
 macron.cap
-uni02C9
+macronmod
 breve
 breve.cap
 ring
@@ -340,7 +340,7 @@ dotbelow
 ogonek
 commaaccent
 commaaccent.alt
-uni00AD
+hyphensoft
 hyphen
 endash
 emdash
@@ -355,7 +355,7 @@ question
 questiondown
 ellipsis
 periodcentered
-uni2219
+bulletoperator
 bullet
 slash
 backslash
@@ -394,7 +394,7 @@ eight
 nine
 zeroslash
 fraction
-uni2215
+divisionslash
 onequarter
 onehalf
 threequarters
@@ -429,15 +429,15 @@ twosuperior
 threesuperior
 ordfeminine
 ordmasculine
-uni2116
+numero
 Delta
-Deltagreek
+increment
 Omega
-Omegagreek
+ohm
 mu
-mugreek
+mu.math
 pi
-uni2113
+litre
 estimated
 infinity
 partialdiff
