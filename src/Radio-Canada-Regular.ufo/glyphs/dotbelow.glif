@@ -2,7 +2,7 @@
 <glyph name="dotbelow" format="1">
   <advance width="600"/>
   <outline>
-    <component base="dotaccent" yOffset="-800"/>
+    <component base="dotaccent" yOffset="-820"/>
     <contour>
       <point x="300" y="0" type="move" name="_bottom"/>
     </contour>
@@ -151,13 +151,6 @@
           <integer>600</integer>
         </dict>
       </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.5</real>
-      </array>
     </dict>
   </lib>
 </glyph>

@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="caron.alt" format="1">
-  <advance width="500"/>
+  <advance width="600"/>
   <outline>
+    <contour>
+      <point x="250" y="540" type="line"/>
+      <point x="320" y="540" type="line"/>
+      <point x="376" y="730" type="line"/>
+      <point x="290" y="730" type="line"/>
+    </contour>
+    <contour>
+      <point x="300" y="720" type="move" name="_caron.alt"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

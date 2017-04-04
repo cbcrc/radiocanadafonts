@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eth" format="1">
-  <advance width="701"/>
+  <advance width="711"/>
   <unicode hex="00D0"/>
   <outline>
     <contour>
-      <point x="30" y="304" type="line"/>
-      <point x="354" y="304" type="line"/>
-      <point x="354" y="384" type="line"/>
-      <point x="30" y="384" type="line"/>
+      <point x="35" y="305" type="line"/>
+      <point x="356" y="305" type="line"/>
+      <point x="356" y="385" type="line"/>
+      <point x="35" y="385" type="line"/>
     </contour>
-    <component base="D"/>
+    <contour>
+      <point x="110" y="0" type="line"/>
+      <point x="206" y="0" type="line"/>
+      <point x="206" y="690" type="line"/>
+      <point x="110" y="690" type="line"/>
+    </contour>
+    <contour>
+      <point x="160" y="0" type="line"/>
+      <point x="333" y="0" type="line" smooth="yes"/>
+      <point x="510" y="0"/>
+      <point x="651" y="123"/>
+      <point x="651" y="345" type="curve" smooth="yes"/>
+      <point x="651" y="567"/>
+      <point x="510" y="690"/>
+      <point x="333" y="690" type="curve" smooth="yes"/>
+      <point x="160" y="690" type="line"/>
+      <point x="160" y="604" type="line"/>
+      <point x="328" y="604" type="line" smooth="yes"/>
+      <point x="456" y="604"/>
+      <point x="552" y="511"/>
+      <point x="552" y="345" type="curve" smooth="yes"/>
+      <point x="552" y="179"/>
+      <point x="456" y="86"/>
+      <point x="328" y="86" type="curve" smooth="yes"/>
+      <point x="160" y="86" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -31,7 +56,7 @@
                 <integer>0</integer>
                 <integer>0</integer>
                 <integer>1</integer>
-                <integer>0</integer>
+                <integer>10</integer>
                 <integer>0</integer>
               </array>
             </dict>
@@ -47,7 +72,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>30</integer>
+                  <integer>40</integer>
                   <key>y</key>
                   <integer>304</integer>
                 </dict>
@@ -57,7 +82,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>354</integer>
+                  <integer>364</integer>
                   <key>y</key>
                   <integer>304</integer>
                 </dict>
@@ -67,7 +92,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>354</integer>
+                  <integer>364</integer>
                   <key>y</key>
                   <integer>384</integer>
                 </dict>
@@ -77,7 +102,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>30</integer>
+                  <integer>40</integer>
                   <key>y</key>
                   <integer>384</integer>
                 </dict>
@@ -93,7 +118,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>701</integer>
+          <integer>711</integer>
         </dict>
       </dict>
     </dict>
