@@ -4,20 +4,37 @@
   <unicode hex="00D7"/>
   <outline>
     <contour>
-      <point x="113" y="452" type="line"/>
-      <point x="492" y="73" type="line"/>
-      <point x="547" y="128" type="line"/>
-      <point x="168" y="507" type="line"/>
+      <point x="114" y="448" type="line"/>
+      <point x="489" y="73" type="line"/>
+      <point x="546" y="130" type="line"/>
+      <point x="171" y="505" type="line"/>
     </contour>
     <contour>
-      <point x="113" y="132" type="line"/>
-      <point x="172" y="73" type="line"/>
-      <point x="547" y="448" type="line"/>
-      <point x="488" y="507" type="line"/>
+      <point x="114" y="130" type="line"/>
+      <point x="171" y="73" type="line"/>
+      <point x="546" y="448" type="line"/>
+      <point x="489" y="505" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>315.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>488</integer>
+          <key>y</key>
+          <integer>73</integer>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

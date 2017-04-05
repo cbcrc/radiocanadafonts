@@ -3,5 +3,22 @@
   <advance width="500"/>
   <unicode hex="2215"/>
   <outline>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="80" y="0" type="line"/>
+      <point x="500" y="690" type="line"/>
+      <point x="420" y="690" type="line"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
