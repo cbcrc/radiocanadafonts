@@ -1,2 +1,49 @@
 languagesystem DFLT dflt;
 #languagesystem latn dflt;
+
+#case
+#cpsp
+#sups
+#numr
+#ordn
+#aalt
+#frac
+#locl
+
+# TODO languages
+# TODO tabular add punctuation
+# TODO split [I J] and [a u] in different ss01 ss02
+
+@default = [zero one two three four five six seven eight nine];
+@proportional = [zero one.pl two three four five six seven.pl eight nine];
+@tabular = [zero one two three four five six seven eight nine];
+
+@salt_off = [I J a u Iacute Ibreve Icircumflex Idieresis Idotaccent Idotbelow Igrave Imacron Iogonek Itilde Jcircumflex aacute abreve acircumflex adieresis adotbelow agrave amacron aogonek aring aringacute atilde uacute ubreve ucircumflex udieresis udotbelow ugrave uhungarumlaut umacron uogonek uring utilde];
+@salt_on = [I.alt J.alt a.alt u.alt Iacute.alt Ibreve.alt Icircumflex.alt Idieresis.alt Idotaccent.alt Idotbelow.alt Igrave.alt Imacron.alt Iogonek.alt Itilde.alt Jcircumflex.alt aacute.alt abreve.alt acircumflex.alt adieresis.alt adotbelow.alt agrave.alt amacron.alt aogonek.alt aring.alt aringacute.alt atilde.alt uacute.alt ubreve.alt ucircumflex.alt udieresis.alt udotbelow.alt ugrave.alt uhungarumlaut.alt umacron.alt uogonek.alt uring.alt utilde.alt];
+
+feature liga {
+    sub f f ij by f_f_ij;
+    sub f ij by f_ij;
+    sub f f i by f_f_i;
+    sub f i by f_i;
+    sub f f l by f_f_l;
+    sub f l by f_l;
+    sub f f by f_f;
+} liga;
+
+feature pnum {
+    sub @default by @proportional;
+} pnum;
+
+feature tnum {
+    sub @default by @tabular;
+} tnum;
+
+feature salt {
+    sub @salt_off by @salt_on;
+} salt;
+
+feature ss01 {
+    sub @salt_off by @salt_on;
+} ss01;
+
