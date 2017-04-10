@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="one.pl" format="1">
-  <advance width="0"/>
+  <advance width="450"/>
   <outline>
+    <contour>
+      <point x="32" y="599" type="line"/>
+      <point x="66" y="521" type="line"/>
+      <point x="261" y="609" type="line"/>
+      <point x="233" y="690" type="line"/>
+    </contour>
+    <contour>
+      <point x="207" y="0" type="line"/>
+      <point x="303" y="0" type="line"/>
+      <point x="303" y="690" type="line"/>
+      <point x="233" y="690" type="line"/>
+      <point x="207" y="637" type="line"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
