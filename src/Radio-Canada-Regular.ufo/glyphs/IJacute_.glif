@@ -2,24 +2,8 @@
 <glyph name="IJacute" format="1">
   <advance width="739"/>
   <outline>
-    <contour>
-      <point x="94" y="750" type="line"/>
-      <point x="203" y="885" type="line"/>
-      <point x="324" y="885" type="line"/>
-      <point x="183" y="750" type="line"/>
-    </contour>
-    <contour>
-      <point x="548" y="750" type="line"/>
-      <point x="657" y="885" type="line"/>
-      <point x="778" y="885" type="line"/>
-      <point x="637" y="750" type="line"/>
-    </contour>
     <component base="IJ"/>
-    <contour>
-      <point x="148" y="690" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="602" y="690" type="move" name="_top"/>
-    </contour>
+    <component base="acute.cap" xOffset="-152"/>
+    <component base="acute.cap" xOffset="302"/>
   </outline>
 </glyph>

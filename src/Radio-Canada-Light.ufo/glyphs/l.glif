@@ -12,6 +12,12 @@
     <contour>
       <point x="125" y="720" type="move" name="top"/>
     </contour>
+    <contour>
+      <point x="125" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="250" y="720" type="move" name="caron.alt"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -21,6 +27,30 @@
         <dict>
           <key>anchors</key>
           <array>
+            <dict>
+              <key>name</key>
+              <string>top</string>
+              <key>x</key>
+              <real>125.0</real>
+              <key>y</key>
+              <real>720.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom</string>
+              <key>x</key>
+              <real>125.0</real>
+              <key>y</key>
+              <real>0.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>caron.alt</string>
+              <key>x</key>
+              <real>250.0</real>
+              <key>y</key>
+              <real>720.0</real>
+            </dict>
           </array>
           <key>components</key>
           <array>

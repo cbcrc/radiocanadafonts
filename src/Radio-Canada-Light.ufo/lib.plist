@@ -276,7 +276,6 @@
 				<string>scommaaccent</string>
 				<string>Germandbls</string>
 				<string>germandbls</string>
-				<string>germandbls.alt</string>
 				<string>Tcaron</string>
 				<string>tcaron</string>
 				<string>Tcedilla</string>
@@ -387,6 +386,7 @@
 				<string>cedilla</string>
 				<string>dotbelow</string>
 				<string>ogonek</string>
+				<string>ogonek.alt</string>
 				<string>commaaccent</string>
 				<string>commaaccent.alt</string>
 				<string>hyphensoft</string>
@@ -441,12 +441,18 @@
 				<string>seven</string>
 				<string>eight</string>
 				<string>nine</string>
-				<string>zeroslash</string>
+				<string>zero.pl</string>
+				<string>one.pl</string>
+				<string>two.pl</string>
+				<string>three.pl</string>
+				<string>four.pl</string>
+				<string>five.pl</string>
+				<string>six.pl</string>
+				<string>seven.pl</string>
+				<string>eight.pl</string>
+				<string>nine.pl</string>
 				<string>fraction</string>
 				<string>divisionslash</string>
-				<string>onequarter</string>
-				<string>onehalf</string>
-				<string>threequarters</string>
 				<string>degree</string>
 				<string>percent</string>
 				<string>perthousand</string>
@@ -532,6 +538,10 @@
 				<string>uhungarumlaut.alt</string>
 				<string>udotbelow.alt</string>
 				<string>uogonek.alt</string>
+				<string>period.tab</string>
+				<string>comma.tab</string>
+				<string>colon.tab</string>
+				<string>semicolon.tab</string>
 			</array>
 			<key>type</key>
 			<string>glyphList</string>
@@ -770,7 +780,6 @@
 		<string>scommaaccent</string>
 		<string>Germandbls</string>
 		<string>germandbls</string>
-		<string>germandbls.alt</string>
 		<string>Tcaron</string>
 		<string>tcaron</string>
 		<string>Tcedilla</string>
@@ -881,6 +890,7 @@
 		<string>cedilla</string>
 		<string>dotbelow</string>
 		<string>ogonek</string>
+		<string>ogonek.alt</string>
 		<string>commaaccent</string>
 		<string>commaaccent.alt</string>
 		<string>hyphensoft</string>
@@ -935,12 +945,18 @@
 		<string>seven</string>
 		<string>eight</string>
 		<string>nine</string>
-		<string>zeroslash</string>
+		<string>zero.pl</string>
+		<string>one.pl</string>
+		<string>two.pl</string>
+		<string>three.pl</string>
+		<string>four.pl</string>
+		<string>five.pl</string>
+		<string>six.pl</string>
+		<string>seven.pl</string>
+		<string>eight.pl</string>
+		<string>nine.pl</string>
 		<string>fraction</string>
 		<string>divisionslash</string>
-		<string>onequarter</string>
-		<string>onehalf</string>
-		<string>threequarters</string>
 		<string>degree</string>
 		<string>percent</string>
 		<string>perthousand</string>
@@ -1026,6 +1042,10 @@
 		<string>uhungarumlaut.alt</string>
 		<string>udotbelow.alt</string>
 		<string>uogonek.alt</string>
+		<string>period.tab</string>
+		<string>comma.tab</string>
+		<string>colon.tab</string>
+		<string>semicolon.tab</string>
 	</array>
 </dict>
 </plist>

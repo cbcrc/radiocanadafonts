@@ -24,6 +24,9 @@
     <contour>
       <point x="377" y="690" type="move" name="top"/>
     </contour>
+    <contour>
+      <point x="350" y="0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -40,6 +43,14 @@
               <real>377.0</real>
               <key>y</key>
               <real>690.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom</string>
+              <key>x</key>
+              <real>350.0</real>
+              <key>y</key>
+              <real>0.0</real>
             </dict>
           </array>
           <key>components</key>

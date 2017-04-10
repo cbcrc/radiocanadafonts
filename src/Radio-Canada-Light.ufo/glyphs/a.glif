@@ -57,6 +57,9 @@
     <contour>
       <point x="249" y="0" type="move" name="bottom"/>
     </contour>
+    <contour>
+      <point x="380" y="0" type="move" name="ogonek"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -73,6 +76,22 @@
               <real>249.0</real>
               <key>y</key>
               <real>510.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom</string>
+              <key>x</key>
+              <real>249.0</real>
+              <key>y</key>
+              <real>0.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>ogonek</string>
+              <key>x</key>
+              <real>380.0</real>
+              <key>y</key>
+              <real>0.0</real>
             </dict>
           </array>
           <key>components</key>

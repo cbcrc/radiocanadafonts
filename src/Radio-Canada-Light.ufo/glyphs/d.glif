@@ -43,6 +43,9 @@
       <point x="406" y="120" type="line"/>
       <point x="406" y="103" type="line"/>
     </contour>
+    <contour>
+      <point x="561" y="720" type="move" name="caron.alt"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -52,6 +55,14 @@
         <dict>
           <key>anchors</key>
           <array>
+            <dict>
+              <key>name</key>
+              <string>caron.alt</string>
+              <key>x</key>
+              <real>561.0</real>
+              <key>y</key>
+              <real>720.0</real>
+            </dict>
           </array>
           <key>components</key>
           <array>

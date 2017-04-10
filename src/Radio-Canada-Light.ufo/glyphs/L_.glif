@@ -18,6 +18,12 @@
     <contour>
       <point x="141" y="690" type="move" name="top"/>
     </contour>
+    <contour>
+      <point x="300" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="312" y="680" type="move" name="caron.alt"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -27,6 +33,30 @@
         <dict>
           <key>anchors</key>
           <array>
+            <dict>
+              <key>name</key>
+              <string>top</string>
+              <key>x</key>
+              <real>141.0</real>
+              <key>y</key>
+              <real>690.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom</string>
+              <key>x</key>
+              <real>300.0</real>
+              <key>y</key>
+              <real>0.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>caron.alt</string>
+              <key>x</key>
+              <real>312.0</real>
+              <key>y</key>
+              <real>680.0</real>
+            </dict>
           </array>
           <key>components</key>
           <array>

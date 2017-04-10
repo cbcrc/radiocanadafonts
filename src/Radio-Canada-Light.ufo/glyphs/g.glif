@@ -67,6 +67,14 @@
         <dict>
           <key>anchors</key>
           <array>
+            <dict>
+              <key>name</key>
+              <string>top</string>
+              <key>x</key>
+              <real>269.0</real>
+              <key>y</key>
+              <real>510.0</real>
+            </dict>
           </array>
           <key>components</key>
           <array>
@@ -292,9 +300,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>148.0</real>
+                  <integer>148</integer>
                   <key>y</key>
-                  <real>518.0</real>
+                  <integer>518</integer>
                 </dict>
                 <dict>
                   <key>smooth</key>
