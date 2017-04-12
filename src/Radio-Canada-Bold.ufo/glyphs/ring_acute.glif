@@ -3,20 +3,9 @@
   <advance width="600"/>
   <outline>
     <component base="ring"/>
-    <component base="acute" yOffset="260"/>
+    <component base="acute" yOffset="268"/>
     <contour>
       <point x="300" y="525" type="move" name="_top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.5</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -3,6 +3,12 @@
   <advance width="634"/>
   <unicode hex="2013"/>
   <outline>
+    <contour>
+      <point x="55" y="220" type="line"/>
+      <point x="579" y="220" type="line"/>
+      <point x="579" y="340" type="line"/>
+      <point x="55" y="340" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -281,13 +287,6 @@
           <integer>634</integer>
         </dict>
       </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.4</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
     </dict>
   </lib>
 </glyph>
