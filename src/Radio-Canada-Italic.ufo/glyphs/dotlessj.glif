@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotlessj" format="1">
+  <advance width="272"/>
+  <unicode hex="0237"/>
+  <outline>
+    <contour>
+      <point x="-89.472737662274" y="-181.0" type="line"/>
+      <point x="-70.17319015563419" y="-189.0"/>
+      <point x="-44.448529525654315" y="-195.0"/>
+      <point x="-17.448529525654315" y="-195.0" type="curve"/>
+      <point x="72.55147047434568" y="-195.0"/>
+      <point x="153.51742073621705" y="-134.0"/>
+      <point x="174.77307690321925" y="-34.0" type="curve" smooth="yes"/>
+      <point x="291.4666292600614" y="515.0" type="line"/>
+      <point x="199.46662926006138" y="515.0" type="line"/>
+      <point x="83.62330314989934" y="-30.0" type="line" smooth="yes"/>
+      <point x="71.29502257303805" y="-88.0"/>
+      <point x="39.76855196961748" y="-114.0"/>
+      <point x="-6.2314480303825235" y="-114.0" type="curve"/>
+      <point x="-26.231448030382523" y="-114.0"/>
+      <point x="-42.38122178370243" y="-110.0"/>
+      <point x="-57.31843897535232" y="-105.0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="245.46662926006138" y="515.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.4</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

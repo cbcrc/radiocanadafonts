@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="semicolon" format="1">
+  <advance width="278"/>
+  <unicode hex="003B"/>
+  <outline>
+    <contour>
+      <point x="20.677036091045906" y="-185.0" type="line"/>
+      <point x="108.6770360910459" y="-185.0" type="line"/>
+      <point x="190.58472847816893" y="-49.0" type="line" smooth="yes"/>
+      <point x="223.0627828083501" y="5.0"/>
+      <point x="240.6520362201208" y="36.0"/>
+      <point x="249.36685524859172" y="77.0" type="curve" smooth="yes"/>
+      <point x="261.27002270211295" y="133.0"/>
+      <point x="230.5597286072438" y="172.0"/>
+      <point x="175.5597286072438" y="172.0" type="curve" smooth="yes"/>
+      <point x="120.55972860724381" y="172.0"/>
+      <point x="73.27002270211294" y="133.0"/>
+      <point x="62.00452493360177" y="80.0" type="curve" smooth="yes"/>
+      <point x="52.22692309678075" y="34.0"/>
+      <point x="72.8502262466801" y="4.0"/>
+      <point x="104.51210406830984" y="-7.0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="139.58766994315985" y="445.0" type="curve" smooth="yes"/>
+      <point x="128.5347287363187" y="393.0"/>
+      <point x="159.0324662695178" y="353.0"/>
+      <point x="214.0324662695178" y="353.0" type="curve" smooth="yes"/>
+      <point x="269.03246626951784" y="353.0"/>
+      <point x="316.5347287363187" y="393.0"/>
+      <point x="327.5876699431599" y="445.0" type="curve"/>
+      <point x="338.853167711671" y="498.0"/>
+      <point x="308.14287361680186" y="537.0"/>
+      <point x="253.14287361680186" y="537.0" type="curve" smooth="yes"/>
+      <point x="198.14287361680186" y="537.0"/>
+      <point x="150.853167711671" y="498.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>comma</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+            <dict>
+              <key>baseGlyph</key>
+              <string>period</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>365</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>semicolon</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>278</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

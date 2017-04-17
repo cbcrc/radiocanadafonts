@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclamdown" format="1">
+  <advance width="322"/>
+  <unicode hex="00A1"/>
+  <outline>
+    <contour>
+      <point x="70.6770360910459" y="-185.0" type="line"/>
+      <point x="172.67703609104592" y="-185.0" type="line"/>
+      <point x="212.0" y="0.0" type="line"/>
+      <point x="260.82975130935677" y="305.0" type="line"/>
+      <point x="190.82975130935677" y="305.0" type="line"/>
+      <point x="110.0" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="320.41368805322026" y="463.0" type="curve" smooth="yes"/>
+      <point x="327.853167711671" y="498.0"/>
+      <point x="307.5921948767616" y="525.0"/>
+      <point x="272.5921948767616" y="525.0" type="curve" smooth="yes"/>
+      <point x="235.5921948767616" y="525.0"/>
+      <point x="205.853167711671" y="498.0"/>
+      <point x="198.41368805322026" y="463.0" type="curve" smooth="yes"/>
+      <point x="190.76165183309945" y="427.0"/>
+      <point x="209.02262466800886" y="400.0"/>
+      <point x="246.02262466800886" y="400.0" type="curve" smooth="yes"/>
+      <point x="281.02262466800886" y="400.0"/>
+      <point x="312.76165183309945" y="427.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>period</string>
+              <key>transformation</key>
+              <array>
+                <integer>-1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>-1</integer>
+                <integer>272</integer>
+                <integer>515</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>110</integer>
+                  <key>y</key>
+                  <integer>-185</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>212</integer>
+                  <key>y</key>
+                  <integer>-185</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>212</integer>
+                  <key>y</key>
+                  <integer>0</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>196</integer>
+                  <key>y</key>
+                  <integer>305</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>126</integer>
+                  <key>y</key>
+                  <integer>305</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>110</integer>
+                  <key>y</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>exclamdown</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>322</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

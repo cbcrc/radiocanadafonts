@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ring_acute" format="1">
+  <advance width="600"/>
+  <outline>
+    <component base="ring"/>
+    <component base="acute" yOffset="268"/>
+    <contour>
+      <point x="411.5921948767616" y="525.0" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.4</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

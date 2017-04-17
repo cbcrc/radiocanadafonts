@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hbar" format="1">
+  <advance width="764"/>
+  <unicode hex="0126"/>
+  <outline>
+    <contour>
+      <point x="90.0" y="0.0" type="line"/>
+      <point x="250.0" y="0.0" type="line"/>
+      <point x="396.66402755231525" y="690.0" type="line"/>
+      <point x="236.66402755231528" y="690.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="220.96515852756593" y="268.0" type="line"/>
+      <point x="656.9651585275659" y="268.0" type="line"/>
+      <point x="686.723077161369" y="408.0" type="line"/>
+      <point x="250.72307716136902" y="408.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="514.0" y="0.0" type="line"/>
+      <point x="674.0" y="0.0" type="line"/>
+      <point x="820.6640275523152" y="690.0" type="line"/>
+      <point x="660.6640275523152" y="690.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="135.42805458833098" y="496.0" type="line"/>
+      <point x="839.428054588331" y="496.0" type="line"/>
+      <point x="867.910633852114" y="630.0" type="line"/>
+      <point x="163.91063385211393" y="630.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>H</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>5</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Hbar</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>764</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.4</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

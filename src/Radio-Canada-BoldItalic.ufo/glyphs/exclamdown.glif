@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclamdown" format="1">
+  <advance width="358"/>
+  <unicode hex="00A1"/>
+  <outline>
+    <contour>
+      <point x="56.677036091045906" y="-185.0" type="line"/>
+      <point x="222.67703609104592" y="-185.0" type="line"/>
+      <point x="262.0" y="0.0" type="line"/>
+      <point x="292.32748884255585" y="265.0" type="line"/>
+      <point x="178.32748884255585" y="265.0" type="line"/>
+      <point x="96.0" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="179.58766994315985" y="445.0" type="curve" smooth="yes"/>
+      <point x="190.640611150001" y="497.0"/>
+      <point x="238.14287361680186" y="537.0"/>
+      <point x="293.14287361680186" y="537.0" type="curve" smooth="yes"/>
+      <point x="348.14287361680186" y="537.0"/>
+      <point x="378.640611150001" y="497.0"/>
+      <point x="367.5876699431599" y="445.0" type="curve"/>
+      <point x="356.3221721746487" y="392.0"/>
+      <point x="309.03246626951784" y="353.0"/>
+      <point x="254.0324662695178" y="353.0" type="curve" smooth="yes"/>
+      <point x="199.0324662695178" y="353.0"/>
+      <point x="168.32217217464867" y="392.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>period</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>-1</integer>
+                <integer>40</integer>
+                <integer>525</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>96</integer>
+                  <key>y</key>
+                  <integer>-185</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>262</integer>
+                  <key>y</key>
+                  <integer>-185</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>262</integer>
+                  <key>y</key>
+                  <integer>0</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>236</integer>
+                  <key>y</key>
+                  <integer>265</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>122</integer>
+                  <key>y</key>
+                  <integer>265</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>96</integer>
+                  <key>y</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>exclamdown</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>358</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

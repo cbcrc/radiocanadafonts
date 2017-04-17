@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eth" format="1">
+  <advance width="696"/>
+  <unicode hex="00D0"/>
+  <outline>
+    <contour>
+      <point x="116.95531692605697" y="315.0" type="line"/>
+      <point x="418.955316926057" y="315.0" type="line"/>
+      <point x="430.43337125623816" y="369.0" type="line"/>
+      <point x="128.43337125623816" y="369.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="120.0" y="0.0" type="line"/>
+      <point x="182.0" y="0.0" type="line"/>
+      <point x="328.66402755231525" y="690.0" type="line"/>
+      <point x="266.66402755231525" y="690.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="150.0" y="0.0" type="line"/>
+      <point x="314.0" y="0.0" type="line" smooth="yes"/>
+      <point x="492.0" y="0.0"/>
+      <point x="649.8063349070425" y="112.0"/>
+      <point x="699.3320137761576" y="345.0" type="curve" smooth="yes"/>
+      <point x="748.8576926452728" y="578.0"/>
+      <point x="638.6640275523152" y="690.0"/>
+      <point x="460.66402755231525" y="690.0" type="curve" smooth="yes"/>
+      <point x="296.66402755231525" y="690.0" type="line"/>
+      <point x="285.18597322213407" y="636.0" type="line"/>
+      <point x="444.18597322213407" y="636.0" type="line" smooth="yes"/>
+      <point x="592.1859732221341" y="636.0"/>
+      <point x="677.205656425152" y="542.0"/>
+      <point x="635.3320137761576" y="345.0" type="curve" smooth="yes"/>
+      <point x="593.4583711271632" y="148.0"/>
+      <point x="468.4780543301812" y="54.0"/>
+      <point x="320.4780543301812" y="54.0" type="curve" smooth="yes"/>
+      <point x="161.47805433018118" y="54.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>D</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>39</integer>
+                  <key>y</key>
+                  <integer>315</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>341</integer>
+                  <key>y</key>
+                  <integer>315</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>341</integer>
+                  <key>y</key>
+                  <integer>369</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>39</integer>
+                  <key>y</key>
+                  <integer>369</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Eth</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>696</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.4</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
