@@ -92,7 +92,9 @@ feature salt {
 feature ss01 {
     featureNames {
         name "Alternate I and J"; # Windows English
+        name 3 1 0xC0C "I et J alternatifs"; # Windows French Canada
         name 1 0 0 "Alternate I and J"; # Mac English
+        name 1 0 1 "I et J alternatifs"; # Mac French
     };
     sub @I_J_alt_off by @I_J_alt_on;
 } ss01;
@@ -100,7 +102,9 @@ feature ss01 {
 feature ss02 {
     featureNames {
         name "Alternate a and u"; # Windows English
+        name 3 1 0xC0C "a et u alternatifs"; # Windows French Canada
         name 1 0 0 "Alternate a and u"; # Mac English
+        name 1 0 1 "a et u alternatifs"; # Mac French
     };
     sub @a_u_alt_off by @a_u_alt_on;
 } ss02;

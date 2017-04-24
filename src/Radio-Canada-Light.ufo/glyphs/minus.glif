@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minus" format="1">
-  <advance width="660"/>
+  <advance width="640"/>
   <unicode hex="2212"/>
   <outline>
     <contour>
-      <point x="109" y="263" type="line"/>
-      <point x="551" y="263" type="line"/>
-      <point x="551" y="317" type="line"/>
-      <point x="109" y="317" type="line"/>
+      <point x="99" y="263" type="line"/>
+      <point x="541" y="263" type="line"/>
+      <point x="541" y="317" type="line"/>
+      <point x="99" y="317" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -33,7 +33,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>109</integer>
+                  <real>99.0</real>
                   <key>y</key>
                   <integer>263</integer>
                 </dict>
@@ -43,7 +43,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>551</integer>
+                  <real>541.0</real>
                   <key>y</key>
                   <integer>263</integer>
                 </dict>
@@ -53,7 +53,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>551</integer>
+                  <real>541.0</real>
                   <key>y</key>
                   <integer>317</integer>
                 </dict>
@@ -63,7 +63,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>109</integer>
+                  <real>99.0</real>
                   <key>y</key>
                   <integer>317</integer>
                 </dict>
@@ -79,7 +79,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>660</integer>
+          <integer>640</integer>
         </dict>
       </dict>
     </dict>

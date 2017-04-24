@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="notequal" format="1">
-  <advance width="660"/>
+  <advance width="640"/>
   <unicode hex="2260"/>
   <outline>
     <contour>
-      <point x="103" y="130" type="line"/>
-      <point x="557" y="130" type="line"/>
-      <point x="557" y="210" type="line"/>
-      <point x="103" y="210" type="line"/>
+      <point x="93" y="130" type="line"/>
+      <point x="547" y="130" type="line"/>
+      <point x="547" y="210" type="line"/>
+      <point x="93" y="210" type="line"/>
     </contour>
     <contour>
-      <point x="103" y="370" type="line"/>
-      <point x="557" y="370" type="line"/>
-      <point x="557" y="450" type="line"/>
-      <point x="103" y="450" type="line"/>
+      <point x="93" y="370" type="line"/>
+      <point x="547" y="370" type="line"/>
+      <point x="547" y="450" type="line"/>
+      <point x="93" y="450" type="line"/>
     </contour>
     <contour>
-      <point x="180" y="-30" type="line"/>
-      <point x="260" y="-30" type="line"/>
-      <point x="480" y="610" type="line"/>
-      <point x="400" y="610" type="line"/>
+      <point x="170" y="-30" type="line"/>
+      <point x="250" y="-30" type="line"/>
+      <point x="470" y="610" type="line"/>
+      <point x="390" y="610" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -42,7 +42,7 @@
                 <integer>0</integer>
                 <integer>0</integer>
                 <integer>1</integer>
-                <integer>180</integer>
+                <real>170.0</real>
                 <integer>0</integer>
               </array>
             </dict>
@@ -59,7 +59,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>660</integer>
+          <integer>640</integer>
         </dict>
       </dict>
     </dict>
