@@ -14,4 +14,5 @@ for glyphname in tablist:
         glyph.move((d/2, 0))
         glyph.width = tabwidth
         glyph.update()
+    glyph.mark = (1.0, 0.4, 1.0, 1.0)
         
