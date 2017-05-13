@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ldot" format="1">
-  <advance width="542"/>
+  <advance width="528"/>
   <unicode hex="013F"/>
   <outline>
     <component base="L"/>
-    <component base="periodcentered" xOffset="304" yOffset="70"/>
+    <component base="periodcentered" xOffset="310" yOffset="70"/>
   </outline>
   <lib>
     <dict>
@@ -43,6 +43,19 @@
                 <integer>70</integer>
               </array>
             </dict>
+            <dict>
+              <key>baseGlyph</key>
+              <string>periodcentered</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>304</integer>
+                <integer>70</integer>
+              </array>
+            </dict>
           </array>
           <key>contours</key>
           <array>
@@ -56,13 +69,13 @@
           <array>
           </array>
           <key>width</key>
-          <integer>542</integer>
+          <integer>528</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>1.0</real>
         <real>0.0</real>
+        <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>
       </array>

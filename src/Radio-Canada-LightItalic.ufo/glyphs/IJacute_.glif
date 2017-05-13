@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lslash" format="1">
-  <advance width="263.97737533199114"/>
-  <unicode hex="0142"/>
+<glyph name="IJacute" format="1">
+  <advance width="700.3359724476848"/>
   <outline>
-    <contour>
-      <point x="79" y="230" type="line"/>
-      <point x="303" y="339" type="line"/>
-      <point x="316" y="400" type="line"/>
-      <point x="92" y="291" type="line"/>
-    </contour>
-    <contour>
-      <point x="102" y="0" type="line"/>
-      <point x="162" y="0" type="line"/>
-      <point x="317" y="731" type="line"/>
-      <point x="254" y="717" type="line"/>
-    </contour>
+    <component base="IJ"/>
+    <component base="acute.cap" xOffset="-178"/>
+    <component base="acute.cap" xOffset="275"/>
   </outline>
   <lib>
     <dict>
@@ -39,9 +29,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>44.776018368210174</real>
+                  <integer>243</integer>
                   <key>y</key>
-                  <integer>230</integer>
+                  <integer>750</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -49,9 +39,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>249.7760183682102</real>
+                  <integer>303</integer>
                   <key>y</key>
-                  <integer>346</integer>
+                  <integer>750</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -59,9 +49,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>249.7760183682102</real>
+                  <integer>458</integer>
                   <key>y</key>
-                  <integer>404</integer>
+                  <integer>885</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -69,9 +59,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>44.776018368210174</real>
+                  <integer>371</integer>
                   <key>y</key>
-                  <integer>288</integer>
+                  <integer>885</integer>
                 </dict>
               </array>
             </dict>
@@ -84,9 +74,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>114.77601836821017</real>
+                  <integer>696</integer>
                   <key>y</key>
-                  <integer>0</integer>
+                  <integer>750</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -94,9 +84,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>174.7760183682102</real>
+                  <integer>756</integer>
                   <key>y</key>
-                  <integer>0</integer>
+                  <integer>750</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -104,9 +94,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>174.7760183682102</real>
+                  <integer>911</integer>
                   <key>y</key>
-                  <integer>731</integer>
+                  <integer>885</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -114,9 +104,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>114.77601836821017</real>
+                  <integer>824</integer>
                   <key>y</key>
-                  <integer>717</integer>
+                  <integer>885</integer>
                 </dict>
               </array>
             </dict>
@@ -125,12 +115,12 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>lslash</string>
+          <string>IJacute</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <real>263.97737533199114</real>
+          <real>700.3359724476848</real>
         </dict>
       </dict>
     </dict>
