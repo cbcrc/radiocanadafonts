@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="periodcentered" format="1">
-  <advance width="216"/>
+  <advance width="208.06185543338444"/>
   <unicode hex="00B7"/>
   <outline>
-    <component base="period" yOffset="276"/>
+    <component base="period" xOffset="59" yOffset="276"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-19 23:27:51 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -25,7 +29,7 @@
                 <integer>0</integer>
                 <integer>0</integer>
                 <integer>1</integer>
-                <integer>0</integer>
+                <real>58.819412954296524</real>
                 <integer>276</integer>
               </array>
             </dict>
@@ -42,9 +46,11 @@
           <array>
           </array>
           <key>width</key>
-          <integer>216</integer>
+          <real>208.06185543338444</real>
         </dict>
       </dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

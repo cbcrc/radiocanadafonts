@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="backslash" format="1">
-  <advance width="308"/>
+  <advance width="303"/>
   <unicode hex="005C"/>
   <outline>
     <contour>
-      <point x="153.04072440241592" y="720.0" type="line"/>
-      <point x="243.62330314989933" y="-30.0" type="line"/>
-      <point x="301.62330314989936" y="-30.0" type="line"/>
-      <point x="211.04072440241592" y="720.0" type="line"/>
+      <point x="153" y="720" type="line"/>
+      <point x="244" y="-30" type="line"/>
+      <point x="297" y="-30" type="line"/>
+      <point x="206" y="720" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-22 20:42:41 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -31,9 +35,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
-                  <key>x</key>
                   <integer>0</integer>
+                  <key>x</key>
+                  <real>-3.877826792752245</real>
                   <key>y</key>
                   <integer>720</integer>
                 </dict>
@@ -41,9 +45,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>250</integer>
+                  <real>246.12217320724776</real>
                   <key>y</key>
                   <integer>-30</integer>
                 </dict>
@@ -51,9 +55,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>308</integer>
+                  <real>304.12217320724767</real>
                   <key>y</key>
                   <integer>-30</integer>
                 </dict>
@@ -61,9 +65,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>58</integer>
+                  <real>54.122173207247755</real>
                   <key>y</key>
                   <integer>720</integer>
                 </dict>
@@ -79,9 +83,11 @@
           <array>
           </array>
           <key>width</key>
-          <integer>308</integer>
+          <integer>303</integer>
         </dict>
       </dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

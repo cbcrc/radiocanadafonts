@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="I" format="1">
-  <advance width="432"/>
+  <advance width="422.37217191649887"/>
   <unicode hex="0049"/>
   <outline>
     <contour>
-      <point x="80.0" y="0.0" type="line"/>
-      <point x="352.0" y="0.0" type="line"/>
-      <point x="362.62782808350113" y="50.0" type="line"/>
-      <point x="90.6278280835011" y="50.0" type="line"/>
+      <point x="75" y="0" type="line"/>
+      <point x="347" y="0" type="line"/>
+      <point x="358" y="50" type="line"/>
+      <point x="86" y="50" type="line"/>
     </contour>
     <contour>
-      <point x="185.0" y="0.0" type="line"/>
-      <point x="247.0" y="0.0" type="line"/>
-      <point x="393.66402755231525" y="690.0" type="line"/>
-      <point x="331.66402755231525" y="690.0" type="line"/>
+      <point x="180" y="0" type="line"/>
+      <point x="242" y="0" type="line"/>
+      <point x="389" y="690" type="line"/>
+      <point x="327" y="690" type="line"/>
     </contour>
     <contour>
-      <point x="216.03619946881417" y="640.0" type="line"/>
-      <point x="488.0361994688142" y="640.0" type="line"/>
-      <point x="498.66402755231525" y="690.0" type="line"/>
-      <point x="226.66402755231528" y="690.0" type="line"/>
+      <point x="211" y="640" type="line"/>
+      <point x="483" y="640" type="line"/>
+      <point x="494" y="690" type="line"/>
+      <point x="222" y="690" type="line"/>
     </contour>
     <contour>
-      <point x="362.66402755231525" y="690.0" type="move" name="top"/>
+      <point x="358" y="690" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="216.0" y="0.0" type="move" name="bottom"/>
+      <point x="211" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="180" y="0" type="move" name="ogonek"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-18 23:43:59 +0000</string>
+    </dict>
+  </lib>
 </glyph>

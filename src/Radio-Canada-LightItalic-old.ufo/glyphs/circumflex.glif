@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflex" format="1">
+  <advance width="600"/>
+  <unicode hex="02C6"/>
+  <note>
+    circumflex
+  </note>
+  <outline>
+    <contour>
+      <point x="299" y="585" type="line"/>
+      <point x="356" y="585" type="line"/>
+      <point x="451" y="689" type="line"/>
+      <point x="498" y="585" type="line"/>
+      <point x="550" y="585" type="line"/>
+      <point x="493" y="735" type="line"/>
+      <point x="421" y="735" type="line"/>
+    </contour>
+    <contour>
+      <point x="411" y="510" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 00:02:26 +0000</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

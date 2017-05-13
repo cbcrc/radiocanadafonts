@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brokenbar" format="1">
-  <advance width="276"/>
+  <advance width="264.11651574949667"/>
   <unicode hex="00A6"/>
   <outline>
     <contour>
-      <point x="64.30033924094525" y="-215.0" type="line"/>
-      <point x="120.30033924094525" y="-215.0" type="line"/>
-      <point x="197.88348425050333" y="150.0" type="line"/>
-      <point x="141.88348425050333" y="150.0" type="line"/>
+      <point x="58" y="-215" type="line"/>
+      <point x="114" y="-215" type="line"/>
+      <point x="192" y="150" type="line"/>
+      <point x="136" y="150" type="line"/>
     </contour>
     <contour>
-      <point x="185.45757939285784" y="355.0" type="line"/>
-      <point x="241.45757939285784" y="355.0" type="line"/>
-      <point x="319.0407244024159" y="720.0" type="line"/>
-      <point x="263.0407244024159" y="720.0" type="line"/>
+      <point x="179" y="355" type="line"/>
+      <point x="235" y="355" type="line"/>
+      <point x="313" y="720" type="line"/>
+      <point x="257" y="720" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-22 20:42:41 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -37,9 +41,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>110</integer>
+                  <real>104.45757939285785</real>
                   <key>y</key>
                   <integer>-215</integer>
                 </dict>
@@ -47,9 +51,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>166</integer>
+                  <real>160.45757939285784</real>
                   <key>y</key>
                   <integer>-215</integer>
                 </dict>
@@ -57,9 +61,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>166</integer>
+                  <real>160.45757939285784</real>
                   <key>y</key>
                   <integer>150</integer>
                 </dict>
@@ -67,9 +71,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>110</integer>
+                  <real>104.45757939285785</real>
                   <key>y</key>
                   <integer>150</integer>
                 </dict>
@@ -82,9 +86,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>110</integer>
+                  <real>104.45757939285785</real>
                   <key>y</key>
                   <integer>355</integer>
                 </dict>
@@ -92,9 +96,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>166</integer>
+                  <real>160.45757939285784</real>
                   <key>y</key>
                   <integer>355</integer>
                 </dict>
@@ -102,21 +106,21 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <real>166.0</real>
+                  <real>160.45757939285784</real>
                   <key>y</key>
-                  <real>720.0</real>
+                  <integer>720</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <real>110.0</real>
+                  <real>104.45757939285785</real>
                   <key>y</key>
-                  <real>720.0</real>
+                  <integer>720</integer>
                 </dict>
               </array>
             </dict>
@@ -130,9 +134,11 @@
           <array>
           </array>
           <key>width</key>
-          <integer>276</integer>
+          <real>264.11651574949667</real>
         </dict>
       </dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

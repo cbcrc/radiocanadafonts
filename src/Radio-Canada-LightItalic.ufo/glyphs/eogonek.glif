@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eogonek" format="1">
-  <advance width="536"/>
+  <advance width="500"/>
   <unicode hex="0119"/>
   <outline>
     <component base="e"/>
-    <component base="ogonek.alt" xOffset="38.0"/>
+    <component base="ogonek.alt" xOffset="30"/>
   </outline>
   <lib>
     <dict>
@@ -39,8 +39,8 @@
                 <integer>0</integer>
                 <integer>0</integer>
                 <integer>1</integer>
-                <real>30.0</real>
-                <real>0.0</real>
+                <integer>30</integer>
+                <integer>0</integer>
               </array>
             </dict>
           </array>
@@ -56,7 +56,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>536</integer>
+          <integer>500</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>

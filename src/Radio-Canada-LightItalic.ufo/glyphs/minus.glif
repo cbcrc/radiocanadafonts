@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minus" format="1">
-  <advance width="660"/>
+  <advance width="640"/>
   <unicode hex="2212"/>
   <outline>
     <contour>
-      <point x="164.90237571921583" y="263.0" type="line"/>
-      <point x="606.9023757192158" y="263.0" type="line"/>
-      <point x="618.380430049397" y="317.0" type="line"/>
-      <point x="176.38043004939703" y="317.0" type="line"/>
+      <point x="155.0" y="263" type="line"/>
+      <point x="597.0" y="263" type="line"/>
+      <point x="608.0" y="317" type="line"/>
+      <point x="166.0" y="317" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-18 23:43:59 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -31,9 +33,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>109</integer>
+                  <real>79.38043004939703</real>
                   <key>y</key>
                   <integer>263</integer>
                 </dict>
@@ -41,9 +43,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>551</integer>
+                  <real>521.3804300493974</real>
                   <key>y</key>
                   <integer>263</integer>
                 </dict>
@@ -51,9 +53,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>551</integer>
+                  <real>521.3804300493974</real>
                   <key>y</key>
                   <integer>317</integer>
                 </dict>
@@ -61,9 +63,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>109</integer>
+                  <real>79.38043004939703</real>
                   <key>y</key>
                   <integer>317</integer>
                 </dict>
@@ -79,9 +81,16 @@
           <array>
           </array>
           <key>width</key>
-          <integer>660</integer>
+          <integer>640</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.4</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

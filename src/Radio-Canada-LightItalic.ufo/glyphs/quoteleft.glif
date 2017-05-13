@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quoteleft" format="1">
-  <advance width="216"/>
+  <advance width="209.95927559758408"/>
   <unicode hex="2018"/>
   <outline>
-    <component base="comma" xScale="-1" yScale="-1" xOffset="216" yOffset="586"/>
+    <component base="comma" xScale="-1" yScale="-1" xOffset="335" yOffset="586"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-22 20:46:20 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -25,7 +29,7 @@
                 <integer>0</integer>
                 <integer>0</integer>
                 <integer>-1</integer>
-                <integer>216</integer>
+                <real>334.8373366374557</real>
                 <integer>586</integer>
               </array>
             </dict>
@@ -42,9 +46,11 @@
           <array>
           </array>
           <key>width</key>
-          <integer>216</integer>
+          <real>209.95927559758408</real>
         </dict>
       </dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

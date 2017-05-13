@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guilsinglright" format="1">
-  <advance width="302"/>
+  <advance width="298.3343889790739"/>
   <unicode hex="203A"/>
   <outline>
     <contour>
-      <point x="56.579411810261725" y="78.0" type="line"/>
-      <point x="125.57941181026172" y="78.0" type="line"/>
-      <point x="300.3516969791756" y="251.0" type="line"/>
-      <point x="304.815384774246" y="272.0" type="line"/>
-      <point x="255.815384774246" y="272.0" type="line"/>
+      <point x="57" y="78" type="line"/>
+      <point x="126" y="78" type="line"/>
+      <point x="300" y="247" type="line"/>
+      <point x="305" y="268" type="line"/>
+      <point x="256" y="269" type="line"/>
     </contour>
     <contour>
-      <point x="136.28812243652004" y="453.0" type="line"/>
-      <point x="253.05214947253575" y="259.0" type="line"/>
-      <point x="302.05214947253575" y="259.0" type="line"/>
-      <point x="306.5158372676062" y="280.0" type="line"/>
-      <point x="205.28812243652004" y="453.0" type="line"/>
+      <point x="140" y="453" type="line"/>
+      <point x="256" y="256" type="line"/>
+      <point x="302" y="255" type="line"/>
+      <point x="307" y="276" type="line"/>
+      <point x="205" y="453" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-22 21:02:22 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -39,9 +43,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>40</integer>
+                  <real>39.15882362052345</real>
                   <key>y</key>
                   <integer>78</integer>
                 </dict>
@@ -49,9 +53,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>109</integer>
+                  <real>108.15882362052344</real>
                   <key>y</key>
                   <integer>78</integer>
                 </dict>
@@ -59,9 +63,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>247</integer>
+                  <real>246.15882362052344</real>
                   <key>y</key>
                   <integer>251</integer>
                 </dict>
@@ -69,9 +73,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>247</integer>
+                  <real>246.15882362052344</real>
                   <key>y</key>
                   <integer>272</integer>
                 </dict>
@@ -79,9 +83,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>198</integer>
+                  <real>197.15882362052344</real>
                   <key>y</key>
                   <integer>272</integer>
                 </dict>
@@ -94,9 +98,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>40</integer>
+                  <real>39.15882362052345</real>
                   <key>y</key>
                   <integer>453</integer>
                 </dict>
@@ -104,9 +108,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>198</integer>
+                  <real>197.15882362052344</real>
                   <key>y</key>
                   <integer>259</integer>
                 </dict>
@@ -114,9 +118,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>247</integer>
+                  <real>246.15882362052344</real>
                   <key>y</key>
                   <integer>259</integer>
                 </dict>
@@ -124,9 +128,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>247</integer>
+                  <real>246.15882362052344</real>
                   <key>y</key>
                   <integer>280</integer>
                 </dict>
@@ -134,9 +138,9 @@
                   <key>segmentType</key>
                   <string>line</string>
                   <key>smooth</key>
-                  <false/>
+                  <integer>0</integer>
                   <key>x</key>
-                  <integer>109</integer>
+                  <real>108.15882362052344</real>
                   <key>y</key>
                   <integer>453</integer>
                 </dict>
@@ -152,9 +156,11 @@
           <array>
           </array>
           <key>width</key>
-          <integer>302</integer>
+          <real>298.3343889790739</real>
         </dict>
       </dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

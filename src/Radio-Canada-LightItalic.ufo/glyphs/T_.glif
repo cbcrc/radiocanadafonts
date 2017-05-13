@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="T" format="1">
-  <advance width="564"/>
+  <advance width="560.3359724476848"/>
   <unicode hex="0054"/>
   <outline>
     <contour>
-      <point x="170.18597322213407" y="636.0" type="line"/>
-      <point x="664.1859732221341" y="636.0" type="line"/>
-      <point x="675.6640275523152" y="690.0" type="line"/>
-      <point x="181.66402755231528" y="690.0" type="line"/>
+      <point x="168" y="636" type="line"/>
+      <point x="662" y="636" type="line"/>
+      <point x="674" y="690" type="line"/>
+      <point x="180" y="690" type="line"/>
     </contour>
     <contour>
-      <point x="251.0" y="0.0" type="line"/>
-      <point x="313.0" y="0.0" type="line"/>
-      <point x="459.66402755231525" y="690.0" type="line"/>
-      <point x="397.66402755231525" y="690.0" type="line"/>
+      <point x="249" y="0" type="line"/>
+      <point x="311" y="0" type="line"/>
+      <point x="458" y="690" type="line"/>
+      <point x="396" y="690" type="line"/>
     </contour>
     <contour>
-      <point x="428.66402755231525" y="690.0" type="move" name="top"/>
+      <point x="427" y="690" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="280" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-18 23:43:59 +0000</string>
+    </dict>
+  </lib>
 </glyph>
