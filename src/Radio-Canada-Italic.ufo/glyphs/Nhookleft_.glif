@@ -11,8 +11,8 @@
       <point x="93" y="-194"/>
       <point x="153" y="-153"/>
       <point x="179" y="-32" type="curve" smooth="yes"/>
-      <point x="186" y="0" type="line"/>
-      <point x="95" y="0" type="line"/>
+      <point x="333" y="690" type="line"/>
+      <point x="242" y="690" type="line"/>
       <point x="89" y="-30" type="line" smooth="yes"/>
       <point x="75" y="-94"/>
       <point x="43" y="-117"/>
@@ -20,12 +20,6 @@
       <point x="-20" y="-117"/>
       <point x="-40" y="-112"/>
       <point x="-55" y="-104" type="curve"/>
-    </contour>
-    <contour>
-      <point x="95" y="0" type="line"/>
-      <point x="186" y="0" type="line"/>
-      <point x="333" y="690" type="line"/>
-      <point x="242" y="690" type="line"/>
     </contour>
     <contour>
       <point x="273" y="690" type="line"/>
@@ -40,15 +34,4 @@
       <point x="681" y="690" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.8044</real>
-        <real>0.9963</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

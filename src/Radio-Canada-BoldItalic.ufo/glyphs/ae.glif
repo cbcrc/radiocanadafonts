@@ -76,8 +76,10 @@
       <point x="739" y="374" type="curve"/>
       <point x="739" y="314"/>
       <point x="643" y="306"/>
-      <point x="519" y="306" type="curve"/>
-      <point x="515" y="306" type="line"/>
+      <point x="519" y="306" type="curve" smooth="yes"/>
+      <point x="518" y="306"/>
+      <point x="516.0" y="306.0"/>
+      <point x="515" y="306" type="curve"/>
       <point x="494" y="215" type="line"/>
       <point x="508" y="215"/>
       <point x="518" y="214"/>
@@ -765,13 +767,6 @@
           <real>847.0340497381286</real>
         </dict>
       </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

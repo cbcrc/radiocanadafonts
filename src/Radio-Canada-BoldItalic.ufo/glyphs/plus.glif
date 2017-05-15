@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="plus" format="1">
-  <advance width="600.117307483802"/>
+  <advance width="640"/>
   <unicode hex="002B"/>
   <outline>
     <contour>
-      <point x="109" y="223" type="line"/>
-      <point x="585" y="223" type="line"/>
-      <point x="614" y="357" type="line"/>
-      <point x="138" y="357" type="line"/>
+      <point x="129.0" y="223" type="line"/>
+      <point x="605.0" y="223" type="line"/>
+      <point x="634.0" y="357" type="line"/>
+      <point x="158.0" y="357" type="line"/>
     </contour>
     <contour>
-      <point x="242" y="55" type="line"/>
-      <point x="382" y="55" type="line"/>
-      <point x="482" y="525" type="line"/>
-      <point x="342" y="525" type="line"/>
+      <point x="262.0" y="55" type="line"/>
+      <point x="402.0" y="55" type="line"/>
+      <point x="502.0" y="525" type="line"/>
+      <point x="362.0" y="525" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -132,14 +132,14 @@
           <array>
           </array>
           <key>width</key>
-          <real>600.117307483802</real>
+          <integer>640</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.0</real>
         <real>1.0</real>
-        <real>0.0</real>
+        <real>0.4</real>
+        <real>1.0</real>
         <real>1.0</real>
       </array>
     </dict>

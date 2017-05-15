@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="greater" format="1">
-  <advance width="599.8177599771623"/>
+  <advance width="640"/>
   <unicode hex="003E"/>
   <outline>
     <contour>
-      <point x="96" y="39" type="line"/>
-      <point x="578" y="227" type="line"/>
-      <point x="596" y="312" type="line"/>
-      <point x="487" y="327" type="line"/>
-      <point x="128" y="189" type="line"/>
+      <point x="116.0" y="39" type="line"/>
+      <point x="598.0" y="227" type="line"/>
+      <point x="616.0" y="312" type="line"/>
+      <point x="507.0" y="327" type="line"/>
+      <point x="148.0" y="189" type="line"/>
     </contour>
     <contour>
-      <point x="171" y="390" type="line"/>
-      <point x="475" y="268" type="line"/>
-      <point x="584" y="256" type="line"/>
-      <point x="604" y="349" type="line"/>
-      <point x="202" y="537" type="line"/>
+      <point x="191.0" y="390" type="line"/>
+      <point x="495.0" y="268" type="line"/>
+      <point x="604.0" y="256" type="line"/>
+      <point x="624.0" y="349" type="line"/>
+      <point x="222.0" y="537" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -154,14 +154,14 @@
           <array>
           </array>
           <key>width</key>
-          <real>599.8177599771623</real>
+          <integer>640</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.0</real>
         <real>1.0</real>
-        <real>0.0</real>
+        <real>0.4</real>
+        <real>1.0</real>
         <real>1.0</real>
       </array>
     </dict>

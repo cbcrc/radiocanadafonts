@@ -2,6 +2,18 @@
 <glyph name="seven.pl" format="1">
   <advance width="600"/>
   <outline>
-    <component base="seven" xOffset="-30"/>
+    <contour>
+      <point x="60" y="628" type="line"/>
+      <point x="445" y="628" type="line"/>
+      <point x="494" y="648" type="line"/>
+      <point x="494" y="690" type="line"/>
+      <point x="60" y="690" type="line"/>
+    </contour>
+    <contour>
+      <point x="180" y="0" type="line"/>
+      <point x="248" y="0" type="line"/>
+      <point x="494" y="648" type="line"/>
+      <point x="450" y="690" type="line"/>
+    </contour>
   </outline>
 </glyph>

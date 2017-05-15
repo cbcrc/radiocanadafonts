@@ -18,12 +18,6 @@
       <point x="185" y="601"/>
     </contour>
     <contour>
-      <point x="194" y="0" type="line"/>
-      <point x="286" y="0" type="line"/>
-      <point x="864" y="690" type="line"/>
-      <point x="772" y="690" type="line"/>
-    </contour>
-    <contour>
       <point x="259" y="501" type="curve"/>
       <point x="259" y="568"/>
       <point x="304" y="632"/>
@@ -36,6 +30,12 @@
       <point x="326" y="426" type="curve"/>
       <point x="285" y="426"/>
       <point x="259" y="453"/>
+    </contour>
+    <contour>
+      <point x="194" y="0" type="line"/>
+      <point x="286" y="0" type="line"/>
+      <point x="864" y="690" type="line"/>
+      <point x="772" y="690" type="line"/>
     </contour>
     <contour>
       <point x="556" y="129" type="curve"/>
@@ -98,13 +98,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
       <string>2017-04-18 23:43:59 +0000</string>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
     </dict>
   </lib>
 </glyph>

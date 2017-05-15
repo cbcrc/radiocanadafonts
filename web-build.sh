@@ -1,7 +1,7 @@
 #!/bin/sh
 
 family="Radio-Canada"
-romanWeights="Light Regular Bold"
+styles="Light Regular Bold LightItalic Italic BoldItalic"
 
 # clean existing build artifacts
 rm -rf web/
@@ -9,16 +9,16 @@ mkdir web/
 
 # --fallback-script --control-file --no-info -verbose --strong-stem-width (grayscale, GDI, DirectWrite ClearType) --windows-compatibility
 
-for w in $romanWeights
+for s in $styles
 do
-  ttfautohint -f latn -m instructions/$family-$w.txt -n -v -w gGD -W master_ttf/$family-$w.ttf web/$family-$w.ttf
+  ttfautohint -f latn -m instructions/$family-$s.txt -n -v -w gGD -W master_ttf/$family-$s.ttf web/$family-$s.ttf
   
   # http for RootString wildcard?
-  mkeot master_ttf/$family-$w.ttf http > web/$family-$w.eot
+  mkeot master_ttf/$family-$s.ttf http > web/$family-$s.eot
   
-  sfnt2woff -v 1.0 -m woff-metadata.xml master_otf/$family-$w.otf
-  mv master_otf/$family-$w.woff web/$family-$w.woff
+  sfnt2woff -v 1.0 -m woff-metadata.xml master_otf/$family-$s.otf
+  mv master_otf/$family-$s.woff web/$family-$s.woff
   
-  woff2_compress master_otf/$family-$w.otf 
-  mv master_otf/$family-$w.woff2 web/$family-$w.woff2
+  woff2_compress master_otf/$family-$s.otf 
+  mv master_otf/$family-$s.woff2 web/$family-$s.woff2
 done

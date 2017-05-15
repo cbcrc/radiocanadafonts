@@ -10,9 +10,10 @@ for glyphname in tablist:
     width = int(round(glyph.width))
     
     if width !=tabwidth:
-        d = tabwidth-width
-        glyph.move((d/2, 0))
-        glyph.width = tabwidth
-        glyph.update()
+        print width, tabwidth, glyph
+        #d = tabwidth-width
+        #glyph.move((d/2, 0))
+        #glyph.width = tabwidth
+        #glyph.update()
     glyph.mark = (1.0, 0.4, 1.0, 1.0)
         

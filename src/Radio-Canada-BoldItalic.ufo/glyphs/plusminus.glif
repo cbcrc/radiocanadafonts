@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="plusminus" format="1">
-  <advance width="600.3093891081488"/>
+  <advance width="640"/>
   <unicode hex="00B1"/>
   <outline>
     <contour>
-      <point x="74" y="55" type="line"/>
-      <point x="550" y="55" type="line"/>
-      <point x="578" y="189" type="line"/>
-      <point x="102" y="189" type="line"/>
+      <point x="94.0" y="55" type="line"/>
+      <point x="570.0" y="55" type="line"/>
+      <point x="598.0" y="189" type="line"/>
+      <point x="122.0" y="189" type="line"/>
     </contour>
     <contour>
-      <point x="120" y="272" type="line"/>
-      <point x="596" y="272" type="line"/>
-      <point x="624" y="406" type="line"/>
-      <point x="148" y="406" type="line"/>
+      <point x="140.0" y="272" type="line"/>
+      <point x="616.0" y="272" type="line"/>
+      <point x="644.0" y="406" type="line"/>
+      <point x="168.0" y="406" type="line"/>
     </contour>
     <contour>
-      <point x="242" y="55" type="line"/>
-      <point x="382" y="55" type="line"/>
-      <point x="482" y="525" type="line"/>
-      <point x="342" y="525" type="line"/>
+      <point x="262.0" y="55" type="line"/>
+      <point x="402.0" y="55" type="line"/>
+      <point x="502.0" y="525" type="line"/>
+      <point x="362.0" y="525" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -183,14 +183,14 @@
           <array>
           </array>
           <key>width</key>
-          <real>600.3093891081488</real>
+          <integer>640</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.0</real>
         <real>1.0</real>
-        <real>0.0</real>
+        <real>0.4</real>
+        <real>1.0</real>
         <real>1.0</real>
       </array>
     </dict>
