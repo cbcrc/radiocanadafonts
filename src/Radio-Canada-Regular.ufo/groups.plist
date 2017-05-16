@@ -105,6 +105,10 @@
 		<string>Ldot</string>
 		<string>Lslash</string>
 	</array>
+	<key>@MMK_L_NO_KERN</key>
+	<array>
+		<string>commaaccent.alt</string>
+	</array>
 	<key>@MMK_L_O</key>
 	<array>
 		<string>D</string>
@@ -336,6 +340,28 @@
 		<string>oslashacute</string>
 		<string>thorn</string>
 		<string>ipa:schwa</string>
+	</array>
+	<key>@MMK_L_punc_high</key>
+	<array>
+		<string>quotedblleft</string>
+		<string>quotedblright</string>
+		<string>quoteleft</string>
+		<string>quoteright</string>
+		<string>quotesingle</string>
+		<string>quotedbl</string>
+	</array>
+	<key>@MMK_L_punc_low</key>
+	<array>
+		<string>quotesinglbase</string>
+		<string>quotedblbase</string>
+		<string>comma</string>
+		<string>period</string>
+	</array>
+	<key>@MMK_L_punc_mid</key>
+	<array>
+		<string>emdash</string>
+		<string>endash</string>
+		<string>hyphen</string>
 	</array>
 	<key>@MMK_L_r</key>
 	<array>
@@ -753,6 +779,28 @@
 		<string>gcedilla</string>
 		<string>gcircumflex</string>
 		<string>gdotaccent</string>
+	</array>
+	<key>@MMK_R_punc_high</key>
+	<array>
+		<string>quotedbl</string>
+		<string>quotedblleft</string>
+		<string>quotedblright</string>
+		<string>quoteleft</string>
+		<string>quoteright</string>
+		<string>quotesingle</string>
+	</array>
+	<key>@MMK_R_punc_low</key>
+	<array>
+		<string>comma</string>
+		<string>period</string>
+		<string>quotedblbase</string>
+		<string>quotesinglbase</string>
+	</array>
+	<key>@MMK_R_punc_mid</key>
+	<array>
+		<string>emdash</string>
+		<string>endash</string>
+		<string>hyphen</string>
 	</array>
 	<key>@MMK_R_s</key>
 	<array>
