@@ -35,11 +35,11 @@
 	<key>com.typemytype.robofont.compileSettings.autohint</key>
 	<true/>
 	<key>com.typemytype.robofont.compileSettings.checkOutlines</key>
-	<false/>
+	<integer>1</integer>
 	<key>com.typemytype.robofont.compileSettings.createDummyDSIG</key>
-	<true/>
+	<integer>0</integer>
 	<key>com.typemytype.robofont.compileSettings.decompose</key>
-	<false/>
+	<integer>1</integer>
 	<key>com.typemytype.robofont.compileSettings.generateFormat</key>
 	<integer>0</integer>
 	<key>com.typemytype.robofont.compileSettings.releaseMode</key>
@@ -63,13 +63,13 @@
 			<key>name</key>
 			<string></string>
 			<key>x</key>
-			<integer>300</integer>
+			<integer>240</integer>
 			<key>y</key>
 			<integer>0</integer>
 		</dict>
 	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
-	<integer>0</integer>
+	<real>-60.0</real>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
 		<string>Background</string>
@@ -78,7 +78,7 @@
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>curve</string>
 	<key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>com.typemytype.robofont.sort</key>
 	<array>
 		<dict>
