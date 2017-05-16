@@ -180,6 +180,8 @@
 		<integer>-10</integer>
 		<key>@MMK_R_a</key>
 		<integer>-30</integer>
+		<key>@MMK_R_i</key>
+		<integer>0</integer>
 		<key>@MMK_R_n</key>
 		<integer>-30</integer>
 		<key>@MMK_R_o</key>
@@ -324,6 +326,11 @@
 		<integer>30</integer>
 		<key>X</key>
 		<integer>10</integer>
+	</dict>
+	<key>@MMK_L_i</key>
+	<dict>
+		<key>@MMK_R_T</key>
+		<integer>0</integer>
 	</dict>
 	<key>@MMK_L_k</key>
 	<dict>
@@ -598,6 +605,28 @@
 	<key>lslash</key>
 	<dict>
 		<key>@MMK_R_A</key>
+		<integer>-10</integer>
+	</dict>
+	<key>one.pl</key>
+	<dict>
+		<key>four.pl</key>
+		<integer>-20</integer>
+		<key>seven.pl</key>
+		<integer>-20</integer>
+	</dict>
+	<key>seven.pl</key>
+	<dict>
+		<key>eight.pl</key>
+		<integer>-10</integer>
+		<key>five.pl</key>
+		<integer>-10</integer>
+		<key>four.pl</key>
+		<integer>-40</integer>
+		<key>nine.pl</key>
+		<integer>-10</integer>
+		<key>six.pl</key>
+		<integer>-10</integer>
+		<key>three.pl</key>
 		<integer>-10</integer>
 	</dict>
 	<key>tcaron</key>

@@ -105,6 +105,86 @@
 		<string>Ldot</string>
 		<string>Lslash</string>
 	</array>
+	<key>@MMK_L_NO_KERN</key>
+	<array>
+		<string>commaaccent.alt</string>
+		<string>dotbelow</string>
+		<string>commaaccent</string>
+		<string>.notdef</string>
+		<string>hyphensoft</string>
+		<string>CR</string>
+		<string>NULL</string>
+		<string>nbspace</string>
+		<string>hungarumlaut.cap</string>
+		<string>tilde.cap</string>
+		<string>ring_acute.cap</string>
+		<string>ring.cap</string>
+		<string>dotaccent.cap</string>
+		<string>breve.cap</string>
+		<string>acute.cap</string>
+		<string>macron.cap</string>
+		<string>dieresis.cap</string>
+		<string>grave.cap</string>
+		<string>ogonek.alt</string>
+		<string>hungarumlaut</string>
+		<string>dotaccent</string>
+		<string>ogonek</string>
+		<string>ring</string>
+		<string>ring_acute</string>
+		<string>tilde</string>
+		<string>acute</string>
+		<string>breve</string>
+		<string>cedilla</string>
+		<string>dieresis</string>
+		<string>grave</string>
+		<string>macron</string>
+		<string>asciicircum</string>
+		<string>Euro</string>
+		<string>yen</string>
+		<string>currency</string>
+		<string>approxequal</string>
+		<string>bulletoperator</string>
+		<string>cent</string>
+		<string>dollar</string>
+		<string>greaterequal</string>
+		<string>infinity</string>
+		<string>integral</string>
+		<string>lessequal</string>
+		<string>notequal</string>
+		<string>radical</string>
+		<string>sterling</string>
+		<string>divisionslash</string>
+		<string>minus</string>
+		<string>divide</string>
+		<string>asciitilde</string>
+		<string>logicalnot</string>
+		<string>multiply</string>
+		<string>plusminus</string>
+		<string>greater</string>
+		<string>equal</string>
+		<string>less</string>
+		<string>plus</string>
+		<string>colon.tab</string>
+		<string>comma.tab</string>
+		<string>period.tab</string>
+		<string>semicolon.tab</string>
+		<string>eight</string>
+		<string>five</string>
+		<string>four</string>
+		<string>nine</string>
+		<string>one</string>
+		<string>seven</string>
+		<string>six</string>
+		<string>three</string>
+		<string>two</string>
+		<string>zero</string>
+		<string>caron</string>
+		<string>caron.alt</string>
+		<string>caron.cap</string>
+		<string>circumflex</string>
+		<string>circumflex.cap</string>
+		<string>macronmod</string>
+	</array>
 	<key>@MMK_L_O</key>
 	<array>
 		<string>D</string>
@@ -337,6 +417,28 @@
 		<string>thorn</string>
 		<string>ipa:schwa</string>
 	</array>
+	<key>@MMK_L_punc_high</key>
+	<array>
+		<string>quotedblleft</string>
+		<string>quotedblright</string>
+		<string>quoteleft</string>
+		<string>quoteright</string>
+		<string>quotesingle</string>
+		<string>quotedbl</string>
+	</array>
+	<key>@MMK_L_punc_low</key>
+	<array>
+		<string>quotesinglbase</string>
+		<string>quotedblbase</string>
+		<string>comma</string>
+		<string>period</string>
+	</array>
+	<key>@MMK_L_punc_mid</key>
+	<array>
+		<string>emdash</string>
+		<string>endash</string>
+		<string>hyphen</string>
+	</array>
 	<key>@MMK_L_r</key>
 	<array>
 		<string>r</string>
@@ -520,6 +622,86 @@
 	<array>
 		<string>J.alt</string>
 		<string>Jcircumflex.alt</string>
+	</array>
+	<key>@MMK_R_NO_KERN</key>
+	<array>
+		<string>.notdef</string>
+		<string>CR</string>
+		<string>NULL</string>
+		<string>commaaccent</string>
+		<string>commaaccent.alt</string>
+		<string>dotbelow</string>
+		<string>hyphensoft</string>
+		<string>nbspace</string>
+		<string>Euro</string>
+		<string>acute</string>
+		<string>acute.cap</string>
+		<string>approxequal</string>
+		<string>asciicircum</string>
+		<string>breve</string>
+		<string>breve.cap</string>
+		<string>bulletoperator</string>
+		<string>cedilla</string>
+		<string>cent</string>
+		<string>currency</string>
+		<string>dieresis</string>
+		<string>dieresis.cap</string>
+		<string>divisionslash</string>
+		<string>dollar</string>
+		<string>dotaccent</string>
+		<string>dotaccent.cap</string>
+		<string>grave</string>
+		<string>grave.cap</string>
+		<string>greaterequal</string>
+		<string>hungarumlaut</string>
+		<string>hungarumlaut.cap</string>
+		<string>infinity</string>
+		<string>integral</string>
+		<string>lessequal</string>
+		<string>macron</string>
+		<string>macron.cap</string>
+		<string>minus</string>
+		<string>notequal</string>
+		<string>ogonek</string>
+		<string>ogonek.alt</string>
+		<string>radical</string>
+		<string>ring</string>
+		<string>ring.cap</string>
+		<string>ring_acute</string>
+		<string>ring_acute.cap</string>
+		<string>sterling</string>
+		<string>tilde</string>
+		<string>tilde.cap</string>
+		<string>yen</string>
+		<string>asciitilde</string>
+		<string>colon.tab</string>
+		<string>comma.tab</string>
+		<string>divide</string>
+		<string>equal</string>
+		<string>greater</string>
+		<string>less</string>
+		<string>logicalnot</string>
+		<string>multiply</string>
+		<string>period.tab</string>
+		<string>plus</string>
+		<string>plusminus</string>
+		<string>semicolon.tab</string>
+		<string>caron</string>
+		<string>caron.alt</string>
+		<string>caron.cap</string>
+		<string>circumflex</string>
+		<string>circumflex.cap</string>
+		<string>eight</string>
+		<string>five</string>
+		<string>four</string>
+		<string>macronmod</string>
+		<string>nine</string>
+		<string>one</string>
+		<string>seven</string>
+		<string>six</string>
+		<string>three</string>
+		<string>two</string>
+		<string>zero</string>
 	</array>
 	<key>@MMK_R_O</key>
 	<array>
@@ -753,6 +935,28 @@
 		<string>gcedilla</string>
 		<string>gcircumflex</string>
 		<string>gdotaccent</string>
+	</array>
+	<key>@MMK_R_punc_high</key>
+	<array>
+		<string>quotedbl</string>
+		<string>quotedblleft</string>
+		<string>quotedblright</string>
+		<string>quoteleft</string>
+		<string>quoteright</string>
+		<string>quotesingle</string>
+	</array>
+	<key>@MMK_R_punc_low</key>
+	<array>
+		<string>comma</string>
+		<string>period</string>
+		<string>quotedblbase</string>
+		<string>quotesinglbase</string>
+	</array>
+	<key>@MMK_R_punc_mid</key>
+	<array>
+		<string>emdash</string>
+		<string>endash</string>
+		<string>hyphen</string>
 	</array>
 	<key>@MMK_R_s</key>
 	<array>
