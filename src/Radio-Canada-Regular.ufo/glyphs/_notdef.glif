@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name=".notdef" format="1">
-  <advance width="592"/>
+  <advance width="600"/>
   <outline>
     <contour>
-      <point x="100" y="-185" type="line"/>
-      <point x="182" y="-185" type="line"/>
-      <point x="182" y="690" type="line"/>
-      <point x="100" y="690" type="line"/>
+      <point x="104.0" y="-185" type="line"/>
+      <point x="186.0" y="-185" type="line"/>
+      <point x="186.0" y="690" type="line"/>
+      <point x="104.0" y="690" type="line"/>
     </contour>
     <contour>
-      <point x="147" y="-185" type="line"/>
-      <point x="445" y="-185" type="line"/>
-      <point x="445" y="-109" type="line"/>
-      <point x="147" y="-109" type="line"/>
+      <point x="151.0" y="-185" type="line"/>
+      <point x="449.0" y="-185" type="line"/>
+      <point x="449.0" y="-109" type="line"/>
+      <point x="151.0" y="-109" type="line"/>
     </contour>
     <contour>
-      <point x="147" y="614" type="line"/>
-      <point x="445" y="614" type="line"/>
-      <point x="445" y="690" type="line"/>
-      <point x="147" y="690" type="line"/>
+      <point x="151.0" y="614" type="line"/>
+      <point x="449.0" y="614" type="line"/>
+      <point x="449.0" y="690" type="line"/>
+      <point x="151.0" y="690" type="line"/>
     </contour>
     <contour>
-      <point x="410" y="-185" type="line"/>
-      <point x="492" y="-185" type="line"/>
-      <point x="492" y="690" type="line"/>
-      <point x="410" y="690" type="line"/>
+      <point x="414.0" y="-185" type="line"/>
+      <point x="496.0" y="-185" type="line"/>
+      <point x="496.0" y="690" type="line"/>
+      <point x="414.0" y="690" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -231,9 +231,16 @@
           <array>
           </array>
           <key>width</key>
-          <integer>592</integer>
+          <integer>600</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.4</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>
