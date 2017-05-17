@@ -3,6 +3,9 @@
   <advance width="600"/>
   <outline>
     <contour>
+      <point x="240" y="-110" type="curve" smooth="yes"/>
+      <point x="240" y="-165"/>
+      <point x="280" y="-197"/>
       <point x="340" y="-197" type="curve" smooth="yes"/>
       <point x="375" y="-197"/>
       <point x="405" y="-185"/>
@@ -20,9 +23,6 @@
       <point x="300" y="0" type="line"/>
       <point x="260" y="-30"/>
       <point x="240" y="-65"/>
-      <point x="240" y="-110" type="curve" smooth="yes"/>
-      <point x="240" y="-165"/>
-      <point x="280" y="-197"/>
     </contour>
     <contour>
       <point x="300.0" y="0.0" type="move" name="_ogonek"/>
