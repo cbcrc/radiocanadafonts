@@ -26,6 +26,10 @@
 		<integer>-20</integer>
 		<key>X</key>
 		<integer>-10</integer>
+		<key>one.pl</key>
+		<integer>-20</integer>
+		<key>seven.pl</key>
+		<integer>-20</integer>
 	</dict>
 	<key>@MMK_L_C</key>
 	<dict>
@@ -132,6 +136,10 @@
 		<integer>-10</integer>
 		<key>eth</key>
 		<integer>-10</integer>
+		<key>one.pl</key>
+		<integer>-40</integer>
+		<key>seven.pl</key>
+		<integer>-50</integer>
 		<key>tbar</key>
 		<integer>-10</integer>
 	</dict>
@@ -208,6 +216,8 @@
 		<integer>-20</integer>
 		<key>eth</key>
 		<integer>-40</integer>
+		<key>four.pl</key>
+		<integer>-40</integer>
 		<key>idieresis</key>
 		<integer>40</integer>
 		<key>imacron</key>
@@ -258,6 +268,8 @@
 		<integer>-10</integer>
 		<key>eth</key>
 		<integer>-20</integer>
+		<key>four.pl</key>
+		<integer>-40</integer>
 		<key>kra</key>
 		<integer>-10</integer>
 		<key>x</key>
@@ -297,6 +309,8 @@
 		<integer>-20</integer>
 		<key>eth</key>
 		<integer>-40</integer>
+		<key>four.pl</key>
+		<integer>-50</integer>
 		<key>kra</key>
 		<integer>-20</integer>
 		<key>x</key>
@@ -352,6 +366,18 @@
 		<integer>-40</integer>
 		<key>X</key>
 		<integer>10</integer>
+		<key>asterisk</key>
+		<integer>20</integer>
+		<key>one.pl</key>
+		<integer>40</integer>
+		<key>question</key>
+		<integer>40</integer>
+		<key>seven.pl</key>
+		<integer>40</integer>
+		<key>three.pl</key>
+		<integer>40</integer>
+		<key>two.pl</key>
+		<integer>20</integer>
 	</dict>
 	<key>@MMK_L_i</key>
 	<dict>
@@ -407,7 +433,11 @@
 		<key>@MMK_R_Y</key>
 		<integer>-70</integer>
 		<key>@MMK_R_v</key>
-		<integer>-30</integer>
+		<integer>-40</integer>
+		<key>one.pl</key>
+		<integer>-40</integer>
+		<key>seven.pl</key>
+		<integer>-40</integer>
 	</dict>
 	<key>@MMK_L_punc_mid</key>
 	<dict>
@@ -478,7 +508,7 @@
 		<key>@MMK_R_Y</key>
 		<integer>-10</integer>
 		<key>@MMK_R_punc_low</key>
-		<integer>-30</integer>
+		<integer>-40</integer>
 		<key>X</key>
 		<integer>-10</integer>
 	</dict>
@@ -543,6 +573,8 @@
 		<integer>-20</integer>
 		<key>@MMK_R_Y</key>
 		<integer>-20</integer>
+		<key>seven.pl</key>
+		<integer>-50</integer>
 	</dict>
 	<key>P</key>
 	<dict>
@@ -570,6 +602,8 @@
 		<integer>-20</integer>
 		<key>eth</key>
 		<integer>-10</integer>
+		<key>four.pl</key>
+		<integer>-20</integer>
 	</dict>
 	<key>Thorn</key>
 	<dict>
@@ -592,6 +626,8 @@
 		<key>@MMK_R_Y</key>
 		<integer>-20</integer>
 		<key>X</key>
+		<integer>-20</integer>
+		<key>seven.pl</key>
 		<integer>-20</integer>
 	</dict>
 	<key>X</key>
@@ -616,6 +652,8 @@
 		<integer>-10</integer>
 		<key>eth</key>
 		<integer>-10</integer>
+		<key>four.pl</key>
+		<integer>-20</integer>
 	</dict>
 	<key>dcaron</key>
 	<dict>
@@ -645,6 +683,16 @@
 		<integer>-20</integer>
 		<key>@MMK_R_Y</key>
 		<integer>-10</integer>
+	</dict>
+	<key>guillemetleft</key>
+	<dict>
+		<key>space</key>
+		<integer>-100</integer>
+	</dict>
+	<key>guilsinglleft</key>
+	<dict>
+		<key>space</key>
+		<integer>-100</integer>
 	</dict>
 	<key>idieresis</key>
 	<dict>
@@ -683,8 +731,16 @@
 	</dict>
 	<key>seven.pl</key>
 	<dict>
+		<key>@MMK_R_A</key>
+		<integer>-60</integer>
+		<key>@MMK_R_AE</key>
+		<integer>-60</integer>
+		<key>@MMK_R_J</key>
+		<integer>-60</integer>
+		<key>@MMK_R_J_alt</key>
+		<integer>-80</integer>
 		<key>@MMK_R_punc_low</key>
-		<integer>-70</integer>
+		<integer>-100</integer>
 		<key>eight.pl</key>
 		<integer>-10</integer>
 		<key>five.pl</key>
@@ -697,6 +753,13 @@
 		<integer>-10</integer>
 		<key>three.pl</key>
 		<integer>-10</integer>
+	</dict>
+	<key>space</key>
+	<dict>
+		<key>guillemetright</key>
+		<integer>-100</integer>
+		<key>guilsinglright</key>
+		<integer>-100</integer>
 	</dict>
 	<key>tcaron</key>
 	<dict>
