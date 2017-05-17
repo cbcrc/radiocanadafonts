@@ -19,19 +19,6 @@
           <array>
             <dict>
               <key>baseGlyph</key>
-              <string>dieresis</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>-164</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-            <dict>
-              <key>baseGlyph</key>
               <string>dotlessi</string>
               <key>transformation</key>
               <array>
@@ -40,6 +27,19 @@
                 <integer>0</integer>
                 <integer>1</integer>
                 <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+            <dict>
+              <key>baseGlyph</key>
+              <string>dieresis</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>-164</integer>
                 <integer>0</integer>
               </array>
             </dict>

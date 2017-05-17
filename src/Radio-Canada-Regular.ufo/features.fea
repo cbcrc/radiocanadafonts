@@ -10,8 +10,6 @@ languagesystem latn ROM;
 languagesystem latn TAT;
 languagesystem latn TRK;
 
-#case
-#cpsp
 #sups
 #numr
 #ordn
@@ -26,6 +24,8 @@ languagesystem latn TRK;
 @I_J_alt_on = [I.alt Iacute.alt Ibreve.alt Icircumflex.alt Idieresis.alt Idotaccent.alt Idotbelow.alt Igrave.alt Imacron.alt Iogonek.alt Itilde.alt J.alt Jcircumflex.alt];
 @a_u_alt_off = [a aacute abreve acircumflex adieresis adotbelow agrave amacron aogonek aring aringacute atilde u uacute ubreve ucircumflex udieresis udotbelow ugrave uhungarumlaut umacron uogonek uring utilde];
 @a_u_alt_on = [a.alt aacute.alt abreve.alt acircumflex.alt adieresis.alt adotbelow.alt agrave.alt amacron.alt aogonek.alt aring.alt aringacute.alt atilde.alt u.alt uacute.alt ubreve.alt ucircumflex.alt udieresis.alt udotbelow.alt ugrave.alt uhungarumlaut.alt umacron.alt uogonek.alt uring.alt utilde.alt];
+
+@case_punctuation = [hyphen endash emdash parenleft parenright bracketleft bracketright braceleft braceright guilsinglleft guilsinglright guillemetleft guillemetright];
 
 feature locl {
     # polish kreska?
@@ -65,6 +65,14 @@ feature calt {
     sub @uppercase germandbls' @uppercase by Germandbls;
     sub @uppercase @uppercase germandbls' by Germandbls;
 } calt;
+
+feature case {
+    pos @case_punctuation <0 50 0 0>;
+} case;
+
+feature cpsp {
+    pos @uppercase <25 0 50 0>;
+} cpsp;
 
 feature liga {
     sub f f ij by f_f_ij;

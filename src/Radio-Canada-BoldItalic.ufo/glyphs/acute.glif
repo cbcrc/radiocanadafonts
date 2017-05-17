@@ -28,6 +28,14 @@
         <dict>
           <key>anchors</key>
           <array>
+            <dict>
+              <key>name</key>
+              <string>_top</string>
+              <key>x</key>
+              <real>352.0</real>
+              <key>y</key>
+              <real>525.0</real>
+            </dict>
           </array>
           <key>components</key>
           <array>
@@ -43,7 +51,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>219.53393700201326</real>
+                  <integer>288</integer>
                   <key>y</key>
                   <integer>600</integer>
                 </dict>
@@ -53,29 +61,29 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>308.53393700201326</real>
-                  <key>y</key>
-                  <integer>750</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <real>479.53393700201326</real>
-                  <key>y</key>
-                  <integer>750</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <real>340.53393700201326</real>
+                  <integer>409</integer>
                   <key>y</key>
                   <integer>600</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>560</integer>
+                  <key>y</key>
+                  <integer>750</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>399</integer>
+                  <key>y</key>
+                  <integer>750</integer>
                 </dict>
               </array>
             </dict>

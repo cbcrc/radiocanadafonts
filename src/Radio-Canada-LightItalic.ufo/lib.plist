@@ -186,21 +186,6 @@
 	<false/>
 	<key>com.schriftgestaltung.weight</key>
 	<string>Light</string>
-	<key>com.typemytype.robofont.Background.layerShowCoordinates</key>
-	<false/>
-	<key>com.typemytype.robofont.Background.layerShowFill</key>
-	<false/>
-	<key>com.typemytype.robofont.Background.layerShowPoints</key>
-	<true/>
-	<key>com.typemytype.robofont.Background.layerShowStroke</key>
-	<true/>
-	<key>com.typemytype.robofont.Background.layerStrokeColor</key>
-	<array>
-		<real>1.0</real>
-		<real>0.75</real>
-		<real>0.0</real>
-		<real>0.7</real>
-	</array>
 	<key>com.typemytype.robofont.background.layerStrokeColor</key>
 	<array>
 		<integer>0</integer>
@@ -253,7 +238,6 @@
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
 		<string>background</string>
-		<string>Background</string>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>curve</string>

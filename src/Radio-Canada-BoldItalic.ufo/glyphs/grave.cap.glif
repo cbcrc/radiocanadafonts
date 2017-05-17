@@ -21,10 +21,18 @@
       <string>2017-04-29 19:42:19 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
-        <key>Background</key>
+        <key>background</key>
         <dict>
           <key>anchors</key>
           <array>
+            <dict>
+              <key>name</key>
+              <string>_top</string>
+              <key>x</key>
+              <real>387.0</real>
+              <key>y</key>
+              <real>690.0</real>
+            </dict>
           </array>
           <key>components</key>
           <array>
@@ -40,9 +48,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>114.90000051629957</real>
+                  <integer>246</integer>
                   <key>y</key>
-                  <integer>885</integer>
+                  <integer>884</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -50,7 +58,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>238.90000051629957</real>
+                  <integer>347</integer>
                   <key>y</key>
                   <integer>750</integer>
                 </dict>
@@ -60,7 +68,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>364.90000051629954</real>
+                  <integer>467</integer>
                   <key>y</key>
                   <integer>750</integer>
                 </dict>
@@ -70,9 +78,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>288.90000051629954</real>
+                  <integer>395</integer>
                   <key>y</key>
-                  <integer>885</integer>
+                  <integer>884</integer>
                 </dict>
               </array>
             </dict>
