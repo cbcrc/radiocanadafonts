@@ -17,7 +17,7 @@
 		<key>@MMK_R_U</key>
 		<integer>-10</integer>
 		<key>@MMK_R_V</key>
-		<integer>-30</integer>
+		<integer>-20</integer>
 		<key>@MMK_R_Y</key>
 		<integer>-50</integer>
 		<key>@MMK_R_punc_high</key>
@@ -157,6 +157,8 @@
 		<integer>-20</integer>
 		<key>X</key>
 		<integer>-10</integer>
+		<key>x</key>
+		<integer>-5</integer>
 	</dict>
 	<key>@MMK_L_R</key>
 	<dict>
@@ -241,7 +243,7 @@
 	<key>@MMK_L_V</key>
 	<dict>
 		<key>@MMK_R_A</key>
-		<integer>-30</integer>
+		<integer>-20</integer>
 		<key>@MMK_R_AE</key>
 		<integer>-30</integer>
 		<key>@MMK_R_J</key>
@@ -334,6 +336,11 @@
 		<key>@MMK_R_Y</key>
 		<integer>-30</integer>
 	</dict>
+	<key>@MMK_L_braceleft</key>
+	<dict>
+		<key>@MMK_R_j</key>
+		<integer>100</integer>
+	</dict>
 	<key>@MMK_L_c</key>
 	<dict>
 		<key>@MMK_R_T</key>
@@ -413,6 +420,8 @@
 		<key>@MMK_R_Y</key>
 		<integer>-50</integer>
 		<key>X</key>
+		<integer>-10</integer>
+		<key>x</key>
 		<integer>-10</integer>
 	</dict>
 	<key>@MMK_L_punc_high</key>
@@ -772,12 +781,16 @@
 	</dict>
 	<key>x</key>
 	<dict>
+		<key>@MMK_R_O</key>
+		<integer>-5</integer>
 		<key>@MMK_R_T</key>
 		<integer>-20</integer>
 		<key>@MMK_R_V</key>
 		<integer>-10</integer>
 		<key>@MMK_R_Y</key>
 		<integer>-30</integer>
+		<key>@MMK_R_o</key>
+		<integer>-10</integer>
 	</dict>
 </dict>
 </plist>
