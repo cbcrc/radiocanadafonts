@@ -28,7 +28,6 @@ for ufos in [romans, italics]:
 	project.run_from_ufos(ufos, 
 		output=("otf", "ttf", "ttf-interpolatable"), 
 		designspace_path=None, 
-		mti_source=None, 
 		remove_overlaps=True, 
 		reverse_direction=True, # only used for ttf and ttf-interpolatable
 		conversion_error=None,
