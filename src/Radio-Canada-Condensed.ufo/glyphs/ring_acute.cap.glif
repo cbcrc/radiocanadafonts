@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ring_acute.cap" format="1">
-  <advance width="506"/>
+  <advance width="500"/>
   <outline>
-    <component base="acute.cap" yOffset="237"/>
-    <component base="ring.cap"/>
+    <component base="acute.cap" xOffset="-3.0" yOffset="237"/>
+    <component base="ring.cap" xOffset="-3.0"/>
     <contour>
-      <point x="253.0" y="690.0" type="move" name="_top"/>
+      <point x="250.0" y="690.0" type="move" name="_top"/>
     </contour>
   </outline>
 </glyph>
