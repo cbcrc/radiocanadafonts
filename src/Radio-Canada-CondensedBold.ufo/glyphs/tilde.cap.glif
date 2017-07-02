@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tilde.cap" format="1">
+  <advance width="504"/>
+  <outline>
+    <contour>
+      <point x="106" y="761" type="curve"/>
+      <point x="172" y="761" type="line"/>
+      <point x="176.0" y="791.0"/>
+      <point x="190" y="799"/>
+      <point x="202" y="799" type="curve"/>
+      <point x="230" y="799"/>
+      <point x="261" y="756"/>
+      <point x="308" y="756" type="curve"/>
+      <point x="359" y="756"/>
+      <point x="397" y="811"/>
+      <point x="397" y="892" type="curve"/>
+      <point x="332" y="892" type="line"/>
+      <point x="328.0" y="863.0"/>
+      <point x="314" y="854"/>
+      <point x="302" y="854" type="curve"/>
+      <point x="274" y="854"/>
+      <point x="243" y="897"/>
+      <point x="196" y="897" type="curve"/>
+      <point x="145" y="897"/>
+      <point x="106" y="846"/>
+    </contour>
+    <contour>
+      <point x="252.0" y="690.0" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>tilde</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>153</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>tilde.cap</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>504</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.8044</real>
+        <real>0.9963</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

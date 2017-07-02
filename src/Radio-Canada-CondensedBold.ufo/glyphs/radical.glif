@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="radical" format="1">
+  <advance width="629"/>
+  <unicode hex="221A"/>
+  <outline>
+    <contour>
+      <point x="84" y="352" type="line"/>
+      <point x="247" y="-185" type="line"/>
+      <point x="345" y="-185" type="line"/>
+      <point x="345" y="-95" type="line"/>
+      <point x="229" y="352" type="line"/>
+    </contour>
+    <contour>
+      <point x="277" y="-95" type="line"/>
+      <point x="277" y="-185" type="line"/>
+      <point x="372" y="-185" type="line"/>
+      <point x="638" y="690" type="line"/>
+      <point x="501" y="690" type="line"/>
+    </contour>
+    <contour>
+      <point x="17" y="215" type="line"/>
+      <point x="180" y="215" type="line"/>
+      <point x="180" y="352" type="line"/>
+      <point x="17" y="352" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>v</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>86</integer>
+                <integer>-185</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>radical</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>629</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.8044</real>
+        <real>0.9963</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
