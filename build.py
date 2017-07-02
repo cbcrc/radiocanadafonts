@@ -15,6 +15,8 @@ romans = [
 	os.path.join(SRC_DIR, "Radio-Canada-Light.ufo"),
 	os.path.join(SRC_DIR, "Radio-Canada-Regular.ufo"),
 	os.path.join(SRC_DIR, "Radio-Canada-Bold.ufo"),
+	os.path.join(SRC_DIR, "Radio-Canada-Condensed.ufo"),
+	os.path.join(SRC_DIR, "Radio-Canada-CondensedBold.ufo"),
 ]
 italics = [
 	os.path.join(SRC_DIR, "Radio-Canada-LightItalic.ufo"),

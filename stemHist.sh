@@ -1,7 +1,7 @@
 #!/bin/sh
 
 family="Radio-Canada"
-styles="Light Regular Bold LightItalic Italic BoldItalic"
+styles="Light Regular Bold LightItalic Italic BoldItalic Condensed CondensedBold"
 
 for s in $styles
 do

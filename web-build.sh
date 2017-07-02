@@ -1,7 +1,7 @@
 #!/bin/sh
 
 family="Radio-Canada"
-styles="Light Regular Bold LightItalic Italic BoldItalic"
+styles="Light Regular Bold LightItalic Italic BoldItalic Condensed CondensedBold"
 
 # clean existing build artifacts
 rm -rf web/
