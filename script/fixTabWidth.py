@@ -1,6 +1,6 @@
 tablist = [".notdef", "asciicircum", "asciitilde", "bulletoperator", "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "plus", "minus", "plusminus", "equal", "notequal", "approxequal", "multiply", "less", "greater", "lessequal", "greaterequal", "divide", "logicalnot", "Euro", "currency", "dollar", "cent", "florin", "sterling", "yen", "period.tab", "comma.tab", "colon.tab", "semicolon.tab"]
 
-tabwidth = 600
+tabwidth = 500
 
 font = CurrentFont()
 
