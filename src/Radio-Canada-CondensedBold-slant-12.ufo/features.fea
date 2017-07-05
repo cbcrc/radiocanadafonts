@@ -1,0 +1,159 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CAT;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn MOL;
+languagesystem latn NLD;
+languagesystem latn ROM;
+languagesystem latn TAT;
+languagesystem latn TRK;
+
+#sups
+#numr
+#ordn
+
+@uppercase = [A AE AEacute Aacute Abreve Acircumflex Adieresis Adotbelow Agrave Amacron Aogonek Aring Aringacute Atilde B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Delta E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Edotbelow Egrave Emacron Eng Eogonek Eth Etilde Euro F G Gbreve Gcaron Gcedilla Gcircumflex Gdotaccent Germandbls H Hbar Hcircumflex I I.alt IJ IJacute Iacute Iacute.alt Ibreve Ibreve.alt Icircumflex Icircumflex.alt Idieresis Idieresis.alt Idotaccent Idotaccent.alt Idotbelow Idotbelow.alt Igrave Igrave.alt Imacron Imacron.alt Iogonek Iogonek.alt Itilde Itilde.alt J J.alt Jcircumflex Jcircumflex.alt K Kcedilla L Lacute Lcaron Lcedilla Ldot Lslash M N Nacute Ncaron Ncedilla Nhookleft Ntilde O OE Oacute Obreve Ocircumflex Odieresis Odotbelow Ograve Ohungarumlaut Omacron Omega Oogonek Oslash Oslashacute Otilde P Q R Racute Rcaron Rcedilla S Sacute Scaron Scedilla Schwa Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent Thorn U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent];
+
+@default = [zero one two three four five six seven eight nine period comma colon semicolon];
+@proportional = [zero one.pl two three four five six seven.pl eight nine period comma colon semicolon];
+@tabular = [zero one two three four five six seven eight nine period.tab comma.tab colon.tab semicolon.tab];
+
+@I_J_alt_off = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Idotbelow Igrave Imacron Iogonek Itilde J Jcircumflex];
+@I_J_alt_on = [I.alt Iacute.alt Ibreve.alt Icircumflex.alt Idieresis.alt Idotaccent.alt Idotbelow.alt Igrave.alt Imacron.alt Iogonek.alt Itilde.alt J.alt Jcircumflex.alt];
+@a_u_alt_off = [a aacute abreve acircumflex adieresis adotbelow agrave amacron aogonek aring aringacute atilde u uacute ubreve ucircumflex udieresis udotbelow ugrave uhungarumlaut umacron uogonek uring utilde];
+@a_u_alt_on = [a.alt aacute.alt abreve.alt acircumflex.alt adieresis.alt adotbelow.alt agrave.alt amacron.alt aogonek.alt aring.alt aringacute.alt atilde.alt u.alt uacute.alt ubreve.alt ucircumflex.alt udieresis.alt udotbelow.alt ugrave.alt uhungarumlaut.alt umacron.alt uogonek.alt uring.alt utilde.alt];
+
+@case_punctuation = [hyphen endash emdash parenleft parenright bracketleft bracketright braceleft braceright guilsinglleft guilsinglright guillemetleft guillemetright];
+
+feature locl {
+    # polish kreska?
+    script latn;
+        language NLD exclude_dflt;
+            sub I J by IJ;
+            sub i j by ij;
+            sub Iacute J by IJacute;
+            sub iacute j by ijacute;
+        language CAT exclude_dflt;
+            sub  L' periodcentered' L by Ldot;
+            sub  l' periodcentered' l by ldot;
+        language ROM exclude_dflt;
+            lookup cedilla_commaaccent {
+                sub Scedilla by Scommaaccent;
+                sub scedilla by scommaaccent;
+                sub Tcedilla by Tcommaaccent;
+                sub tcedilla by tcommaaccent;
+            } cedilla_commaaccent;
+        language MOL exclude_dflt;
+            lookup cedilla_commaaccent;
+        language TRK exclude_dflt;
+            lookup ITRK {
+                sub i by i.TRK;
+            } ITRK;
+        language AZE exclude_dflt;
+            lookup ITRK;
+        language CRT exclude_dflt;
+            lookup ITRK;
+        language KAZ exclude_dflt;
+            lookup ITRK;
+        language TAT exclude_dflt;
+            lookup ITRK;
+} locl;
+
+feature calt {
+    sub @uppercase germandbls' @uppercase by Germandbls;
+    sub @uppercase @uppercase germandbls' by Germandbls;
+} calt;
+
+feature case {
+    pos @case_punctuation <0 50 0 0>;
+} case;
+
+feature cpsp {
+    pos @uppercase <25 0 50 0>;
+} cpsp;
+
+feature liga {
+    sub f f ij by f_f_ij;
+    sub f ij by f_ij;
+    sub f f i by f_f_i;
+    sub f i by f_i;
+    sub f f l by f_f_l;
+    sub f l by f_l;
+    sub f f by f_f;
+} liga;
+
+feature pnum {
+    sub @default by @proportional;
+} pnum;
+
+feature tnum {
+    sub @default by @tabular;
+} tnum;
+
+feature salt {
+    sub @I_J_alt_off by @I_J_alt_on;
+    sub @a_u_alt_off by @a_u_alt_on;
+} salt;
+
+feature ss01 {
+    featureNames {
+        name "Alternate I and J"; # Windows English
+        name 3 1 0xC0C "I et J alternatifs"; # Windows French Canada
+        name 1 0 0 "Alternate I and J"; # Mac English
+        name 1 0 1 "I et J alternatifs"; # Mac French
+    };
+    sub @I_J_alt_off by @I_J_alt_on;
+} ss01;
+
+feature ss02 {
+    featureNames {
+        name "Alternate a and u"; # Windows English
+        name 3 1 0xC0C "a et u alternatifs"; # Windows French Canada
+        name 1 0 0 "Alternate a and u"; # Mac English
+        name 1 0 1 "a et u alternatifs"; # Mac French
+    };
+    sub @a_u_alt_off by @a_u_alt_on;
+} ss02;
+
+feature aalt {
+    sub I from [I.alt];
+    sub Iacute from [Iacute.alt];
+    sub Ibreve from [Ibreve.alt];
+    sub Icircumflex from [Icircumflex.alt];
+    sub Idieresis from [Idieresis.alt];
+    sub Idotaccent from [Idotaccent.alt];
+    sub Idotbelow from [Idotbelow.alt];
+    sub Igrave from [Igrave.alt];
+    sub Imacron from [Imacron.alt];
+    sub Iogonek from [Iogonek.alt];
+    sub Itilde from [Itilde.alt];
+    sub J from [J.alt];
+    sub Jcircumflex from [Jcircumflex.alt];
+    sub a from [a.alt];
+    sub aacute from [aacute.alt];
+    sub abreve from [abreve.alt];
+    sub acircumflex from [acircumflex.alt];
+    sub adieresis from [adieresis.alt];
+    sub adotbelow from [adotbelow.alt];
+    sub agrave from [agrave.alt];
+    sub amacron from [amacron.alt];
+    sub aogonek from [aogonek.alt];
+    sub aring from [aring.alt];
+    sub aringacute from [aringacute.alt];
+    sub atilde from [atilde.alt];
+    sub u from [u.alt];
+    sub uacute from [uacute.alt];
+    sub ubreve from [ubreve.alt];
+    sub ucircumflex from [ucircumflex.alt];
+    sub udieresis from [udieresis.alt];
+    sub udotbelow from [udotbelow.alt];
+    sub ugrave from [ugrave.alt];
+    sub uhungarumlaut from [uhungarumlaut.alt];
+    sub umacron from [umacron.alt];
+    sub uogonek from [uogonek.alt];
+    sub uring from [uring.alt];
+    sub utilde from [utilde.alt];
+} aalt;
+

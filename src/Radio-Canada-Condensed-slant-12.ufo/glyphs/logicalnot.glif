@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicalnot" format="1">
+  <advance width="500"/>
+  <unicode hex="00AC"/>
+  <outline>
+    <contour>
+      <point x="50.564253540845584" y="252.0" type="line"/>
+      <point x="436.5642535408456" y="252.0" type="line"/>
+      <point x="452.7185522277673" y="328.0" type="line"/>
+      <point x="66.71855222776726" y="328.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="320.02873307022145" y="66.0" type="line"/>
+      <point x="397.02873307022145" y="66.0" type="line"/>
+      <point x="452.7185522277673" y="328.0" type="line"/>
+      <point x="375.71855222776725" y="328.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.4</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

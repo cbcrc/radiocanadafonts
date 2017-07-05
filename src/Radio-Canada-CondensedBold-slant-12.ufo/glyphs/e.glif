@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="e" format="1">
+  <advance width="479"/>
+  <unicode hex="0065"/>
+  <outline>
+    <contour>
+      <point x="23.62703634919569" y="257.0" type="curve" smooth="yes"/>
+      <point x="-10.15979529444374" y="98.04545454545453"/>
+      <point x="50.44932125995973" y="-12.0"/>
+      <point x="205.44932125995973" y="-12.0" type="curve" smooth="yes"/>
+      <point x="269.48879494417025" y="-12.0"/>
+      <point x="324.9130090550302" y="9.0"/>
+      <point x="371.8018099734407" y="32.0" type="curve"/>
+      <point x="350.33280551046306" y="138.0" type="line"/>
+      <point x="323.35701364708274" y="124.0"/>
+      <point x="280.2091629607571" y="111.0"/>
+      <point x="251.59377834537247" y="111.0" type="curve" smooth="yes"/>
+      <point x="164.95811943064376" y="111.0"/>
+      <point x="133.7337104971834" y="154.0"/>
+      <point x="156.90237571921583" y="263.0" type="curve" smooth="yes"/>
+      <point x="183.4719459279686" y="388.0"/>
+      <point x="233.48631246307934" y="421.0"/>
+      <point x="278.48631246307934" y="421.0" type="curve" smooth="yes"/>
+      <point x="321.48631246307934" y="421.0"/>
+      <point x="344.2593893662986" y="387.0"/>
+      <point x="321.9409503909462" y="282.0" type="curve"/>
+      <point x="349.742760364387" y="314.0" type="line"/>
+      <point x="130.74276036438695" y="314.0" type="line"/>
+      <point x="110.1247738823948" y="217.0" type="line"/>
+      <point x="427.1247738823948" y="217.0" type="line"/>
+      <point x="431.67545262243505" y="229.0"/>
+      <point x="439.3516969791756" y="251.0"/>
+      <point x="444.45305445925607" y="275.0" type="curve" smooth="yes"/>
+      <point x="481.0127830664999" y="447.0"/>
+      <point x="424.14287361680186" y="537.0"/>
+      <point x="304.14287361680186" y="537.0" type="curve" smooth="yes"/>
+      <point x="175.14287361680186" y="537.0"/>
+      <point x="61.42717370268868" y="434.8356643356643"/>
+    </contour>
+    <contour>
+      <point x="301.80475143843165" y="526.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="260.0" y="0.0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="190.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>c</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>e</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>479</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
