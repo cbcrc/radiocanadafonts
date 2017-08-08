@@ -4,11 +4,11 @@ from AppKit import NSBezierPath
 
 w, h = 1000, 500
 
-path1 = "../src/Radio-Canada-CondensedBold.ufo"
+path1 = "../src/Radio-Canada-BoldItalic.ufo"
 font1 = OpenFont(path1, showInterface=False)
 pen1 = CocoaPen(font1)
 
-path2 = "../src/Radio-Canada-Regular.ufo"
+path2 = "../src/Radio-Canada-CondensedBoldItalic.ufo"
 font2 = OpenFont(path2, showInterface=False)
 pen2 = CocoaPen(font2)
 
@@ -42,5 +42,5 @@ for char in font1.glyphOrder:
     translate(glyphX.width+50)
     drawPath(pen2.path)
     
-saveImage(["condensedbold-x-regular.pdf"])
+saveImage(["bolditalic-x-condensedbolditalic.pdf"])
     
