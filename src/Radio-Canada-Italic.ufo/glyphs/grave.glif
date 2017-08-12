@@ -7,13 +7,13 @@
   </note>
   <outline>
     <contour>
-      <point x="265" y="740" type="line"/>
-      <point x="354" y="590" type="line"/>
-      <point x="431" y="590" type="line"/>
-      <point x="365" y="740" type="line"/>
+      <point x="245" y="740" type="line"/>
+      <point x="334" y="590" type="line"/>
+      <point x="411" y="590" type="line"/>
+      <point x="345" y="740" type="line"/>
     </contour>
     <contour>
-      <point x="349" y="515" type="move" name="_top"/>
+      <point x="349.0" y="515.0" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
@@ -28,6 +28,14 @@
         <dict>
           <key>anchors</key>
           <array>
+            <dict>
+              <key>name</key>
+              <string>_top</string>
+              <key>x</key>
+              <real>349.0</real>
+              <key>y</key>
+              <real>515.0</real>
+            </dict>
             <dict>
               <key>name</key>
               <string>_top</string>
@@ -51,7 +59,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>265</integer>
+                  <integer>256</integer>
                   <key>y</key>
                   <integer>740</integer>
                 </dict>
@@ -61,7 +69,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>354</integer>
+                  <integer>334</integer>
                   <key>y</key>
                   <integer>590</integer>
                 </dict>
@@ -71,7 +79,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>431</integer>
+                  <integer>410</integer>
                   <key>y</key>
                   <integer>590</integer>
                 </dict>
@@ -81,9 +89,54 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>365</integer>
+                  <integer>367</integer>
                   <key>y</key>
                   <integer>740</integer>
+                </dict>
+              </array>
+            </dict>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>190</integer>
+                  <key>y</key>
+                  <integer>0</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>290</integer>
+                  <key>y</key>
+                  <integer>0</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>399</integer>
+                  <key>y</key>
+                  <integer>515</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>299</integer>
+                  <key>y</key>
+                  <integer>515</integer>
                 </dict>
               </array>
             </dict>

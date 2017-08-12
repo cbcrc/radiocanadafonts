@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedilla" format="1">
+  <advance width="599.9401622017089"/>
+  <unicode hex="00B8"/>
+  <outline>
+    <contour>
+      <point x="126.6" y="-196.2" type="line"/>
+      <point x="164.2" y="-196.2" type="line" smooth="yes"/>
+      <point x="251.2" y="-196.2"/>
+      <point x="315.79999999999995" y="-175.2"/>
+      <point x="315.79999999999995" y="-109.6" type="curve" smooth="yes"/>
+      <point x="315.79999999999995" y="-77.8"/>
+      <point x="292.20000000000005" y="-55.4"/>
+      <point x="252.79999999999998" y="-49.400000000000006" type="curve"/>
+      <point x="275.0" y="9.0" type="line"/>
+      <point x="213.8" y="15.0" type="line"/>
+      <point x="171.4" y="-84.19999999999999" type="line"/>
+      <point x="191.6" y="-86.2" type="line" smooth="yes"/>
+      <point x="220.4" y="-89.19999999999999"/>
+      <point x="230.2" y="-97.6"/>
+      <point x="230.2" y="-109.4" type="curve"/>
+      <point x="230.2" y="-127.4"/>
+      <point x="213.60000000000002" y="-140.4"/>
+      <point x="148.0" y="-140.4" type="curve"/>
+    </contour>
+    <contour>
+      <point x="240.0" y="0.0" type="move" name="_bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-22 19:55:27 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

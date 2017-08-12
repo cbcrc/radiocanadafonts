@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i" format="1">
+  <advance width="274"/>
+  <unicode hex="0069"/>
+  <outline>
+    <contour>
+      <point x="14" y="0" type="line"/>
+      <point x="141" y="0" type="line"/>
+      <point x="251" y="521" type="line"/>
+      <point x="125" y="521" type="line"/>
+    </contour>
+    <contour>
+      <point x="142" y="664" type="curve"/>
+      <point x="142" y="628"/>
+      <point x="168" y="599"/>
+      <point x="209" y="599" type="curve"/>
+      <point x="260" y="599"/>
+      <point x="301" y="642"/>
+      <point x="301" y="692" type="curve"/>
+      <point x="301" y="728"/>
+      <point x="276" y="757"/>
+      <point x="235" y="757" type="curve"/>
+      <point x="183" y="757"/>
+      <point x="142" y="714"/>
+    </contour>
+    <contour>
+      <point x="14" y="0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="77" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-29 16:22:37 +0000</string>
+    </dict>
+  </lib>
+</glyph>

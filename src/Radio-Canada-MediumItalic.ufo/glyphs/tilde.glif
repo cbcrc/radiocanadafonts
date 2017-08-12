@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tilde" format="1">
+  <advance width="600"/>
+  <unicode hex="02DC"/>
+  <outline>
+    <contour>
+      <point x="218" y="606" type="curve"/>
+      <point x="281" y="606" type="line"/>
+      <point x="291" y="640"/>
+      <point x="306" y="649"/>
+      <point x="320" y="649" type="curve" smooth="yes"/>
+      <point x="351" y="649"/>
+      <point x="375" y="601"/>
+      <point x="434" y="601" type="curve" smooth="yes"/>
+      <point x="496" y="601"/>
+      <point x="531" y="649"/>
+      <point x="546" y="734" type="curve"/>
+      <point x="482" y="734" type="line"/>
+      <point x="472" y="700"/>
+      <point x="458" y="691"/>
+      <point x="443" y="691" type="curve" smooth="yes"/>
+      <point x="412" y="691"/>
+      <point x="388" y="739"/>
+      <point x="330" y="739" type="curve" smooth="yes"/>
+      <point x="267" y="739"/>
+      <point x="233" y="690"/>
+    </contour>
+    <contour>
+      <point x="351" y="521" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-22 19:55:27 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
