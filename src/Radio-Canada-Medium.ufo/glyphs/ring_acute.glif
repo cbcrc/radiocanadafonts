@@ -2,8 +2,8 @@
 <glyph name="ring_acute" format="1">
   <advance width="600.0"/>
   <outline>
-    <component base="acute" yOffset="264"/>
     <component base="ring"/>
+    <component base="acute" yOffset="264"/>
     <contour>
       <point x="300" y="521" type="move" name="_top"/>
     </contour>

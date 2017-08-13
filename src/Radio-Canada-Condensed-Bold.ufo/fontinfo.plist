@@ -12,6 +12,8 @@
 	<integer>-185</integer>
 	<key>familyName</key>
 	<string>Radio-Canada Condensed</string>
+	<key>openTypeNameCompatibleFullName</key>
+	<string>Radio-Canada Condensed Bold</string>
 	<key>openTypeNameDesigner</key>
 	<string>Charles Daoud, Etienne Aubert Bonn, Alexandre Saumier Demers</string>
 	<key>openTypeNameDesignerURL</key>
@@ -20,10 +22,23 @@
 	<string>Charles Daoud, Etienne Aubert Bonn, Alexandre Saumier Demers</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://charlesdaoud.com/ https://coppersandbrasses.com/</string>
+	<key>openTypeNamePreferredFamilyName</key>
+	<string>Radio-Canada Condensed</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Bold</string>
+	<key>openTypeOS2Type</key>
+	<array>
+	</array>
 	<key>openTypeOS2WeightClass</key>
 	<integer>700</integer>
 	<key>openTypeOS2WidthClass</key>
 	<integer>3</integer>
+	<key>postscriptBlueFuzz</key>
+	<integer>1</integer>
+	<key>postscriptBlueScale</key>
+	<real>0.039625</real>
+	<key>postscriptBlueShift</key>
+	<integer>7</integer>
 	<key>postscriptBlueValues</key>
 	<array>
 		<integer>-12</integer>
@@ -54,7 +69,7 @@
 	<key>postscriptFontName</key>
 	<string>Radio-CanadaCnd-Bold</string>
 	<key>postscriptFullName</key>
-	<string>Radio-CanadaCondensedBold</string>
+	<string>Radio-CanadaCndBold</string>
 	<key>postscriptOtherBlues</key>
 	<array>
 		<integer>-197</integer>
@@ -77,7 +92,7 @@
 	<key>postscriptWeightName</key>
 	<string>Bold</string>
 	<key>styleMapFamilyName</key>
-	<string>Radio-Canada Condensed Bold</string>
+	<string>Radio-Canada Condensed</string>
 	<key>styleMapStyleName</key>
 	<string>bold</string>
 	<key>styleName</key>
@@ -87,7 +102,7 @@
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>2</integer>
+	<integer>200</integer>
 	<key>xHeight</key>
 	<integer>525</integer>
 </dict>
