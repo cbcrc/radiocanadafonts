@@ -170,7 +170,6 @@
       nine
       notequal
       ogonek
-      ogonek.alt
       one
       period.tab
       plus
@@ -324,6 +323,13 @@
       aring.alt
       aringacute.alt
       atilde.alt
+    </glyphs>
+  </group>
+  <group color="0.5 0.0 1.0 0.25" name="braceleft" side="left" type="kerning">
+    <glyphs>
+      braceleft
+      bracketleft
+      parenleft
     </glyphs>
   </group>
   <group color="1.0 0.0 1.0 0.25" name="c" side="left" type="kerning">
@@ -723,7 +729,6 @@
       nine
       notequal
       ogonek
-      ogonek.alt
       one
       period.tab
       plus
@@ -870,6 +875,13 @@
       aringacute.alt
       atilde
       atilde.alt
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 0.5 0.25" name="braceright" side="right" type="kerning">
+    <glyphs>
+      braceright
+      bracketright
+      parenright
     </glyphs>
   </group>
   <group color="0.0 0.0 1.0 0.25" name="f" side="right" type="kerning">
