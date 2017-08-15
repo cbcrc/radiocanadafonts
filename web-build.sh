@@ -11,7 +11,7 @@ styles="Light Regular Medium Bold LightItalic Italic MediumItalic BoldItalic"
 
 for s in $styles
 do
-  ttfautohint -f latn -m instructions/$family-$s.txt -n -v -w gGD -W master_ttf/$family-$s.ttf web/$family-$s.ttf
+  ttfautohint -f latn -m instructions/$family-$s.txt -R master_ttf/Radio-Canada-Regular.ttf -n -v -w gGD -W master_ttf/$family-$s.ttf web/$family-$s.ttf
   
   # http for RootString wildcard?
   mkeot master_ttf/$family-$s.ttf http > web/$family-$s.eot
@@ -30,7 +30,7 @@ styles="Regular Bold Italic BoldItalic"
 
 for s in $styles
 do
-  ttfautohint -f latn -m instructions/$family-$s.txt -n -v -w gGD -W master_ttf/$family-$s.ttf web/$family-$s.ttf
+  ttfautohint -f latn -m instructions/$family-$s.txt -R master_ttf/Radio-Canada-Regular.ttf -n -v -w gGD -W master_ttf/$family-$s.ttf web/$family-$s.ttf
   
   # http for RootString wildcard?
   mkeot master_ttf/$family-$s.ttf http > web/$family-$s.eot
@@ -41,3 +41,6 @@ do
   woff2_compress master_otf/$family-$s.otf 
   mv master_otf/$family-$s.woff2 web/$family-$s.woff2
 done
+
+# copy to web folder
+cp -r web/ docs/web/
