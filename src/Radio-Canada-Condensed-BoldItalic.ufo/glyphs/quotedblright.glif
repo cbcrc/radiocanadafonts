@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblright" format="1">
-  <advance width="462.1808073162932"/>
+  <advance width="448.2366483188081"/>
   <unicode hex="201D"/>
   <outline>
     <component base="quoteright"/>
-    <component base="quoteright" xOffset="215"/>
+    <component base="quoteright" xOffset="204"/>
   </outline>
   <lib>
     <dict>
@@ -19,28 +19,28 @@
           <array>
             <dict>
               <key>baseGlyph</key>
-              <string>quoteleft</string>
+              <string>quoteright</string>
               <key>transformation</key>
               <array>
-                <integer>-1</integer>
+                <integer>1</integer>
                 <integer>0</integer>
                 <integer>0</integer>
-                <integer>-1</integer>
-                <integer>358</integer>
-                <integer>1087</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
               </array>
             </dict>
             <dict>
               <key>baseGlyph</key>
-              <string>quoteleft</string>
+              <string>quoteright</string>
               <key>transformation</key>
               <array>
-                <integer>-1</integer>
+                <integer>1</integer>
                 <integer>0</integer>
                 <integer>0</integer>
-                <integer>-1</integer>
-                <integer>573</integer>
-                <integer>1087</integer>
+                <integer>1</integer>
+                <integer>215</integer>
+                <integer>0</integer>
               </array>
             </dict>
           </array>
@@ -56,16 +56,9 @@
           <array>
           </array>
           <key>width</key>
-          <real>462.1808073162932</real>
+          <real>448.2366483188081</real>
         </dict>
       </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
     </dict>
   </lib>
 </glyph>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotesinglbase" format="1">
-  <advance width="247.51202935814544"/>
+  <advance width="244.3311056623706"/>
   <unicode hex="201A"/>
   <outline>
-    <component base="quoteright" xOffset="-117" yOffset="-552"/>
+    <component base="quoteright" xOffset="-120" yOffset="-565"/>
   </outline>
   <lib>
     <dict>
@@ -18,15 +18,15 @@
           <array>
             <dict>
               <key>baseGlyph</key>
-              <string>comma</string>
+              <string>quoteright</string>
               <key>transformation</key>
               <array>
                 <integer>1</integer>
                 <integer>0</integer>
                 <integer>0</integer>
                 <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
+                <integer>-117</integer>
+                <integer>-552</integer>
               </array>
             </dict>
           </array>
@@ -42,16 +42,9 @@
           <array>
           </array>
           <key>width</key>
-          <real>247.51202935814544</real>
+          <real>244.3311056623706</real>
         </dict>
       </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
     </dict>
   </lib>
 </glyph>

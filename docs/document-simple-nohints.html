@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<meta charset="UTF-8">
 <style>
 	@font-face {
 		font-family: 'Radio-Canada';
 		src: url('nohints/Radio-Canada-Regular.ttf') format('truetype');
 		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Radio-Canada';
+		src: url('nohints/Radio-Canada-Medium.ttf') format('truetype');
+		font-weight: 500;
 		font-style: normal;
 	}
 	@font-face {
@@ -18,10 +24,12 @@
 	.rc {
 		font-family: "Radio-Canada", Times;
 	}
-	.rc h1, .rc h2 {
+	.rc h1 {
 		font-weight: bold;
 	}
-	
+	.rc h2 {
+		font-weight: 500;
+	}
 	body {
 		font-size: 1em; /* 16px */
 		line-height: 1.5em;
@@ -29,7 +37,6 @@
 		margin: 0;
 		padding: 0;
 	}
-	
 	h1, h2, h3, h4, h5, h6 {font-weight: 700;line-height: 1.25em;}
 	h1 {font-size: 1.5em;} /* 24px */
 	h2 {font-size: 1.25em;} /* 20px */
@@ -41,7 +48,6 @@
 		margin: 50px auto;
 		padding: 25px 50px;
 	}
-	
 </style>
 </head>
 <body>
