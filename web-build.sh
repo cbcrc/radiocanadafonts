@@ -23,7 +23,7 @@ do
   mv master_otf/$family-$s.woff2 web/$family-$s.woff2
 done
 
-family="Radio-Canada-Condensed"
+family="Radio-CanadaCondensed"
 styles="Regular Bold Italic BoldItalic"
 
 # --fallback-script --control-file --no-info -verbose --strong-stem-width (grayscale, GDI, DirectWrite ClearType) --windows-compatibility
