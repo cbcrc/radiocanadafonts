@@ -44,3 +44,5 @@ done
 
 # copy to web folder
 cp -r web/ docs/web/
+
+scp -r docs/ saua@saua.webfactional.com:/home/saua/webapps/asaumierdemers_static/media/rc-fonts/
