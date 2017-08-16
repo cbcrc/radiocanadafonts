@@ -3,56 +3,8 @@
   <advance width="382.29954750663984"/>
   <unicode hex="0163"/>
   <outline>
-    <contour>
-      <point x="40" y="407" type="line"/>
-      <point x="369" y="407" type="line"/>
-      <point x="394" y="525" type="line"/>
-      <point x="65" y="525" type="line"/>
-    </contour>
-    <contour>
-      <point x="66" y="142" type="curve"/>
-      <point x="66" y="44"/>
-      <point x="116" y="-12"/>
-      <point x="208" y="-12" type="curve"/>
-      <point x="235" y="-12"/>
-      <point x="272" y="-4"/>
-      <point x="298" y="8" type="curve"/>
-      <point x="296" y="136" type="line"/>
-      <point x="278" y="127"/>
-      <point x="257" y="122"/>
-      <point x="243" y="122" type="curve"/>
-      <point x="217" y="122"/>
-      <point x="204" y="139"/>
-      <point x="204" y="165" type="curve"/>
-      <point x="204" y="175"/>
-      <point x="205" y="182"/>
-      <point x="207" y="191" type="curve" smooth="yes"/>
-      <point x="307" y="661" type="line"/>
-      <point x="165" y="641" type="line"/>
-      <point x="72" y="200" type="line" smooth="yes"/>
-      <point x="68" y="179"/>
-      <point x="66" y="161"/>
-    </contour>
-    <contour>
-      <point x="68" y="-197" type="line"/>
-      <point x="103" y="-197" type="line" smooth="yes"/>
-      <point x="181" y="-197"/>
-      <point x="241" y="-176"/>
-      <point x="241" y="-108" type="curve" smooth="yes"/>
-      <point x="241" y="-77"/>
-      <point x="220" y="-54"/>
-      <point x="188" y="-46" type="curve"/>
-      <point x="206" y="9" type="line"/>
-      <point x="146" y="15" type="line"/>
-      <point x="106" y="-83" type="line"/>
-      <point x="121" y="-85" type="line" smooth="yes"/>
-      <point x="147" y="-88"/>
-      <point x="154" y="-96"/>
-      <point x="154" y="-108" type="curve"/>
-      <point x="154" y="-124"/>
-      <point x="141" y="-136"/>
-      <point x="90" y="-136" type="curve"/>
-    </contour>
+    <component base="t"/>
+    <component base="cedilla" xOffset="-16"/>
   </outline>
   <lib>
     <dict>
@@ -107,6 +59,13 @@
           <real>382.29954750663984</real>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

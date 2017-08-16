@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ccaron" format="1">
-  <advance width="416"/>
+  <advance width="410.359388849999"/>
   <unicode hex="010D"/>
   <outline>
     <component base="c"/>
-    <component base="caron" xOffset="-21"/>
+    <component base="caron" xOffset="6.0" yOffset="1.0"/>
   </outline>
   <lib>
     <dict>
@@ -56,7 +56,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>416</integer>
+          <real>410.359388849999</real>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
