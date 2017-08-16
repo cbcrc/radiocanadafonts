@@ -3,8 +3,50 @@
   <advance width="432"/>
   <unicode hex="0163"/>
   <outline>
-    <component base="t"/>
-    <component base="cedilla" xOffset="-60.0"/>
+    <contour>
+      <point x="15" y="410" type="line"/>
+      <point x="394" y="410" type="line"/>
+      <point x="394" y="525" type="line"/>
+      <point x="15" y="525" type="line"/>
+    </contour>
+    <contour>
+      <point x="105" y="182" type="line" smooth="yes"/>
+      <point x="105" y="52"/>
+      <point x="175" y="-12"/>
+      <point x="290" y="-12" type="curve" smooth="yes"/>
+      <point x="328" y="-12"/>
+      <point x="369" y="-4"/>
+      <point x="402" y="8" type="curve"/>
+      <point x="386" y="137" type="line"/>
+      <point x="363" y="129"/>
+      <point x="340" y="124"/>
+      <point x="322" y="124" type="curve" smooth="yes"/>
+      <point x="278" y="124"/>
+      <point x="255" y="144"/>
+      <point x="255" y="201" type="curve" smooth="yes"/>
+      <point x="255" y="661" type="line"/>
+      <point x="105" y="641" type="line"/>
+    </contour>
+    <contour>
+      <point x="160.0" y="-228" type="line"/>
+      <point x="196.0" y="-228" type="line" smooth="yes"/>
+      <point x="306.0" y="-228"/>
+      <point x="348.0" y="-184"/>
+      <point x="348.0" y="-127" type="curve" smooth="yes"/>
+      <point x="348.0" y="-90"/>
+      <point x="325.2679359741792" y="-60.0461958576171"/>
+      <point x="267.0" y="-50" type="curve"/>
+      <point x="278.0" y="9" type="line"/>
+      <point x="204.0" y="15" type="line"/>
+      <point x="182.0" y="-93" type="line"/>
+      <point x="202.0" y="-95" type="line" smooth="yes"/>
+      <point x="235.10742341452317" y="-98.31074234145231"/>
+      <point x="248.0" y="-111"/>
+      <point x="248.0" y="-129" type="curve" smooth="yes"/>
+      <point x="248.0" y="-151"/>
+      <point x="235.0" y="-168"/>
+      <point x="174.0" y="-168" type="curve"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -59,13 +101,6 @@
           <integer>432</integer>
         </dict>
       </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
     </dict>
   </lib>
 </glyph>
