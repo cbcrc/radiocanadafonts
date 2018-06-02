@@ -38,5 +38,5 @@ for ufos in [romans, italics]:
 		reverse_direction=True, # only used for ttf and ttf-interpolatable
 		conversion_error=None,
 		use_production_names=False, # kwargs # FIXME which is best?
-		mark_writer_class=NoMarkFeatureWriter) # kwargs
+		)#mark_writer_class=NoMarkFeatureWriter) # kwargs
 

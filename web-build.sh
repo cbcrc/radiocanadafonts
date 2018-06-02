@@ -23,14 +23,14 @@ do
   mv master_otf/$family-$s.woff2 web/$family-$s.woff2
 done
 
-family="Radio-CanadaCondensed"
+family="Radio-Canada-Condensed"
 styles="Regular Bold Italic BoldItalic"
 
 # --fallback-script --control-file --no-info -verbose --strong-stem-width (grayscale, GDI, DirectWrite ClearType) --windows-compatibility
 
 for s in $styles
 do
-  ttfautohint -f latn -m instructions/$family-$s.txt -R master_ttf/Radio-Canada-Regular.ttf -n -v -w gGD -W master_ttf/$family-$s.ttf web/$family-$s.ttf
+  ttfautohint -f latn -m instructions/$family-$s.txt -R master_ttf/Radio-Canada-Condensed-Regular.ttf -n -v -w gGD -W master_ttf/$family-$s.ttf web/$family-$s.ttf
   
   # http for RootString wildcard?
   mkeot master_ttf/$family-$s.ttf http > web/$family-$s.eot

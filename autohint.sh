@@ -13,7 +13,7 @@ do
   autohint desktop/$family-$s.otf
 done
 
-family="Radio-CanadaCondensed"
+family="Radio-Canada-Condensed"
 styles="Regular Bold Italic BoldItalic"
 
 for s in $styles

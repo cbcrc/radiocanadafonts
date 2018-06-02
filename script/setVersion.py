@@ -1,7 +1,7 @@
 for font in AllFonts():
     
     font.info.versionMajor = 1
-    font.info.versionMinor = 210
+    font.info.versionMinor = 300
     
     print "%s.%s" % (font.info.versionMajor, font.info.versionMinor)
     
