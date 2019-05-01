@@ -1,0 +1,78 @@
+VERDANA
+
+<head>
+    <unitsPerEm value="2048"/>
+    <xMin value="-1013"/>
+    <yMin value="-621"/> -303
+    <xMax value="2963"/>
+    <yMax value="2049"/> 1000
+</head>
+
+<hhea>
+    <ascent value="2059"/> 1005
+    <descent value="-430"/> -210
+    <lineGap value="0"/> 0
+</hhea>
+
+<OS_2>
+    <sTypoAscender value="1566"/> 765
+    <sTypoDescender value="-423"/> -207
+    <sTypoLineGap value="202"/>
+    <usWinAscent value="2059"/> 1005 (hhea ascent)
+    <usWinDescent value="430"/> 210 (hhea descent)
+    <sxHeight value="1117"/>
+    <sCapHeight value="1489"/> 727
+</OS_2>
+  
+  
+SF
+
+<head>
+    <unitsPerEm value="2048"/>
+    <xMin value="-626"/>
+    <yMin value="-573"/> -280
+    <xMax value="2698"/>
+    <yMax value="2205"/> 1077
+</head>
+
+<hhea>
+    <ascent value="1950"/> 952
+    <descent value="-494"/> -241
+    <lineGap value="0"/>
+</hhea>
+
+<OS_2>
+    <sTypoAscender value="1950"/> 952 (hhea ascent)
+    <sTypoDescender value="-494"/> -241 (hhea descent)
+    <sTypoLineGap value="0"/>
+    <usWinAscent value="1950"/> 952 (hhea ascent)
+    <usWinDescent value="494"/> 241 (hhea descent)
+    <sxHeight value="1078"/>
+    <sCapHeight value="1443"/> 705
+</OS_2>
+
+Radio-Canada
+
+<head>
+    <unitsPerEm value="1000"/>
+    <xMin value="-148"/>
+    <yMin value="-310"/> -310
+    <xMax value="1268"/>
+    <yMax value="1123"/> 1123
+</head>
+
+<hhea>
+    <ascent value="1015"/> 1015
+    <descent value="-185"/> -185 * too small?
+    <lineGap value="0"/>
+</hhea>
+
+<OS_2>
+    <sTypoAscender value="720"/> * not the same as hhea
+    <sTypoDescender value="-185"/> (hhea)
+    <sTypoLineGap value="295"/>
+    <usWinAscent value="1015"/> (hhea)
+    <usWinDescent value="185"/> (hhea)
+    <sxHeight value="515"/>
+    <sCapHeight value="690"/>
+</OS_2>
