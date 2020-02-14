@@ -9,7 +9,15 @@ The typefamily is currently available in the following styles: Light, Light Ital
 This project has been selected as a winner at the 2018 Communication Arts Typography competition in the Typeface Design category.
 
 ## Building New Fonts from Source
-TODO
+A Python build script is located in the root directory of this repository.
+To build new font files, open a Unix(macOS, Linux, WSL) terminal and activate a
+[Python3 virtual environment](https://docs.python.org/3/library/venv.html)
+with the packages from [requirements.txt](requirements.txt) installed.
+Then, navigate to the root of this repository, and run the following:
+```
+python3 build.py
+```
+New fonts can then be found in the [master_ttf](master_ttf) & [master_otf](master_otf) directories.
 
 ## Installation Instructions
 Font files are in the fonts directory, please follow the install inscructions for your operating system of choice:
