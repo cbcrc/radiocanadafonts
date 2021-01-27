@@ -22,9 +22,9 @@ New fonts can then be found in the [master_ttf](master_ttf) & [master_otf](maste
 ## Installation Instructions
 Font files are in the fonts directory, please follow the install inscructions for your operating system of choice:
 
-- [Linux](https://wiki.archlinux.org/index.php/fonts#Manual_installation)
 - [MacOS](https://support.apple.com/en-us/HT201749)
 - [Windows](https://support.microsoft.com/en-us/help/314960/how-to-install-or-remove-a-font-in-windows)
+- [Linux](https://wiki.archlinux.org/index.php/fonts#Manual_installation)
 
 ## Getting Involved
 Would you like to contribute to the development of this font? Here is how **you** can help:
