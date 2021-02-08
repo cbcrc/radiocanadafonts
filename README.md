@@ -1,6 +1,6 @@
 # Radio-Canada Typeface
 
-![basic specimen](https://github.com/eliheuer/radio-canada/blob/master/docs/specimens/basic-specimen.gif)
+![basic specimen](https://github.com/googlefonts/radio-canada/blob/master/documentation/images/basic-specimen.gif)
 
 The Canadian Broadcasting Corporation, or CBC/Radio-Canada, is a Canadian crown corporation that serves as the national public radio and television broadcaster.
 
