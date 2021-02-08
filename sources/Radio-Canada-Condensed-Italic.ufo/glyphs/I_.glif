@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="I" format="1">
+  <advance width="370.4833709980884"/>
+  <unicode hex="0049"/>
+  <outline>
+    <contour>
+      <point x="2" y="0" type="line"/>
+      <point x="248" y="0" type="line"/>
+      <point x="264" y="73" type="line"/>
+      <point x="18" y="73" type="line"/>
+    </contour>
+    <contour>
+      <point x="81" y="0" type="line"/>
+      <point x="170" y="0" type="line"/>
+      <point x="317" y="690" type="line"/>
+      <point x="228" y="690" type="line"/>
+    </contour>
+    <contour>
+      <point x="133" y="617" type="line"/>
+      <point x="379" y="617" type="line"/>
+      <point x="395" y="690" type="line"/>
+      <point x="149" y="690" type="line"/>
+    </contour>
+    <contour>
+      <point x="272" y="690" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="80" y="0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="125" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>140.14739855040366</real>
+                  <key>y</key>
+                  <integer>0</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>231.14739855040366</real>
+                  <key>y</key>
+                  <integer>0</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>377.14739855040364</real>
+                  <key>y</key>
+                  <integer>690</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <real>286.14739855040364</real>
+                  <key>y</key>
+                  <integer>690</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>I</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <real>370.4833709980884</real>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

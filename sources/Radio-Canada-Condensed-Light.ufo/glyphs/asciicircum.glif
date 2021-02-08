@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asciicircum" format="1">
+  <advance width="500"/>
+  <unicode hex="005E"/>
+  <outline>
+    <contour>
+      <point x="49" y="266" type="line"/>
+      <point x="136" y="266" type="line"/>
+      <point x="264" y="610" type="line"/>
+      <point x="261" y="690" type="line"/>
+      <point x="215" y="690" type="line"/>
+    </contour>
+    <contour>
+      <point x="232" y="690" type="line"/>
+      <point x="233" y="610" type="line"/>
+      <point x="363" y="266" type="line"/>
+      <point x="451" y="266" type="line"/>
+      <point x="285" y="690" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.4</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

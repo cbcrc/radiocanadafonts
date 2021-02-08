@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tilde.cap" format="1">
+  <advance width="500"/>
+  <outline>
+    <contour>
+      <point x="104.0" y="761" type="curve"/>
+      <point x="170.0" y="761" type="line"/>
+      <point x="174.0" y="791.0"/>
+      <point x="188.0" y="799"/>
+      <point x="200.0" y="799" type="curve"/>
+      <point x="228.0" y="799"/>
+      <point x="259.0" y="756"/>
+      <point x="306.0" y="756" type="curve"/>
+      <point x="357.0" y="756"/>
+      <point x="395.0" y="811"/>
+      <point x="395.0" y="892" type="curve"/>
+      <point x="330.0" y="892" type="line"/>
+      <point x="326.0" y="863.0"/>
+      <point x="312.0" y="854"/>
+      <point x="300.0" y="854" type="curve"/>
+      <point x="272.0" y="854"/>
+      <point x="241.0" y="897"/>
+      <point x="194.0" y="897" type="curve"/>
+      <point x="143.0" y="897"/>
+      <point x="104.0" y="846"/>
+    </contour>
+    <contour>
+      <point x="250.0" y="690.0" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>tilde</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>153</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>tilde.cap</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>500</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
