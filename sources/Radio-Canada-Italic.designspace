@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wdth" name="width" minimum="0" maximum="1000" default="0"/>
+    <axis tag="wght" name="weight" minimum="0" maximum="1000" default="0"/>
+  </axes>
+  <sources>
+    <source filename="Radio-Canada-BoldItalic.ufo" familyname="RadioCanada" stylename="BoldItalic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="width" xvalue="1000"/>
+        <dimension name="weight" xvalue="1000"/>
+      </location>
+    </source>
+    <source filename="Radio-Canada-Condensed-BoldItalic.ufo" familyname="RadioCanada" stylename="BoldCondensedItalic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="1000"/>
+      </location>
+    </source>
+    <source filename="Radio-Canada-Condensed-Italic.ufo" familyname="RadioCanada" stylename="Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="400"/>
+      </location>
+    </source>
+    <source filename="Radio-Canada-Condensed-LightItalic.ufo" familyname="RadioCanada" stylename="LightCondensedItalic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="width" xvalue="0"/>
+        <dimension name="weight" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Radio-Canada-Italic.ufo" familyname="RadioCanada" stylename="Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="width" xvalue="1000"/>
+        <dimension name="weight" xvalue="400"/>
+      </location>
+    </source>
+    <source filename="Radio-Canada-LightItalic.ufo" familyname="RadioCanada" stylename="LightItalic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="width" xvalue="1000"/>
+        <dimension name="weight" xvalue="0"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+  </instances>
+</designspace>
