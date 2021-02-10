@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="L" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="L" format="2">
   <advance width="500"/>
   <unicode hex="004C"/>
+  <anchor x="141.0" y="690.0" name="top"/>
+  <anchor x="312.0" y="680.0" name="caron.alt"/>
+  <anchor x="274.0" y="0.0" name="bottom"/>
   <outline>
     <contour>
       <point x="70" y="0" type="line"/>
@@ -14,15 +17,6 @@
       <point x="471" y="0" type="line"/>
       <point x="471" y="132" type="line"/>
       <point x="135" y="132" type="line"/>
-    </contour>
-    <contour>
-      <point x="141.0" y="690.0" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="312.0" y="680.0" type="move" name="caron.alt"/>
-    </contour>
-    <contour>
-      <point x="274.0" y="0.0" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

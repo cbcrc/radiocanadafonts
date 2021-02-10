@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="caron.alt" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron.alt" format="2">
   <advance width="600"/>
   <note>
-    caron.alt
-  </note>
+caron.alt
+</note>
+  <anchor x="393" y="720" name="_caron.alt"/>
   <outline>
     <contour>
       <point x="317" y="525" type="line"/>
@@ -11,92 +12,11 @@
       <point x="540" y="732" type="line"/>
       <point x="390" y="732" type="line"/>
     </contour>
-    <contour>
-      <point x="393" y="720" type="move" name="_caron.alt"/>
-    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
       <string>2017-04-29 19:42:19 +0000</string>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-            <dict>
-              <key>name</key>
-              <string>_caron.alt</string>
-              <key>x</key>
-              <real>393.0</real>
-              <key>y</key>
-              <real>720.0</real>
-            </dict>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-            <dict>
-              <key>points</key>
-              <array>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>317</integer>
-                  <key>y</key>
-                  <integer>525</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>437</integer>
-                  <key>y</key>
-                  <integer>525</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>551</integer>
-                  <key>y</key>
-                  <integer>732</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>401</integer>
-                  <key>y</key>
-                  <integer>732</integer>
-                </dict>
-              </array>
-            </dict>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>caron.alt</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>600</integer>
-        </dict>
-      </dict>
     </dict>
   </lib>
 </glyph>

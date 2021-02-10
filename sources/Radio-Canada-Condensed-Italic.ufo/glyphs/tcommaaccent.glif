@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tcommaaccent" format="1">
-  <advance width="340.8744343832998"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcommaaccent" format="2">
+  <advance width="341"/>
   <unicode hex="021B"/>
   <outline>
     <component base="t"/>
@@ -8,13 +8,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0,1,1,1</string>
     </dict>
   </lib>
 </glyph>

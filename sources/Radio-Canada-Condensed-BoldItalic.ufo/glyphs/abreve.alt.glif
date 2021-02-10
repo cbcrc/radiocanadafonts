@@ -1,70 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="abreve.alt" format="1">
-  <advance width="527.2178732295772"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abreve.alt" format="2">
+  <advance width="527"/>
   <outline>
     <component base="a.alt"/>
-    <component base="breve" xOffset="1.0" yOffset="1.0"/>
+    <component base="breve" xOffset="1" yOffset="1"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>a.alt</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-            <dict>
-              <key>baseGlyph</key>
-              <string>breve</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <real>1.0</real>
-                <real>1.0</real>
-              </array>
-            </dict>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>abreve.alt</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <real>527.2178732295772</real>
-        </dict>
-      </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0,1,1,1</string>
     </dict>
   </lib>
 </glyph>

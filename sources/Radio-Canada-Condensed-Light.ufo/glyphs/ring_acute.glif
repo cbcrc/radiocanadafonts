@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ring_acute" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ring_acute" format="2">
   <advance width="500"/>
+  <anchor x="250.0" y="514.0" name="_top"/>
   <outline>
-    <component base="ring" xOffset="-3.0"/>
+    <component base="ring" xOffset="-3"/>
     <component base="acute" xOffset="-3" yOffset="257"/>
-    <contour>
-      <point x="250.0" y="514.0" type="move" name="_top"/>
-    </contour>
   </outline>
 </glyph>

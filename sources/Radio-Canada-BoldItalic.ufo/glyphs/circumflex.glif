@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflex" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflex" format="2">
   <advance width="600"/>
   <unicode hex="02C6"/>
   <note>
-    circumflex
-  </note>
+circumflex
+</note>
+  <anchor x="352.0" y="525.0" name="_top"/>
   <outline>
     <contour>
       <point x="195" y="600" type="line"/>
@@ -18,137 +19,11 @@
       <point x="540" y="600" type="line"/>
       <point x="467" y="750" type="line"/>
     </contour>
-    <contour>
-      <point x="352.0" y="525.0" type="move" name="_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
       <string>2017-04-29 19:42:19 +0000</string>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-            <dict>
-              <key>name</key>
-              <string>_top</string>
-              <key>x</key>
-              <real>352.0</real>
-              <key>y</key>
-              <real>525.0</real>
-            </dict>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-            <dict>
-              <key>points</key>
-              <array>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>195</integer>
-                  <key>y</key>
-                  <integer>600</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>316</integer>
-                  <key>y</key>
-                  <integer>600</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>467</integer>
-                  <key>y</key>
-                  <integer>750</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>329</integer>
-                  <key>y</key>
-                  <integer>750</integer>
-                </dict>
-              </array>
-            </dict>
-            <dict>
-              <key>points</key>
-              <array>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>329</integer>
-                  <key>y</key>
-                  <integer>750</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>424</integer>
-                  <key>y</key>
-                  <integer>600</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>540</integer>
-                  <key>y</key>
-                  <integer>600</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>467</integer>
-                  <key>y</key>
-                  <integer>750</integer>
-                </dict>
-              </array>
-            </dict>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>circumflex</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>600</integer>
-        </dict>
-      </dict>
     </dict>
   </lib>
 </glyph>

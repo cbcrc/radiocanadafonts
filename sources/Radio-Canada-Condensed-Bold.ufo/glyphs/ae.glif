@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ae" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ae" format="2">
   <advance width="722"/>
   <unicode hex="00E6"/>
+  <anchor x="362.0" y="515.0" name="top"/>
   <outline>
     <contour>
       <point x="21" y="145" type="curve" smooth="yes"/>
@@ -79,63 +80,5 @@
       <point x="359" y="538"/>
       <point x="279" y="423"/>
     </contour>
-    <contour>
-      <point x="362.0" y="515.0" type="move" name="top"/>
-    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>a.alt</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-            <dict>
-              <key>baseGlyph</key>
-              <string>e</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>242</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>ae</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>722</integer>
-        </dict>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

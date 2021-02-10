@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tilde.cap" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tilde.cap" format="2">
   <advance width="500"/>
+  <anchor x="250.0" y="690.0" name="_top"/>
   <outline>
     <contour>
       <point x="104.0" y="761" type="curve"/>
@@ -24,50 +25,5 @@
       <point x="143.0" y="897"/>
       <point x="104.0" y="846"/>
     </contour>
-    <contour>
-      <point x="250.0" y="690.0" type="move" name="_top"/>
-    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>tilde</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>153</integer>
-              </array>
-            </dict>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>tilde.cap</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>500</integer>
-        </dict>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

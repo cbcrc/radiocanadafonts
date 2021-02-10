@@ -1,22 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="l" format="1">
-  <advance width="234.4085968575438"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l" format="2">
+  <advance width="234"/>
   <unicode hex="006C"/>
+  <anchor x="210" y="720" name="top"/>
+  <anchor x="323" y="720" name="caron.alt"/>
+  <anchor x="57" y="0" name="bottom"/>
   <outline>
     <contour>
       <point x="13" y="0" type="line"/>
       <point x="101" y="0" type="line"/>
       <point x="257" y="732" type="line"/>
       <point x="165" y="716" type="line"/>
-    </contour>
-    <contour>
-      <point x="210" y="720" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="323" y="720" type="move" name="caron.alt"/>
-    </contour>
-    <contour>
-      <point x="57" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

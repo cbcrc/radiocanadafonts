@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="macron.cap" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macron.cap" format="2">
   <advance width="600"/>
   <note>
-    macron.cap
-  </note>
+macron.cap
+</note>
+  <anchor x="387" y="690" name="_top"/>
   <outline>
     <contour>
       <point x="270" y="780" type="line"/>
       <point x="542" y="780" type="line"/>
       <point x="552" y="830" type="line"/>
       <point x="280" y="830" type="line"/>
-    </contour>
-    <contour>
-      <point x="387" y="690" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
@@ -21,84 +19,6 @@
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
       <string>2017-04-22 19:55:27 +0000</string>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-            <dict>
-              <key>name</key>
-              <string>_top</string>
-              <key>x</key>
-              <real>387.0</real>
-              <key>y</key>
-              <real>690.0</real>
-            </dict>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-            <dict>
-              <key>points</key>
-              <array>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>270</integer>
-                  <key>y</key>
-                  <integer>780</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>542</integer>
-                  <key>y</key>
-                  <integer>780</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>552</integer>
-                  <key>y</key>
-                  <integer>830</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>280</integer>
-                  <key>y</key>
-                  <integer>830</integer>
-                </dict>
-              </array>
-            </dict>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>macron.cap</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>600</integer>
-        </dict>
-      </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

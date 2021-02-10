@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="quotedblright" format="1">
-  <advance width="350.4234724975281"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblright" format="2">
+  <advance width="350"/>
   <unicode hex="201D"/>
   <outline>
     <component base="quoteright"/>
@@ -12,57 +12,6 @@
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
       <string>2017-04-22 20:46:20 +0000</string>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>quoteright</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-            <dict>
-              <key>baseGlyph</key>
-              <string>quoteright</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>140</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>quotedblright</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <real>350.4234724975281</real>
-        </dict>
-      </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

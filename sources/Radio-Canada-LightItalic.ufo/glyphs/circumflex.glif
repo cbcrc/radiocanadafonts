@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflex" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflex" format="2">
   <advance width="600"/>
   <unicode hex="02C6"/>
   <note>
-    circumflex
-  </note>
+circumflex
+</note>
+  <anchor x="351" y="510" name="_top"/>
   <outline>
     <contour>
       <point x="239" y="585" type="line"/>
@@ -18,9 +19,6 @@
       <point x="490" y="585" type="line"/>
       <point x="433" y="735" type="line"/>
     </contour>
-    <contour>
-      <point x="351" y="510" type="move" name="_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
@@ -28,129 +26,6 @@
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
       <string>2017-04-20 00:02:26 +0000</string>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-            <dict>
-              <key>name</key>
-              <string>_top</string>
-              <key>x</key>
-              <real>351.0</real>
-              <key>y</key>
-              <real>510.0</real>
-            </dict>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-            <dict>
-              <key>points</key>
-              <array>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>239</integer>
-                  <key>y</key>
-                  <integer>585</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>296</integer>
-                  <key>y</key>
-                  <integer>585</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>433</integer>
-                  <key>y</key>
-                  <integer>735</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>361</integer>
-                  <key>y</key>
-                  <integer>735</integer>
-                </dict>
-              </array>
-            </dict>
-            <dict>
-              <key>points</key>
-              <array>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>370</integer>
-                  <key>y</key>
-                  <integer>735</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>438</integer>
-                  <key>y</key>
-                  <integer>585</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>490</integer>
-                  <key>y</key>
-                  <integer>585</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>433</integer>
-                  <key>y</key>
-                  <integer>735</integer>
-                </dict>
-              </array>
-            </dict>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>circumflex</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>600</integer>
-        </dict>
-      </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

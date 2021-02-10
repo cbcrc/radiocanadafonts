@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="J.alt" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="J.alt" format="2">
   <advance width="458"/>
+  <anchor x="345.0" y="690.0" name="top"/>
   <outline>
     <contour>
       <point x="32" y="94" type="line"/>
@@ -20,50 +21,5 @@
       <point x="114.0" y="112.02702702702703"/>
       <point x="90" y="149" type="curve"/>
     </contour>
-    <contour>
-      <point x="345.0" y="690.0" type="move" name="top"/>
-    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>f</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>41</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>J.alt</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>458</integer>
-        </dict>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

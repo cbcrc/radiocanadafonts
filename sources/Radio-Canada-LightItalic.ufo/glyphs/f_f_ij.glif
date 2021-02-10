@@ -1,63 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="f_f_ij" format="1">
-  <advance width="1166.2033710538062"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_f_ij" format="2">
+  <advance width="1166"/>
   <outline>
     <component base="f_f"/>
     <component base="ij" xOffset="670"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>f_f</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-            <dict>
-              <key>baseGlyph</key>
-              <string>ij</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>670</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>f_f_ij</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <real>1166.2033710538062</real>
-        </dict>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

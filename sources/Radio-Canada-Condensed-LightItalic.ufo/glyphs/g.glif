@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="g" format="1">
-  <advance width="498.04841627323935"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="g" format="2">
+  <advance width="498"/>
   <unicode hex="0067"/>
+  <anchor x="303" y="514" name="top"/>
   <outline>
     <contour>
       <point x="-25" y="-151" type="line"/>
@@ -49,50 +50,5 @@
       <point x="41" y="-98"/>
       <point x="10" y="-74" type="curve"/>
     </contour>
-    <contour>
-      <point x="303" y="514" type="move" name="top"/>
-    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>a</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <real>54.466663390830604</real>
-                <integer>0</integer>
-              </array>
-            </dict>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>g</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <real>498.04841627323935</real>
-        </dict>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

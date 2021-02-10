@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tilde" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tilde" format="2">
   <advance width="500"/>
   <unicode hex="02DC"/>
+  <anchor x="250.0" y="526.0" name="_top"/>
   <outline>
     <contour>
       <point x="117.0" y="605" type="curve"/>
@@ -24,9 +25,6 @@
       <point x="197.0" y="747" type="curve"/>
       <point x="142.0" y="747"/>
       <point x="117.0" y="694"/>
-    </contour>
-    <contour>
-      <point x="250.0" y="526.0" type="move" name="_top"/>
     </contour>
   </outline>
 </glyph>

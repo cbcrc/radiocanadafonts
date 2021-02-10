@@ -1,64 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="quotedblleft" format="1">
-  <advance width="447.5365997146632"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblleft" format="2">
+  <advance width="448"/>
   <unicode hex="201C"/>
   <outline>
     <component base="quoteleft"/>
     <component base="quoteleft" xOffset="204"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>quoteleft</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-            <dict>
-              <key>baseGlyph</key>
-              <string>quoteleft</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>204</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>quotedblleft</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <real>447.5365997146632</real>
-        </dict>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

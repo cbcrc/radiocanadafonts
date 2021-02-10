@@ -1,20 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="oslashacute" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslashacute" format="2">
   <advance width="486"/>
   <unicode hex="01FF"/>
   <outline>
     <component base="oslash"/>
-    <component base="acute" xOffset="-7.0"/>
+    <component base="acute" xOffset="-7"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0,1,1,1</string>
     </dict>
   </lib>
 </glyph>
