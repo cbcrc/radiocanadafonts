@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kra" format="2">
-	<advance width="498"/>
+	<advance width="433"/>
 	<unicode hex="0138"/>
 	<outline>
 		<contour>
-			<point x="95" y="0" type="line"/>
-			<point x="155" y="0" type="line"/>
-			<point x="155" y="510" type="line"/>
-			<point x="95" y="510" type="line"/>
+			<point x="75" y="0" type="line"/>
+			<point x="135" y="0" type="line"/>
+			<point x="135" y="510" type="line"/>
+			<point x="75" y="510" type="line"/>
 		</contour>
 		<contour>
-			<point x="149" y="186" type="line"/>
-			<point x="466" y="510" type="line"/>
-			<point x="391" y="510" type="line"/>
-			<point x="149" y="259" type="line"/>
+			<point x="129" y="186" type="line"/>
+			<point x="406" y="510" type="line"/>
+			<point x="338" y="510" type="line"/>
+			<point x="129" y="269" type="line"/>
 		</contour>
 		<contour>
-			<point x="220" y="279" type="line"/>
-			<point x="411" y="0" type="line"/>
-			<point x="483" y="0" type="line"/>
-			<point x="260" y="318" type="line"/>
+			<point x="180" y="279" type="line"/>
+			<point x="355" y="0" type="line"/>
+			<point x="423" y="0" type="line"/>
+			<point x="220" y="318" type="line"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-02-17 06:47:11 +0000</string>
+			<key>public.markColor</key>
+			<string>0.65,0.48,0.2,1</string>
+		</dict>
+	</lib>
 </glyph>
