@@ -1,16 +1,24 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="l" format="2">
-  <advance width="250"/>
-  <unicode hex="006C"/>
-  <anchor x="125" y="720" name="top"/>
-  <anchor x="125" y="0" name="bottom"/>
-  <anchor x="250" y="720" name="caron.alt"/>
-  <outline>
-    <contour>
-      <point x="95" y="0" type="line"/>
-      <point x="155" y="0" type="line"/>
-      <point x="155" y="731" type="line"/>
-      <point x="95" y="717" type="line"/>
-    </contour>
-  </outline>
+	<advance width="210"/>
+	<unicode hex="006C"/>
+	<anchor x="105" y="720" name="top"/>
+	<anchor x="105" y="0" name="bottom"/>
+	<anchor x="210" y="720" name="caron.alt"/>
+	<outline>
+		<contour>
+			<point x="75" y="0" type="line"/>
+			<point x="135" y="0" type="line"/>
+			<point x="135" y="731" type="line"/>
+			<point x="75" y="717" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-02-17 00:05:10 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

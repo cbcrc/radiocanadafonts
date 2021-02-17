@@ -1,30 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="U" format="2">
-  <advance width="692"/>
-  <unicode hex="0055"/>
-  <anchor x="346" y="690" name="top"/>
-  <anchor x="346" y="0" name="bottom"/>
-  <anchor x="400" y="0" name="ogonek"/>
-  <outline>
-    <contour>
-      <point x="100" y="245" type="line" smooth="yes"/>
-      <point x="100" y="78"/>
-      <point x="207" y="-8"/>
-      <point x="346" y="-8" type="curve" smooth="yes"/>
-      <point x="485" y="-8"/>
-      <point x="592" y="78"/>
-      <point x="592" y="245" type="curve" smooth="yes"/>
-      <point x="592" y="690" type="line"/>
-      <point x="530" y="690" type="line"/>
-      <point x="530" y="250" type="line" smooth="yes"/>
-      <point x="530" y="116"/>
-      <point x="451" y="49"/>
-      <point x="346" y="49" type="curve" smooth="yes"/>
-      <point x="241" y="49"/>
-      <point x="162" y="116"/>
-      <point x="162" y="250" type="curve" smooth="yes"/>
-      <point x="162" y="690" type="line"/>
-      <point x="100" y="690" type="line"/>
-    </contour>
-  </outline>
+	<advance width="502"/>
+	<unicode hex="0055"/>
+	<anchor x="248" y="690" name="top"/>
+	<anchor x="251" y="0" name="bottom"/>
+	<anchor x="305" y="0" name="ogonek"/>
+	<outline>
+		<contour>
+			<point x="75" y="203" type="line" smooth="yes"/>
+			<point x="75" y="86"/>
+			<point x="112" y="-8"/>
+			<point x="251" y="-8" type="curve" smooth="yes"/>
+			<point x="390" y="-8"/>
+			<point x="427" y="86"/>
+			<point x="427" y="203" type="curve" smooth="yes"/>
+			<point x="427" y="690" type="line"/>
+			<point x="365" y="690" type="line"/>
+			<point x="365" y="208" type="line" smooth="yes"/>
+			<point x="365" y="124"/>
+			<point x="356" y="49"/>
+			<point x="251" y="49" type="curve" smooth="yes"/>
+			<point x="146" y="49"/>
+			<point x="137" y="124"/>
+			<point x="137" y="208" type="curve" smooth="yes"/>
+			<point x="137" y="690" type="line"/>
+			<point x="75" y="690" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-02-16 05:47:24 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>
