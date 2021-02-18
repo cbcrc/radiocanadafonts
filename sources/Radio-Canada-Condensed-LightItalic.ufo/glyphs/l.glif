@@ -1,16 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="l" format="2">
-  <advance width="234"/>
-  <unicode hex="006C"/>
-  <anchor x="210" y="720" name="top"/>
-  <anchor x="323" y="720" name="caron.alt"/>
-  <anchor x="57" y="0" name="bottom"/>
-  <outline>
-    <contour>
-      <point x="13" y="0" type="line"/>
-      <point x="101" y="0" type="line"/>
-      <point x="257" y="732" type="line"/>
-      <point x="165" y="716" type="line"/>
-    </contour>
-  </outline>
+	<advance width="244"/>
+	<unicode hex="006C"/>
+	<anchor x="215" y="720" name="top"/>
+	<anchor x="62" y="0" name="bottom"/>
+	<anchor x="337" y="720" name="caron.alt"/>
+	<outline>
+		<contour>
+			<point x="32" y="0" type="line"/>
+			<point x="92" y="0" type="line"/>
+			<point x="247" y="731" type="line"/>
+			<point x="184" y="717" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-18 23:43:59 +0000</string>
+		</dict>
+	</lib>
 </glyph>

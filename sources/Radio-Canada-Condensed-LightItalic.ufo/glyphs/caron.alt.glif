@@ -1,13 +1,24 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="caron.alt" format="2">
-  <advance width="500"/>
-  <anchor x="343" y="720" name="_caron.alt"/>
-  <outline>
-    <contour>
-      <point x="269" y="541" type="line"/>
-      <point x="339" y="541" type="line"/>
-      <point x="431" y="730" type="line"/>
-      <point x="344" y="730" type="line"/>
-    </contour>
-  </outline>
+	<advance width="600"/>
+	<anchor x="393" y="720" name="_caron.alt"/>
+	<note>
+		caron.alt
+	</note>
+	<outline>
+		<contour>
+			<point x="307" y="550" type="line"/>
+			<point x="357" y="550" type="line"/>
+			<point x="449" y="728" type="line"/>
+			<point x="385" y="728" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-22 19:55:27 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

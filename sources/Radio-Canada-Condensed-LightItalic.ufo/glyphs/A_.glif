@@ -1,30 +1,39 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="A" format="2">
-  <advance width="507"/>
-  <unicode hex="0041"/>
-  <anchor x="336" y="690" name="top"/>
-  <anchor x="342" y="0" name="ogonek"/>
-  <anchor x="197" y="0" name="bottom"/>
-  <outline>
-    <contour>
-      <point x="-45" y="0" type="line"/>
-      <point x="48" y="0" type="line"/>
-      <point x="336" y="609" type="line"/>
-      <point x="351" y="690" type="line"/>
-      <point x="302" y="690" type="line"/>
-    </contour>
-    <contour>
-      <point x="112" y="183" type="line"/>
-      <point x="361" y="183" type="line"/>
-      <point x="380" y="261" type="line"/>
-      <point x="131" y="261" type="line"/>
-    </contour>
-    <contour>
-      <point x="308" y="609" type="line"/>
-      <point x="342" y="0" type="line"/>
-      <point x="432" y="0" type="line"/>
-      <point x="375" y="690" type="line"/>
-      <point x="329" y="690" type="line"/>
-    </contour>
-  </outline>
+	<advance width="575"/>
+	<unicode hex="0041"/>
+	<guideline x="228" y="0" angle="78" identifier="L6PCExRGN1"/>
+	<anchor x="374" y="690" name="top"/>
+	<anchor x="228" y="0" name="bottom"/>
+	<anchor x="435" y="0" name="ogonek"/>
+	<outline>
+		<contour>
+			<point x="-42" y="0" type="line"/>
+			<point x="24" y="0" type="line"/>
+			<point x="385" y="645" type="line"/>
+			<point x="390" y="690" type="line"/>
+			<point x="350" y="690" type="line"/>
+		</contour>
+		<contour>
+			<point x="128" y="226" type="line"/>
+			<point x="421" y="226" type="line"/>
+			<point x="433" y="280" type="line"/>
+			<point x="140" y="280" type="line"/>
+		</contour>
+		<contour>
+			<point x="350" y="645" type="line"/>
+			<point x="435" y="0" type="line"/>
+			<point x="497" y="0" type="line"/>
+			<point x="399" y="690" type="line"/>
+			<point x="358" y="690" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-18 23:43:59 +0000</string>
+			<key>com.typemytype.robofont.guideline.magnetic.L6PCExRGN1</key>
+			<real>5.0</real>
+		</dict>
+	</lib>
 </glyph>

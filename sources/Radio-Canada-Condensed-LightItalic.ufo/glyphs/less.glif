@@ -1,27 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="less" format="2">
-  <advance width="500"/>
-  <unicode hex="003C"/>
-  <outline>
-    <contour>
-      <point x="53.5" y="250" type="line"/>
-      <point x="366.5" y="55" type="line"/>
-      <point x="383.5" y="135" type="line"/>
-      <point x="121.5" y="295" type="line"/>
-      <point x="69.5" y="326" type="line"/>
-    </contour>
-    <contour>
-      <point x="53.5" y="250" type="line"/>
-      <point x="118.5" y="270" type="line"/>
-      <point x="445.5" y="429" type="line"/>
-      <point x="465.5" y="524" type="line"/>
-      <point x="69.5" y="326" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.4,1,1</string>
-    </dict>
-  </lib>
+	<advance width="600"/>
+	<unicode hex="003C"/>
+	<outline>
+		<contour>
+			<point x="80" y="264" type="line"/>
+			<point x="437" y="62" type="line"/>
+			<point x="449" y="117" type="line"/>
+			<point x="125" y="298" type="line"/>
+			<point x="89" y="306" type="line"/>
+		</contour>
+		<contour>
+			<point x="83" y="277" type="line"/>
+			<point x="119" y="269" type="line"/>
+			<point x="521" y="453" type="line"/>
+			<point x="534" y="518" type="line"/>
+			<point x="91" y="316" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-18 23:43:59 +0000</string>
+			<key>public.markColor</key>
+			<string>1,0.4,1,1</string>
+		</dict>
+	</lib>
 </glyph>

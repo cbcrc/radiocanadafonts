@@ -1,27 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macron" format="2">
-  <advance width="600"/>
-  <unicode hex="00AF"/>
-  <note>
-macron
-</note>
-  <anchor x="349.0" y="515.0" name="_top"/>
-  <outline>
-    <contour>
-      <point x="226" y="630" type="line"/>
-      <point x="522" y="630" type="line"/>
-      <point x="537" y="700" type="line"/>
-      <point x="241" y="700" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-04-22 19:55:27 +0000</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
+	<advance width="600"/>
+	<unicode hex="00AF"/>
+	<anchor x="349" y="515" name="_top"/>
+	<note>
+		macron
+	</note>
+	<outline>
+		<contour>
+			<point x="226" y="630" type="line"/>
+			<point x="522" y="630" type="line"/>
+			<point x="537" y="700" type="line"/>
+			<point x="241" y="700" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-22 19:55:27 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

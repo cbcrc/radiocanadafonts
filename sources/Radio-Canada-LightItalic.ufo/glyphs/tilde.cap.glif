@@ -1,42 +1,40 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tilde.cap" format="2">
-  <advance width="600"/>
-  <note>
-tilde.cap
-</note>
-  <anchor x="387.0" y="690.0" name="_top"/>
-  <outline>
-    <contour>
-      <point x="255" y="767" type="curve"/>
-      <point x="299" y="767" type="line"/>
-      <point x="313" y="810"/>
-      <point x="331" y="826"/>
-      <point x="353" y="826" type="curve"/>
-      <point x="388" y="826"/>
-      <point x="419" y="762"/>
-      <point x="474" y="762" type="curve"/>
-      <point x="523" y="762"/>
-      <point x="552" y="800"/>
-      <point x="569" y="870" type="curve"/>
-      <point x="525" y="870" type="line"/>
-      <point x="513" y="827"/>
-      <point x="499" y="811"/>
-      <point x="478" y="811" type="curve"/>
-      <point x="443" y="811"/>
-      <point x="413" y="875"/>
-      <point x="358" y="875" type="curve"/>
-      <point x="306" y="875"/>
-      <point x="274" y="837"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-04-22 19:55:27 +0000</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
+	<advance width="600"/>
+	<anchor x="387" y="690" name="_top"/>
+	<note>
+		tilde.cap
+	</note>
+	<outline>
+		<contour>
+			<point x="255" y="767" type="curve"/>
+			<point x="299" y="767" type="line"/>
+			<point x="313" y="810"/>
+			<point x="331" y="826"/>
+			<point x="353" y="826" type="curve"/>
+			<point x="388" y="826"/>
+			<point x="419" y="762"/>
+			<point x="474" y="762" type="curve"/>
+			<point x="523" y="762"/>
+			<point x="552" y="800"/>
+			<point x="569" y="870" type="curve"/>
+			<point x="525" y="870" type="line"/>
+			<point x="513" y="827"/>
+			<point x="499" y="811"/>
+			<point x="478" y="811" type="curve"/>
+			<point x="443" y="811"/>
+			<point x="413" y="875"/>
+			<point x="358" y="875" type="curve"/>
+			<point x="306" y="875"/>
+			<point x="274" y="837"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-22 19:55:27 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

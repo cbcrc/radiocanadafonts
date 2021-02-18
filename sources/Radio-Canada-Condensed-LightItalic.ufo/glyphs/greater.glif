@@ -1,27 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="greater" format="2">
-  <advance width="500"/>
-  <unicode hex="003E"/>
-  <outline>
-    <contour>
-      <point x="37" y="55" type="line"/>
-      <point x="433.0" y="253" type="line"/>
-      <point x="449.0" y="329" type="line"/>
-      <point x="384.0" y="309" type="line"/>
-      <point x="57.0" y="150" type="line"/>
-    </contour>
-    <contour>
-      <point x="119" y="444" type="line"/>
-      <point x="381" y="284" type="line"/>
-      <point x="433" y="253" type="line"/>
-      <point x="449" y="329" type="line"/>
-      <point x="136" y="524" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.4,1,1</string>
-    </dict>
-  </lib>
+	<advance width="600"/>
+	<unicode hex="003E"/>
+	<outline>
+		<contour>
+			<point x="69" y="62" type="line"/>
+			<point x="512" y="264" type="line"/>
+			<point x="520" y="302" type="line"/>
+			<point x="483" y="311" type="line"/>
+			<point x="81" y="126" type="line"/>
+		</contour>
+		<contour>
+			<point x="154" y="460" type="line"/>
+			<point x="479" y="279" type="line"/>
+			<point x="513" y="270" type="line"/>
+			<point x="523" y="316" type="line"/>
+			<point x="166" y="518" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-18 23:43:59 +0000</string>
+			<key>public.markColor</key>
+			<string>1,0.4,1,1</string>
+		</dict>
+	</lib>
 </glyph>

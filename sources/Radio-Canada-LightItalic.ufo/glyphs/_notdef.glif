@@ -1,40 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name=".notdef" format="2">
-  <advance width="600"/>
-  <outline>
-    <contour>
-      <point x="121.0" y="-185" type="line"/>
-      <point x="177.0" y="-185" type="line"/>
-      <point x="177.0" y="690" type="line"/>
-      <point x="121.0" y="690" type="line"/>
-    </contour>
-    <contour>
-      <point x="147.0" y="-185" type="line"/>
-      <point x="441.0" y="-185" type="line"/>
-      <point x="441.0" y="-135" type="line"/>
-      <point x="147.0" y="-135" type="line"/>
-    </contour>
-    <contour>
-      <point x="147.0" y="640" type="line"/>
-      <point x="441.0" y="640" type="line"/>
-      <point x="441.0" y="690" type="line"/>
-      <point x="147.0" y="690" type="line"/>
-    </contour>
-    <contour>
-      <point x="411.0" y="-185" type="line"/>
-      <point x="467.0" y="-185" type="line"/>
-      <point x="467.0" y="690" type="line"/>
-      <point x="411.0" y="690" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-04-19 23:21:45 +0000</string>
-      <key>public.markColor</key>
-      <string>1,0.4,1,1</string>
-    </dict>
-  </lib>
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="121" y="-185" type="line"/>
+			<point x="177" y="-185" type="line"/>
+			<point x="177" y="690" type="line"/>
+			<point x="121" y="690" type="line"/>
+		</contour>
+		<contour>
+			<point x="147" y="-185" type="line"/>
+			<point x="441" y="-185" type="line"/>
+			<point x="441" y="-135" type="line"/>
+			<point x="147" y="-135" type="line"/>
+		</contour>
+		<contour>
+			<point x="147" y="640" type="line"/>
+			<point x="441" y="640" type="line"/>
+			<point x="441" y="690" type="line"/>
+			<point x="147" y="690" type="line"/>
+		</contour>
+		<contour>
+			<point x="411" y="-185" type="line"/>
+			<point x="467" y="-185" type="line"/>
+			<point x="467" y="690" type="line"/>
+			<point x="411" y="690" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-19 23:21:45 +0000</string>
+			<key>public.markColor</key>
+			<string>1,0.4,1,1</string>
+		</dict>
+	</lib>
 </glyph>

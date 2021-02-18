@@ -1,35 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotaccent" format="2">
-  <advance width="600"/>
-  <unicode hex="02D9"/>
-  <note>
-dotaccent
-</note>
-  <anchor x="349" y="515" name="_top"/>
-  <outline>
-    <contour>
-      <point x="321" y="658" type="curve"/>
-      <point x="321" y="630"/>
-      <point x="340" y="608"/>
-      <point x="372" y="608" type="curve"/>
-      <point x="411" y="608"/>
-      <point x="443" y="641"/>
-      <point x="443" y="679" type="curve"/>
-      <point x="443" y="708"/>
-      <point x="424" y="730"/>
-      <point x="392" y="730" type="curve"/>
-      <point x="353" y="730"/>
-      <point x="321" y="696"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-04-19 23:48:20 +0000</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
+	<advance width="600"/>
+	<unicode hex="02D9"/>
+	<anchor x="349" y="515" name="_top"/>
+	<note>
+		dotaccent
+	</note>
+	<outline>
+		<contour>
+			<point x="321" y="658" type="curve"/>
+			<point x="321" y="630"/>
+			<point x="340" y="608"/>
+			<point x="372" y="608" type="curve"/>
+			<point x="411" y="608"/>
+			<point x="443" y="641"/>
+			<point x="443" y="679" type="curve"/>
+			<point x="443" y="708"/>
+			<point x="424" y="730"/>
+			<point x="392" y="730" type="curve"/>
+			<point x="353" y="730"/>
+			<point x="321" y="696"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-19 23:48:20 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

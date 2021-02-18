@@ -1,35 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bracketleft" format="2">
-  <advance width="291"/>
-  <unicode hex="005B"/>
-  <outline>
-    <contour>
-      <point x="-4" y="-225" type="line"/>
-      <point x="52" y="-225" type="line"/>
-      <point x="262" y="760" type="line"/>
-      <point x="206" y="760" type="line"/>
-    </contour>
-    <contour>
-      <point x="22" y="-225" type="line"/>
-      <point x="197" y="-225" type="line"/>
-      <point x="208" y="-175" type="line"/>
-      <point x="33" y="-175" type="line"/>
-    </contour>
-    <contour>
-      <point x="221" y="710" type="line"/>
-      <point x="396" y="710" type="line"/>
-      <point x="407" y="760" type="line"/>
-      <point x="232" y="760" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-04-22 20:40:12 +0000</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
+	<advance width="291"/>
+	<unicode hex="005B"/>
+	<outline>
+		<contour>
+			<point x="-4" y="-225" type="line"/>
+			<point x="52" y="-225" type="line"/>
+			<point x="262" y="760" type="line"/>
+			<point x="206" y="760" type="line"/>
+		</contour>
+		<contour>
+			<point x="22" y="-225" type="line"/>
+			<point x="197" y="-225" type="line"/>
+			<point x="208" y="-175" type="line"/>
+			<point x="33" y="-175" type="line"/>
+		</contour>
+		<contour>
+			<point x="221" y="710" type="line"/>
+			<point x="396" y="710" type="line"/>
+			<point x="407" y="760" type="line"/>
+			<point x="232" y="760" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-22 20:40:12 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

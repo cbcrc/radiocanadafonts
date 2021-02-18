@@ -1,27 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="radical" format="2">
-  <advance width="580"/>
-  <unicode hex="221A"/>
-  <outline>
-    <contour>
-      <point x="14" y="254" type="line"/>
-      <point x="150" y="254" type="line"/>
-      <point x="170" y="336" type="line"/>
-      <point x="31" y="336" type="line"/>
-    </contour>
-    <contour>
-      <point x="102" y="336" type="line"/>
-      <point x="154" y="-185" type="line"/>
-      <point x="208" y="-185" type="line"/>
-      <point x="228" y="-98" type="line"/>
-      <point x="188" y="336" type="line"/>
-    </contour>
-    <contour>
-      <point x="174" y="-185" type="line"/>
-      <point x="225" y="-185" type="line"/>
-      <point x="687" y="690" type="line"/>
-      <point x="591" y="690" type="line"/>
-      <point x="184" y="-98" type="line"/>
-    </contour>
-  </outline>
+	<advance width="678"/>
+	<unicode hex="221A"/>
+	<outline>
+		<contour>
+			<point x="26" y="274" type="line"/>
+			<point x="166" y="274" type="line"/>
+			<point x="178" y="330" type="line"/>
+			<point x="38" y="330" type="line"/>
+		</contour>
+		<contour>
+			<point x="125" y="330" type="line"/>
+			<point x="204" y="-185" type="line"/>
+			<point x="233" y="-185" type="line"/>
+			<point x="246" y="-100" type="line"/>
+			<point x="182" y="330" type="line"/>
+		</contour>
+		<contour>
+			<point x="227" y="-185" type="line"/>
+			<point x="253" y="-185" type="line"/>
+			<point x="765" y="690" type="line"/>
+			<point x="698" y="690" type="line"/>
+			<point x="239" y="-100" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-18 23:43:59 +0000</string>
+		</dict>
+	</lib>
 </glyph>

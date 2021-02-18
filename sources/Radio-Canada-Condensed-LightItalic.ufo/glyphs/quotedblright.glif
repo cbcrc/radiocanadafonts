@@ -1,9 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblright" format="2">
-  <advance width="353"/>
-  <unicode hex="201D"/>
-  <outline>
-    <component base="quoteright"/>
-    <component base="quoteright" xOffset="155"/>
-  </outline>
+	<advance width="350"/>
+	<unicode hex="201D"/>
+	<outline>
+		<component base="quoteright"/>
+		<component base="quoteright" xOffset="140"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-22 20:46:20 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

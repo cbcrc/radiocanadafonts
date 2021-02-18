@@ -1,14 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macron" format="2">
-  <advance width="500"/>
-  <unicode hex="00AF"/>
-  <anchor x="299" y="514" name="_top"/>
-  <outline>
-    <contour>
-      <point x="196" y="635" type="line"/>
-      <point x="454" y="635" type="line"/>
-      <point x="468" y="702" type="line"/>
-      <point x="210" y="702" type="line"/>
-    </contour>
-  </outline>
+	<advance width="600"/>
+	<unicode hex="00AF"/>
+	<anchor x="348" y="510" name="_top"/>
+	<note>
+		macron
+	</note>
+	<outline>
+		<contour>
+			<point x="241" y="640" type="line"/>
+			<point x="512" y="640" type="line"/>
+			<point x="522" y="690" type="line"/>
+			<point x="251" y="690" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-22 19:55:27 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,22 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ring_acute" format="2">
-  <advance width="600"/>
-  <note>
-ring_acute
-</note>
-  <anchor x="349" y="515" name="_top"/>
-  <outline>
-    <component base="ring"/>
-    <component base="acute" xOffset="84" yOffset="259"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-04-22 19:55:27 +0000</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
+	<advance width="600"/>
+	<anchor x="349" y="515" name="_top"/>
+	<note>
+		ring_acute
+	</note>
+	<outline>
+		<component base="ring"/>
+		<component base="acute" xOffset="84" yOffset="259"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-22 19:55:27 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

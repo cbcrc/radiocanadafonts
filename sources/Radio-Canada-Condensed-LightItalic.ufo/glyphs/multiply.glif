@@ -1,25 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="multiply" format="2">
-  <advance width="500"/>
-  <unicode hex="00D7"/>
-  <outline>
-    <contour>
-      <point x="36.0" y="137" type="line"/>
-      <point x="83.0" y="79" type="line"/>
-      <point x="467.0" y="446" type="line"/>
-      <point x="420.0" y="504" type="line"/>
-    </contour>
-    <contour>
-      <point x="102.0" y="455" type="line"/>
-      <point x="341.0" y="81" type="line"/>
-      <point x="402.0" y="126" type="line"/>
-      <point x="164.0" y="499" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.4,1,1</string>
-    </dict>
-  </lib>
+	<advance width="600"/>
+	<unicode hex="00D7"/>
+	<outline>
+		<contour>
+			<point x="69" y="137" type="line"/>
+			<point x="102" y="93" type="line"/>
+			<point x="532" y="448" type="line"/>
+			<point x="500" y="492" type="line"/>
+		</contour>
+		<contour>
+			<point x="140" y="450" type="line"/>
+			<point x="419" y="96" type="line"/>
+			<point x="465" y="133" type="line"/>
+			<point x="187" y="487" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-18 23:43:59 +0000</string>
+			<key>public.markColor</key>
+			<string>1,0.4,1,1</string>
+		</dict>
+	</lib>
 </glyph>

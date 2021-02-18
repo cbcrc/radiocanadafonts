@@ -1,34 +1,40 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="E" format="2">
-  <advance width="498"/>
-  <unicode hex="0045"/>
-  <anchor x="343" y="690" name="top"/>
-  <anchor x="308" y="0" name="ogonek"/>
-  <anchor x="202" y="0" name="bottom"/>
-  <outline>
-    <contour>
-      <point x="17" y="0" type="line"/>
-      <point x="106" y="0" type="line"/>
-      <point x="253" y="690" type="line"/>
-      <point x="164" y="690" type="line"/>
-    </contour>
-    <contour>
-      <point x="60" y="0" type="line"/>
-      <point x="382" y="0" type="line"/>
-      <point x="399" y="82" type="line"/>
-      <point x="80" y="82" type="line"/>
-    </contour>
-    <contour>
-      <point x="124" y="309" type="line"/>
-      <point x="406" y="309" type="line"/>
-      <point x="422" y="387" type="line"/>
-      <point x="143" y="387" type="line"/>
-    </contour>
-    <contour>
-      <point x="185" y="608" type="line"/>
-      <point x="505" y="608" type="line"/>
-      <point x="521" y="690" type="line"/>
-      <point x="206" y="690" type="line"/>
-    </contour>
-  </outline>
+	<advance width="586"/>
+	<unicode hex="0045"/>
+	<anchor x="397" y="690" name="top"/>
+	<anchor x="245" y="0" name="bottom"/>
+	<anchor x="404" y="0" name="ogonek"/>
+	<outline>
+		<contour>
+			<point x="44" y="0" type="line"/>
+			<point x="106" y="0" type="line"/>
+			<point x="253" y="690" type="line"/>
+			<point x="191" y="690" type="line"/>
+		</contour>
+		<contour>
+			<point x="74" y="0" type="line"/>
+			<point x="460" y="0" type="line"/>
+			<point x="471" y="54" type="line"/>
+			<point x="85" y="54" type="line"/>
+		</contour>
+		<contour>
+			<point x="142" y="322" type="line"/>
+			<point x="477" y="322" type="line"/>
+			<point x="488" y="374" type="line"/>
+			<point x="153" y="374" type="line"/>
+		</contour>
+		<contour>
+			<point x="209" y="636" type="line"/>
+			<point x="590" y="636" type="line"/>
+			<point x="602" y="690" type="line"/>
+			<point x="221" y="690" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-18 23:43:59 +0000</string>
+		</dict>
+	</lib>
 </glyph>

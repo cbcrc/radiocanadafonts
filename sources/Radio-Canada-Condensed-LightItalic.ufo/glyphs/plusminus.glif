@@ -1,31 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="plusminus" format="2">
-  <advance width="500"/>
-  <unicode hex="00B1"/>
-  <outline>
-    <contour>
-      <point x="11.0" y="66" type="line"/>
-      <point x="397.0" y="66" type="line"/>
-      <point x="414.0" y="144" type="line"/>
-      <point x="28.0" y="144" type="line"/>
-    </contour>
-    <contour>
-      <point x="57.0" y="280" type="line"/>
-      <point x="443.0" y="280" type="line"/>
-      <point x="459.0" y="358" type="line"/>
-      <point x="73.0" y="358" type="line"/>
-    </contour>
-    <contour>
-      <point x="163.0" y="66" type="line"/>
-      <point x="245.0" y="66" type="line"/>
-      <point x="340.0" y="515" type="line"/>
-      <point x="258.0" y="515" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.4,1,1</string>
-    </dict>
-  </lib>
+	<advance width="600"/>
+	<unicode hex="00B1"/>
+	<outline>
+		<contour>
+			<point x="34" y="70" type="line"/>
+			<point x="476" y="70" type="line"/>
+			<point x="487" y="124" type="line"/>
+			<point x="45" y="124" type="line"/>
+		</contour>
+		<contour>
+			<point x="79" y="283" type="line"/>
+			<point x="521" y="283" type="line"/>
+			<point x="533" y="337" type="line"/>
+			<point x="91" y="337" type="line"/>
+		</contour>
+		<contour>
+			<point x="227" y="70" type="line"/>
+			<point x="283" y="70" type="line"/>
+			<point x="376" y="510" type="line"/>
+			<point x="320" y="510" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2017-04-18 23:43:59 +0000</string>
+			<key>public.markColor</key>
+			<string>1,0.4,1,1</string>
+		</dict>
+	</lib>
 </glyph>
