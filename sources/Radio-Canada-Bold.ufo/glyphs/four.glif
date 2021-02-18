@@ -1,32 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="four" format="2">
-  <advance width="600"/>
-  <unicode hex="0034"/>
-  <outline>
-    <contour>
-      <point x="20.0" y="221" type="line"/>
-      <point x="99.0" y="116" type="line"/>
-      <point x="410.0" y="690" type="line"/>
-      <point x="275.0" y="690" type="line"/>
-    </contour>
-    <contour>
-      <point x="20.0" y="116" type="line"/>
-      <point x="580.0" y="116" type="line"/>
-      <point x="580.0" y="256" type="line"/>
-      <point x="66.0" y="256" type="line"/>
-      <point x="20.0" y="221" type="line"/>
-    </contour>
-    <contour>
-      <point x="328.0" y="0" type="line"/>
-      <point x="488.0" y="0" type="line"/>
-      <point x="488.0" y="690" type="line"/>
-      <point x="328.0" y="690" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.4,1,1</string>
-    </dict>
-  </lib>
+	<advance width="600"/>
+	<unicode hex="0034"/>
+	<outline>
+		<contour>
+			<point x="20" y="221" type="line"/>
+			<point x="99" y="116" type="line"/>
+			<point x="410" y="690" type="line"/>
+			<point x="275" y="690" type="line"/>
+		</contour>
+		<contour>
+			<point x="20" y="116" type="line"/>
+			<point x="580" y="116" type="line"/>
+			<point x="580" y="256" type="line"/>
+			<point x="66" y="256" type="line"/>
+			<point x="20" y="221" type="line"/>
+		</contour>
+		<contour>
+			<point x="328" y="0" type="line"/>
+			<point x="488" y="0" type="line"/>
+			<point x="488" y="690" type="line"/>
+			<point x="328" y="690" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0.4,1,1</string>
+		</dict>
+	</lib>
 </glyph>

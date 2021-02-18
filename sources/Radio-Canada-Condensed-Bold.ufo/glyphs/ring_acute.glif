@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ring_acute" format="2">
-  <advance width="500"/>
-  <anchor x="250.0" y="526.0" name="_top"/>
-  <outline>
-    <component base="ring" xOffset="-2"/>
-    <component base="acute" xOffset="-2" yOffset="269"/>
-  </outline>
+	<advance width="500"/>
+	<anchor x="250" y="526" name="_top"/>
+	<outline>
+		<component base="ring" xOffset="-2"/>
+		<component base="acute" xOffset="-2" yOffset="269"/>
+	</outline>
 </glyph>
