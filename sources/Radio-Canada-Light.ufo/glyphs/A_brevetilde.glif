@@ -5,6 +5,14 @@
 	<outline>
 		<component base="A"/>
 		<component base="breve.cap" xOffset="-5"/>
-		<component base="tilde.cap" xOffset="-5"/>
+		<component base="tilde.cap" xOffset="1" yOffset="160"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-02-19 05:54:50 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

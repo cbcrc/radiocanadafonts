@@ -2,6 +2,14 @@
 <glyph name="breveinvertedcomb" format="2">
 	<advance width="600"/>
 	<unicode hex="0311"/>
+	<anchor x="301" y="510" name="_top"/>
 	<outline>
+		<component base="breve" xScale="-1" yScale="-1" xOffset="600" yOffset="1325"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-02-19 05:45:40 +0000</string>
+		</dict>
+	</lib>
 </glyph>

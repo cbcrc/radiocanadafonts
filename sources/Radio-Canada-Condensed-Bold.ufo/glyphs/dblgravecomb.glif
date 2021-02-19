@@ -2,6 +2,27 @@
 <glyph name="dblgravecomb" format="2">
 	<advance width="600"/>
 	<unicode hex="030F"/>
+	<anchor x="334" y="525" name="_top"/>
 	<outline>
+		<contour>
+			<point x="74" y="751" type="line"/>
+			<point x="176" y="601" type="line"/>
+			<point x="286" y="601" type="line"/>
+			<point x="219" y="751" type="line"/>
+		</contour>
+		<contour>
+			<point x="274" y="751" type="line"/>
+			<point x="376" y="601" type="line"/>
+			<point x="486" y="601" type="line"/>
+			<point x="419" y="751" type="line"/>
+		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-02-19 03:07:45 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>
