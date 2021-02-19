@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iinvertedbreve" format="2">
-	<advance width="600"/>
+	<advance width="250"/>
 	<unicode hex="020B"/>
 	<outline>
+		<component base="dotlessi"/>
+		<component base="breveinvertedcomb" xOffset="-176"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-02-19 08:24:24 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>
