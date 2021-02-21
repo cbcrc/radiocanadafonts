@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresiscomb" format="2">
-	<advance width="600"/>
+	<advance width="0"/>
 	<unicode hex="0308"/>
+	<anchor x="0" y="525" name="_top"/>
 	<outline>
+		<contour>
+			<point x="-181" y="670" type="curve" smooth="yes"/>
+			<point x="-181" y="625"/>
+			<point x="-150" y="595"/>
+			<point x="-104" y="595" type="curve" smooth="yes"/>
+			<point x="-58" y="595"/>
+			<point x="-27" y="625"/>
+			<point x="-27" y="670" type="curve"/>
+			<point x="-27" y="715"/>
+			<point x="-58" y="745"/>
+			<point x="-104" y="745" type="curve" smooth="yes"/>
+			<point x="-150" y="745"/>
+			<point x="-181" y="715"/>
+		</contour>
+		<contour>
+			<point x="27" y="670" type="curve" smooth="yes"/>
+			<point x="27" y="625"/>
+			<point x="58" y="595"/>
+			<point x="104" y="595" type="curve" smooth="yes"/>
+			<point x="150" y="595"/>
+			<point x="181" y="625"/>
+			<point x="181" y="670" type="curve"/>
+			<point x="181" y="715"/>
+			<point x="150" y="745"/>
+			<point x="104" y="745" type="curve" smooth="yes"/>
+			<point x="58" y="745"/>
+			<point x="27" y="715"/>
+		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-02-21 04:08:35 +0000</string>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
 </glyph>

@@ -2,9 +2,10 @@
 <glyph name="a" format="2">
 	<advance width="467"/>
 	<unicode hex="0061"/>
-	<anchor x="222" y="526" name="top"/>
+	<anchor x="222" y="525" name="top"/>
 	<anchor x="293" y="0" name="ogonek"/>
-	<anchor x="222" y="0" name="bottom"/>
+	<anchor x="218" y="0" name="bottom"/>
+	<anchor x="238" y="563" name="hook"/>
 	<outline>
 		<contour>
 			<point x="20" y="141" type="curve"/>
@@ -27,7 +28,7 @@
 			<point x="310" y="225" type="line"/>
 			<point x="310" y="318" type="line"/>
 			<point x="229" y="315" type="line" smooth="yes"/>
-			<point x="91" y="308.93103"/>
+			<point x="91" y="310"/>
 			<point x="20" y="243"/>
 		</contour>
 		<contour>
@@ -57,9 +58,9 @@
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-02-19 07:59:30 +0000</string>
+			<string>2021-02-20 15:56:28 +0000</string>
 			<key>public.markColor</key>
-			<string>0.67,0.95,0.38,1</string>
+			<string>0.04,0.57,0.04,1</string>
 		</dict>
 	</lib>
 </glyph>

@@ -1,28 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dblgravecomb" format="2">
-	<advance width="600"/>
+	<advance width="0"/>
 	<unicode hex="030F"/>
-	<anchor x="320" y="510" name="_top"/>
+	<anchor x="0" y="510" name="_top"/>
 	<outline>
-		<contour>
-			<point x="122" y="735" type="line"/>
-			<point x="226" y="585" type="line"/>
-			<point x="281" y="585" type="line"/>
-			<point x="196" y="735" type="line"/>
-		</contour>
-		<contour>
-			<point x="252" y="735" type="line"/>
-			<point x="356" y="585" type="line"/>
-			<point x="411" y="585" type="line"/>
-			<point x="326" y="735" type="line"/>
-		</contour>
+		<component base="gravecomb" xOffset="-55"/>
+		<component base="gravecomb" xOffset="58"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-02-19 03:02:19 +0000</string>
+			<string>2021-02-20 23:41:55 +0000</string>
 			<key>public.markColor</key>
-			<string>0.67,0.95,0.38,1</string>
+			<string>0.04,0.57,0.04,1</string>
 		</dict>
 	</lib>
 </glyph>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brevecomb_acutecomb" format="2">
-	<advance width="600"/>
+	<advance width="0"/>
+	<anchor x="0" y="515" name="_top"/>
 	<outline>
-		<component base="breve"/>
-		<component base="acute" xOffset="11" yOffset="187"/>
+		<component base="brevecomb"/>
+		<component base="acutecomb" yOffset="187"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-02-19 01:52:43 +0000</string>
+			<string>2021-02-21 05:38:07 +0000</string>
 			<key>public.markColor</key>
-			<string>0.67,0.95,0.38,1</string>
+			<string>0.04,0.57,0.04,1</string>
 		</dict>
 	</lib>
 </glyph>

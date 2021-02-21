@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravecomb" format="2">
-	<advance width="600"/>
+	<advance width="0"/>
 	<unicode hex="0300"/>
+	<anchor x="0" y="510" name="_top"/>
 	<outline>
+		<contour>
+			<point x="-128" y="735" type="line"/>
+			<point x="-24" y="585" type="line"/>
+			<point x="31" y="584" type="line"/>
+			<point x="-54" y="735" type="line"/>
+		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-02-20 23:41:55 +0000</string>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
 </glyph>

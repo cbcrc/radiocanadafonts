@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexcomb_hookabovecomb" format="2">
-	<advance width="500"/>
-	<anchor x="253" y="515" name="_top"/>
+	<advance width="0"/>
+	<anchor x="0" y="515" name="_top"/>
 	<outline>
-		<component base="circumflex"/>
-		<component base="hookabovecomb" xOffset="74" yOffset="111"/>
+		<component base="circumflexcomb"/>
+		<component base="hookabovecomb" xOffset="121" yOffset="112"/>
 	</outline>
 	<lib>
 		<dict>
@@ -20,7 +20,9 @@
 				</dict>
 			</array>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-02-19 05:05:09 +0000</string>
+			<string>2021-02-21 04:18:38 +0000</string>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
 		</dict>
 	</lib>
 </glyph>
