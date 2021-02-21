@@ -3,24 +3,13 @@
 	<advance width="0"/>
 	<anchor x="0" y="525" name="_top"/>
 	<outline>
-		<component base="circumflex" xOffset="-300"/>
-		<component base="hookabovecomb" xOffset="166" yOffset="121"/>
+		<component base="circumflexcomb"/>
+		<component base="hookabovecomb" yOffset="197"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>hookabovecomb</string>
-				</dict>
-			</array>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-02-21 07:15:38 +0000</string>
+			<string>2021-02-21 19:08:10 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>
