@@ -1,26 +1,46 @@
 # Radio-Canada Typeface
 
-![basic specimen](https://github.com/googlefonts/radio-canada/blob/master/documentation/images/basic-specimen.gif)
+![Basic specimen for RC Roman](documentation/images/nameplate.png)
 
 The Canadian Broadcasting Corporation, or CBC/Radio-Canada, is a Canadian crown corporation that serves as the national public radio and television broadcaster.
 
-The typefamily is currently available in the following styles: Light, Light Italic, Regular, Italic, Medium, Medium Italic, Bold, Bold Italic, Condensed Regular, Condensed Italic, Condensed Bold et Condensed Bold Italic.
+In early 2017, work started on a custom typeface for use by CBC/Radio-Canada. In 2021 this typeface was expanded to cover a wider range of weights and now includes roman and italic variable fonts. Work on support for the [Unified Canadian Aboriginal Syllabics](https://en.wikipedia.org/wiki/Canadian_Aboriginal_syllabics) Unicode block is a possibility as this typeface continues to expand.
 
 This project has been selected as a winner at the 2018 Communication Arts Typography competition in the Typeface Design category.
 
-## Building New Fonts from Source
-A Python build script is located in the root directory of this repository.
-To build new font files, open a Unix(macOS, Linux, WSL) terminal and activate a
-[Python3 virtual environment](https://docs.python.org/3/library/venv.html)
-with the packages from [requirements.txt](requirements.txt) installed.
-Then, navigate to the root of this repository, and run the following:
-```
-python3 build.py
-```
-New fonts can then be found in the [master_ttf](master_ttf) & [master_otf](master_otf) directories.
+This typeface family is still under development, and will be coming soon to Google Fonts.
+
+![Animated specimen for RC Roman](documentation/images/animated-vf-specimen-roman.gif)
+
+## Variable Font Axes
+
+Fraunces has the following axes:
+
+Axis | Tag | Range | Default | Description
+--- | --- | --- | --- | ---
+Weight | wght | 300 to 700 | 400 | Labeled Light, Regular, Semibold, Bold in instances.
+Width | wght | 100 to 100 | 100 | Labeled Condensed and Regular in instances.
+
+#### `wght` (Weight) Axis
+
+The `wght` axis spans Light (300) to Bold (700).
+
+![Weight axis example animation](documentation/images/weight_axis_example.gif)
+
+#### `wdth` (Width) Axis
+
+The `wdth` axis spans Condensed (75) to Regular (700).
+
+![Width axis example animation](documentation/images/width_axis_example.gif)
+
+## License
+
+Radio Canada fonts are licensed under the SIL Open Font License v1.1, a free software license that permits you to use the font software under a set of conditions. Please refer to the full text of the license for details about the permissions, conditions, and disclaimers.
+
+See [OFL.txt](OFL.txt) for details.
 
 ## Installation Instructions
-Font files are in the fonts directory, please follow the install inscructions for your operating system of choice:
+Font files are in the [fonts](fonts) directory, please follow the installation inscructions for your operating system of choice:
 
 - [MacOS](https://support.apple.com/en-us/HT201749)
 - [Windows](https://support.microsoft.com/en-us/help/314960/how-to-install-or-remove-a-font-in-windows)
