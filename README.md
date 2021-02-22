@@ -25,13 +25,13 @@ Width | wght | 100 to 100 | 100 | Labeled Condensed and Regular in instances.
 
 The `wght` axis spans Light (300) to Bold (700).
 
-![Weight axis example animation](documentation/images/weight_axis_example.gif)
+![Weight axis example animation](documentation/images/weight-axis-example.gif)
 
 #### `wdth` (Width) Axis
 
 The `wdth` axis spans Condensed (75) to Regular (700).
 
-![Width axis example animation](documentation/images/width_axis_example.gif)
+![Width axis example animation](documentation/images/width-axis-example.gif)
 
 ## License
 
