@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ydotbelow" format="2">
-	<advance width="952"/>
+	<advance width="452"/>
 	<unicode hex="1EF5"/>
 	<outline>
 		<component base="y"/>
-		<component base="dotbelow" xOffset="452"/>
+		<component base="dotbelowcomb"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-02-22 07:06:35 +0000</string>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
 </glyph>

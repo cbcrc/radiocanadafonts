@@ -4,7 +4,14 @@
 	<unicode hex="1ED3"/>
 	<outline>
 		<component base="o"/>
-		<component base="circumflex" xOffset="-28"/>
-		<component base="grave" xOffset="-28" yOffset="202"/>
+		<component base="circumflexcomb_gravecomb" xOffset="272"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-02-22 06:53:45 +0000</string>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
 </glyph>
