@@ -16,10 +16,10 @@ This typeface family is still under development, and will be coming soon to Goog
 
 Fraunces has the following axes:
 
-Axis | Tag | Range | Default | Description
+Axis | Tag | Range | Default | Static Instances
 --- | --- | --- | --- | ---
-Weight | wght | 300 to 700 | 400 | Labeled Light, Regular, Semibold, Bold in instances.
-Width | wght | 100 to 100 | 100 | Labeled Condensed and Regular in instances.
+Weight | wght | 300 to 700 | 400 | Light, Regular, Medium, Semibold, Bold
+Width | wdth | 75 to 100 | 100 | Condensed, SemiCondensed, Regular
 
 #### `wght` (Weight) Axis
 

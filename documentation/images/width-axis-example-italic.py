@@ -90,7 +90,7 @@ for frame in range(F - 1):
     stroke(None)
     fontSize(U / 1.5)
     text("Radio Canada Italic Variable Font: Width Axis Range (75 - 100) wdth = ", (M, U * 5.25))
-    text(str(int(varWdth)), (M * 13.7, U * 5.25))
+    text(str(int(varWdth)), (M * 13.4, U * 5.25))
     stroke(1)
     strokeWidth(2)
     line((M, H - M), (W - M, H - M))
