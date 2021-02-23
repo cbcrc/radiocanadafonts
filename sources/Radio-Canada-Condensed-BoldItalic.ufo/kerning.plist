@@ -8,8 +8,6 @@
 		<integer>-10</integer>
 		<key>public.kern2.J</key>
 		<integer>-20</integer>
-		<key>public.kern2.J_alt</key>
-		<integer>-20</integer>
 		<key>public.kern2.V</key>
 		<integer>-10</integer>
 		<key>public.kern2.Y</key>
@@ -17,64 +15,27 @@
 	</dict>
 	<key>F</key>
 	<dict>
-		<key>eth</key>
-		<integer>-10</integer>
 		<key>public.kern2.A</key>
 		<integer>-20</integer>
-		<key>public.kern2.AE</key>
-		<integer>-40</integer>
 		<key>public.kern2.J</key>
 		<integer>-40</integer>
-		<key>public.kern2.J_alt</key>
-		<integer>-80</integer>
 		<key>public.kern2.a</key>
 		<integer>-20</integer>
 		<key>public.kern2.o</key>
 		<integer>-10</integer>
 		<key>public.kern2.punc_low</key>
 		<integer>-40</integer>
-	</dict>
-	<key>Lcaron</key>
-	<dict>
-		<key>public.kern2.A</key>
-		<integer>-10</integer>
-		<key>public.kern2.AE</key>
-		<integer>-10</integer>
-		<key>public.kern2.J</key>
-		<integer>-10</integer>
-		<key>public.kern2.J_alt</key>
-		<integer>-10</integer>
-		<key>public.kern2.O</key>
-		<integer>-40</integer>
-		<key>public.kern2.T</key>
-		<integer>-20</integer>
-		<key>public.kern2.U</key>
-		<integer>-20</integer>
-		<key>public.kern2.V</key>
-		<integer>-20</integer>
-		<key>public.kern2.Y</key>
-		<integer>-20</integer>
-		<key>seven.pl</key>
-		<integer>-20</integer>
 	</dict>
 	<key>P</key>
 	<dict>
 		<key>X</key>
 		<integer>-20</integer>
-		<key>eth</key>
-		<integer>-10</integer>
-		<key>four.pl</key>
-		<integer>-20</integer>
 		<key>public.kern2.A</key>
 		<integer>-40</integer>
-		<key>public.kern2.AE</key>
-		<integer>-50</integer>
 		<key>public.kern2.I</key>
 		<integer>-10</integer>
 		<key>public.kern2.J</key>
 		<integer>-60</integer>
-		<key>public.kern2.J_alt</key>
-		<integer>-80</integer>
 		<key>public.kern2.S</key>
 		<integer>-10</integer>
 		<key>public.kern2.Y</key>
@@ -86,42 +47,11 @@
 		<key>public.kern2.punc_low</key>
 		<integer>-60</integer>
 	</dict>
-	<key>Thorn</key>
-	<dict>
-		<key>X</key>
-		<integer>-20</integer>
-		<key>public.kern2.A</key>
-		<integer>-20</integer>
-		<key>public.kern2.AE</key>
-		<integer>-20</integer>
-		<key>public.kern2.I</key>
-		<integer>-10</integer>
-		<key>public.kern2.J</key>
-		<integer>-50</integer>
-		<key>public.kern2.J_alt</key>
-		<integer>-50</integer>
-		<key>public.kern2.S</key>
-		<integer>-10</integer>
-		<key>public.kern2.T</key>
-		<integer>-20</integer>
-		<key>public.kern2.V</key>
-		<integer>-10</integer>
-		<key>public.kern2.Y</key>
-		<integer>-20</integer>
-		<key>seven.pl</key>
-		<integer>-20</integer>
-	</dict>
 	<key>X</key>
 	<dict>
-		<key>eth</key>
-		<integer>-10</integer>
-		<key>four.pl</key>
-		<integer>-10</integer>
 		<key>public.kern2.A</key>
 		<integer>-10</integer>
 		<key>public.kern2.J</key>
-		<integer>-20</integer>
-		<key>public.kern2.J_alt</key>
 		<integer>-20</integer>
 		<key>public.kern2.O</key>
 		<integer>-10</integer>
@@ -136,89 +66,11 @@
 		<key>public.kern2.v</key>
 		<integer>-10</integer>
 	</dict>
-	<key>dcaron</key>
-	<dict>
-		<key>public.kern2.f</key>
-		<integer>55</integer>
-		<key>public.kern2.l</key>
-		<integer>80</integer>
-		<key>public.kern2.t</key>
-		<integer>55</integer>
-		<key>public.kern2.v</key>
-		<integer>70</integer>
-	</dict>
-	<key>eth</key>
-	<dict>
-		<key>X</key>
-		<integer>-10</integer>
-		<key>public.kern2.T</key>
-		<integer>-20</integer>
-		<key>public.kern2.V</key>
-		<integer>-10</integer>
-		<key>public.kern2.Y</key>
-		<integer>-30</integer>
-	</dict>
-	<key>germandbls</key>
-	<dict>
-		<key>public.kern2.V</key>
-		<integer>-20</integer>
-		<key>public.kern2.Y</key>
-		<integer>-10</integer>
-	</dict>
-	<key>guillemetleft</key>
-	<dict>
-		<key>space</key>
-		<integer>-100</integer>
-	</dict>
-	<key>guilsinglleft</key>
-	<dict>
-		<key>space</key>
-		<integer>-100</integer>
-	</dict>
-	<key>idieresis</key>
-	<dict>
-		<key>public.kern2.T</key>
-		<integer>40</integer>
-	</dict>
-	<key>imacron</key>
-	<dict>
-		<key>public.kern2.T</key>
-		<integer>40</integer>
-	</dict>
-	<key>lcaron</key>
-	<dict>
-		<key>public.kern2.i</key>
-		<integer>120</integer>
-		<key>public.kern2.j</key>
-		<integer>100</integer>
-		<key>public.kern2.l</key>
-		<integer>80</integer>
-		<key>public.kern2.t</key>
-		<integer>60</integer>
-		<key>public.kern2.v</key>
-		<integer>70</integer>
-	</dict>
-	<key>lslash</key>
-	<dict>
-		<key>public.kern2.A</key>
-		<integer>-10</integer>
-	</dict>
-	<key>one.pl</key>
-	<dict>
-		<key>four.pl</key>
-		<integer>-20</integer>
-		<key>seven.pl</key>
-		<integer>-20</integer>
-	</dict>
 	<key>public.kern1.A</key>
 	<dict>
 		<key>X</key>
 		<integer>-10</integer>
-		<key>one.pl</key>
-		<integer>-20</integer>
 		<key>public.kern2.J</key>
-		<integer>-10</integer>
-		<key>public.kern2.J_alt</key>
 		<integer>-10</integer>
 		<key>public.kern2.O</key>
 		<integer>-10</integer>
@@ -232,22 +84,14 @@
 		<integer>-20</integer>
 		<key>public.kern2.Y</key>
 		<integer>-50</integer>
-		<key>public.kern2.punc_high</key>
-		<integer>-50</integer>
 		<key>public.kern2.v</key>
-		<integer>-20</integer>
-		<key>seven.pl</key>
 		<integer>-20</integer>
 	</dict>
 	<key>public.kern1.C</key>
 	<dict>
 		<key>X</key>
 		<integer>-10</integer>
-		<key>public.kern2.AE</key>
-		<integer>-10</integer>
 		<key>public.kern2.J</key>
-		<integer>-10</integer>
-		<key>public.kern2.J_alt</key>
 		<integer>-10</integer>
 		<key>public.kern2.O</key>
 		<integer>-20</integer>
@@ -258,8 +102,6 @@
 	<dict>
 		<key>public.kern2.J</key>
 		<integer>-10</integer>
-		<key>public.kern2.J_alt</key>
-		<integer>-10</integer>
 		<key>public.kern2.O</key>
 		<integer>-10</integer>
 	</dict>
@@ -267,25 +109,15 @@
 	<dict>
 		<key>public.kern2.J</key>
 		<integer>-10</integer>
-		<key>public.kern2.J_alt</key>
-		<integer>-10</integer>
 	</dict>
 	<key>public.kern1.I</key>
 	<dict>
-		<key>eth</key>
-		<integer>-10</integer>
 		<key>public.kern2.o</key>
 		<integer>-10</integer>
 	</dict>
 	<key>public.kern1.K</key>
 	<dict>
-		<key>eth</key>
-		<integer>-10</integer>
-		<key>public.kern2.AE</key>
-		<integer>-20</integer>
 		<key>public.kern2.J</key>
-		<integer>-10</integer>
-		<key>public.kern2.J_alt</key>
 		<integer>-10</integer>
 		<key>public.kern2.O</key>
 		<integer>-20</integer>
@@ -310,17 +142,9 @@
 	</dict>
 	<key>public.kern1.L</key>
 	<dict>
-		<key>eth</key>
-		<integer>-10</integer>
-		<key>one.pl</key>
-		<integer>-40</integer>
 		<key>public.kern2.A</key>
 		<integer>-10</integer>
-		<key>public.kern2.AE</key>
-		<integer>-10</integer>
 		<key>public.kern2.J</key>
-		<integer>-10</integer>
-		<key>public.kern2.J_alt</key>
 		<integer>-10</integer>
 		<key>public.kern2.O</key>
 		<integer>-40</integer>
@@ -336,8 +160,6 @@
 		<integer>-10</integer>
 		<key>public.kern2.o</key>
 		<integer>-10</integer>
-		<key>public.kern2.punc_high</key>
-		<integer>-80</integer>
 		<key>public.kern2.punc_mid</key>
 		<integer>-20</integer>
 		<key>public.kern2.t</key>
@@ -345,10 +167,6 @@
 		<key>public.kern2.u</key>
 		<integer>-10</integer>
 		<key>public.kern2.v</key>
-		<integer>-10</integer>
-		<key>seven.pl</key>
-		<integer>-50</integer>
-		<key>tbar</key>
 		<integer>-10</integer>
 	</dict>
 	<key>public.kern1.O</key>
@@ -358,8 +176,6 @@
 		<key>public.kern2.A</key>
 		<integer>-10</integer>
 		<key>public.kern2.J</key>
-		<integer>-20</integer>
-		<key>public.kern2.J_alt</key>
 		<integer>-20</integer>
 		<key>public.kern2.T</key>
 		<integer>-10</integer>
@@ -372,11 +188,7 @@
 	<dict>
 		<key>public.kern2.A</key>
 		<integer>-10</integer>
-		<key>public.kern2.AE</key>
-		<integer>-10</integer>
 		<key>public.kern2.J</key>
-		<integer>-20</integer>
-		<key>public.kern2.J_alt</key>
 		<integer>-20</integer>
 		<key>public.kern2.S</key>
 		<integer>-10</integer>
@@ -387,29 +199,13 @@
 	<dict>
 		<key>public.kern2.J</key>
 		<integer>-10</integer>
-		<key>public.kern2.J_alt</key>
-		<integer>-10</integer>
 	</dict>
 	<key>public.kern1.T</key>
 	<dict>
-		<key>eth</key>
-		<integer>-40</integer>
-		<key>four.pl</key>
-		<integer>-40</integer>
-		<key>idieresis</key>
-		<integer>40</integer>
-		<key>imacron</key>
-		<integer>40</integer>
-		<key>kra</key>
-		<integer>-30</integer>
 		<key>public.kern2.A</key>
-		<integer>-50</integer>
-		<key>public.kern2.AE</key>
 		<integer>-50</integer>
 		<key>public.kern2.J</key>
 		<integer>-60</integer>
-		<key>public.kern2.J_alt</key>
-		<integer>-100</integer>
 		<key>public.kern2.O</key>
 		<integer>-10</integer>
 		<key>public.kern2.S</key>
@@ -441,29 +237,15 @@
 	<dict>
 		<key>public.kern2.A</key>
 		<integer>-10</integer>
-		<key>public.kern2.AE</key>
-		<integer>-10</integer>
 		<key>public.kern2.J</key>
-		<integer>-20</integer>
-		<key>public.kern2.J_alt</key>
 		<integer>-20</integer>
 	</dict>
 	<key>public.kern1.V</key>
 	<dict>
-		<key>eth</key>
-		<integer>-20</integer>
-		<key>four.pl</key>
-		<integer>-40</integer>
-		<key>kra</key>
-		<integer>-10</integer>
 		<key>public.kern2.A</key>
 		<integer>-20</integer>
-		<key>public.kern2.AE</key>
-		<integer>-30</integer>
 		<key>public.kern2.J</key>
 		<integer>-60</integer>
-		<key>public.kern2.J_alt</key>
-		<integer>-80</integer>
 		<key>public.kern2.S</key>
 		<integer>-10</integer>
 		<key>public.kern2.a</key>
@@ -487,20 +269,10 @@
 	</dict>
 	<key>public.kern1.Y</key>
 	<dict>
-		<key>eth</key>
-		<integer>-40</integer>
-		<key>four.pl</key>
-		<integer>-50</integer>
-		<key>kra</key>
-		<integer>-20</integer>
 		<key>public.kern2.A</key>
-		<integer>-50</integer>
-		<key>public.kern2.AE</key>
 		<integer>-50</integer>
 		<key>public.kern2.J</key>
 		<integer>-60</integer>
-		<key>public.kern2.J_alt</key>
-		<integer>-80</integer>
 		<key>public.kern2.O</key>
 		<integer>-20</integer>
 		<key>public.kern2.S</key>
@@ -535,15 +307,6 @@
 		<key>public.kern2.Y</key>
 		<integer>-30</integer>
 	</dict>
-	<key>public.kern1.a_alt</key>
-	<dict>
-		<key>public.kern2.T</key>
-		<integer>-30</integer>
-		<key>public.kern2.V</key>
-		<integer>-20</integer>
-		<key>public.kern2.Y</key>
-		<integer>-30</integer>
-	</dict>
 	<key>public.kern1.braceleft</key>
 	<dict>
 		<key>public.kern2.j</key>
@@ -569,30 +332,16 @@
 		<integer>30</integer>
 		<key>asterisk</key>
 		<integer>20</integer>
-		<key>one.pl</key>
-		<integer>40</integer>
 		<key>public.kern2.J</key>
 		<integer>-10</integer>
-		<key>public.kern2.J_alt</key>
-		<integer>-20</integer>
 		<key>public.kern2.T</key>
 		<integer>40</integer>
 		<key>public.kern2.Y</key>
 		<integer>30</integer>
-		<key>public.kern2.braceright</key>
-		<integer>100</integer>
-		<key>public.kern2.punc_high</key>
-		<integer>50</integer>
 		<key>public.kern2.punc_low</key>
 		<integer>-30</integer>
 		<key>question</key>
 		<integer>40</integer>
-		<key>seven.pl</key>
-		<integer>40</integer>
-		<key>three.pl</key>
-		<integer>40</integer>
-		<key>two.pl</key>
-		<integer>20</integer>
 	</dict>
 	<key>public.kern1.i</key>
 	<dict>
@@ -632,19 +381,8 @@
 		<key>x</key>
 		<integer>-10</integer>
 	</dict>
-	<key>public.kern1.punc_high</key>
-	<dict>
-		<key>public.kern2.A</key>
-		<integer>-50</integer>
-		<key>public.kern2.J</key>
-		<integer>-80</integer>
-		<key>public.kern2.J_alt</key>
-		<integer>-100</integer>
-	</dict>
 	<key>public.kern1.punc_low</key>
 	<dict>
-		<key>one.pl</key>
-		<integer>-40</integer>
 		<key>public.kern2.T</key>
 		<integer>-60</integer>
 		<key>public.kern2.V</key>
@@ -652,8 +390,6 @@
 		<key>public.kern2.Y</key>
 		<integer>-70</integer>
 		<key>public.kern2.v</key>
-		<integer>-40</integer>
-		<key>seven.pl</key>
 		<integer>-40</integer>
 	</dict>
 	<key>public.kern1.punc_mid</key>
@@ -672,8 +408,6 @@
 		<key>public.kern2.A</key>
 		<integer>-10</integer>
 		<key>public.kern2.J</key>
-		<integer>-20</integer>
-		<key>public.kern2.J_alt</key>
 		<integer>-20</integer>
 		<key>public.kern2.punc_low</key>
 		<integer>-40</integer>
@@ -703,15 +437,6 @@
 		<key>public.kern2.Y</key>
 		<integer>-20</integer>
 	</dict>
-	<key>public.kern1.u_alt</key>
-	<dict>
-		<key>public.kern2.T</key>
-		<integer>-30</integer>
-		<key>public.kern2.V</key>
-		<integer>-10</integer>
-		<key>public.kern2.Y</key>
-		<integer>-20</integer>
-	</dict>
 	<key>public.kern1.v</key>
 	<dict>
 		<key>X</key>
@@ -719,8 +444,6 @@
 		<key>public.kern2.A</key>
 		<integer>-20</integer>
 		<key>public.kern2.J</key>
-		<integer>-40</integer>
-		<key>public.kern2.J_alt</key>
 		<integer>-40</integer>
 		<key>public.kern2.T</key>
 		<integer>-10</integer>
@@ -737,47 +460,6 @@
 		<integer>-10</integer>
 		<key>public.kern2.Y</key>
 		<integer>-20</integer>
-	</dict>
-	<key>seven.pl</key>
-	<dict>
-		<key>eight.pl</key>
-		<integer>-10</integer>
-		<key>five.pl</key>
-		<integer>-10</integer>
-		<key>four.pl</key>
-		<integer>-40</integer>
-		<key>nine.pl</key>
-		<integer>-10</integer>
-		<key>public.kern2.A</key>
-		<integer>-60</integer>
-		<key>public.kern2.AE</key>
-		<integer>-60</integer>
-		<key>public.kern2.J</key>
-		<integer>-60</integer>
-		<key>public.kern2.J_alt</key>
-		<integer>-80</integer>
-		<key>public.kern2.punc_low</key>
-		<integer>-100</integer>
-		<key>six.pl</key>
-		<integer>-10</integer>
-		<key>three.pl</key>
-		<integer>-10</integer>
-	</dict>
-	<key>space</key>
-	<dict>
-		<key>guillemetright</key>
-		<integer>-100</integer>
-		<key>guilsinglright</key>
-		<integer>-100</integer>
-	</dict>
-	<key>tcaron</key>
-	<dict>
-		<key>public.kern2.j</key>
-		<integer>100</integer>
-		<key>public.kern2.l</key>
-		<integer>80</integer>
-		<key>public.kern2.t</key>
-		<integer>55</integer>
 	</dict>
 	<key>x</key>
 	<dict>

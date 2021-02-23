@@ -30,17 +30,6 @@
       </location>
     </source>
 
-    <source filename="Radio-Canada-Condensed-Italic.ufo" familyname="RadioCanada" stylename="Italic">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
-      <location>
-        <dimension name="width" xvalue="75"/>
-        <dimension name="weight" xvalue="400"/>
-      </location>
-    </source>
-
     <source filename="Radio-Canada-Condensed-LightItalic.ufo" familyname="RadioCanada" stylename="LightCondensedItalic">
       <lib copy="1"/>
       <groups copy="1"/>
@@ -52,13 +41,13 @@
       </location>
     </source>
 
-    <source filename="Radio-Canada-Italic.ufo" familyname="RadioCanada" stylename="Italic">
+    <source filename="Radio-Canada-Condensed-Italic.ufo" familyname="RadioCanada" stylename="Italic">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
       <info copy="1"/>
       <location>
-        <dimension name="width" xvalue="100"/>
+        <dimension name="width" xvalue="75"/>
         <dimension name="weight" xvalue="400"/>
       </location>
     </source>
@@ -71,6 +60,17 @@
       <location>
         <dimension name="width" xvalue="100"/>
         <dimension name="weight" xvalue="300"/>
+      </location>
+    </source>
+
+    <source filename="Radio-Canada-Italic.ufo" familyname="RadioCanada" stylename="Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="width" xvalue="100"/>
+        <dimension name="weight" xvalue="400"/>
       </location>
     </source>
 
