@@ -2,8 +2,12 @@
 <designspace format="4.1">
 
   <axes>
-    <axis tag="wdth" name="width" minimum="75" maximum="100" default="100"/>
-    <axis tag="wght" name="weight" minimum="300" maximum="700" default="400"/>
+    <axis tag="wdth" name="width" minimum="75" maximum="100" default="100">
+      <labelname xml:lang="en">Width</labelname>
+    </axis>
+    <axis tag="wght" name="weight" minimum="300" maximum="700" default="400">
+      <labelname xml:lang="en">Weight</labelname>
+    </axis>
   </axes>
 
   <sources>
@@ -41,7 +45,10 @@
       </location>
     </source>
 
-    <source filename="Radio-Canada-Condensed-Regular.ufo" familyname="RadioCanada" stylename="RegularCondensed">
+    <source
+        filename="Radio-Canada-Condensed-Regular.ufo"
+        familyname="RadioCanada"
+        stylename="RegularCondensed">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -52,7 +59,10 @@
       </location>
     </source>
 
-    <source filename="Radio-Canada-Light.ufo" familyname="RadioCanada" stylename="Light">
+    <source
+        filename="Radio-Canada-Light.ufo"
+        familyname="RadioCanada"
+        stylename="Light">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -63,7 +73,10 @@
       </location>
     </source>
 
-    <source filename="Radio-Canada-Regular.ufo" familyname="RadioCanada" stylename="Regular">
+    <source
+        filename="Radio-Canada-Regular.ufo"
+        familyname="RadioCanada"
+        stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -76,5 +89,182 @@
 
   </sources>
   <instances>
+
+      <instance
+          familyname="RadioCanada"
+          stylename="Bold"
+          filename="instances/Radio-Canada-Bold.ufo"
+          name="RadioCanada Bold"
+          postscriptfontname="RadioCanada-Bold"
+          stylemapfamilyname="RadioCanada Bold"
+          stylemapstylename="Regular">
+      <location>
+        <dimension name="width" xvalue="100" />
+        <dimension name="weight" xvalue="700" />
+      </location>
+      <kerning />
+      <info />
+    </instance>
+
+    <instance
+        familyname="RadioCanada"
+        stylename="SemiBold"
+        filename="instances/Radio-Canada-SemiBold.ufo"
+        name="RadioCanada SemiBold"
+        postscriptfontname="RadioCanada-SemiBold"
+        stylemapfamilyname="RadioCanada SemiBold"
+        stylemapstylename="Regular">
+      <location>
+        <dimension name="width" xvalue="100" />
+        <dimension name="weight" xvalue="600" />
+      </location>
+      <kerning />
+      <info />
+    </instance>
+
+    <instance
+        familyname="RadioCanada"
+        stylename="Medium"
+        filename="instances/Radio-Canada-Medium.ufo"
+        name="RadioCanada SemiBold"
+        postscriptfontname="RadioCanada-SemiBold"
+        stylemapfamilyname="RadioCanada SemiBold"
+        stylemapstylename="Regular">
+      <location>
+        <dimension name="width" xvalue="100" />
+        <dimension name="weight" xvalue="500" />
+      </location>
+      <kerning />
+      <info />
+    </instance>
+
+    <instance
+        familyname="RadioCanada"
+        stylename="Regular"
+        filename="instances/Radio-Canada-Regular.ufo"
+        name="RadioCanada-Regular"
+        postscriptfontname="RadioCanada-Regular"
+        stylemapfamilyname="RadioCanada"
+        stylemapstylename="Regular">
+      <location>
+        <dimension name="width" xvalue="100" />
+        <dimension name="weight" xvalue="400" />
+      </location>
+      <kerning />
+      <info />
+    </instance>
+
+    <instance
+        familyname="RadioCanada"
+        stylename="Light"
+        filename="instances/Radio-Canada-Light.ufo"
+        name="RadioCanada-Light"
+        postscriptfontname="RadioCanada-Light"
+        stylemapfamilyname="RadioCanada"
+        stylemapstylename="Regular">
+      <location>
+        <dimension name="width" xvalue="100" />
+        <dimension name="weight" xvalue="300" />
+      </location>
+      <kerning />
+      <info />
+    </instance>
+
+    <instance
+        familyname="RadioCanada"
+        stylename="Condensed Light"
+        filename="instances/Radio-Canada-Condensed-Light.ufo"
+        name="RadioCanada-Condensed-Light"
+        postscriptfontname="RadioCanada-Condensed-Light"
+        stylemapfamilyname="RadioCanada"
+        stylemapstylename="Regular">
+      <location>
+        <dimension name="width" xvalue="75" />
+        <dimension name="weight" xvalue="300" />
+      </location>
+      <kerning />
+      <info />
+    </instance>
+
+    <instance
+        familyname="RadioCanada"
+        stylename="Condensed Light"
+        filename="instances/Radio-Canada-Condensed-Light.ufo"
+        name="RadioCanada-Condensed-Light"
+        postscriptfontname="RadioCanada-Condensed-Light"
+        stylemapfamilyname="RadioCanada"
+        stylemapstylename="Regular">
+      <location>
+        <dimension name="width" xvalue="75" />
+        <dimension name="weight" xvalue="300" />
+      </location>
+      <kerning />
+      <info />
+    </instance>
+
+    <instance
+        familyname="RadioCanada"
+        stylename="Condensed"
+        filename="instances/Radio-Canada-Condensed-Regular.ufo"
+        name="RadioCanada-Condensed"
+        postscriptfontname="RadioCanada-Condensed"
+        stylemapfamilyname="RadioCanada"
+        stylemapstylename="Regular">
+      <location>
+        <dimension name="width" xvalue="75" />
+        <dimension name="weight" xvalue="400" />
+      </location>
+      <kerning />
+      <info />
+    </instance>
+
+    <instance
+        familyname="RadioCanada"
+        stylename="Condensed"
+        filename="instances/Radio-Canada-Condensed-Medium.ufo"
+        name="RadioCanada-Condensed-Medium"
+        postscriptfontname="RadioCanada-Condensed-Medium"
+        stylemapfamilyname="RadioCanada"
+        stylemapstylename="Regular">
+      <location>
+        <dimension name="width" xvalue="75" />
+        <dimension name="weight" xvalue="500" />
+      </location>
+      <kerning />
+      <info />
+    </instance>
+
+    <instance
+        familyname="RadioCanada"
+        stylename="Condensed"
+        filename="instances/Radio-Canada-Condensed-SemiBold.ufo"
+        name="RadioCanada-Condensed-SemiBold"
+        postscriptfontname="RadioCanada-Condensed-SemiBold"
+        stylemapfamilyname="RadioCanada"
+        stylemapstylename="Regular">
+      <location>
+        <dimension name="width" xvalue="75" />
+        <dimension name="weight" xvalue="600" />
+      </location>
+      <kerning />
+      <info />
+    </instance>
+
+    <instance
+        familyname="RadioCanada"
+        stylename="Condensed"
+        filename="instances/Radio-Canada-Condensed-Bold.ufo"
+        name="RadioCanada-Condensed-Bold"
+        postscriptfontname="RadioCanada-Condensed-Bold"
+        stylemapfamilyname="RadioCanada"
+        stylemapstylename="Regular">
+      <location>
+        <dimension name="width" xvalue="75" />
+        <dimension name="weight" xvalue="700" />
+      </location>
+      <kerning />
+      <info />
+    </instance>
+
   </instances>
 </designspace>
