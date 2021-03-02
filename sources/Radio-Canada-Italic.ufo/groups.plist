@@ -38,6 +38,16 @@
 	</array>
 	<key>public.kern1.NO_KERN</key>
 	<array>
+		<string>zero</string>
+		<string>one</string>
+		<string>two</string>
+		<string>three</string>
+		<string>four</string>
+		<string>five</string>
+		<string>six</string>
+		<string>seven</string>
+		<string>eight</string>
+		<string>nine</string>
 		<string>CR</string>
 		<string>.notdef</string>
 		<string>nbspace</string>
@@ -98,11 +108,18 @@
 	<key>public.kern1.f</key>
 	<array>
 		<string>f</string>
+		<string>f_f</string>
 	</array>
 	<key>public.kern1.i</key>
 	<array>
 		<string>i</string>
+		<string>ij</string>
 		<string>j</string>
+		<string>f_f_i</string>
+		<string>f_f_ij</string>
+		<string>f_i</string>
+		<string>f_ij</string>
+		<string>fi</string>
 	</array>
 	<key>public.kern1.k</key>
 	<array>
@@ -112,6 +129,9 @@
 	<array>
 		<string>d</string>
 		<string>l</string>
+		<string>f_f_l</string>
+		<string>f_l</string>
+		<string>fl</string>
 	</array>
 	<key>public.kern1.n</key>
 	<array>
@@ -192,6 +212,16 @@
 	</array>
 	<key>public.kern2.NO_KERN</key>
 	<array>
+		<string>zero</string>
+		<string>one</string>
+		<string>two</string>
+		<string>three</string>
+		<string>four</string>
+		<string>five</string>
+		<string>six</string>
+		<string>seven</string>
+		<string>eight</string>
+		<string>nine</string>
 		<string>CR</string>
 		<string>.notdef</string>
 		<string>nbspace</string>
@@ -236,10 +266,20 @@
 	<key>public.kern2.f</key>
 	<array>
 		<string>f</string>
+		<string>f_f</string>
+		<string>f_f_i</string>
+		<string>f_f_ij</string>
+		<string>f_f_l</string>
+		<string>f_i</string>
+		<string>f_ij</string>
+		<string>f_l</string>
+		<string>fi</string>
+		<string>fl</string>
 	</array>
 	<key>public.kern2.i</key>
 	<array>
 		<string>i</string>
+		<string>ij</string>
 	</array>
 	<key>public.kern2.j</key>
 	<array>
