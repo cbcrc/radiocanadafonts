@@ -96,6 +96,8 @@
 	<key>public.kern1.braceleft</key>
 	<array>
 		<string>parenleft</string>
+		<string>braceleft</string>
+		<string>bracketleft</string>
 	</array>
 	<key>public.kern1.c</key>
 	<array>
@@ -145,10 +147,21 @@
 		<string>o</string>
 		<string>p</string>
 	</array>
+	<key>public.kern1.punc_high</key>
+	<array>
+		<string>quotedblleft</string>
+		<string>quotedblright</string>
+		<string>quoteleft</string>
+		<string>quoteright</string>
+		<string>quotedbl</string>
+		<string>quotesingle</string>
+	</array>
 	<key>public.kern1.punc_low</key>
 	<array>
 		<string>period</string>
 		<string>comma</string>
+		<string>quotesinglbase</string>
+		<string>quotedblbase</string>
 	</array>
 	<key>public.kern1.punc_mid</key>
 	<array>
@@ -263,6 +276,12 @@
 	<array>
 		<string>a</string>
 	</array>
+	<key>public.kern2.braceright</key>
+	<array>
+		<string>parenright</string>
+		<string>braceright</string>
+		<string>bracketright</string>
+	</array>
 	<key>public.kern2.f</key>
 	<array>
 		<string>f</string>
@@ -308,10 +327,21 @@
 		<string>o</string>
 		<string>q</string>
 	</array>
+	<key>public.kern2.punc_high</key>
+	<array>
+		<string>quotedblleft</string>
+		<string>quotedblright</string>
+		<string>quoteleft</string>
+		<string>quoteright</string>
+		<string>quotedbl</string>
+		<string>quotesingle</string>
+	</array>
 	<key>public.kern2.punc_low</key>
 	<array>
 		<string>period</string>
 		<string>comma</string>
+		<string>quotesinglbase</string>
+		<string>quotedblbase</string>
 	</array>
 	<key>public.kern2.punc_mid</key>
 	<array>
