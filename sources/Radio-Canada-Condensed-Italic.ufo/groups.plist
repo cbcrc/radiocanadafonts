@@ -12,7 +12,9 @@
 	</array>
 	<key>public.kern1.E</key>
 	<array>
+		<string>AE</string>
 		<string>E</string>
+		<string>OE</string>
 	</array>
 	<key>public.kern1.G</key>
 	<array>
@@ -21,8 +23,11 @@
 	<key>public.kern1.H</key>
 	<array>
 		<string>H</string>
+		<string>Hbar</string>
 		<string>M</string>
 		<string>N</string>
+		<string>Nhookleft</string>
+		<string>Eng</string>
 	</array>
 	<key>public.kern1.I</key>
 	<array>
@@ -35,6 +40,8 @@
 	<key>public.kern1.L</key>
 	<array>
 		<string>L</string>
+		<string>Ldot</string>
+		<string>Lslash</string>
 	</array>
 	<key>public.kern1.NO_KERN</key>
 	<array>
@@ -82,8 +89,11 @@
 	<key>public.kern1.O</key>
 	<array>
 		<string>D</string>
+		<string>Eth</string>
 		<string>O</string>
+		<string>Oslash</string>
 		<string>Q</string>
+		<string>Schwa</string>
 	</array>
 	<key>public.kern1.R</key>
 	<array>
@@ -92,13 +102,16 @@
 	<key>public.kern1.S</key>
 	<array>
 		<string>S</string>
+		<string>Germandbls</string>
 	</array>
 	<key>public.kern1.T</key>
 	<array>
 		<string>T</string>
+		<string>Tbar</string>
 	</array>
 	<key>public.kern1.U</key>
 	<array>
+		<string>IJ</string>
 		<string>J</string>
 		<string>U</string>
 	</array>
@@ -131,7 +144,9 @@
 	</array>
 	<key>public.kern1.e</key>
 	<array>
+		<string>ae</string>
 		<string>e</string>
+		<string>oe</string>
 	</array>
 	<key>public.kern1.f</key>
 	<array>
@@ -152,6 +167,7 @@
 	<key>public.kern1.k</key>
 	<array>
 		<string>k</string>
+		<string>kra</string>
 	</array>
 	<key>public.kern1.l</key>
 	<array>
@@ -164,14 +180,20 @@
 	<key>public.kern1.n</key>
 	<array>
 		<string>h</string>
+		<string>hbar</string>
 		<string>m</string>
 		<string>n</string>
+		<string>nhookleft</string>
+		<string>eng</string>
 	</array>
 	<key>public.kern1.o</key>
 	<array>
 		<string>b</string>
+		<string>ipa:schwa</string>
 		<string>o</string>
+		<string>oslash</string>
 		<string>p</string>
+		<string>thorn</string>
 	</array>
 	<key>public.kern1.punc_high</key>
 	<array>
@@ -227,18 +249,29 @@
 	<array>
 		<string>A</string>
 	</array>
+	<key>public.kern2.AE</key>
+	<array>
+		<string>AE</string>
+	</array>
 	<key>public.kern2.H</key>
 	<array>
 		<string>B</string>
 		<string>D</string>
+		<string>Eth</string>
 		<string>E</string>
 		<string>F</string>
 		<string>H</string>
+		<string>Hbar</string>
+		<string>IJ</string>
 		<string>K</string>
 		<string>L</string>
+		<string>Ldot</string>
+		<string>Lslash</string>
 		<string>M</string>
 		<string>N</string>
+		<string>Eng</string>
 		<string>P</string>
+		<string>Thorn</string>
 		<string>R</string>
 	</array>
 	<key>public.kern2.I</key>
@@ -297,15 +330,20 @@
 		<string>C</string>
 		<string>G</string>
 		<string>O</string>
+		<string>Oslash</string>
+		<string>OE</string>
 		<string>Q</string>
+		<string>Schwa</string>
 	</array>
 	<key>public.kern2.S</key>
 	<array>
 		<string>S</string>
+		<string>Germandbls</string>
 	</array>
 	<key>public.kern2.T</key>
 	<array>
 		<string>T</string>
+		<string>Tbar</string>
 	</array>
 	<key>public.kern2.U</key>
 	<array>
@@ -327,6 +365,7 @@
 	<key>public.kern2.a</key>
 	<array>
 		<string>a</string>
+		<string>ae</string>
 	</array>
 	<key>public.kern2.braceright</key>
 	<array>
@@ -354,19 +393,24 @@
 	</array>
 	<key>public.kern2.j</key>
 	<array>
+		<string>Nhookleft</string>
 		<string>j</string>
+		<string>nhookleft</string>
 	</array>
 	<key>public.kern2.l</key>
 	<array>
 		<string>b</string>
 		<string>h</string>
+		<string>hbar</string>
 		<string>k</string>
 		<string>l</string>
+		<string>thorn</string>
 	</array>
 	<key>public.kern2.n</key>
 	<array>
 		<string>m</string>
 		<string>n</string>
+		<string>eng</string>
 		<string>p</string>
 		<string>r</string>
 	</array>
@@ -374,9 +418,13 @@
 	<array>
 		<string>c</string>
 		<string>d</string>
+		<string>dcroat</string>
 		<string>e</string>
+		<string>ipa:schwa</string>
 		<string>g</string>
 		<string>o</string>
+		<string>oslash</string>
+		<string>oe</string>
 		<string>q</string>
 	</array>
 	<key>public.kern2.punc_high</key>
