@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ogonek" format="2">
+	<advance width="600"/>
+	<unicode hex="02DB"/>
+	<note>
+		ogonek
+	</note>
+	<outline>
+		<contour>
+			<point x="147" y="-121" type="curve"/>
+			<point x="147" y="-160"/>
+			<point x="178" y="-193"/>
+			<point x="229" y="-193" type="curve"/>
+			<point x="257" y="-193"/>
+			<point x="283" y="-185"/>
+			<point x="307" y="-171" type="curve"/>
+			<point x="295" y="-133" type="line"/>
+			<point x="278" y="-142"/>
+			<point x="258" y="-150"/>
+			<point x="235" y="-150" type="curve" smooth="yes"/>
+			<point x="210" y="-150"/>
+			<point x="194" y="-134"/>
+			<point x="194" y="-113" type="curve" smooth="yes"/>
+			<point x="194" y="-74"/>
+			<point x="240" y="-36"/>
+			<point x="296" y="0" type="curve"/>
+			<point x="240" y="0" type="line"/>
+			<point x="188" y="-28"/>
+			<point x="147" y="-77"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-03-03 17:57:08 +0000</string>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

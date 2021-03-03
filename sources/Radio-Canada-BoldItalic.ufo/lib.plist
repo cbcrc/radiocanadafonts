@@ -5,7 +5,10 @@
 	<key>UFOFormat</key>
 	<integer>2</integer>
 	<key>com.schriftgestaltung.DisplayStrings</key>
-	<array/>
+	<array>
+		<string>¨</string>
+		<string>̈</string>
+	</array>
 	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
 	<false/>
 	<key>com.schriftgestaltung.fontMasterID</key>
@@ -823,6 +826,20 @@
 		<string>percent</string>
 		<string>perthousand</string>
 		<string>lozenge</string>
+		<string>dieresiscomb</string>
+		<string>dieresis</string>
+		<string>dotaccent</string>
+		<string>grave</string>
+		<string>acute</string>
+		<string>hungarumlaut</string>
+		<string>circumflex</string>
+		<string>caron</string>
+		<string>breve</string>
+		<string>ring</string>
+		<string>tilde</string>
+		<string>macron</string>
+		<string>cedilla</string>
+		<string>ogonek</string>
 	</array>
 	<key>public.postscriptNames</key>
 	<dict>
