@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="t" format="2">
-	<advance width="312"/>
+	<advance width="293"/>
 	<unicode hex="0074"/>
 	<anchor x="135" y="1" name="bottom"/>
 	<anchor x="371" y="720" name="caron.alt"/>
@@ -12,34 +12,34 @@
 			<point x="72" y="510" type="line"/>
 		</contour>
 		<contour>
-			<point x="53" y="97" type="curve"/>
-			<point x="53" y="32"/>
-			<point x="82" y="-8"/>
-			<point x="137" y="-8" type="curve"/>
-			<point x="168" y="-8"/>
-			<point x="201" y="2"/>
-			<point x="221" y="16" type="curve"/>
-			<point x="207" y="69" type="line"/>
-			<point x="187" y="57"/>
-			<point x="164" y="50"/>
-			<point x="142" y="50" type="curve"/>
+			<point x="50" y="81" type="curve" smooth="yes"/>
+			<point x="50" y="34"/>
+			<point x="79" y="-8"/>
+			<point x="132" y="-8" type="curve" smooth="yes"/>
+			<point x="156" y="-8"/>
+			<point x="181" y="0"/>
+			<point x="202" y="14" type="curve"/>
+			<point x="187" y="64" type="line"/>
+			<point x="171" y="55"/>
+			<point x="154" y="50"/>
+			<point x="139" y="50" type="curve" smooth="yes"/>
 			<point x="120" y="50"/>
-			<point x="113" y="65"/>
-			<point x="113" y="103" type="curve"/>
-			<point x="113" y="118"/>
+			<point x="110" y="61"/>
+			<point x="110" y="85" type="curve" smooth="yes"/>
+			<point x="110" y="106"/>
 			<point x="115" y="133"/>
 			<point x="118" y="148" type="curve" smooth="yes"/>
 			<point x="226" y="654" type="line"/>
 			<point x="163" y="640" type="line"/>
 			<point x="58" y="145" type="line" smooth="yes"/>
 			<point x="55" y="130"/>
-			<point x="53" y="113"/>
+			<point x="50" y="98"/>
 		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-02 23:42:16 +0000</string>
+			<string>2021-03-05 00:28:12 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>
