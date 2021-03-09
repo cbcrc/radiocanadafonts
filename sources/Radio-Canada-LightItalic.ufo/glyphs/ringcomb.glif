@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ringcomb" format="2">
+	<advance width="0"/>
+	<unicode hex="030A"/>
+	<anchor x="55" y="510" name="_top"/>
+	<anchor x="98" y="720" name="top"/>
+	<outline>
+		<contour>
+			<point x="-20" y="670" type="curve"/>
+			<point x="-20" y="616"/>
+			<point x="20" y="585"/>
+			<point x="71" y="585" type="curve"/>
+			<point x="140" y="585"/>
+			<point x="194" y="638"/>
+			<point x="194" y="710" type="curve"/>
+			<point x="194" y="764"/>
+			<point x="154" y="795"/>
+			<point x="103" y="795" type="curve"/>
+			<point x="34" y="795"/>
+			<point x="-20" y="742"/>
+		</contour>
+		<contour>
+			<point x="26" y="675" type="curve"/>
+			<point x="26" y="719"/>
+			<point x="57" y="755"/>
+			<point x="98" y="755" type="curve"/>
+			<point x="128" y="755"/>
+			<point x="148" y="735"/>
+			<point x="148" y="705" type="curve"/>
+			<point x="148" y="661"/>
+			<point x="117" y="625"/>
+			<point x="76" y="625" type="curve"/>
+			<point x="46" y="625"/>
+			<point x="26" y="645"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-03-07 19:55:38 +0000</string>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

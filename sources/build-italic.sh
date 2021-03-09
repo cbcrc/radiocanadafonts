@@ -11,6 +11,8 @@ fontmake \
     -m sources/Radio-Canada-Italic.designspace \
     -o variable \
     --output-path fonts/variable/RadioCanada-Italic[wdth,wght].ttf
+#    --output-path fonts/variable/RadioCanada-Italic[wdth,wght].ttf \
+#    --verbose DEBUG 
 #    --no-production-names \
 
 echo "\n**** Post Processing VFs ****\n"
