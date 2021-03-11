@@ -1,13 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guarani" format="2">
-	<advance width="600"/>
+	<advance width="556"/>
 	<unicode hex="20B2"/>
+	<anchor x="355" y="690" name="top"/>
+	<anchor x="265" y="0" name="bottom"/>
 	<outline>
+		<contour>
+			<point x="67" y="229" type="curve" smooth="yes"/>
+			<point x="67" y="79"/>
+			<point x="152" y="-8"/>
+			<point x="247" y="-8" type="curve" smooth="yes"/>
+			<point x="326" y="-8"/>
+			<point x="396" y="20"/>
+			<point x="451" y="87" type="curve"/>
+			<point x="413" y="128" type="line"/>
+			<point x="363" y="69"/>
+			<point x="320" y="52"/>
+			<point x="256" y="52" type="curve" smooth="yes"/>
+			<point x="193" y="52"/>
+			<point x="132" y="116"/>
+			<point x="132" y="236" type="curve" smooth="yes"/>
+			<point x="132" y="452"/>
+			<point x="246" y="641"/>
+			<point x="364" y="641" type="curve" smooth="yes"/>
+			<point x="412" y="641"/>
+			<point x="460" y="609"/>
+			<point x="495" y="563" type="curve"/>
+			<point x="541" y="603" type="line"/>
+			<point x="496" y="662"/>
+			<point x="442" y="698"/>
+			<point x="371" y="698" type="curve" smooth="yes"/>
+			<point x="207" y="698"/>
+			<point x="67" y="482"/>
+		</contour>
+		<contour>
+			<point x="279" y="276" type="line"/>
+			<point x="462" y="276" type="line"/>
+			<point x="473" y="330" type="line"/>
+			<point x="290" y="330" type="line"/>
+		</contour>
+		<contour>
+			<point x="389" y="87" type="line"/>
+			<point x="451" y="87" type="line"/>
+			<point x="503" y="330" type="line"/>
+			<point x="441" y="330" type="line"/>
+		</contour>
+		<component base="bar" xOffset="162" yOffset="84"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-05 06:35:39 +0000</string>
+			<string>2021-03-10 04:47:55 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>

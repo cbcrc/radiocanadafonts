@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="one.lf" format="2">
-	<advance width="600"/>
+	<advance width="360"/>
 	<outline>
+		<contour>
+			<point x="87" y="600" type="line"/>
+			<point x="113" y="531" type="line"/>
+			<point x="290" y="614" type="line"/>
+			<point x="276" y="690" type="line"/>
+		</contour>
+		<contour>
+			<point x="100" y="0" type="line"/>
+			<point x="189" y="0" type="line"/>
+			<point x="336" y="690" type="line"/>
+			<point x="276" y="690" type="line"/>
+			<point x="235" y="637" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-02 23:38:14 +0000</string>
+			<string>2021-03-09 04:07:34 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>

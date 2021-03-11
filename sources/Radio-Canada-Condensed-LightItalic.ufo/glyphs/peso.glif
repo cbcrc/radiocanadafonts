@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="peso" format="2">
-	<advance width="600"/>
+	<advance width="487"/>
 	<unicode hex="20B1"/>
 	<outline>
+		<component base="P"/>
+		<contour>
+			<point x="48" y="388" type="line"/>
+			<point x="545" y="388" type="line"/>
+			<point x="555" y="438" type="line"/>
+			<point x="58" y="438" type="line"/>
+		</contour>
+		<contour>
+			<point x="48" y="498" type="line"/>
+			<point x="545" y="498" type="line"/>
+			<point x="555" y="548" type="line"/>
+			<point x="58" y="548" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-05 06:35:39 +0000</string>
+			<string>2021-03-10 20:36:13 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>

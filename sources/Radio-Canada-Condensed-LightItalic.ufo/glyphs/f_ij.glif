@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_ij" format="2">
-	<advance width="735"/>
+	<advance width="692"/>
 	<outline>
 		<component base="f"/>
-		<component base="ij" xOffset="275"/>
+		<component base="i" xOffset="275"/>
+		<component base="j" xOffset="462"/>
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>j</string>
+				</dict>
+			</array>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-05 01:57:28 +0000</string>
+			<string>2021-03-09 18:48:56 +0000</string>
 			<key>public.markColor</key>
-			<string>0.04,0.57,0.04,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

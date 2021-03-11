@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="peseta" format="2">
-	<advance width="600"/>
+	<advance width="613"/>
 	<unicode hex="20A7"/>
 	<outline>
+		<component base="P"/>
+		<contour>
+			<point x="48" y="428" type="line"/>
+			<point x="634" y="428" type="line"/>
+			<point x="649" y="498" type="line"/>
+			<point x="63" y="498" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-02 23:45:59 +0000</string>
+			<string>2021-03-10 23:21:37 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>

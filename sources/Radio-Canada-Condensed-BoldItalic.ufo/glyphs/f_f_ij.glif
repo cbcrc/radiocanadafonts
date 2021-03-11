@@ -3,7 +3,8 @@
 	<advance width="1164"/>
 	<outline>
 		<component base="f_f"/>
-		<component base="ij" xOffset="654"/>
+		<component base="i" xOffset="654"/>
+		<component base="j" xOffset="915"/>
 	</outline>
 	<lib>
 		<dict>
@@ -17,19 +18,11 @@
 					<key>name</key>
 					<string>f_f</string>
 				</dict>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>ij</string>
-				</dict>
 			</array>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-02 23:44:54 +0000</string>
+			<string>2021-03-09 18:52:50 +0000</string>
 			<key>public.markColor</key>
-			<string>0.04,0.57,0.04,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="manat" format="2">
-	<advance width="600"/>
+	<advance width="698"/>
 	<unicode hex="20BC"/>
 	<outline>
+		<component base="U" xScale="-1" yScale="-1" xOffset="730" yOffset="690"/>
+		<contour>
+			<point x="231" y="0" type="line"/>
+			<point x="351" y="0" type="line"/>
+			<point x="527" y="826" type="line"/>
+			<point x="407" y="826" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>U</string>
+				</dict>
+			</array>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-02 23:46:34 +0000</string>
+			<string>2021-03-10 23:51:22 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>

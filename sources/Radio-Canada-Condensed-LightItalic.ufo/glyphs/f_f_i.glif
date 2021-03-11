@@ -4,14 +4,25 @@
 	<unicode hex="FB03"/>
 	<outline>
 		<component base="f_f"/>
-		<component base="i" xOffset="540"/>
+		<component base="i" xOffset="486"/>
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>i</string>
+				</dict>
+			</array>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-05 01:57:28 +0000</string>
+			<string>2021-03-09 18:20:57 +0000</string>
 			<key>public.markColor</key>
-			<string>0.04,0.57,0.04,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>
