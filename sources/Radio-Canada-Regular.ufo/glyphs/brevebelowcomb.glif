@@ -2,14 +2,16 @@
 <glyph name="brevebelowcomb" format="2">
 	<advance width="0"/>
 	<unicode hex="032E"/>
+	<anchor x="0" y="0" name="_bottom"/>
 	<outline>
+		<component base="brevecomb" yOffset="-801"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-02-21 21:04:09 +0000</string>
+			<string>2021-03-12 14:20:30 +0000</string>
 			<key>public.markColor</key>
-			<string>0.67,0.95,0.38,1</string>
+			<string>0.04,0.57,0.04,1</string>
 		</dict>
 	</lib>
 </glyph>

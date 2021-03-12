@@ -2,14 +2,21 @@
 <glyph name="commaturnedabovecomb" format="2">
 	<advance width="0"/>
 	<unicode hex="0312"/>
+	<anchor x="0" y="525" name="_top"/>
 	<outline>
+		<contour>
+			<point x="-69" y="601" type="line"/>
+			<point x="66" y="601" type="line"/>
+			<point x="128" y="751" type="line"/>
+			<point x="28" y="751" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-02-21 20:49:41 +0000</string>
+			<string>2021-03-12 04:20:22 +0000</string>
 			<key>public.markColor</key>
-			<string>0.67,0.95,0.38,1</string>
+			<string>0.04,0.57,0.04,1</string>
 		</dict>
 	</lib>
 </glyph>

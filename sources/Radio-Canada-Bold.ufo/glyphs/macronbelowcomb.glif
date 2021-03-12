@@ -2,14 +2,16 @@
 <glyph name="macronbelowcomb" format="2">
 	<advance width="0"/>
 	<unicode hex="0331"/>
+	<anchor x="0" y="0" name="_bottom"/>
 	<outline>
+		<component base="macroncomb" yOffset="-806"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-02-21 21:05:15 +0000</string>
+			<string>2021-03-12 07:05:05 +0000</string>
 			<key>public.markColor</key>
-			<string>0.67,0.95,0.38,1</string>
+			<string>0.04,0.57,0.04,1</string>
 		</dict>
 	</lib>
 </glyph>
