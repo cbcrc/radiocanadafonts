@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="franc" format="2">
-	<advance width="600"/>
+	<advance width="494"/>
 	<unicode hex="20A3"/>
 	<outline>
+		<component base="F"/>
+		<contour>
+			<point x="10" y="80" type="line"/>
+			<point x="338" y="80" type="line"/>
+			<point x="338" y="205" type="line"/>
+			<point x="10" y="205" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-12 02:01:24 +0000</string>
+			<string>2021-03-15 16:16:04 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="commercialMinusSign" format="2">
-	<advance width="600"/>
+	<advance width="502"/>
 	<unicode hex="2052"/>
 	<outline>
+		<component base="divisionslash"/>
+		<component base="bullet" xOffset="-60" yOffset="304"/>
+		<component base="bullet" xOffset="225" yOffset="-193"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-12 02:01:24 +0000</string>
+			<string>2021-03-14 21:50:09 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>

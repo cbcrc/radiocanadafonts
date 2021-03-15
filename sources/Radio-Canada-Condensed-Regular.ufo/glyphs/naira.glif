@@ -3,11 +3,18 @@
 	<advance width="600"/>
 	<unicode hex="20A6"/>
 	<outline>
+		<component base="N"/>
+		<contour>
+			<point x="10" y="296" type="line"/>
+			<point x="590" y="296" type="line"/>
+			<point x="590" y="373" type="line"/>
+			<point x="10" y="373" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-12 01:59:59 +0000</string>
+			<string>2021-03-15 18:18:54 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>

@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="colonsign" format="2">
-	<advance width="600"/>
+	<advance width="481"/>
 	<unicode hex="20A1"/>
 	<outline>
+		<component base="C"/>
+		<contour>
+			<point x="121" y="-99" type="line"/>
+			<point x="177" y="-99" type="line"/>
+			<point x="277" y="782" type="line"/>
+			<point x="221" y="782" type="line"/>
+		</contour>
+		<contour>
+			<point x="231" y="-99" type="line"/>
+			<point x="287" y="-99" type="line"/>
+			<point x="387" y="782" type="line"/>
+			<point x="331" y="782" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-12 01:46:43 +0000</string>
+			<string>2021-03-15 02:58:46 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>

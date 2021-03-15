@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="liraTurkish" format="2">
-	<advance width="600"/>
+	<advance width="542"/>
 	<unicode hex="20BA"/>
 	<outline>
+		<contour>
+			<point x="110" y="0" type="line"/>
+			<point x="172" y="0" type="line"/>
+			<point x="172" y="690" type="line"/>
+			<point x="110" y="690" type="line"/>
+		</contour>
+		<contour>
+			<point x="161" y="0" type="line"/>
+			<point x="338" y="0"/>
+			<point x="421" y="111"/>
+			<point x="421" y="224" type="curve"/>
+			<point x="367" y="224" type="line"/>
+			<point x="367" y="136"/>
+			<point x="308" y="60"/>
+			<point x="161" y="60" type="curve"/>
+		</contour>
+		<contour>
+			<point x="10" y="266" type="line"/>
+			<point x="300" y="316" type="line"/>
+			<point x="300" y="370" type="line"/>
+			<point x="10" y="320" type="line"/>
+		</contour>
+		<contour>
+			<point x="10" y="406" type="line"/>
+			<point x="300" y="456" type="line"/>
+			<point x="300" y="510" type="line"/>
+			<point x="10" y="460" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-12 02:36:33 +0000</string>
+			<string>2021-03-15 17:23:02 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>

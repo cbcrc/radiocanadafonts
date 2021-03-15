@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kip" format="2">
-	<advance width="600"/>
+	<advance width="641"/>
 	<unicode hex="20AD"/>
 	<outline>
+		<component base="K"/>
+		<contour>
+			<point x="10" y="293" type="line"/>
+			<point x="568" y="293" type="line"/>
+			<point x="568" y="373" type="line"/>
+			<point x="10" y="373" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-12 01:01:49 +0000</string>
+			<string>2021-03-15 16:51:39 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>

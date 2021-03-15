@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cedi" format="2">
-	<advance width="600"/>
+	<advance width="626"/>
 	<unicode hex="20B5"/>
 	<outline>
+		<component base="C"/>
+		<contour>
+			<point x="319" y="-121" type="line"/>
+			<point x="375" y="-121" type="line"/>
+			<point x="375" y="814" type="line"/>
+			<point x="319" y="814" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-12 02:36:33 +0000</string>
+			<string>2021-03-15 08:20:23 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>

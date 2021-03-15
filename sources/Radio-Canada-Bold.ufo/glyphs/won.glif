@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="won" format="2">
-	<advance width="600"/>
+	<advance width="956"/>
 	<unicode hex="20A9"/>
 	<outline>
+		<component base="W"/>
+		<contour>
+			<point x="0" y="333" type="line"/>
+			<point x="956" y="333" type="line"/>
+			<point x="956" y="454" type="line"/>
+			<point x="0" y="454" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-11 04:14:59 +0000</string>
+			<string>2021-03-15 22:48:46 +0000</string>
 			<key>public.markColor</key>
-			<string>0.67,0.95,0.38,1</string>
+			<string>0.04,0.57,0.04,1</string>
 		</dict>
 	</lib>
 </glyph>

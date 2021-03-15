@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ruble" format="2">
-	<advance width="600"/>
+	<advance width="616"/>
 	<unicode hex="20BD"/>
 	<outline>
+		<component base="P"/>
+		<contour>
+			<point x="10" y="120" type="line"/>
+			<point x="306" y="120" type="line"/>
+			<point x="306" y="170" type="line"/>
+			<point x="10" y="170" type="line"/>
+		</contour>
+		<contour>
+			<point x="10" y="254" type="line"/>
+			<point x="306" y="254" type="line"/>
+			<point x="306" y="304" type="line"/>
+			<point x="10" y="304" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-12 02:36:33 +0000</string>
+			<string>2021-03-15 23:01:41 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>
