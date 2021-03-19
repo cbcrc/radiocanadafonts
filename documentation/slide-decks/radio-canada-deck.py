@@ -72,6 +72,47 @@ new_page() #--------------------------------------------------#
 page_number += 1
 draw_page_info(page_number)
 
+fill(None)
+stroke(0)
+strokeWidth(2)
+strokeWidth(1)
+rect(M+U*10, M+U*8, M+(U*18), M+(U*10))
+oval(M+U*9.5, M+U*19.5, U, U)
+oval(M+U*19.5, M+U*19.5, U, U)
+oval(M+U*29.5, M+U*19.5, U, U)
+oval(M+U*9.5, M+U*7.5, U, U)
+oval(M+U*19.5, M+U*7.5, U, U)
+oval(M+U*29.5, M+U*7.5, U, U)
+
+stroke(None)
+fill(0)
+fontSize(50)
+font("fonts/variable/RadioCanada-[wdth,wght].ttf")
+
+fontVariations(wght = 300 )
+fontVariations(wdth = 100 )
+text("Aa",  (M+U*10.5, M+U*21))
+
+fontVariations(wght = 400 )
+fontVariations(wdth = 100 )
+text("Aa",  (M+U*20.5, M+U*21))
+
+fontVariations(wght = 700 )
+fontVariations(wdth = 100 )
+text("Aa",  (M+U*30.5, M+U*21))
+
+fontVariations(wght = 300 )
+fontVariations(wdth = 75 )
+text("Aa",  (M+U*10.5, M+U*9))
+
+fontVariations(wght = 400 )
+fontVariations(wdth = 100 )
+text("Aa",  (M+U*20.5, M+U*9))
+
+fontVariations(wght = 700 )
+fontVariations(wdth = 100 )
+text("Aa",  (M+U*30.5, M+U*9))
+
 stroke(None)
 fill(0)
 fontSize(50)
