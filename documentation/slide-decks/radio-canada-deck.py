@@ -75,11 +75,16 @@ draw_page_info(page_number)
 stroke(None)
 fill(0)
 fontSize(50)
-font("fonts/variable/Radiocanada-[wdth,wght].ttf")
+font("fonts/variable/RadioCanada-[wdth,wght].ttf")
 fontVariations(wght = 700 )
 fontVariations(wdth = 100 )
 
 text("Radio-Canada",  (M, (U*28)))
+fontSize(25)
+font("fonts/variable/RadioCanada-Italic[wdth,wght].ttf")
+fontVariations(wght = 400 )
+fontVariations(wdth = 100 )
+text("Variable Font User Manual",  (M, M+3))
 
 
 new_page() #--------------------------------------------------#
@@ -232,6 +237,118 @@ fontVariations(wdth = 100 )
 textBox(rc_text_one, (M+(U*10), M - U*14, U*20, (U*28)+9))
 
 
+new_page() #--------------------------------------------------#
+# setup
+#grid() # toggle for grid view
+page_number += 1
+draw_page_info(page_number)
+
+
+fill(0)
+stroke(0)
+strokeWidth(1)
+line((M, H - M - U*15), (W - M, H - M - U*15))
+
+fill(0)
+font("InputMonoCompressed-Regular")
+stroke(None)
+fontSize(13)
+text("12pt Condensed Bold", (M, (U*29)+3))
+text("Weight Axis: 700", (M, (U*28)+3))
+text("Width Axis: 75", (M, (U*27)+3))
+text("12pt Condnsd Bold Italic", (M, (U*15)+3))
+text("Weight Axis: 700", (M, (U*14)+3))
+text("Width Axis: 75", (M, (U*13)+3))
+
+stroke(None)
+fill(0)
+fontSize(12)
+font("fonts/variable/RadioCanada-[wdth,wght].ttf")
+fontVariations(wght = 700 )
+fontVariations(wdth = 75 )
+lineHeight(None)
+textBox(rc_text_one, (M+(U*10), M, U*20, (U*28)+9))
+
+font("fonts/variable/RadioCanada-Italic[wdth,wght].ttf")
+fontVariations(wght = 700 )
+fontVariations(wdth = 75 )
+textBox(rc_text_one, (M+(U*10), M - U*14, U*20, (U*28)+9))
+
+
+new_page() #--------------------------------------------------#
+# setup
+#grid() # toggle for grid view
+page_number += 1
+draw_page_info(page_number)
+
+
+fill(0)
+stroke(0)
+strokeWidth(1)
+line((M, H - M - U*15), (W - M, H - M - U*15))
+
+fill(0)
+font("InputMonoCompressed-Regular")
+stroke(None)
+fontSize(13)
+text("12pt Light", (M, (U*29)+3))
+text("Weight Axis: 300", (M, (U*28)+3))
+text("Width Axis: 100", (M, (U*27)+3))
+text("12pt Light Italic", (M, (U*15)+3))
+text("Weight Axis: 300", (M, (U*14)+3))
+text("Width Axis: 100", (M, (U*13)+3))
+
+stroke(None)
+fill(0)
+fontSize(12)
+font("fonts/variable/RadioCanada-[wdth,wght].ttf")
+fontVariations(wght = 300 )
+fontVariations(wdth = 100 )
+lineHeight(None)
+textBox(rc_text_one, (M+(U*10), M, U*20, (U*28)+9))
+
+font("fonts/variable/RadioCanada-Italic[wdth,wght].ttf")
+fontVariations(wght = 300 )
+fontVariations(wdth = 100 )
+textBox(rc_text_one, (M+(U*10), M - U*14, U*20, (U*28)+9))
+
+
+new_page() #--------------------------------------------------#
+# setup
+#grid() # toggle for grid view
+page_number += 1
+draw_page_info(page_number)
+
+
+fill(0)
+stroke(0)
+strokeWidth(1)
+line((M, H - M - U*15), (W - M, H - M - U*15))
+
+fill(0)
+font("InputMonoCompressed-Regular")
+stroke(None)
+fontSize(13)
+text("12pt Condensed Light", (M, (U*29)+3))
+text("Weight Axis: 300", (M, (U*28)+3))
+text("Width Axis: 75", (M, (U*27)+3))
+text("12pt Cndnsd Light Italic", (M, (U*15)+3))
+text("Weight Axis: 300", (M, (U*14)+3))
+text("Width Axis: 75", (M, (U*13)+3))
+
+stroke(None)
+fill(0)
+fontSize(12)
+font("fonts/variable/RadioCanada-[wdth,wght].ttf")
+fontVariations(wght = 300 )
+fontVariations(wdth = 75 )
+lineHeight(None)
+textBox(rc_text_one, (M+(U*10), M, U*20, (U*28)+9))
+
+font("fonts/variable/RadioCanada-Italic[wdth,wght].ttf")
+fontVariations(wght = 300 )
+fontVariations(wdth = 75 )
+textBox(rc_text_one, (M+(U*10), M - U*14, U*20, (U*28)+9))
 
 
 # Saving and post-processing
