@@ -3,8 +3,8 @@
 	<advance width="1010"/>
 	<unicode hex="00BD"/>
 	<outline>
-		<component base="fraction" xOffset="274"/>
 		<component base="onesuperior" xOffset="33" yOffset="27"/>
+		<component base="fraction" xOffset="274"/>
 		<component base="twosuperior" xOffset="494" yOffset="-290"/>
 	</outline>
 	<lib>
@@ -17,7 +17,7 @@
 					<key>index</key>
 					<integer>0</integer>
 					<key>name</key>
-					<string>fraction</string>
+					<string>onesuperior</string>
 				</dict>
 				<dict>
 					<key>alignment</key>
@@ -25,11 +25,11 @@
 					<key>index</key>
 					<integer>1</integer>
 					<key>name</key>
-					<string>onesuperior</string>
+					<string>fraction</string>
 				</dict>
 			</array>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-09 17:36:29 +0000</string>
+			<string>2021-03-19 05:53:24 +0000</string>
 			<key>public.markColor</key>
 			<string>0.67,0.95,0.38,1</string>
 		</dict>
