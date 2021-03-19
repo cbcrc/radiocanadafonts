@@ -14,7 +14,7 @@ This typeface family is still under development, and will be coming soon to Goog
 
 ## Variable Font Axes
 
-Fraunces has the following axes:
+Radio-canada has the following axes:
 
 Axis | Tag | Range | Default | Static Instances
 --- | --- | --- | --- | ---
