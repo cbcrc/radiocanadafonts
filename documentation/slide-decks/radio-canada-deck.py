@@ -152,6 +152,9 @@ Ici Radio-Canada Télé (stylized as ICI Radio-Canada TēLē, and formerly known
 
 Its headquarters are at Maison Radio-Canada in Montreal, which is also home to the network's flagship station, CBFT-DT. Until the 2012 closedown of the CBC / Radio-Canada rebroadcaster network, it was the only francophone network in Canada to broadcast terrestrially in all Canadian provinces.
 '''
+rc_text_two = '''
+Ici Radio-Canada Télé (stylized as ICI Radio-Canada TēLē, and formerly known as Télévision de Radio-Canada) is a Canadian French-language free-to-air television network owned by the Canadian Broadcasting Corporation (known in French as Société Radio-Canada), the national public broadcaster. It is the French-language counterpart of CBC Television, the broadcaster's English-language television network.
+'''
 lineHeight(None)
 textBox(rc_text_one, (M+(U*10), M, U*20, (U*28)+9))
 
@@ -349,6 +352,120 @@ font("fonts/variable/RadioCanada-Italic[wdth,wght].ttf")
 fontVariations(wght = 300 )
 fontVariations(wdth = 75 )
 textBox(rc_text_one, (M+(U*10), M - U*14, U*20, (U*28)+9))
+
+
+new_page() #--------------------------------------------------#
+# setup
+#grid() # toggle for grid view
+page_number += 1
+draw_page_info(page_number)
+
+
+fill(0)
+stroke(0)
+strokeWidth(1)
+line((M, H - M - U*15), (W - M, H - M - U*15))
+
+fill(0)
+font("InputMonoCompressed-Regular")
+stroke(None)
+fontSize(13)
+text("12pt Condensed Light", (M, (U*29)+3))
+text("Weight Axis: 300", (M, (U*28)+3))
+text("Width Axis: 75", (M, (U*27)+3))
+text("12pt Cndnsd Light Italic", (M, (U*15)+3))
+text("Weight Axis: 300", (M, (U*14)+3))
+text("Width Axis: 75", (M, (U*13)+3))
+
+stroke(None)
+fill(0)
+fontSize(12)
+font("fonts/variable/RadioCanada-[wdth,wght].ttf")
+fontVariations(wght = 300 )
+fontVariations(wdth = 75 )
+lineHeight(None)
+textBox(rc_text_one, (M+(U*10), M, U*20, (U*28)+9))
+
+font("fonts/variable/RadioCanada-Italic[wdth,wght].ttf")
+fontVariations(wght = 300 )
+fontVariations(wdth = 75 )
+textBox(rc_text_one, (M+(U*10), M - U*14, U*20, (U*28)+9))
+
+
+new_page() #--------------------------------------------------#
+# setup
+#grid() # toggle for grid view
+page_number += 1
+draw_page_info(page_number)
+
+
+fill(0)
+stroke(0)
+strokeWidth(1)
+line((M, H - M - U*15), (W - M, H - M - U*15))
+
+fill(0)
+font("InputMonoCompressed-Regular")
+stroke(None)
+fontSize(13)
+text("18pt Regular", (M, (U*29)+3))
+text("Weight Axis: 400", (M, (U*28)+3))
+text("Width Axis: 100", (M, (U*27)+3))
+text("18pt Italic", (M, (U*15)+3))
+text("Weight Axis: 400", (M, (U*14)+3))
+text("Width Axis: 100", (M, (U*13)+3))
+
+stroke(None)
+fill(0)
+fontSize(18)
+font("fonts/variable/RadioCanada-[wdth,wght].ttf")
+fontVariations(wght = 400 )
+fontVariations(wdth = 100 )
+lineHeight(None)
+textBox(rc_text_two, (M+(U*10), M, U*30, (U*29)+5))
+
+font("fonts/variable/RadioCanada-Italic[wdth,wght].ttf")
+fontVariations(wght = 400 )
+fontVariations(wdth = 100 )
+textBox(rc_text_two, (M+(U*10), M - U*14, U*30, (U*29)+5))
+
+
+new_page() #--------------------------------------------------#
+# setup
+#grid() # toggle for grid view
+page_number += 1
+draw_page_info(page_number)
+
+
+fill(0)
+stroke(0)
+strokeWidth(1)
+line((M, H - M - U*15), (W - M, H - M - U*15))
+
+fill(0)
+font("InputMonoCompressed-Regular")
+stroke(None)
+fontSize(13)
+text("18pt Condensed Regular", (M, (U*29)+3))
+text("Weight Axis: 400", (M, (U*28)+3))
+text("Width Axis: 75", (M, (U*27)+3))
+text("18pt Condensed Italic", (M, (U*15)+3))
+text("Weight Axis: 400", (M, (U*14)+3))
+text("Width Axis: 75", (M, (U*13)+3))
+
+stroke(None)
+fill(0)
+fontSize(18)
+font("fonts/variable/RadioCanada-[wdth,wght].ttf")
+fontVariations(wght = 400 )
+fontVariations(wdth = 75 )
+lineHeight(None)
+textBox(rc_text_two, (M+(U*10), M, U*30, (U*29)+5))
+
+font("fonts/variable/RadioCanada-Italic[wdth,wght].ttf")
+fontVariations(wght = 400 )
+fontVariations(wdth = 75 )
+textBox(rc_text_two, (M+(U*10), M - U*14, U*30, (U*29)+5))
 
 
 # Saving and post-processing
