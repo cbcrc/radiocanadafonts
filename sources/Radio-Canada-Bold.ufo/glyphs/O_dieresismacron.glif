@@ -4,13 +4,13 @@
 	<unicode hex="022A"/>
 	<outline>
 		<component base="O"/>
-		<component base="dieresis.cap" xOffset="72"/>
-		<component base="macron.cap" xOffset="72"/>
+		<component base="dieresiscomb" xOffset="372" yOffset="165"/>
+		<component base="macroncomb" xOffset="372" yOffset="360"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-11 04:14:59 +0000</string>
+			<string>2021-03-17 18:39:48 +0000</string>
 			<key>public.markColor</key>
 			<string>0.67,0.95,0.38,1</string>
 		</dict>

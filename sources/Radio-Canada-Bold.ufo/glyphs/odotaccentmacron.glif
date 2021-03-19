@@ -4,24 +4,13 @@
 	<unicode hex="0231"/>
 	<outline>
 		<component base="o"/>
-		<component base="dotaccent" xOffset="-4"/>
-		<component base="macron" xOffset="-4" yOffset="210"/>
+		<component base="dotaccentcomb" xOffset="296"/>
+		<component base="macroncomb" xOffset="296" yOffset="195"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>2</integer>
-					<key>name</key>
-					<string>macron</string>
-				</dict>
-			</array>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-11 04:14:59 +0000</string>
+			<string>2021-03-16 01:09:11 +0000</string>
 			<key>public.markColor</key>
 			<string>0.67,0.95,0.38,1</string>
 		</dict>

@@ -3,8 +3,9 @@
 	<advance width="533"/>
 	<unicode hex="0075"/>
 	<anchor x="265" y="526" name="top"/>
-	<anchor x="351" y="0" name="ogonek"/>
+	<anchor x="467" y="0" name="ogonek"/>
 	<anchor x="265" y="0" name="bottom"/>
+	<anchor x="457" y="525" name="horn"/>
 	<outline>
 		<contour>
 			<point x="56" y="189" type="line"/>
@@ -28,7 +29,7 @@
 			<point x="351" y="0" type="line"/>
 			<point x="485" y="0" type="line"/>
 			<point x="479" y="49" type="line" smooth="yes"/>
-			<point x="474" y="78"/>
+			<point x="475" y="78"/>
 			<point x="473" y="97"/>
 			<point x="473" y="125" type="curve" smooth="yes"/>
 			<point x="473" y="525" type="line"/>
@@ -39,7 +40,7 @@
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-12 00:30:58 +0000</string>
+			<string>2021-03-18 20:01:27 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>

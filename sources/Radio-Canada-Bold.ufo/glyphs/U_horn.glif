@@ -2,14 +2,15 @@
 <glyph name="Uhorn" format="2">
 	<advance width="724"/>
 	<unicode hex="01AF"/>
+	<anchor x="361" y="690" name="top"/>
 	<outline>
 		<component base="U"/>
-		<component base="horncomb" xOffset="130" yOffset="10"/>
+		<component base="horncomb" xOffset="633"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-11 04:14:59 +0000</string>
+			<string>2021-03-19 01:41:03 +0000</string>
 			<key>public.markColor</key>
 			<string>0.67,0.95,0.38,1</string>
 		</dict>

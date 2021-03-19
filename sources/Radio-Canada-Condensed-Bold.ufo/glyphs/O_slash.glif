@@ -4,34 +4,7 @@
 	<unicode hex="00D8"/>
 	<anchor x="314" y="690" name="top"/>
 	<outline>
-		<contour>
-			<point x="36" y="345" type="curve" smooth="yes"/>
-			<point x="36" y="121"/>
-			<point x="161" y="-12"/>
-			<point x="314" y="-12" type="curve" smooth="yes"/>
-			<point x="466" y="-12"/>
-			<point x="591" y="121"/>
-			<point x="591" y="345" type="curve" smooth="yes"/>
-			<point x="591" y="569"/>
-			<point x="466" y="702"/>
-			<point x="314" y="702" type="curve" smooth="yes"/>
-			<point x="161" y="702"/>
-			<point x="36" y="569"/>
-		</contour>
-		<contour>
-			<point x="178" y="345" type="curve" smooth="yes"/>
-			<point x="178" y="497"/>
-			<point x="236" y="571"/>
-			<point x="314" y="571" type="curve" smooth="yes"/>
-			<point x="392" y="571"/>
-			<point x="449" y="497"/>
-			<point x="449" y="345" type="curve" smooth="yes"/>
-			<point x="449" y="193"/>
-			<point x="392" y="119"/>
-			<point x="314" y="119" type="curve" smooth="yes"/>
-			<point x="236" y="119"/>
-			<point x="178" y="193"/>
-		</contour>
+		<component base="O"/>
 		<contour>
 			<point x="19" y="66" type="line"/>
 			<point x="94" y="-12" type="line"/>
@@ -42,9 +15,9 @@
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-02-19 06:49:26 +0000</string>
+			<string>2021-03-17 03:10:26 +0000</string>
 			<key>public.markColor</key>
-			<string>0.67,0.95,0.38,1</string>
+			<string>0.04,0.57,0.04,1</string>
 		</dict>
 	</lib>
 </glyph>

@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rightanglebracket-math" format="2">
-	<advance width="600"/>
+	<advance width="211"/>
 	<unicode hex="27E9"/>
 	<outline>
+		<contour>
+			<point x="0" y="-185" type="line"/>
+			<point x="70" y="-185" type="line"/>
+			<point x="211" y="281" type="line"/>
+			<point x="70" y="720" type="line"/>
+			<point x="0" y="720" type="line"/>
+			<point x="139" y="281" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-11 20:06:26 +0000</string>
+			<string>2021-03-16 04:21:17 +0000</string>
 			<key>public.markColor</key>
-			<string>0.67,0.95,0.38,1</string>
+			<string>0.04,0.57,0.04,1</string>
 		</dict>
 	</lib>
 </glyph>

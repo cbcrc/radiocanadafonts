@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="threequarters" format="2">
-	<advance width="500"/>
+	<advance width="680"/>
 	<unicode hex="00BE"/>
 	<outline>
-		<component base="three"/>
-		<component base="fraction"/>
-		<component base="four"/>
+		<component base="threesuperior" xOffset="-36"/>
+		<component base="fraction" xOffset="142"/>
+		<contour>
+			<point x="375" y="117" type="line"/>
+			<point x="423" y="65" type="line"/>
+			<point x="583" y="399" type="line"/>
+			<point x="517" y="399" type="line"/>
+		</contour>
+		<contour>
+			<point x="375" y="65" type="line"/>
+			<point x="670" y="65" type="line"/>
+			<point x="670" y="132" type="line"/>
+			<point x="405" y="132" type="line"/>
+			<point x="375" y="117" type="line"/>
+		</contour>
+		<contour>
+			<point x="541" y="0" type="line"/>
+			<point x="610" y="0" type="line"/>
+			<point x="610" y="399" type="line"/>
+			<point x="541" y="399" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>threesuperior</string>
+				</dict>
+			</array>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-11 20:06:26 +0000</string>
+			<string>2021-03-16 22:35:10 +0000</string>
 			<key>public.markColor</key>
-			<string>0.67,0.95,0.38,1</string>
+			<string>0.04,0.57,0.04,1</string>
 		</dict>
 	</lib>
 </glyph>

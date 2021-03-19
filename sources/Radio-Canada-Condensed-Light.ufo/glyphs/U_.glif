@@ -2,9 +2,10 @@
 <glyph name="U" format="2">
 	<advance width="502"/>
 	<unicode hex="0055"/>
-	<anchor x="248" y="690" name="top"/>
+	<anchor x="253" y="690" name="top"/>
 	<anchor x="251" y="0" name="bottom"/>
-	<anchor x="305" y="0" name="ogonek"/>
+	<anchor x="258" y="0" name="ogonek"/>
+	<anchor x="415" y="690" name="horn"/>
 	<outline>
 		<contour>
 			<point x="75" y="203" type="line" smooth="yes"/>
@@ -30,7 +31,7 @@
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-11 20:56:43 +0000</string>
+			<string>2021-03-17 19:38:56 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>

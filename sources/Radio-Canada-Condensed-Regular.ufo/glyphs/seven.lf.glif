@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven.lf" format="2">
-	<advance width="600"/>
+	<advance width="480"/>
 	<outline>
+		<contour>
+			<point x="44" y="602" type="line"/>
+			<point x="375" y="602" type="line"/>
+			<point x="414" y="626" type="line"/>
+			<point x="414" y="690" type="line"/>
+			<point x="44" y="690" type="line"/>
+		</contour>
+		<contour>
+			<point x="125" y="0" type="line"/>
+			<point x="224" y="0" type="line"/>
+			<point x="414" y="626" type="line"/>
+			<point x="352" y="690" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-11 20:06:26 +0000</string>
+			<string>2021-03-16 20:13:20 +0000</string>
 			<key>public.markColor</key>
 			<string>0.67,0.95,0.38,1</string>
 		</dict>
