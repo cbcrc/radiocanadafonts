@@ -12,6 +12,10 @@ W = 792  # Width
 H = 612  # Hight
 M = 36   # Margin
 U = 18   # Unit
+ROMAN_FONT = "fonts/variable/Radio-Canada[wdth,wght].ttf"
+ITALIC_FONT = "fonts/variable/Radio-Canada-Italic[wdth,wght].ttf"
+WGHT = 300
+WDTH = 75
 TODAY = str(date.today())
 KERN_KING_LOWERCASE = '''
 lynx tuft frogs, dolphins abduct by proxy the ever awkward klutz, dud, dummkopf, jinx snubnose filmgoer, orphan sgt. renfruw grudgek reyfus, md. sikh psych if halt tympany jewelry sri heh! twyer vs jojo pneu fylfot alcaaba son of nonplussed halfbreed bubbly playboy guggenheim daddy coccyx sgraffito effect, vacuum dirndle impossible attempt to disvalue, muzzle the afghan czech czar and exninja, bob bixby dvorak wood dhurrie savvy, dizzy eye aeon circumcision uvula scrungy picnic luxurious special type carbohydrate ovoid adzuki kumquat bomb? afterglows gold girl pygmy gnome lb. ankhs acme aggroupment akmed brouhha tv wt. ujjain ms. oz abacus mnemonics bhikku khaki bwana aorta embolism vivid owls often kvetch otherwise, wysiwyg densfort wright you’ve absorbed rhythm, put obstacle kyaks krieg kern wurst subject enmity equity coquet quorum pique tzetse hepzibah sulfhydryl briefcase ajax ehler kafka fjord elfship halfdressed jugful eggcup hummingbirds swingdevil bagpipe legwork reproachful hunchback archknave baghdad wejh rijswijk rajbansi rajput ajdir okay weekday obfuscate subpoena liebknecht marcgravia ecbolic arcticward dickcissel pincpinc boldface maidkin adjective adcraft adman dwarfness applejack darkbrown kiln palzy always farmland flimflam unbossy nonlineal stepbrother lapdog stopgap sx countdown basketball beaujolais vb. flowchart aztec lazy bozo syrup tarzan annoying dyke yucky hawg gagzhukz cuzco squire when hiho mayhem nietzsche szasz gumdrop milk emplotment ambidextrously lacquer byway ecclesiastes stubchen hobgoblins crabmill aqua hawaii blvd. subquality byzantine empire debt obvious cervantes jekabzeel anecdote flicflac mechanicville bedbug couldn’t i’ve it’s they’ll they’d dpt. headquarter burkhardt xerxes atkins govt. ebenezer lg. lhama amtrak amway fixity axmen quumbabda upjohn hrumpf
@@ -23,10 +27,10 @@ KERN_KING_SENTENCECASE = '''
 Aaron Abraham Adam Aeneas Agfa Ahoy Aileen Akbar Alanon Americanism Anglican Aorta April Fool’s Day Aqua Lung (Tm.) Arabic Ash Wednesday Authorized Version Ave Maria Away Axel Ay Aztec Bhutan Bill Bjorn Bk Btu. Bvart Bzonga California Cb Cd Cervantes Chicago Clute City, Tx. Cmdr. Cnossus Coco Cracker State, Georgia Cs Ct. Cwacker Cyrano David Debra Dharma Diane Djakarta Dm Dnepr Doris Dudley Dwayne Dylan Dzerzhinsk Eames Ectomorph Eden Eerie Effingham, Il. Egypt Eiffel Tower Eject Ekland Elmore Entreaty Eolian Epstein Equine Erasmus Eskimo Ethiopia Europe Eva Ewan Exodus Jan van Eyck Ezra Fabian February Fhara Fifi Fjord Florida Fm France Fs Ft. Fury Fyn Gabriel Gc Gdynia Gehrig Ghana Gilligan Karl Gjellerup Gk. Glen Gm Gnosis Gp.E. Gregory Gs Gt. Br. Guinevere Gwathmey Gypsy Gzags Hebrew Hf Hg Hileah Horace Hrdlicka Hsia Hts. Hubert Hwang Hai Hyacinth Hz. Iaccoca Ibsen Iceland Idaho If Iggy Ihre Ijit Ike Iliad Immediate Innocent Ione Ipswitch Iquarus Ireland Island It Iud Ivert Iwerks Ixnay Iy Jasper Jenks Jherry Jill Jm Jn Jorge Jr. Julie Kerry Kharma Kiki Klear Koko Kruse Kusack Kylie Laboe Lb. Leslie Lhihane Llama Lorrie Lt. Lucy Lyle Madeira Mechanic Mg. Minnie Morrie Mr. Ms. Mt. Music My Nanny Nellie Nillie Novocane Null Nyack Oak Oblique Occarina Odd Oedipus Off Ogmane Ohio Oil Oj Oklahoma Olio Omni Only Oops Opera Oqu Order Ostra Ottmar Out Ovum Ow Ox Oyster Oz Parade Pd. Pepe Pfister Pg. Phil Pippi Pj Please Pneumonia Porridge Price Psalm Pt. Purple Pv Pw Pyre Qt. Quincy Radio Rd. Red Rhea Right Rj Roche Rr Rs Rt. Rural Rwanda Ryder Sacrifice Series Sgraffito Shirt Sister Skeet Slow Smore Snoop Soon Special Squire Sr St. Suzy Svelte Swiss Sy Szach Td Teach There Title Total Trust Tsena Tulip Twice Tyler Tzean Ua Udder Ue Uf Ugh Uh Ui Uk Ul Um Unkempt Uo Up Uq Ursula Use Utmost Uvula Uw Uxurious Uzßai Valerie Velour Vh Vicky Volvo Vs Water Were Where With World Wt. Wulk Wyler Xavier Xerox Xi Xylophone Yaboe Year Yipes Yo Ypsilant Ys Yu Zabar’s Zero Zhane Zizi Zorro Zu Zy Don’t I’ll I’m I’se
 '''
 SPACING_STRINGS_LETTERS_LOWERCASE = '''
-nnonnoonoo nnannooaoo nnbnnooboo nncnnoocoo nndnnoodoo nnennooeoo nnfnnoofoo nngnnoogoo nnhnnoohoo nninnooioo nnjnnoojoo nnknnookoo nnlnnooloo nnmnnoomoo nnpnnoopoo nnqnnooqoo nnnnooroo nnsnnoosoo nntnnootoo nnunnoouoo nnvnnoovoo nnwnnoowoo nnxnnooxoo nnynnooyoo nnznnoozoo
+nnnonnoonoo nnonnoonoo nnonnoonoo nnonnoonoo nnonnoonoo nnonnoonoo nnonnoonoo nnonnoonoo nnonnoonoo nnonnoonoo nnonnoonoo nnonnoonoo nonnoonoo nnannooaoo nnbnnooboo nncnnoocoo nndnnoodoo nnennooeoo nnfnnoofoo nngnnoogoo nnhnnoohoo nninnooioo nnjnnoojoo nnknnookoo nnlnnooloo nnmnnoomoo nnpnnoopoo nnqnnooqoo nnnnooroo nnsnnoosoo nntnnootoo nnunnoouoo nnvnnoovoo nnwnnoowoo nnxnnooxoo nnynnooyoo nnznnoozoo
 '''
 SPACING_STRINGS_LETTERS_UPPERCASE = '''
-HHOHHOOHOO HHAHHOOAOO HHBHHOOBOO HHCHHOOCOO HHDHHOODOO HHEHHOOEOO HHFHHOOFOO HHGHHOOGOO HHIHHOOIOO HHJHHOOJOO HHKHHOOKOO HHLHHOOLOO HHMHHOOMOO HHNHHOONOO HHPHHOOPOO HHQHHOOQOO HHRHHOOROO HHSHHOOSOO HHTHHOOTOO HHUHHOOUOO HHVHHOOVOO HHWHHOOWOO HHXHHOOXOO HHYHHOOYOO HHZHHOOZOO
+HHHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HOHHOOHOO HHAHHOOAOO HHBHHOOBOO HHCHHOOCOO HHDHHOODOO HHEHHOOEOO HHFHHOOFOO HHGHHOOGOO HHIHHOOIOO HHJHHOOJOO HHKHHOOKOO HHLHHOOLOO HHMHHOOMOO HHNHHOONOO HHPHHOOPOO HHQHHOOQOO HHRHHOOROO HHSHHOOSOO HHTHHOOTOO HHUHHOOUOO HHVHHOOVOO HHWHHOOWOO HHXHHOOXOO HHYHHOOYOO HHZHHOOZOO
 '''
 SPACING_STRINGS_LETTERS_LOWERCASE_PUNCTUATION = '''
 nn.nnoo.oo nn,nnoo,oo nn:nnoo:oo nn;nnoo;oo nn…nnoo…oo nn!nnoo!oo nn¡nnoo¡oo nn?nnoo?oo nn¿nnoo¿oo nn•nnoo•oo nn*nnoo*oo nn#nnoo#oo nn/nnoo/oo nn\nnoo\oo nn(nnoo(oo nn)nnoo)oo nn{nnoo{oo nn}nnoo}oo nn[nnoo[oo nn]nnoo]oo nn-nnoo-oo nn_nnoo_oo nn‚nnoo‚oo nn„nnoo„oo nn“nnoo“oo nn”nnoo”oo nn‘nnoo‘oo nn’nnoo’oo nn«nnoo«oo nn»nnoo»oo nn‹nnoo‹oo nn›nnoo›oo nn"nnoo"oo nn'nnoo'oo
@@ -36,9 +40,6 @@ NN.NNOO.OO NN,NNOO,OO NNNNOOOO NN;NNOO;OO NN…NNOO…OO NN!NNOO!OO NN¡NNOO¡OO
 '''
 SPACING_STRINGS_NUMBERS_BASIC = '''
 008088088 0010088188 0020088288 0030088388 0040088488 0050088588 0060088688 0070088788 0090088988
-'''
-SPACING_STRINGS_NUMBERS_PI = '''
-3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679821480865132823066470938446095505822317253594081284811174502841027019385211055596446229489549303819644288109756659334461284756482337867831652712019091456485669234603486104543266482133936072602491412737245870066063155881748815209209628292540917153643678925903600113305305488204665213841469519415116094330572703657595919530921861173819326117931051185480744623799627495673518857527248912279381830119491298336733624406566430860213949463952247371907021798609437027705392171762931767523846748184676694051320005681271452635608277857713427577896091736371787214684409012249534301465495853710507922796892589235420199561121290219608640344181598136297747713099605187072113499999983729780499510597317328160963185950244594553469083026425223082533446850352619311881710100031378387528865875332083814206171776691473035982534904287554687311595628638823537875937519577818577805321712268
 '''
 SPACING_STRINGS_NUMBERS_PI = '''
 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679821480865132823066470938446095505822317253594081284811174502841027019385211055596446229489549303819644288109756659334461284756482337867831652712019091456485669234603486104543266482133936072602491412737245870066063155881748815209209628292540917153643678925903600113305305488204665213841469519415116094330572703657595919530921861173819326117931051185480744623799627495673518857527248912279381830119491298336733624406566430860213949463952247371907021798609437027705392171762931767523846748184676694051320005681271452635608277857713427577896091736371787214684409012249534301465495853710507922796892589235420199561121290219608640344181598136297747713099605187072113499999983729780499510597317328160963185950244594553469083026425223082533446850352619311881710100031378387528865875332083814206171776691473035982534904287554687311595628638823537875937519577818577805321712268
@@ -90,9 +91,9 @@ newDrawing()
 page_number = 0
 
 # TEST FONTS
-font("fonts/variable/RadioCanada-[wdth,wght].ttf")
-for axis, data in listFontVariations().items():
-    print((axis, data))
+font(ROMAN_FONT)
+#for axis, data in listFontVariations().items():
+#    print((axis, data))
 # for eachFontName in installedFonts():
 #    print(eachFontName)
 
@@ -107,12 +108,12 @@ stroke(None)
 fill(0)
 text("14pt Spacing Strings", (M, (U*29)+3))
 text("Roman Condensed Light", (M, (U*28)+3))
-text("Weight Axis: 300", (M, (U*27)+3))
-text("Width Axis: 75", (M, (U*26)+3))
+text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
+text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
-font("fonts/variable/RadioCanada-[wdth,wght].ttf")
-fontVariations(wght = 300)
-fontVariations(wdth = 75)
+font(ROMAN_FONT)
+fontVariations(wght = WGHT)
+fontVariations(wdth = WDTH)
 fontSize(14)
 lineHeight(14*1.4)
 textBox(SPACING_STRINGS_LETTERS_LOWERCASE+
@@ -132,12 +133,12 @@ stroke(None)
 fill(0)
 text("14pt Spacing Strings", (M, (U*29)+3))
 text("Italic Condensed Light", (M, (U*28)+3))
-text("Weight Axis: 300", (M, (U*27)+3))
-text("Width Axis: 75", (M, (U*26)+3))
+text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
+text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
-font("fonts/variable/RadioCanada-Italic[wdth,wght].ttf")
-fontVariations(wght = 300)
-fontVariations(wdth = 75)
+font(ITALIC_FONT)
+fontVariations(wght = WGHT)
+fontVariations(wdth = WDTH)
 fontSize(14)
 lineHeight(14*1.4)
 textBox(SPACING_STRINGS_LETTERS_LOWERCASE+
@@ -157,12 +158,12 @@ stroke(None)
 fill(0)
 text("14pt Spacing Strings", (M, (U*29)+3))
 text("Roman Condensed Light", (M, (U*28)+3))
-text("Weight Axis: 300", (M, (U*27)+3))
-text("Width Axis: 75", (M, (U*26)+3))
+text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
+text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
-font("fonts/variable/RadioCanada-[wdth,wght].ttf")
-fontVariations(wght = 300)
-fontVariations(wdth = 75)
+font(ROMAN_FONT)
+fontVariations(wght = WGHT)
+fontVariations(wdth = WDTH)
 fontSize(14)
 lineHeight(14*1.4)
 textBox(SPACING_STRINGS_NUMBERS_BASIC+
@@ -181,12 +182,12 @@ stroke(None)
 fill(0)
 text("14pt Spacing Strings", (M, (U*29)+3))
 text("Italic Condensed Light", (M, (U*28)+3))
-text("Weight Axis: 300", (M, (U*27)+3))
-text("Width Axis: 75", (M, (U*26)+3))
+text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
+text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
-font("fonts/variable/RadioCanada-Italic[wdth,wght].ttf")
-fontVariations(wght = 300)
-fontVariations(wdth = 75)
+font(ITALIC_FONT)
+fontVariations(wght = WGHT)
+fontVariations(wdth = WDTH)
 fontSize(14)
 lineHeight(14*1.4)
 textBox(SPACING_STRINGS_NUMBERS_BASIC+
@@ -205,12 +206,12 @@ stroke(None)
 fill(0)
 text("14pt Kern King", (M, (U*29)+3))
 text("Roman Condensed Light", (M, (U*28)+3))
-text("Weight Axis: 300", (M, (U*27)+3))
-text("Width Axis: 75", (M, (U*26)+3))
+text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
+text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
-font("fonts/variable/RadioCanada-[wdth,wght].ttf")
-fontVariations(wght = 300)
-fontVariations(wdth = 75)
+font(ROMAN_FONT)
+fontVariations(wght = WGHT)
+fontVariations(wdth = WDTH)
 lineHeight(14*1.4)
 fontSize(14)
 textBox(KERN_KING_LOWERCASE*2, (M+(U*10), M, U*30, U*29))
@@ -226,12 +227,12 @@ stroke(None)
 fill(0)
 text("14pt Kern King", (M, (U*29)+3))
 text("Italic Condensed Light", (M, (U*28)+3))
-text("Weight Axis: 300", (M, (U*27)+3))
-text("Width Axis: 75", (M, (U*26)+3))
+text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
+text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
-font("fonts/variable/RadioCanada-Italic[wdth,wght].ttf")
-fontVariations(wght = 300)
-fontVariations(wdth = 75)
+font(ITALIC_FONT)
+fontVariations(wght = WGHT)
+fontVariations(wdth = WDTH)
 lineHeight(14*1.4)
 fontSize(14)
 textBox(KERN_KING_LOWERCASE*2, (M+(U*10), M, U*30, U*29))
@@ -247,12 +248,12 @@ stroke(None)
 fill(0)
 text("14pt Kern King", (M, (U*29)+3))
 text("Roman Condensed Light", (M, (U*28)+3))
-text("Weight Axis: 300", (M, (U*27)+3))
-text("Width Axis: 75", (M, (U*26)+3))
+text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
+text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
-font("fonts/variable/RadioCanada-[wdth,wght].ttf")
-fontVariations(wght = 300)
-fontVariations(wdth = 75)
+font(ROMAN_FONT)
+fontVariations(wght = WGHT)
+fontVariations(wdth = WDTH)
 lineHeight(14*1.4)
 fontSize(14)
 textBox(KERN_KING_UPPERCASE, (M+(U*10), M, U*30, U*29))
@@ -268,12 +269,12 @@ stroke(None)
 fill(0)
 text("14pt Kern King", (M, (U*29)+3))
 text("Italic Condensed Light", (M, (U*28)+3))
-text("Weight Axis: 300", (M, (U*27)+3))
-text("Width Axis: 75", (M, (U*26)+3))
+text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
+text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
-font("fonts/variable/RadioCanada-Italic[wdth,wght].ttf")
-fontVariations(wght = 300)
-fontVariations(wdth = 75)
+font(ITALIC_FONT)
+fontVariations(wght = WGHT)
+fontVariations(wdth = WDTH)
 lineHeight(14*1.4)
 fontSize(14)
 textBox(KERN_KING_UPPERCASE, (M+(U*10), M, U*30, U*29))
@@ -289,12 +290,12 @@ stroke(None)
 fill(0)
 text("14pt Kern King", (M, (U*29)+3))
 text("Roman Condensed Light", (M, (U*28)+3))
-text("Weight Axis: 300", (M, (U*27)+3))
-text("Width Axis: 75", (M, (U*26)+3))
+text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
+text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
-font("fonts/variable/RadioCanada-[wdth,wght].ttf")
-fontVariations(wght = 300)
-fontVariations(wdth = 75)
+font(ROMAN_FONT)
+fontVariations(wght = WGHT)
+fontVariations(wdth = WDTH)
 lineHeight(14*1.4)
 fontSize(14)
 textBox(KERN_KING_SENTENCECASE*2, (M+(U*10), M, U*30, U*29))
@@ -310,12 +311,12 @@ stroke(None)
 fill(0)
 text("14pt Kern King", (M, (U*29)+3))
 text("Italic Condensed Light", (M, (U*28)+3))
-text("Weight Axis: 300", (M, (U*27)+3))
-text("Width Axis: 75", (M, (U*26)+3))
+text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
+text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
-font("fonts/variable/RadioCanada-Italic[wdth,wght].ttf")
-fontVariations(wght = 300)
-fontVariations(wdth = 75)
+font(ITALIC_FONT)
+fontVariations(wght = WGHT)
+fontVariations(wdth = WDTH)
 lineHeight(14*1.4)
 fontSize(14)
 textBox(KERN_KING_SENTENCECASE*2, (M+(U*10), M, U*30, U*29))
