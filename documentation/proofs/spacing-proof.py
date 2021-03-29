@@ -47,7 +47,18 @@ SPACING_STRINGS_NUMBERS_PI = '''
 SPACING_STRINGS_NUMBERS_EXTRA = '''
 $00 $10 $20 $30 $40 $50 $60 $70 $80 $90 £00 £10 £20 £30 £40 £50 £60 £70 £80 £90 00¢ 11¢ 22¢ 33¢ 44¢ 55¢ 66¢ 77¢ 88¢ 99¢ 00% 0‰ 0-0.0,0…0° 11% 1‰ 1-1.1,1…1° 12% 2‰ 2-2.2,2…2° 13% 3‰ 3-3.3,3…3° 14% 4‰ 4-4.4,4…4° 15% 5‰ 5-5.5,5…5° 16% 6‰ 6-6.6,6…6° 17% 7‰ 7-7.7,7…7° 18% 8‰ 8-8.8,8…8° 19% 9‰ 9-9.9,9…9°
 '''
+ADVENTURES_IN_WONDERLAND = '''
+Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversations?”
 
+So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.
+
+There was nothing so very remarkable in that; nor did Alice think it so very much out of the way to hear the Rabbit say to itself, “Oh dear! Oh dear! I shall be late!” (when she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural); but when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge.
+'''
+RADIO_CANADA = '''
+Ici Radio-Canada Télé (stylized as ICI Radio-Canada TēLē, and formerly known as Télévision de Radio-Canada) is a Canadian French-language free-to-air television network owned by the Canadian Broadcasting Corporation (known in French as Société Radio-Canada), the national public broadcaster. It is the French-language counterpart of CBC Television, the broadcaster's English-language television network.
+
+Its headquarters are at Maison Radio-Canada in Montreal, which is also home to the network's flagship station, CBFT-DT. Until the 2012 closedown of the CBC / Radio-Canada rebroadcaster network, it was the only francophone network in Canada to broadcast terrestrially in all Canadian provinces.
+'''
 # DRAWS A GRID
 def grid():
     strokeWidth(1)
@@ -107,7 +118,6 @@ fontSize(13)
 stroke(None)
 fill(0)
 text("14pt Spacing Strings", (M, (U*29)+3))
-text("Roman Condensed Light", (M, (U*28)+3))
 text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
 text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
@@ -132,7 +142,6 @@ fontSize(13)
 stroke(None)
 fill(0)
 text("14pt Spacing Strings", (M, (U*29)+3))
-text("Italic Condensed Light", (M, (U*28)+3))
 text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
 text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
@@ -157,7 +166,6 @@ fontSize(13)
 stroke(None)
 fill(0)
 text("14pt Spacing Strings", (M, (U*29)+3))
-text("Roman Condensed Light", (M, (U*28)+3))
 text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
 text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
@@ -181,7 +189,6 @@ fontSize(13)
 stroke(None)
 fill(0)
 text("14pt Spacing Strings", (M, (U*29)+3))
-text("Italic Condensed Light", (M, (U*28)+3))
 text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
 text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
@@ -205,7 +212,6 @@ fontSize(13)
 stroke(None)
 fill(0)
 text("14pt Kern King", (M, (U*29)+3))
-text("Roman Condensed Light", (M, (U*28)+3))
 text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
 text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
@@ -226,7 +232,6 @@ fontSize(13)
 stroke(None)
 fill(0)
 text("14pt Kern King", (M, (U*29)+3))
-text("Italic Condensed Light", (M, (U*28)+3))
 text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
 text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
@@ -247,7 +252,6 @@ fontSize(13)
 stroke(None)
 fill(0)
 text("14pt Kern King", (M, (U*29)+3))
-text("Roman Condensed Light", (M, (U*28)+3))
 text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
 text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
@@ -268,7 +272,6 @@ fontSize(13)
 stroke(None)
 fill(0)
 text("14pt Kern King", (M, (U*29)+3))
-text("Italic Condensed Light", (M, (U*28)+3))
 text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
 text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
@@ -289,7 +292,6 @@ fontSize(13)
 stroke(None)
 fill(0)
 text("14pt Kern King", (M, (U*29)+3))
-text("Roman Condensed Light", (M, (U*28)+3))
 text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
 text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
@@ -310,7 +312,6 @@ fontSize(13)
 stroke(None)
 fill(0)
 text("14pt Kern King", (M, (U*29)+3))
-text("Italic Condensed Light", (M, (U*28)+3))
 text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
 text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
 # MAIN TEXT #-----------------#
@@ -320,6 +321,86 @@ fontVariations(wdth = WDTH)
 lineHeight(14*1.4)
 fontSize(14)
 textBox(KERN_KING_SENTENCECASE*2, (M+(U*10), M, U*30, U*29))
+
+new_page() #--------------------------------------------------#
+#grid() # TOGGLE FOR GRID VIEW
+page_number += 1
+draw_page_info(page_number)
+# SIDEBAR #-------------------#
+font("InputMonoCompressed-Regular")
+fontSize(13)
+stroke(None)
+fill(0)
+text("14pt Public Domain Text", (M, (U*29)+3))
+text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
+text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
+# MAIN TEXT #-----------------#
+font(ROMAN_FONT)
+fontVariations(wght = WGHT)
+fontVariations(wdth = WDTH)
+lineHeight(14*1.4)
+fontSize(14)
+textBox(ADVENTURES_IN_WONDERLAND*2, (M+(U*10), M, U*19, U*29))
+
+new_page() #--------------------------------------------------#
+#grid() # TOGGLE FOR GRID VIEW
+page_number += 1
+draw_page_info(page_number)
+# SIDEBAR #-------------------#
+font("InputMonoCompressed-Regular")
+fontSize(13)
+stroke(None)
+fill(0)
+text("14pt Public Domain Text", (M, (U*29)+3))
+text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
+text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
+# MAIN TEXT #-----------------#
+font(ITALIC_FONT)
+fontVariations(wght = WGHT)
+fontVariations(wdth = WDTH)
+lineHeight(14*1.4)
+fontSize(14)
+textBox(ADVENTURES_IN_WONDERLAND*2, (M+(U*10), M, U*19, U*29))
+
+new_page() #--------------------------------------------------#
+#grid() # TOGGLE FOR GRID VIEW
+page_number += 1
+draw_page_info(page_number)
+# SIDEBAR #-------------------#
+font("InputMonoCompressed-Regular")
+fontSize(13)
+stroke(None)
+fill(0)
+text("14pt Wikipedia Text", (M, (U*29)+3))
+text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
+text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
+# MAIN TEXT #-----------------#
+font(ROMAN_FONT)
+fontVariations(wght = WGHT)
+fontVariations(wdth = WDTH)
+lineHeight(14*1.4)
+fontSize(14)
+textBox(RADIO_CANADA*3, (M+(U*10), M, U*19, U*29))
+
+new_page() #--------------------------------------------------#
+#grid() # TOGGLE FOR GRID VIEW
+page_number += 1
+draw_page_info(page_number)
+# SIDEBAR #-------------------#
+font("InputMonoCompressed-Regular")
+fontSize(13)
+stroke(None)
+fill(0)
+text("14pt Wikipedia Text", (M, (U*29)+3))
+text("Weight Axis: "+str(int(WGHT)), (M, (U*27)+3))
+text("Width Axis:  "+str(int(WDTH)), (M, (U*26)+3))
+# MAIN TEXT #-----------------#
+font(ITALIC_FONT)
+fontVariations(wght = WGHT)
+fontVariations(wdth = WDTH)
+lineHeight(14*1.4)
+fontSize(14)
+textBox(RADIO_CANADA*3, (M+(U*10), M, U*19, U*29))
 
 # Saving and post-processing #--------------------------------#
 saveImage("documentation/proofs/spacing-proof.pdf")
