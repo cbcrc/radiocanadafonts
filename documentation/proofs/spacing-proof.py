@@ -14,8 +14,8 @@ M = 36   # Margin
 U = 18   # Unit
 ROMAN_FONT = "fonts/variable/Radio-Canada[wdth,wght].ttf"
 ITALIC_FONT = "fonts/variable/Radio-Canada-Italic[wdth,wght].ttf"
-WGHT = 300
-WDTH = 75
+WGHT = 400
+WDTH = 100
 TODAY = str(date.today())
 KERN_KING_LOWERCASE = '''
 lynx tuft frogs, dolphins abduct by proxy the ever awkward klutz, dud, dummkopf, jinx snubnose filmgoer, orphan sgt. renfruw grudgek reyfus, md. sikh psych if halt tympany jewelry sri heh! twyer vs jojo pneu fylfot alcaaba son of nonplussed halfbreed bubbly playboy guggenheim daddy coccyx sgraffito effect, vacuum dirndle impossible attempt to disvalue, muzzle the afghan czech czar and exninja, bob bixby dvorak wood dhurrie savvy, dizzy eye aeon circumcision uvula scrungy picnic luxurious special type carbohydrate ovoid adzuki kumquat bomb? afterglows gold girl pygmy gnome lb. ankhs acme aggroupment akmed brouhha tv wt. ujjain ms. oz abacus mnemonics bhikku khaki bwana aorta embolism vivid owls often kvetch otherwise, wysiwyg densfort wright you’ve absorbed rhythm, put obstacle kyaks krieg kern wurst subject enmity equity coquet quorum pique tzetse hepzibah sulfhydryl briefcase ajax ehler kafka fjord elfship halfdressed jugful eggcup hummingbirds swingdevil bagpipe legwork reproachful hunchback archknave baghdad wejh rijswijk rajbansi rajput ajdir okay weekday obfuscate subpoena liebknecht marcgravia ecbolic arcticward dickcissel pincpinc boldface maidkin adjective adcraft adman dwarfness applejack darkbrown kiln palzy always farmland flimflam unbossy nonlineal stepbrother lapdog stopgap sx countdown basketball beaujolais vb. flowchart aztec lazy bozo syrup tarzan annoying dyke yucky hawg gagzhukz cuzco squire when hiho mayhem nietzsche szasz gumdrop milk emplotment ambidextrously lacquer byway ecclesiastes stubchen hobgoblins crabmill aqua hawaii blvd. subquality byzantine empire debt obvious cervantes jekabzeel anecdote flicflac mechanicville bedbug couldn’t i’ve it’s they’ll they’d dpt. headquarter burkhardt xerxes atkins govt. ebenezer lg. lhama amtrak amway fixity axmen quumbabda upjohn hrumpf
@@ -33,7 +33,7 @@ SPACING_STRINGS_LETTERS_UPPERCASE = '''
 HHHHHHHHHHH OOOOOOOOOO HHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HHOHHOOHOO HHAHHOOAOO HHBHHOOBOO HHCHHOOCOO HHDHHOODOO HHEHHOOEOO HHFHHOOFOO HHGHHOOGOO HHIHHOOIOO HHJHHOOJOO HHKHHOOKOO HHLHHOOLOO HHMHHOOMOO HHNHHOONOO HHPHHOOPOO HHQHHOOQOO HHRHHOOROO HHSHHOOSOO HHTHHOOTOO HHUHHOOUOO HHVHHOOVOO HHWHHOOWOO HHXHHOOXOO HHYHHOOYOO HHZHHOOZOO
 '''
 SPACING_STRINGS_LETTERS_LOWERCASE_PUNCTUATION = '''
-nn.nnoo.oo nn,nnoo,oo nn:nnoo:oo nn;nnoo;oo nn…nnoo…oo nn!nnoo!oo nn¡nnoo¡oo nn?nnoo?oo nn¿nnoo¿oo nn•nnoo•oo nn*nnoo*oo nn#nnoo#oo nn/nnoo/oo nn\nnoo\oo nn(nnoo(oo nn)nnoo)oo nn{nnoo{oo nn}nnoo}oo nn[nnoo[oo nn]nnoo]oo nn-nnoo-oo nn_nnoo_oo nn‚nnoo‚oo nn„nnoo„oo nn“nnoo“oo nn”nnoo”oo nn‘nnoo‘oo nn’nnoo’oo nn«nnoo«oo nn»nnoo»oo nn‹nnoo‹oo nn›nnoo›oo nn"nnoo"oo nn'nnoo'oo
+nn.nnoo.oo nn,nnoo,oo nn:nnoo:oo nn;nnoo;oo nn…nnoo…oo nn!nnoo!oo nn¡nnoo¡oo nn?nnoo?oo nn¿nnoo¿oo nn•nnoo•oo nn*nnoo*oo nn#nnoo#oo nn/nnoo/oo nn\\nnoo\\oo nn(nnoo(oo nn)nnoo)oo nn{nnoo{oo nn}nnoo}oo nn[nnoo[oo nn]nnoo]oo nn-nnoo-oo nn_nnoo_oo nn‚nnoo‚oo nn„nnoo„oo nn“nnoo“oo nn”nnoo”oo nn‘nnoo‘oo nn’nnoo’oo nn«nnoo«oo nn»nnoo»oo nn‹nnoo‹oo nn›nnoo›oo nn"nnoo"oo nn'nnoo'oo
 '''
 SPACING_STRINGS_LETTERS_UPPERCASE_PUNCTUATION = '''
 NN.NNOO.OO NN,NNOO,OO NNNNOOOO NN;NNOO;OO NN…NNOO…OO NN!NNOO!OO NN¡NNOO¡OO NN?NNOO?OO NN¿NNOO¿OO NNNNOOOO NNNNOOOO NN#NNOO#OO NN/NNOO/OO NN\\NNOO\\OO NN(NNOO(OO NN)NNOO)OO NN{NNOO{OO NN}NNOO}OO NN[NNOO[OO NN]NNOO]OO NN-NNOO-OO NN_NNOO_OO NN‚NNOO‚OO NN„NNOO„OO NN“NNOO“OO NN”NNOO”OO NN‘NNOO‘OO NN’NNOO’OO NN«NNOO«OO NN»NNOO»OO NN‹NNOO‹OO NN›NNOO›OO NN"NNOO"OO NN'NNOO'OO
@@ -402,6 +402,8 @@ lineHeight(14*1.4)
 fontSize(14)
 textBox(RADIO_CANADA*3, (M+(U*10), M, U*19, U*29))
 
+
 # Saving and post-processing #--------------------------------#
 saveImage("documentation/proofs/spacing-proof.pdf")
+saveImage("documentation/proofs/axis-specific-proofs/wght-400--wdth-100--proof.pdf")
 print("\nDRAWBOT: Updated Spacing Proof")
