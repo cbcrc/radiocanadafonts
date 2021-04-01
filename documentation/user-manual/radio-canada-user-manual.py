@@ -29,6 +29,15 @@ Ici Radio-Canada Télé (stylized as ICI Radio-Canada TēLē, and formerly known
 LANGUAGE_SUPPORT = '''
 Arbëreshë Albanian, Eastern Abnaki, Afar, Arvanitika Albanian, Western Abnaki, Achinese, Achuar-Shiwiar, Acheron, Eastern Arrernte, Afrikaans, Aguaruna, Gheg Albanian, Tosk Albanian, Amahuaca, Yanesha', Amis, Amarakaeri, Uab Meto, Aragonese, Mapudungun, Asu (Tanzania), Waorani, Anuta, Southern Aymara, Central Aymara, South Azerbaijani, North Azerbaijani, Bemba (Zambia), Bena (Tanzania), Bari, Bikol, Bini, Bislama, Bosnian, Breton, Garifuna, Kaqchikel, Catalan, Chachi, Chavacano, Cashibo-Cacataibo, Cashinahua, Candoshi-Shapra, Cebuano, Czech, Chiga, Chamorro, Ojitlán Chinantec, Chuukese, Cimbrian, Chokwe, Central Kurdish, Asháninka, Montenegrin, Cofán, Cornish, Corsican, Caquinte, Pichis Ashéninka, Crimean Tatar, Seselwa Creole French, Chiltepec Chinantec, Kashubian, Tedim Chin, Welsh, Danish, Taita, German, Andaandi, Dongolawi, Dehu, Dimli, Lower Sorbian, Jola-Fonyi, Embu, Standard Estonian, English, Ese Ejja, Basque, Faroese, Nobiin, Fijian, Filipino, Finnish, Kven Finnish, French, Western Frisian, Friulian, Gagauz, Borana-Arsi-Guji Oromo, West Central Oromo, Guadeloupean Creole French, Gilbertese, Scottish Gaelic, Irish, Galician, Manx, Gooniyandi, Ga’anda, Swiss German, Wayuu, Gusii, Gwichʼin, Eastern Oromo, Haitian, Hawaiian, Northern Qiandong Miao, Hiligaynon, Southern Qiandong Miao, Hani, Caribbean Hindustani, Hopi, Croatian, Upper Sorbian, Hungarian, Huastec, Iloko, Indonesian, Icelandic, Italian, Jamaican Creole English, Javanese, Shuar, Japanese (Rōmaji), Kalaallisut, Kamba (Kenya), Makonde, Kabuverdianu, Kekchí, Kaingang, Khasi, Koyra Chiini Songhay, Kikuyu, Kinyarwanda, Kirmanjki, Kalenjin, Kimbundu, Northern Kurdish, Kongo, Konzo, Kaonde, Karelian, Shambala, Kölsch, Kituba (DRC), Kuanyama, Ladino, Latin, Ligurian, Lithuanian, Ladin, Lombard, Otuho, Lozi, Latgalian, Luxembourgish, Luba-Lulua, Ganda, Luo (Kenya and Tanzania), Standard Latvian, Matsés, Meru, Mauritian Creole, Makhuwa-Meetto, Minangkabau, Mískito, Malagasy, Maltese, Montagnais, Mohawk, Maori, Totontepec Mixe, Creek, Murrinh-Patha, Mirandese, Kala Lagaw Ya, Ixcatlán Mazatec, Naga Pidgin, Neapolitan, Navajo, South Ndebele, North Ndebele, Ndonga, Low German, Central Nahuatl, Niuean, Ao Naga, Dutch, Norwegian, Nomatsiguenga, Pedi, Nyanja, Nyankole, Occitan, Northwestern Ojibwa, Orma, Oroqen, Mezquital Otomi, Pampanga, Papiamento, Palauan, Páez, Picard, Pijin, Pintupi-Luritja, Paluan, Piemontese, Polish, Pohnpeian, Portuguese, Potawatomi, Upper Guinea Crioulo, Pipil, Ashéninka Perené, K'iche', Quechua, Cook Islands Māori, Romansh, Romanian, Rotokas, Rundi, Istro Romanian, Macedo-Romanian, Rwa, Sango, Samburu, Sangu (Tanzania), Sicilian, Sena, Seri, Koyraboro Senni Songhai, Secoya, Shipibo-Conibo, Pite Sami, Ume Sami, Shawnee, Slovak, Slovenian, Southern Sami, Northern Sami, Lule Sami, Inari Sami, Samoan, Shona, Soninke, Somali, Southern Sotho, Spanish, Sardinian, Saramaccan, Sranan Tongo, Swati, Sundanese, Maore Comorian, Congo Swahili, Swedish, Swahili, Silesian, Tahitian, Atayal, Tetun Dili, Teso, Tetum, Tagalog, Tiv, Tokelau, Tsakhur, Talysh, Toba, Tonga (Zambia), Tonga (Tonga Islands), Papantla Totonac, Tok Pisin, Tswana, Tsonga, Purepecha, Muslim Tat, Turkmen, Tumbuka, Turkish, Tasawaq, Tzeltal, Tzotzil, Meriam Mir, Umbundu, Munsee, Northern Uzbek, Venetian, Veps, Vietnamese, Makhuwa, Võro, Walser, Waray (Philippines), Warlpiri, Wik-Mungkan, Ho-Chunk, Walloon, Mwani, Wolof, Wiradjuri, Wangaaybuwan-Ngiyambaa, Xavánte, Xhosa, Kenzi, Mattokki, Soga, Yao, Yapese, Yindjibarndi, Makwe, Yucateco, Zapotec, Ngazidja Comorian, Malaysian, Záparo, Standard Malay, Zulu, Zuni
 '''
+INTRO = '''
+In early 2017, work started on a custom typeface for use by CBC/Radio-Canada. In 2021 this typeface was expanded to cover a wider range of weights, plus roman and italic variable fonts. The expanded character set developed in 2021 increased the number of supported languages using the Latin script from 106 to 317, and the original glyph count of 490 has been expanded to 679.
+
+In 2021, extensive work was done organizing the upstream Git repository, improving the way marks are handled, adding currency and other symbols to cover the Google Fonts Latin Plus character set, and drawing missing condensed light source files for both the roman and italic.
+
+If you have any issues with, or questions about this variable font project, please leave an issue in the upstream Git repository. Pull requests are welcome, just remember to check your work in the proofs if you are adjusting the drawing and spacing.
+
+—Eli Heuer
+'''
 
 # Draws a Grid
 def grid():
@@ -135,6 +144,30 @@ font(ITALIC_FONT)
 fontVariations(wght = 400 )
 fontVariations(wdth = 100 )
 text("Variable Font User Manual",  (M, M+3))
+
+
+new_page() #--------------------------------------------------#
+# Intro
+#grid() # toggle for grid view
+page_number += 1
+draw_page_info(page_number)
+fill(0)
+font("InputMonoCompressed-Regular")
+stroke(None)
+fontSize(13)
+text("Introduction", (M, U*29))
+text("Font Engineering Notes", (M, U*28))
+text("12pt Roman", (M, U*26))
+text("Weight Axis: 400", (M, U*25))
+text("Width Axis:  100", (M, U*24))
+stroke(None)
+fill(0)
+fontSize(12)
+font(ROMAN_FONT)
+fontVariations(wght = 400 )
+fontVariations(wdth = 100 )
+lineHeight(12.0*1.5)
+textBox(INTRO, (M+(U*10), M, U*19, U*28.7))
 
 
 new_page() #--------------------------------------------------#
@@ -355,6 +388,7 @@ for x in range(14):
     text("Radio-Canada", (M+(U*x_pos), U*y_pos))
     wdth_value -= 2
     y_pos -= 2
+
 new_page() #--------------------------------------------------#
 # Glyph Count
 #grid() # toggle for grid view
@@ -364,11 +398,9 @@ fill(0)
 font("InputMonoCompressed-Regular")
 stroke(None)
 fontSize(13)
-text("Partial Character Set", (M, (U*29)+3))
-text("Google Fonts Latin Plus", (M, (U*28)+3))
-text("Glyph Count: 697", (M, (U*26)+3))
-text("Weight Axis: 400", (M, (U*25)+3))
-text("Width Axis:  100", (M, (U*24)+3))
+text("Partial Character Set", (M, U*29))
+text("Google Fonts Latin Plus", (M, U*28))
+text("Glyph Count: 697", (M, U*26))
 stroke(None)
 fill(0)
 fontSize(18)
@@ -390,15 +422,18 @@ font("InputMonoCompressed-Regular")
 fontSize(13)
 text("Language Support", (M, U*29))
 text("317 Languages", (M, U*28))
+text("*Approximate", (M, U*27))
+text("*Source: Hyperglot CLI", (M, U*3))
 font(ROMAN_FONT)
 fontSize(10)
-lineHeight(14)
+lineHeight(14.6)
 fontVariations(wght = 400 )
 fontVariations(wdth = 100 )
-textBox(LANGUAGE_SUPPORT, (M+(U*10), M, U*30, (U*28)+4))
+textBox(LANGUAGE_SUPPORT, (M+(U*10), M, U*30, (U*28)+7))
 
 
 new_page() #--------------------------------------------------#
+# Text Example One
 #grid() # toggle for grid view
 page_number += 1
 draw_page_info(page_number)
@@ -410,24 +445,57 @@ fill(0)
 font("InputMonoCompressed-Regular")
 stroke(None)
 fontSize(13)
-text("12pt Regular", (M, (U*29)+3))
-text("Weight Axis: 400", (M, (U*28)+3))
-text("Width Axis: 100", (M, (U*27)+3))
-text("12pt Italic", (M, (U*15)+3))
-text("Weight Axis: 400", (M, (U*14)+3))
-text("Width Axis: 100", (M, (U*13)+3))
+text("12pt Regular", (M, (U*29)))
+text("Weight Axis: 400", (M, (U*28)))
+text("Width Axis: 100", (M, (U*27)))
+text("12pt Italic", (M, (U*15)))
+text("Weight Axis: 400", (M, (U*14)))
+text("Width Axis: 100", (M, (U*13)))
 stroke(None)
 fill(0)
 fontSize(12)
+lineHeight(16.5)
 font(ROMAN_FONT)
 fontVariations(wght = 400 )
 fontVariations(wdth = 100 )
-lineHeight(None)
-textBox(RC_TEXT_ONE, (M+(U*10), M, U*20, (U*28)+9))
+textBox(RC_TEXT_ONE, (M+(U*10), M, U*20, (U*28)+11))
 font(ITALIC_FONT)
 fontVariations(wght = 400 )
 fontVariations(wdth = 100 )
-textBox(RC_TEXT_ONE, (M+(U*10), M - U*14, U*20, (U*28)+9))
+textBox(RC_TEXT_ONE, (M+(U*10), M - U*14, U*20, (U*28)+11))
+
+
+new_page() #--------------------------------------------------#
+# Text Example Two
+#grid() # toggle for grid view
+page_number += 1
+draw_page_info(page_number)
+fill(0)
+stroke(0)
+strokeWidth(1)
+line((M, H - M - U*15), (W - M, H - M - U*15))
+fill(0)
+font("InputMonoCompressed-Regular")
+stroke(None)
+fontSize(13)
+text("12pt Regular", (M, (U*29)))
+text("Weight Axis: 400", (M, (U*28)))
+text("Width Axis:  75", (M, (U*27)))
+text("12pt Italic", (M, (U*15)))
+text("Weight Axis: 400", (M, (U*14)))
+text("Width Axis:  75", (M, (U*13)))
+stroke(None)
+fill(0)
+fontSize(12)
+lineHeight(16.5)
+font(ROMAN_FONT)
+fontVariations(wght = 400 )
+fontVariations(wdth = 75 )
+textBox(RC_TEXT_ONE, (M+(U*10), M, U*20, (U*28)+11))
+font(ITALIC_FONT)
+fontVariations(wght = 400 )
+fontVariations(wdth = 75 )
+textBox(RC_TEXT_ONE, (M+(U*10), M - U*14, U*20, (U*28)+11))
 
 
 new_page() #--------------------------------------------------#
