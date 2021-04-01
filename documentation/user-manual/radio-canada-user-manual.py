@@ -27,7 +27,7 @@ RC_TEXT_TWO = '''
 Ici Radio-Canada Télé (stylized as ICI Radio-Canada TēLē, and formerly known as Télévision de Radio-Canada) is a Canadian French-language free-to-air television network owned by the Canadian Broadcasting Corporation (known in French as Société Radio-Canada), the national public broadcaster. It is the French-language counterpart of CBC Television, the broadcaster's English-language television network.
 '''
 LANGUAGE_SUPPORT = '''
-Arbëreshë Albanian, Eastern Abnaki, Afar, Arvanitika Albanian, Western Abnaki, Achinese, Achuar-Shiwiar, Acheron, Eastern Arrernte, Afrikaans, Aguaruna, Gheg Albanian, Tosk Albanian, Amahuaca, Yanesha', Amis, Amarakaeri, Uab Meto, Aragonese, Mapudungun, Asu (Tanzania), Waorani, Anuta, Southern Aymara, Central Aymara, South Azerbaijani, North Azerbaijani, Bemba (Zambia), Bena (Tanzania), Bari, Bikol, Bini, Bislama, Bosnian, Breton, Garifuna, Kaqchikel, Catalan, Chachi, Chavacano, Cashibo-Cacataibo, Cashinahua, Candoshi-Shapra, Cebuano, Czech, Chiga, Chamorro, Ojitlán Chinantec, Chuukese, Cimbrian, Chokwe, Central Kurdish, Asháninka, Montenegrin, Cofán, Cornish, Corsican, Caquinte, Pichis Ashéninka, Crimean Tatar, Seselwa Creole French, Chiltepec Chinantec, Kashubian, Tedim Chin, Welsh, Danish, Taita, German, Andaandi, Dongolawi, Dehu, Dimli, Lower Sorbian, Jola-Fonyi, Embu, Standard Estonian, English, Ese Ejja, Basque, Faroese, Nobiin, Fijian, Filipino, Finnish, Kven Finnish, French, Western Frisian, Friulian, Gagauz, Borana-Arsi-Guji Oromo, West Central Oromo, Guadeloupean Creole French, Gilbertese, Scottish Gaelic, Irish, Galician, Manx, Gooniyandi, Ga’anda, Swiss German, Wayuu, Gusii, Gwichʼin, Eastern Oromo, Haitian, Hawaiian, Northern Qiandong Miao, Hiligaynon, Southern Qiandong Miao, Hani, Caribbean Hindustani, Hopi, Croatian, Upper Sorbian, Hungarian, Huastec, Iloko, Indonesian, Icelandic, Italian, Jamaican Creole English, Javanese, Shuar, Japanese, Kalaallisut, Kamba (Kenya), Makonde, Kabuverdianu, Kekchí, Kaingang, Khasi, Koyra Chiini Songhay, Kikuyu, Kinyarwanda, Kirmanjki, Kalenjin, Kimbundu, Northern Kurdish, Kongo, Konzo, Kaonde, Karelian, Shambala, Kölsch, Kituba (DRC), Kuanyama, Ladino, Latin, Ligurian, Lithuanian, Ladin, Lombard, Otuho, Lozi, Latgalian, Luxembourgish, Luba-Lulua, Ganda, Luo (Kenya and Tanzania), Standard Latvian, Matsés, Meru, Mauritian Creole, Makhuwa-Meetto, Minangkabau, Mískito, Malagasy, Maltese, Montagnais, Mohawk, Maori, Totontepec Mixe, Creek, Murrinh-Patha, Mirandese, Kala Lagaw Ya, Ixcatlán Mazatec, Naga Pidgin, Neapolitan, Navajo, South Ndebele, North Ndebele, Ndonga, Low German, Central Nahuatl, Niuean, Ao Naga, Dutch, Norwegian, Nomatsiguenga, Pedi, Nyanja, Nyankole, Occitan, Northwestern Ojibwa, Orma, Oroqen, Mezquital Otomi, Pampanga, Papiamento, Palauan, Páez, Picard, Pijin, Pintupi-Luritja, Paluan, Piemontese, Polish, Pohnpeian, Portuguese, Potawatomi, Upper Guinea Crioulo, Pipil, Ashéninka Perené, K'iche', Quechua, Cook Islands Māori, Romansh, Romanian, Rotokas, Rundi, Istro Romanian, Macedo-Romanian, Rwa, Sango, Samburu, Sangu (Tanzania), Sicilian, Sena, Seri, Koyraboro Senni Songhai, Secoya, Shipibo-Conibo, Pite Sami, Ume Sami, Shawnee, Slovak, Slovenian, Southern Sami, Northern Sami, Lule Sami, Inari Sami, Samoan, Shona, Soninke, Somali, Southern Sotho, Spanish, Sardinian, Saramaccan, Sranan Tongo, Swati, Sundanese, Maore Comorian, Congo Swahili, Swedish, Swahili, Silesian, Tahitian, Atayal, Tetun Dili, Teso, Tetum, Tagalog, Tiv, Tokelau, Tsakhur, Talysh, Toba, Tonga (Zambia), Tonga (Tonga Islands), Papantla Totonac, Tok Pisin, Tswana, Tsonga, Purepecha, Muslim Tat, Turkmen, Tumbuka, Turkish, Tasawaq, Tzeltal, Tzotzil, Meriam Mir, Umbundu, Munsee, Northern Uzbek, Venetian, Veps, Vietnamese, Makhuwa, Võro, Walser, Waray (Philippines), Warlpiri, Wik-Mungkan, Ho-Chunk, Walloon, Mwani, Wolof, Wiradjuri, Wangaaybuwan-Ngiyambaa, Xavánte, Xhosa, Kenzi, Mattokki, Soga, Yao, Yapese, Yindjibarndi, Makwe, Yucateco, Zapotec, Ngazidja Comorian, Malaysian, Záparo, Standard Malay, Zulu, Zuni
+Arbëreshë Albanian, Eastern Abnaki, Afar, Arvanitika Albanian, Western Abnaki, Achinese, Achuar-Shiwiar, Acheron, Eastern Arrernte, Afrikaans, Aguaruna, Gheg Albanian, Tosk Albanian, Amahuaca, Yanesha', Amis, Amarakaeri, Uab Meto, Aragonese, Mapudungun, Asu (Tanzania), Waorani, Anuta, Southern Aymara, Central Aymara, South Azerbaijani, North Azerbaijani, Bemba (Zambia), Bena (Tanzania), Bari, Bikol, Bini, Bislama, Bosnian, Breton, Garifuna, Kaqchikel, Catalan, Chachi, Chavacano, Cashibo-Cacataibo, Cashinahua, Candoshi-Shapra, Cebuano, Czech, Chiga, Chamorro, Ojitlán Chinantec, Chuukese, Cimbrian, Chokwe, Central Kurdish, Asháninka, Montenegrin, Cofán, Cornish, Corsican, Caquinte, Pichis Ashéninka, Crimean Tatar, Seselwa Creole French, Chiltepec Chinantec, Kashubian, Tedim Chin, Welsh, Danish, Taita, German, Andaandi, Dongolawi, Dehu, Dimli, Lower Sorbian, Jola-Fonyi, Embu, Standard Estonian, English, Ese Ejja, Basque, Faroese, Nobiin, Fijian, Filipino, Finnish, Kven Finnish, French, Western Frisian, Friulian, Gagauz, Borana-Arsi-Guji Oromo, West Central Oromo, Guadeloupean Creole French, Gilbertese, Scottish Gaelic, Irish, Galician, Manx, Gooniyandi, Ga’anda, Swiss German, Wayuu, Gusii, Gwichʼin, Eastern Oromo, Haitian, Hawaiian, Northern Qiandong Miao, Hiligaynon, Southern Qiandong Miao, Hani, Caribbean Hindustani, Hopi, Croatian, Upper Sorbian, Hungarian, Huastec, Iloko, Indonesian, Icelandic, Italian, Jamaican Creole English, Javanese, Shuar, Japanese (Rōmaji), Kalaallisut, Kamba (Kenya), Makonde, Kabuverdianu, Kekchí, Kaingang, Khasi, Koyra Chiini Songhay, Kikuyu, Kinyarwanda, Kirmanjki, Kalenjin, Kimbundu, Northern Kurdish, Kongo, Konzo, Kaonde, Karelian, Shambala, Kölsch, Kituba (DRC), Kuanyama, Ladino, Latin, Ligurian, Lithuanian, Ladin, Lombard, Otuho, Lozi, Latgalian, Luxembourgish, Luba-Lulua, Ganda, Luo (Kenya and Tanzania), Standard Latvian, Matsés, Meru, Mauritian Creole, Makhuwa-Meetto, Minangkabau, Mískito, Malagasy, Maltese, Montagnais, Mohawk, Maori, Totontepec Mixe, Creek, Murrinh-Patha, Mirandese, Kala Lagaw Ya, Ixcatlán Mazatec, Naga Pidgin, Neapolitan, Navajo, South Ndebele, North Ndebele, Ndonga, Low German, Central Nahuatl, Niuean, Ao Naga, Dutch, Norwegian, Nomatsiguenga, Pedi, Nyanja, Nyankole, Occitan, Northwestern Ojibwa, Orma, Oroqen, Mezquital Otomi, Pampanga, Papiamento, Palauan, Páez, Picard, Pijin, Pintupi-Luritja, Paluan, Piemontese, Polish, Pohnpeian, Portuguese, Potawatomi, Upper Guinea Crioulo, Pipil, Ashéninka Perené, K'iche', Quechua, Cook Islands Māori, Romansh, Romanian, Rotokas, Rundi, Istro Romanian, Macedo-Romanian, Rwa, Sango, Samburu, Sangu (Tanzania), Sicilian, Sena, Seri, Koyraboro Senni Songhai, Secoya, Shipibo-Conibo, Pite Sami, Ume Sami, Shawnee, Slovak, Slovenian, Southern Sami, Northern Sami, Lule Sami, Inari Sami, Samoan, Shona, Soninke, Somali, Southern Sotho, Spanish, Sardinian, Saramaccan, Sranan Tongo, Swati, Sundanese, Maore Comorian, Congo Swahili, Swedish, Swahili, Silesian, Tahitian, Atayal, Tetun Dili, Teso, Tetum, Tagalog, Tiv, Tokelau, Tsakhur, Talysh, Toba, Tonga (Zambia), Tonga (Tonga Islands), Papantla Totonac, Tok Pisin, Tswana, Tsonga, Purepecha, Muslim Tat, Turkmen, Tumbuka, Turkish, Tasawaq, Tzeltal, Tzotzil, Meriam Mir, Umbundu, Munsee, Northern Uzbek, Venetian, Veps, Vietnamese, Makhuwa, Võro, Walser, Waray (Philippines), Warlpiri, Wik-Mungkan, Ho-Chunk, Walloon, Mwani, Wolof, Wiradjuri, Wangaaybuwan-Ngiyambaa, Xavánte, Xhosa, Kenzi, Mattokki, Soga, Yao, Yapese, Yindjibarndi, Makwe, Yucateco, Zapotec, Ngazidja Comorian, Malaysian, Záparo, Standard Malay, Zulu, Zuni
 '''
 
 # Draws a Grid
@@ -81,6 +81,7 @@ for axis, data in listFontVariations().items():
 page_number = 0
 
 new_page() #--------------------------------------------------#
+# Cover Page
 #grid() # toggle for grid view
 page_number += 1
 draw_page_info(page_number)
@@ -94,28 +95,34 @@ oval(M+U*29.5, M+U*19.5, U, U)
 oval(M+U*9.5, M+U*7.5, U, U)
 oval(M+U*19.5, M+U*7.5, U, U)
 oval(M+U*29.5, M+U*7.5, U, U)
-stroke(None)
 fill(0)
+oval(M+U*9.75, M+U*19.75, U/2, U/2)
+oval(M+U*19.75, M+U*19.75, U/2, U/2)
+oval(M+U*29.75, M+U*19.75, U/2, U/2)
+oval(M+U*9.75, M+U*7.75, U/2, U/2)
+oval(M+U*19.75, M+U*7.75, U/2, U/2)
+oval(M+U*29.75, M+U*7.75, U/2, U/2)
+stroke(None)
 fontSize(50)
 font(ROMAN_FONT)
 fontVariations(wght = 300 )
 fontVariations(wdth = 100 )
-text("Aa",  (M+U*10.5, M+U*21))
+text("Aa",  (M+U*11, M+U*17))
 fontVariations(wght = 400 )
 fontVariations(wdth = 100 )
-text("Aa",  (M+U*20.5, M+U*21))
+text("Aa",  (M+U*18.3, M+U*17))
 fontVariations(wght = 700 )
 fontVariations(wdth = 100 )
-text("Aa",  (M+U*30.5, M+U*21))
+text("Aa",  (M+U*25.8, M+U*17))
 fontVariations(wght = 300 )
 fontVariations(wdth = 75 )
-text("Aa",  (M+U*10.5, M+U*9))
+text("Aa",  (M+U*11, M+U*9))
 fontVariations(wght = 400 )
-fontVariations(wdth = 100 )
-text("Aa",  (M+U*20.5, M+U*9))
+fontVariations(wdth = 75 )
+text("Aa",  (M+U*18.5, M+U*9))
 fontVariations(wght = 700 )
-fontVariations(wdth = 100 )
-text("Aa",  (M+U*30.5, M+U*9))
+fontVariations(wdth = 75 )
+text("Aa",  (M+U*26.3, M+U*9))
 stroke(None)
 fill(0)
 fontSize(50)
@@ -132,33 +139,34 @@ text("Variable Font User Manual",  (M, M+3))
 
 new_page() #--------------------------------------------------#
 # Weight Axis
-grid() # toggle for grid view
+#grid() # toggle for grid view
 page_number += 1
 draw_page_info(page_number)
 fill(0)
 stroke(None)
 font("InputMonoCompressed-Regular")
 fontSize(13)
-text("32pt Roman & Italic", (M, U*29))
-text("Weight Range: 700-300", (M, U*28))
-
+text("32pt", (M, U*29))
+text("Weight Range", (M, U*28))
+text("700-300", (M, U*27))
 step = 29
 wght_value = 700
 for i in range(14):
-    text(str(int(wght_value)), (M+(U*10), U*step))
-    wght_value -= 28
+    text(str(int(wght_value)), (M+(U*8.5), U*step))
+    text(str(int(wght_value)), (M+(U*23.5), U*step))
+    wght_value -= 31
+    if wght_value <= 300: wght_value = 300
     step -= 2
-
 font(ROMAN_FONT)
 fontSize(32)
 fontVariations(wdth = 100 )
 wght_value = 700
-x_pos = 12
+x_pos = 10
 y_pos = 29
 for i in range(14):
     fontVariations(wght = wght_value)
     text("Radio-Canada", (M+(U*x_pos), U*y_pos))
-    wght_value -= 28
+    wght_value -= 31
     y_pos -= 2
 font(ITALIC_FONT)
 fontSize(32)
@@ -169,9 +177,51 @@ y_pos = 29
 for x in range(14):
     fontVariations(wght = wght_value)
     text("Radio-Canada", (M+(U*x_pos), U*y_pos))
-    wght_value -= 28
+    wght_value -= 31
     y_pos -= 2
 
+new_page() #--------------------------------------------------#
+# Width Axis
+#grid() # toggle for grid view
+page_number += 1
+draw_page_info(page_number)
+fill(0)
+stroke(None)
+font("InputMonoCompressed-Regular")
+fontSize(13)
+text("32pt", (M, U*29))
+text("Width Range", (M, U*28))
+text("100-75", (M, U*27))
+step = 29
+wdth_value = 100
+for i in range(14):
+    text(str(int(wdth_value)), (M+(U*8.5), U*step))
+    text(str(int(wdth_value)), (M+(U*23.5), U*step))
+    wdth_value -= 2
+    if wdth_value <= 75: wdth_value = 75
+    step -= 2
+font(ROMAN_FONT)
+fontSize(32)
+fontVariations(wght = 500 )
+wdth_value = 100
+x_pos = 10
+y_pos = 29
+for i in range(14):
+    fontVariations(wdth = wdth_value)
+    text("Radio-Canada", (M+(U*x_pos), U*y_pos))
+    wdth_value -= 2
+    y_pos -= 2
+font(ITALIC_FONT)
+fontSize(32)
+fontVariations(wght = 500 )
+wdth_value = 100
+x_pos = 25
+y_pos = 29
+for x in range(14):
+    fontVariations(wdth = wdth_value)
+    text("Radio-Canada", (M+(U*x_pos), U*y_pos))
+    wdth_value -= 2
+    y_pos -= 2
 new_page() #--------------------------------------------------#
 # Glyph Count
 #grid() # toggle for grid view
@@ -198,17 +248,18 @@ textBox(GF_PLUS, (M+(U*10), M, U*30, (U*28)+4))
 
 new_page() #--------------------------------------------------#
 # Language Support
-grid() # toggle for grid view
+#grid() # toggle for grid view
 page_number += 1
 draw_page_info(page_number)
 fill(0)
 stroke(None)
 font("InputMonoCompressed-Regular")
 fontSize(13)
-text("Language Support", (M, (U*29)+3))
-text("317 Languages", (M, (U*28)+3))
+text("Language Support", (M, U*29))
+text("317 Languages", (M, U*28))
 font(ROMAN_FONT)
-fontSize(18)
+fontSize(10)
+lineHeight(14)
 fontVariations(wght = 400 )
 fontVariations(wdth = 100 )
 textBox(LANGUAGE_SUPPORT, (M+(U*10), M, U*30, (U*28)+4))
