@@ -10,6 +10,10 @@ This project has been selected as a winner at the 2018 Communication Arts Typogr
 
 This typeface family is still under development, and will be coming soon to Google Fonts.
 
+A 8.5x11 PDF user manual is avaiable [here](documentation/user-manual).
+
+![Photo of the user manual](documentation/photos/rc-user-manual.jpg)
+
 ![Animated specimen for RC Roman](documentation/images/animated-vf-specimen-roman.gif)
 
 ## Variable Font Axes
