@@ -138,6 +138,139 @@ text("Variable Font User Manual",  (M, M+3))
 
 
 new_page() #--------------------------------------------------#
+# Designspace
+#grid() # toggle for grid view
+page_number += 1
+draw_page_info(page_number)
+fill(0)
+stroke(None)
+font("InputMonoCompressed-Regular")
+fontSize(13)
+text("Radio-Canada Roman", (M, U*28))
+text("File Name: Radio-Canada[wdth,wght].ttf", (M, U*27))
+text("File Size: 164k", (M, U*26))
+text("Width Axis [wdth]", (M, U*24))
+text("Range: 100-75", (M, U*23))
+text("Weight Axis [wght]", (M, U*21))
+text("Range: 700-300", (M, U*20))
+
+text("Radio-Canada Italic", (M, U*6))
+text("File Name: Radio-Canada-Italic[wdth,wght].ttf", (M, U*5))
+text("File Size: 147k", (M, U*4))
+text("Width Axis [wdth]", (M, U*9))
+text("Range: 100-75", (M, U*8))
+text("Weight Axis [wght]", (M, U*12))
+text("Range: 700-300", (M, U*11))
+
+fill(None)
+stroke(0)
+strokeWidth(1)
+
+rect(M+U*20, M+U*17, M+(U*16), M+(U*8))
+rect(M+U*20, M+U*2, M+(U*16), M+(U*8))
+
+polygon((M+U*7, M+U*22), (M+U*19, M+U*22), close=False)
+polygon((M+U*19.5, M+U*17), (M+U*19, M+U*17), (M+U*19, M+U*27), (M+U*19.5, M+U*27), close=False)
+polygon((M+U*7, M+U*7), (M+U*19, M+U*7), close=False)
+polygon((M+U*19.5, M+U*2), (M+U*19, M+U*2), (M+U*19, M+U*12), (M+U*19.5, M+U*12), close=False)
+
+polygon((M+U*7, M+U*10), (M+U*10, M+U*10), (M+U*10, M+U*14), (M+U*29, M+U*14), (M+U*29, M+U*13), close=False)
+polygon((M+U*20, M+U*12.5), (M+U*20, M+U*13), (M+U*38, M+U*13), (M+U*38, M+U*12.5), close=False)
+
+polygon((M+U*7, M+U*19), (M+U*10, M+U*19), (M+U*10, M+U*15), (M+U*29, M+U*15), (M+U*29, M+U*16),  close=False)
+polygon((M+U*20, M+U*16.5), (M+U*20, M+U*16), (M+U*38, M+U*16), (M+U*38, M+U*16.5), close=False)
+
+fill(0)
+oval(M+U*19.75, M+U*16.75, U/2, U/2)
+oval(M+U*28.75, M+U*16.75, U/2, U/2)
+oval(M+U*37.75, M+U*16.75, U/2, U/2)
+oval(M+U*19.75, M+U*26.75, U/2, U/2)
+oval(M+U*28.75, M+U*26.75, U/2, U/2)
+oval(M+U*37.75, M+U*26.75, U/2, U/2)
+
+oval(M+U*19.75, M+U*1.75, U/2, U/2)
+oval(M+U*28.75, M+U*1.75, U/2, U/2)
+oval(M+U*37.75, M+U*1.75, U/2, U/2)
+oval(M+U*19.75, M+U*11.75, U/2, U/2)
+oval(M+U*28.75, M+U*11.75, U/2, U/2)
+oval(M+U*37.75, M+U*11.75, U/2, U/2)
+fill(None)
+
+stroke(None)
+fontSize(50)
+font(ROMAN_FONT)
+fill(0)
+space = 21
+e_wght = 300
+fontVariations(wdth = 100 )
+for i in range(8):
+    fontVariations(wght = e_wght )
+    text("e",  (M+U*space, M+U*24))
+    space += 2.05
+    e_wght += 100
+space = 21
+e_wght = 300
+fontVariations(wdth = 100-(6.25*1) )
+for i in range(8):
+    fontVariations(wght = e_wght )
+    text("e",  (M+U*space, M+U*22))
+    space += 2.061
+    e_wght += 100
+space = 21
+e_wght = 300
+fontVariations(wdth = 100-(6.25*2) )
+for i in range(8):
+    fontVariations(wght = e_wght )
+    text("e",  (M+U*space, M+U*20))
+    space += 2.073
+    e_wght += 100
+space = 21
+e_wght = 300
+fontVariations(wdth = 75 )
+for i in range(8):
+    fontVariations(wght = e_wght )
+    text("e",  (M+U*space, M+U*18))
+    space += 2.085
+    e_wght += 100
+
+stroke(None)
+fontSize(50)
+font(ITALIC_FONT)
+fill(0)
+space = 21
+e_wght = 300
+fontVariations(wdth = 100 )
+for i in range(8):
+    fontVariations(wght = e_wght )
+    text("e",  (M+U*space, M+U*9))
+    space += 2.05
+    e_wght += 100
+space = 21
+e_wght = 300
+fontVariations(wdth = 100-(6.25*1) )
+for i in range(8):
+    fontVariations(wght = e_wght )
+    text("e",  (M+U*space, M+U*7))
+    space += 2.061
+    e_wght += 100
+space = 21
+e_wght = 300
+fontVariations(wdth = 100-(6.25*2) )
+for i in range(8):
+    fontVariations(wght = e_wght )
+    text("e",  (M+U*space, M+U*5))
+    space += 2.073
+    e_wght += 100
+space = 21
+e_wght = 300
+fontVariations(wdth = 75 )
+for i in range(8):
+    fontVariations(wght = e_wght )
+    text("e",  (M+U*space, M+U*3))
+    space += 2.085
+    e_wght += 100
+
+new_page() #--------------------------------------------------#
 # Weight Axis
 #grid() # toggle for grid view
 page_number += 1
