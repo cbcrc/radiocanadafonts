@@ -4,13 +4,23 @@
 	<unicode hex="030F"/>
 	<anchor x="0" y="525" name="_top"/>
 	<outline>
-		<component base="gravecomb" xOffset="-100"/>
-		<component base="gravecomb" xOffset="80"/>
+		<contour>
+			<point x="-244" y="751" type="line"/>
+			<point x="-142" y="601" type="line"/>
+			<point x="-32" y="601" type="line"/>
+			<point x="-99" y="751" type="line"/>
+		</contour>
+		<contour>
+			<point x="-64" y="751" type="line"/>
+			<point x="38" y="601" type="line"/>
+			<point x="148" y="601" type="line"/>
+			<point x="81" y="751" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-12 04:19:51 +0000</string>
+			<string>2021-04-27 02:17:09 +0000</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>
