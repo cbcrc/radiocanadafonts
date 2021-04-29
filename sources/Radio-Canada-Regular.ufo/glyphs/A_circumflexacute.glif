@@ -4,24 +4,12 @@
 	<unicode hex="1EA4"/>
 	<outline>
 		<component base="A"/>
-		<component base="circumflex.cap" xOffset="28"/>
-		<component base="acute.cap" xOffset="223" yOffset="79"/>
+		<component base="circumflexcomb_acutecomb" xOffset="328" yOffset="175"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>2</integer>
-					<key>name</key>
-					<string>acute.cap</string>
-				</dict>
-			</array>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-04-23 02:09:21 +0000</string>
+			<string>2021-04-29 03:17:39 +0000</string>
 			<key>public.markColor</key>
 			<string>0.67,0.95,0.38,1</string>
 		</dict>

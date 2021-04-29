@@ -3,13 +3,29 @@
 	<advance width="0"/>
 	<anchor x="0" y="525" name="_top"/>
 	<outline>
-		<component base="circumflexcomb"/>
-		<component base="acutecomb" yOffset="215"/>
+		<contour>
+			<point x="131" y="676" type="line"/>
+			<point x="246" y="676" type="line"/>
+			<point x="358" y="826" type="line"/>
+			<point x="208" y="826" type="line"/>
+		</contour>
+		<contour>
+			<point x="-166" y="586" type="line"/>
+			<point x="-52" y="586" type="line"/>
+			<point x="71" y="721" type="line"/>
+			<point x="-77" y="721" type="line"/>
+		</contour>
+		<contour>
+			<point x="-71" y="721" type="line"/>
+			<point x="52" y="586" type="line"/>
+			<point x="166" y="586" type="line"/>
+			<point x="77" y="721" type="line"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-11 20:27:41 +0000</string>
+			<string>2021-04-29 07:40:17 +0000</string>
 			<key>public.markColor</key>
 			<string>0.67,0.95,0.38,1</string>
 		</dict>
