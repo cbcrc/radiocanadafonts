@@ -71,6 +71,30 @@ name = blueShift;
 value = 7;
 },
 {
+name = "Disable Last Change";
+value = 1;
+},
+{
+name = "Axis Mappings";
+value = {
+wdth = {
+75 = 75;
+100 = 100;
+};
+wght = {
+300 = 60;
+400 = 92;
+500 = 100;
+600 = 125;
+700 = 150;
+};
+};
+},
+{
+name = "Variable Font Origin";
+value = master06;
+},
+{
 name = compatibleFullName;
 value = "Radio-Canada Regular";
 },
@@ -205,8 +229,7 @@ position = "{300, 0}";
 );
 id = master05;
 weight = Light;
-weightValue = 0;
-widthValue = 0;
+widthValue = 60;
 xHeight = 0;
 },
 {
@@ -256,8 +279,7 @@ position = "{300, 0}";
 }
 );
 id = master06;
-weightValue = 0;
-widthValue = 0;
+widthValue = 92;
 xHeight = 0;
 },
 {
@@ -305,8 +327,7 @@ position = "{300, 0}";
 );
 id = master01;
 weight = Bold;
-weightValue = 0;
-widthValue = 0;
+widthValue = 150;
 xHeight = 0;
 },
 {
@@ -355,9 +376,9 @@ position = "{300, 0}";
 id = master03;
 name = LightCondensed;
 weight = Light;
-weightValue = 0;
+weightValue = 75;
 width = Condensed;
-widthValue = 0;
+widthValue = 60;
 xHeight = 0;
 },
 {
@@ -400,9 +421,9 @@ value = -125;
 descender = 0;
 id = master04;
 name = RegularCondensed;
-weightValue = 0;
+weightValue = 75;
 width = Condensed;
-widthValue = 0;
+widthValue = 88;
 xHeight = 0;
 },
 {
@@ -446,9 +467,9 @@ descender = 0;
 id = master02;
 name = BoldCondensed;
 weight = Bold;
-weightValue = 0;
+weightValue = 75;
 width = Condensed;
-widthValue = 0;
+widthValue = 137;
 xHeight = 0;
 }
 );
@@ -110285,7 +110306,6 @@ unicode = 02C6;
 {
 color = 5;
 glyphname = macronmod;
-lastChange = "2021-07-14 19:25:26 +0000";
 layers = (
 {
 anchors = (
@@ -111162,7 +111182,6 @@ unicode = 02DA;
 {
 color = 5;
 glyphname = ring_acute;
-lastChange = "2021-07-14 19:25:26 +0000";
 layers = (
 {
 anchors = (
@@ -114561,7 +114580,6 @@ rightKerningGroup = NO_KERN;
 {
 color = 5;
 glyphname = ring_acute.cap;
-lastChange = "2021-07-14 19:25:26 +0000";
 layers = (
 {
 anchors = (
@@ -115377,7 +115395,6 @@ unicode = 02B9;
 {
 color = 4;
 glyphname = IJacute;
-lastChange = "2021-07-14 19:25:26 +0000";
 layers = (
 {
 components = (
@@ -115524,7 +115541,6 @@ rightKerningGroup = U;
 {
 color = 4;
 glyphname = dotbelow;
-lastChange = "2021-07-14 19:25:26 +0000";
 layers = (
 {
 anchors = (
@@ -115835,12 +115851,12 @@ name = familyName;
 value = RadioCanada;
 }
 );
-interpolationWeight = 0;
-interpolationWidth = 0;
+interpolationWidth = 60;
 instanceInterpolations = {
 master05 = 1;
 };
-name = Bold;
+name = Light;
+weightClass = Light;
 },
 {
 customParameters = (
@@ -115849,38 +115865,9 @@ name = familyName;
 value = RadioCanada;
 }
 );
-interpolationWeight = 0;
-interpolationWidth = 0;
+interpolationWidth = 92;
 instanceInterpolations = {
-master05 = 1;
-};
-name = SemiBold;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = RadioCanada;
-}
-);
-interpolationWeight = 0;
-interpolationWidth = 0;
-instanceInterpolations = {
-master05 = 1;
-};
-name = Medium;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = RadioCanada;
-}
-);
-interpolationWeight = 0;
-interpolationWidth = 0;
-instanceInterpolations = {
-master05 = 1;
+master06 = 1;
 };
 name = Regular;
 },
@@ -115891,12 +115878,12 @@ name = familyName;
 value = RadioCanada;
 }
 );
-interpolationWeight = 0;
-interpolationWidth = 0;
 instanceInterpolations = {
-master05 = 1;
+master01 = 0.13793;
+master06 = 0.86207;
 };
-name = Light;
+name = Medium;
+weightClass = Medium;
 },
 {
 customParameters = (
@@ -115905,12 +115892,43 @@ name = familyName;
 value = RadioCanada;
 }
 );
-interpolationWeight = 0;
-interpolationWidth = 0;
+interpolationWidth = 125;
 instanceInterpolations = {
-master05 = 1;
+master01 = 0.56897;
+master06 = 0.43103;
+};
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = RadioCanada;
+}
+);
+interpolationWidth = 150;
+instanceInterpolations = {
+master01 = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = RadioCanada;
+}
+);
+interpolationWeight = 75;
+interpolationWidth = 60;
+instanceInterpolations = {
+master03 = 1;
 };
 name = "Condensed Light";
+weightClass = Light;
 },
 {
 customParameters = (
@@ -115919,12 +115937,12 @@ name = familyName;
 value = RadioCanada;
 }
 );
-interpolationWeight = 0;
-interpolationWidth = 0;
+interpolationWeight = 75;
+interpolationWidth = 88;
 instanceInterpolations = {
-master05 = 1;
+master04 = 1;
 };
-name = "Condensed Light";
+name = "Condensed Regular";
 },
 {
 customParameters = (
@@ -115933,12 +115951,14 @@ name = familyName;
 value = RadioCanada;
 }
 );
-interpolationWeight = 0;
-interpolationWidth = 0;
+interpolationWeight = 75;
+interpolationWidth = 96;
 instanceInterpolations = {
-master05 = 1;
+master02 = 0.16327;
+master04 = 0.83673;
 };
-name = Condensed;
+name = "Condensed Medium";
+weightClass = Medium;
 },
 {
 customParameters = (
@@ -115947,12 +115967,14 @@ name = familyName;
 value = RadioCanada;
 }
 );
-interpolationWeight = 0;
-interpolationWidth = 0;
+interpolationWeight = 75;
+interpolationWidth = 115;
 instanceInterpolations = {
-master05 = 1;
+master02 = 0.55102;
+master04 = 0.44898;
 };
-name = Condensed;
+name = "Condensed SemiBold";
+weightClass = SemiBold;
 },
 {
 customParameters = (
@@ -115961,26 +115983,14 @@ name = familyName;
 value = RadioCanada;
 }
 );
-interpolationWeight = 0;
-interpolationWidth = 0;
+interpolationWeight = 75;
+interpolationWidth = 137;
 instanceInterpolations = {
-master05 = 1;
+master02 = 1;
 };
-name = Condensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = RadioCanada;
-}
-);
-interpolationWeight = 0;
-interpolationWidth = 0;
-instanceInterpolations = {
-master05 = 1;
-};
-name = Condensed;
+isBold = 1;
+name = Bold;
+weightClass = Bold;
 }
 );
 kerning = {
