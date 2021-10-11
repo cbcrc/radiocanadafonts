@@ -1,5 +1,10 @@
 {
-.appVersion = "3099";
+.appVersion = "3086";
+DisplayStrings = (
+"³",
+"¼",
+"/foursuperior"
+);
 classes = (
 {
 code = " A AE AEacute Aacute Abreve Acircumflex Adieresis Adotbelow Agrave Amacron Aogonek Aring Aringacute Atilde B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Delta E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Edotbelow Egrave Emacron Eng Eogonek Eth Etilde Euro F G Gbreve Gcaron Gcedilla Gcircumflex Gdotaccent Germandbls H Hbar Hcircumflex I I.alt IJ IJacute Iacute Iacute.alt Ibreve Ibreve.alt Icircumflex Icircumflex.alt Idieresis Idieresis.alt Idotaccent Idotaccent.alt Idotbelow Idotbelow.alt Igrave Igrave.alt Imacron Imacron.alt Iogonek Iogonek.alt Itilde Itilde.alt J J.alt Jcircumflex Jcircumflex.alt K Kcedilla L Lacute Lcaron Lcedilla Ldot Lslash M N Nacute Ncaron Ncedilla Nhookleft Ntilde O OE Oacute Obreve Ocircumflex Odieresis Odotbelow Ograve Ohungarumlaut Omacron Omega Oogonek Oslash Oslashacute Otilde P Q R Racute Rcaron Rcedilla S Sacute Scaron Scedilla Schwa Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent Thorn U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent ";
@@ -95,6 +100,10 @@ name = "Variable Font Origin";
 value = master06;
 },
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = compatibleFullName;
 value = "Radio-Canada Regular";
 },
@@ -108,7 +117,7 @@ value = "https://scripts.sil.org/OFL";
 },
 {
 name = vendorID;
-value = "    ";
+value = GOOG;
 },
 {
 name = Axes;
@@ -176072,6 +176081,217 @@ width = 440;
 unicode = 00B3;
 },
 {
+color = 0;
+glyphname = foursuperior;
+layers = (
+{
+layerId = master05;
+paths = (
+{
+closed = 1;
+nodes = (
+"176 454 LINE",
+"373 763 LINE",
+"319 763 LINE",
+"145 490 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"446 454 LINE",
+"446 500 LINE",
+"185 500 LINE",
+"145 490 LINE",
+"145 454 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"386 363 LINE",
+"386 763 LINE",
+"333 763 LINE",
+"333 363 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = master03;
+paths = (
+{
+closed = 1;
+nodes = (
+"165 448 LINE",
+"362 757 LINE",
+"308 757 LINE",
+"134 484 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"435 448 LINE",
+"435 494 LINE",
+"174 494 LINE",
+"134 484 LINE",
+"134 448 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"375 357 LINE",
+"375 757 LINE",
+"322 757 LINE",
+"322 357 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = master06;
+paths = (
+{
+closed = 1;
+nodes = (
+"165 455 LINE",
+"362 764 LINE",
+"308 764 LINE",
+"134 491 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"435 455 LINE",
+"435 501 LINE",
+"174 501 LINE",
+"134 491 LINE",
+"134 455 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"375 364 LINE",
+"375 764 LINE",
+"322 764 LINE",
+"322 364 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = master02;
+paths = (
+{
+closed = 1;
+nodes = (
+"168 456 LINE",
+"365 765 LINE",
+"311 765 LINE",
+"137 492 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"438 456 LINE",
+"438 502 LINE",
+"177 502 LINE",
+"137 492 LINE",
+"137 456 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"378 365 LINE",
+"378 765 LINE",
+"325 765 LINE",
+"325 365 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = master01;
+paths = (
+{
+closed = 1;
+nodes = (
+"143 461 LINE",
+"340 770 LINE",
+"286 770 LINE",
+"112 497 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"413 461 LINE",
+"413 507 LINE",
+"152 507 LINE",
+"112 497 LINE",
+"112 461 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"353 370 LINE",
+"353 770 LINE",
+"300 770 LINE",
+"300 370 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = master04;
+paths = (
+{
+closed = 1;
+nodes = (
+"174 439 LINE",
+"371 748 LINE",
+"317 748 LINE",
+"143 475 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"444 439 LINE",
+"444 485 LINE",
+"183 485 LINE",
+"143 475 LINE",
+"143 439 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"384 348 LINE",
+"384 748 LINE",
+"331 748 LINE",
+"331 348 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 2074;
+},
+{
 color = 5;
 glyphname = fraction;
 layers = (
@@ -221571,6 +221791,10 @@ width = 894;
 {
 layerId = master02;
 width = 600;
+},
+{
+layerId = master04;
+width = 600;
 }
 );
 note = g742;
@@ -221581,7 +221805,7 @@ instances = (
 customParameters = (
 {
 name = familyName;
-value = RadioCanada;
+value = "Radio Canada";
 }
 );
 interpolationWidth = 60;
@@ -221595,7 +221819,7 @@ weightClass = Light;
 customParameters = (
 {
 name = familyName;
-value = RadioCanada;
+value = "Radio Canada";
 }
 );
 interpolationWidth = 92;
@@ -221608,7 +221832,7 @@ name = Regular;
 customParameters = (
 {
 name = familyName;
-value = RadioCanada;
+value = "Radio Canada";
 }
 );
 instanceInterpolations = {
@@ -221622,7 +221846,7 @@ weightClass = Medium;
 customParameters = (
 {
 name = familyName;
-value = RadioCanada;
+value = "Radio Canada";
 }
 );
 interpolationWidth = 125;
@@ -221637,7 +221861,7 @@ weightClass = SemiBold;
 customParameters = (
 {
 name = familyName;
-value = RadioCanada;
+value = "Radio Canada";
 }
 );
 interpolationWidth = 150;
@@ -221652,7 +221876,7 @@ weightClass = Bold;
 customParameters = (
 {
 name = familyName;
-value = RadioCanada;
+value = "Radio Canada";
 }
 );
 interpolationWeight = 75;
@@ -221660,14 +221884,14 @@ interpolationWidth = 60;
 instanceInterpolations = {
 master03 = 1;
 };
-name = Light;
+name = "Condensed Light";
 weightClass = Light;
 },
 {
 customParameters = (
 {
 name = familyName;
-value = RadioCanada;
+value = "Radio Canada";
 }
 );
 interpolationWeight = 75;
@@ -221675,13 +221899,13 @@ interpolationWidth = 88;
 instanceInterpolations = {
 master04 = 1;
 };
-name = Regular;
+name = "Condensed Regular";
 },
 {
 customParameters = (
 {
 name = familyName;
-value = RadioCanada;
+value = "Radio Canada";
 }
 );
 interpolationWeight = 75;
@@ -221690,14 +221914,14 @@ instanceInterpolations = {
 master02 = 0.16327;
 master04 = 0.83673;
 };
-name = Medium;
+name = "Condensed Medium";
 weightClass = Medium;
 },
 {
 customParameters = (
 {
 name = familyName;
-value = RadioCanada;
+value = "Radio Canada";
 }
 );
 interpolationWeight = 75;
@@ -221706,14 +221930,14 @@ instanceInterpolations = {
 master02 = 0.55102;
 master04 = 0.44898;
 };
-name = SemiBold;
+name = "Condensed SemiBold";
 weightClass = SemiBold;
 },
 {
 customParameters = (
 {
 name = familyName;
-value = RadioCanada;
+value = "Radio Canada";
 }
 );
 interpolationWeight = 75;
