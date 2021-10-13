@@ -1,8 +1,5 @@
 {
 .appVersion = "3086";
-DisplayStrings = (
-a
-);
 classes = (
 {
 code = " A AE AEacute Aacute Abreve Acircumflex Adieresis Adotbelow Agrave Amacron Aogonek Aring Aringacute Atilde B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Delta E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Edotbelow Egrave Emacron Eng Eogonek Eth Etilde Euro F G Gbreve Gcaron Gcedilla Gcircumflex Gdotaccent Germandbls H Hbar Hcircumflex I I.alt IJ IJacute Iacute Iacute.alt Ibreve Ibreve.alt Icircumflex Icircumflex.alt Idieresis Idieresis.alt Idotaccent Idotaccent.alt Idotbelow Idotbelow.alt Igrave Igrave.alt Imacron Imacron.alt Iogonek Iogonek.alt Itilde Itilde.alt J J.alt Jcircumflex Jcircumflex.alt K Kcedilla L Lacute Lcaron Lcedilla Ldot Lslash M N Nacute Ncaron Ncedilla Nhookleft Ntilde O OE Oacute Obreve Ocircumflex Odieresis Odotbelow Ograve Ohungarumlaut Omacron Omega Oogonek Oslash Oslashacute Otilde P Q R Racute Rcaron Rcedilla S Sacute Scaron Scedilla Schwa Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent Thorn U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent ";
@@ -43,16 +40,6 @@ name = case_punctuation;
 );
 copyright = "Copyright 2017 The Radio Canada Project Authors (https://github.com/cbcrc/radiocanadafonts)";
 customParameters = (
-{
-name = "Family Alignment Zones";
-value = (
-"{720, 10}",
-"{690, 10}",
-"{515, 10}",
-"{0, -10}",
-"{-185, -10}"
-);
-},
 {
 name = fsType;
 value = (
@@ -282,13 +269,11 @@ name = aalt;
 fontMaster = (
 {
 alignmentZones = (
-"{950, 10}",
 "{690, 10}",
 "{515, 10}",
-"{0, 10}",
-"{-250, 10}"
+"{0, -10}"
 );
-ascender = 950;
+ascender = 800;
 capHeight = 690;
 customParameters = (
 {
@@ -296,28 +281,36 @@ name = "Master Icon Glyph Name";
 value = R;
 },
 {
-name = typoAscender;
-value = 950;
-},
-{
-name = typoDescender;
-value = -250;
-},
-{
 name = hheaAscender;
-value = 950;
+value = 945;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -255;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 945;
+},
+{
+name = typoDescender;
+value = -255;
+},
+{
+name = typoLineGap;
+value = 0;
 },
 {
 name = winAscent;
-value = 950;
+value = 1125;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = underlineThickness;
@@ -344,13 +337,11 @@ xHeight = 515;
 },
 {
 alignmentZones = (
-"{950, 10}",
 "{690, 10}",
 "{515, 10}",
-"{0, 10}",
-"{-250, 10}"
+"{0, -10}"
 );
-ascender = 950;
+ascender = 800;
 capHeight = 690;
 customParameters = (
 {
@@ -358,28 +349,36 @@ name = "Master Icon Glyph Name";
 value = R;
 },
 {
-name = typoAscender;
-value = 950;
-},
-{
-name = typoDescender;
-value = -250;
-},
-{
 name = hheaAscender;
-value = 950;
+value = 945;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -255;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 945;
+},
+{
+name = typoDescender;
+value = -255;
+},
+{
+name = typoLineGap;
+value = 0;
 },
 {
 name = winAscent;
-value = 950;
+value = 1125;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = underlineThickness;
@@ -400,13 +399,11 @@ xHeight = 515;
 },
 {
 alignmentZones = (
-"{950, 10}",
 "{690, 10}",
 "{525, 10}",
-"{0, 10}",
-"{-250, 10}"
+"{0, -10}"
 );
-ascender = 950;
+ascender = 800;
 capHeight = 690;
 customParameters = (
 {
@@ -414,28 +411,36 @@ name = "Master Icon Glyph Name";
 value = R;
 },
 {
-name = typoAscender;
-value = 950;
-},
-{
-name = typoDescender;
-value = -250;
-},
-{
 name = hheaAscender;
-value = 950;
+value = 945;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -255;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 945;
+},
+{
+name = typoDescender;
+value = -255;
+},
+{
+name = typoLineGap;
+value = 0;
 },
 {
 name = winAscent;
-value = 950;
+value = 1125;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = underlineThickness;
@@ -457,13 +462,11 @@ xHeight = 525;
 },
 {
 alignmentZones = (
-"{950, 10}",
 "{690, 10}",
 "{510, 10}",
-"{0, 10}",
-"{-250, 10}"
+"{0, -10}"
 );
-ascender = 950;
+ascender = 800;
 capHeight = 690;
 customParameters = (
 {
@@ -471,28 +474,36 @@ name = "Master Icon Glyph Name";
 value = R;
 },
 {
-name = typoAscender;
-value = 950;
-},
-{
-name = typoDescender;
-value = -250;
-},
-{
 name = hheaAscender;
-value = 950;
+value = 945;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -255;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 945;
+},
+{
+name = typoDescender;
+value = -255;
+},
+{
+name = typoLineGap;
+value = 0;
 },
 {
 name = winAscent;
-value = 950;
+value = 1125;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = underlineThickness;
@@ -516,13 +527,11 @@ xHeight = 510;
 },
 {
 alignmentZones = (
-"{950, 10}",
 "{690, 10}",
 "{515, 10}",
-"{0, 10}",
-"{-250, 10}"
+"{0, -10}"
 );
-ascender = 950;
+ascender = 800;
 capHeight = 690;
 customParameters = (
 {
@@ -530,28 +539,36 @@ name = "Master Icon Glyph Name";
 value = R;
 },
 {
-name = typoAscender;
-value = 950;
-},
-{
-name = typoDescender;
-value = -250;
-},
-{
 name = hheaAscender;
-value = 950;
+value = 945;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -255;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 945;
+},
+{
+name = typoDescender;
+value = -255;
+},
+{
+name = typoLineGap;
+value = 0;
 },
 {
 name = winAscent;
-value = 950;
+value = 1125;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = underlineThickness;
@@ -577,13 +594,11 @@ xHeight = 515;
 },
 {
 alignmentZones = (
-"{950, 10}",
 "{690, 10}",
 "{525, 10}",
-"{0, 10}",
-"{-250, 10}"
+"{0, -10}"
 );
-ascender = 950;
+ascender = 800;
 capHeight = 690;
 customParameters = (
 {
@@ -591,28 +606,36 @@ name = "Master Icon Glyph Name";
 value = R;
 },
 {
-name = typoAscender;
-value = 950;
-},
-{
-name = typoDescender;
-value = -250;
-},
-{
 name = hheaAscender;
-value = 950;
+value = 945;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -255;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 945;
+},
+{
+name = typoDescender;
+value = -255;
+},
+{
+name = typoLineGap;
+value = 0;
 },
 {
 name = winAscent;
-value = 950;
+value = 1125;
 },
 {
 name = winDescent;
-value = 250;
+value = 255;
 },
 {
 name = underlineThickness;
