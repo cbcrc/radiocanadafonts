@@ -269,7 +269,6 @@ name = aalt;
 fontMaster = (
 {
 alignmentZones = (
-"{690, 10}",
 "{515, 10}",
 "{0, -10}"
 );
@@ -337,7 +336,6 @@ xHeight = 515;
 },
 {
 alignmentZones = (
-"{690, 10}",
 "{515, 10}",
 "{0, -10}"
 );
@@ -399,7 +397,6 @@ xHeight = 515;
 },
 {
 alignmentZones = (
-"{690, 10}",
 "{525, 10}",
 "{0, -10}"
 );
@@ -462,7 +459,6 @@ xHeight = 525;
 },
 {
 alignmentZones = (
-"{690, 10}",
 "{510, 10}",
 "{0, -10}"
 );
@@ -527,7 +523,6 @@ xHeight = 510;
 },
 {
 alignmentZones = (
-"{690, 10}",
 "{515, 10}",
 "{0, -10}"
 );
@@ -594,7 +589,6 @@ xHeight = 515;
 },
 {
 alignmentZones = (
-"{690, 10}",
 "{525, 10}",
 "{0, -10}"
 );
@@ -222062,6 +222056,7 @@ master03 = 1;
 };
 name = "Condensed Light";
 weightClass = Light;
+widthClass = Condensed;
 },
 {
 customParameters = (
@@ -222076,6 +222071,7 @@ instanceInterpolations = {
 master04 = 1;
 };
 name = "Condensed Regular";
+widthClass = Condensed;
 },
 {
 customParameters = (
@@ -222092,6 +222088,7 @@ master04 = 0.83673;
 };
 name = "Condensed Medium";
 weightClass = Medium;
+widthClass = Condensed;
 },
 {
 customParameters = (
@@ -222108,6 +222105,7 @@ master04 = 0.44898;
 };
 name = "Condensed SemiBold";
 weightClass = SemiBold;
+widthClass = Condensed;
 },
 {
 customParameters = (
@@ -222122,8 +222120,9 @@ instanceInterpolations = {
 master02 = 1;
 };
 isBold = 1;
-name = Bold;
+name = "Condensed Bold";
 weightClass = Bold;
+widthClass = Condensed;
 }
 );
 kerning = {
