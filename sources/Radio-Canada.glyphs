@@ -222046,7 +222046,7 @@ weightClass = Bold;
 customParameters = (
 {
 name = familyName;
-value = "Radio Canada";
+value = "Radio Canada Condensed";
 }
 );
 interpolationWeight = 75;
@@ -222054,7 +222054,7 @@ interpolationWidth = 60;
 instanceInterpolations = {
 master03 = 1;
 };
-name = "Condensed Light";
+name = Light;
 weightClass = Light;
 widthClass = Condensed;
 },
@@ -222062,7 +222062,7 @@ widthClass = Condensed;
 customParameters = (
 {
 name = familyName;
-value = "Radio Canada";
+value = "Radio Canada Condensed";
 }
 );
 interpolationWeight = 75;
@@ -222070,14 +222070,14 @@ interpolationWidth = 88;
 instanceInterpolations = {
 master04 = 1;
 };
-name = "Condensed Regular";
+name = Regular;
 widthClass = Condensed;
 },
 {
 customParameters = (
 {
 name = familyName;
-value = "Radio Canada";
+value = "Radio Canada Condensed";
 }
 );
 interpolationWeight = 75;
@@ -222086,7 +222086,7 @@ instanceInterpolations = {
 master02 = 0.16327;
 master04 = 0.83673;
 };
-name = "Condensed Medium";
+name = Medium;
 weightClass = Medium;
 widthClass = Condensed;
 },
@@ -222094,7 +222094,7 @@ widthClass = Condensed;
 customParameters = (
 {
 name = familyName;
-value = "Radio Canada";
+value = "Radio Canada Condensed";
 }
 );
 interpolationWeight = 75;
@@ -222103,7 +222103,7 @@ instanceInterpolations = {
 master02 = 0.55102;
 master04 = 0.44898;
 };
-name = "Condensed SemiBold";
+name = SemiBold;
 weightClass = SemiBold;
 widthClass = Condensed;
 },
@@ -222111,7 +222111,7 @@ widthClass = Condensed;
 customParameters = (
 {
 name = familyName;
-value = "Radio Canada";
+value = "Radio Canada Condensed";
 }
 );
 interpolationWeight = 75;
@@ -222120,7 +222120,7 @@ instanceInterpolations = {
 master02 = 1;
 };
 isBold = 1;
-name = "Condensed Bold";
+name = Bold;
 weightClass = Bold;
 widthClass = Condensed;
 }
