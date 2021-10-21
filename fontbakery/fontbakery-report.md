@@ -20,7 +20,7 @@ the files from a single family spreaded in several separate directories).</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-Bold.ttf</b></summary>
+<summary><b>[14] Radio-Canada-Bold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -62,28 +62,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
 * 🔥 **FAIL** SUBFAMILY_NAME for Win "Bold" must be "Regular" [code: bad-familyname]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -380,7 +358,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-Canada-Regular.ttf</b></summary>
+<summary><b>[12] Radio-Canada-Regular.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -396,28 +374,6 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Radio-Canada-Regular.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -708,7 +664,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-CanadaCondensed-Regular.ttf</b></summary>
+<summary><b>[14] Radio-CanadaCondensed-Regular.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -742,28 +698,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 &#x27;weightClass&#x27; customParameter.</pre>
 
 * 🔥 **FAIL** OS/2 usWeightClass is '387' when it should be '400'. [code: bad-value]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -1076,7 +1010,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-CanadaCondensed-SemiBold.ttf</b></summary>
+<summary><b>[15] Radio-CanadaCondensed-SemiBold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -1120,28 +1054,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "SemiBold" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -1453,7 +1365,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-CanadaCondensed-Medium.ttf</b></summary>
+<summary><b>[15] Radio-CanadaCondensed-Medium.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -1497,28 +1409,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Medium" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -1830,7 +1720,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[17] Radio-CanadaCondensed-Bold.ttf</b></summary>
+<summary><b>[16] Radio-CanadaCondensed-Bold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -1872,28 +1762,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
 * 🔥 **FAIL** SUBFAMILY_NAME for Win "Bold" must be "Regular" [code: bad-familyname]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -2220,7 +2088,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-CanadaCondensed-Light.ttf</b></summary>
+<summary><b>[14] Radio-CanadaCondensed-Light.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -2264,28 +2132,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Light" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -2583,7 +2429,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-Medium.ttf</b></summary>
+<summary><b>[14] Radio-Canada-Medium.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -2627,28 +2473,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Medium" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -2939,7 +2763,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-Light.ttf</b></summary>
+<summary><b>[14] Radio-Canada-Light.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -2983,28 +2807,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Light" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -3295,7 +3097,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-Canada-SemiBold.ttf</b></summary>
+<summary><b>[15] Radio-Canada-SemiBold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -3339,28 +3141,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "SemiBold" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -3677,7 +3457,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-CanadaCondensed-Light.otf</b></summary>
+<summary><b>[12] Radio-CanadaCondensed-Light.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -3721,28 +3501,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Light" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -3961,7 +3719,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-Canada-SemiBold.otf</b></summary>
+<summary><b>[12] Radio-Canada-SemiBold.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -4005,28 +3763,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "SemiBold" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -4244,7 +3980,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[12] Radio-CanadaCondensed-Regular.otf</b></summary>
+<summary><b>[11] Radio-CanadaCondensed-Regular.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -4278,28 +4014,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 &#x27;weightClass&#x27; customParameter.</pre>
 
 * 🔥 **FAIL** OS/2 usWeightClass is '387' when it should be '400'. [code: bad-value]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -4518,7 +4232,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-CanadaCondensed-SemiBold.otf</b></summary>
+<summary><b>[12] Radio-CanadaCondensed-SemiBold.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -4562,28 +4276,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "SemiBold" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -4796,7 +4488,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[12] Radio-Canada-Medium.otf</b></summary>
+<summary><b>[11] Radio-Canada-Medium.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -4840,28 +4532,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Medium" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -5048,7 +4718,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-Canada-Bold.otf</b></summary>
+<summary><b>[12] Radio-Canada-Bold.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -5090,28 +4760,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
 * 🔥 **FAIL** SUBFAMILY_NAME for Win "Bold" must be "Regular" [code: bad-familyname]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -5321,7 +4969,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-CanadaCondensed-Bold.otf</b></summary>
+<summary><b>[14] Radio-CanadaCondensed-Bold.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -5363,28 +5011,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
 * 🔥 **FAIL** SUBFAMILY_NAME for Win "Bold" must be "Regular" [code: bad-familyname]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -5624,7 +5250,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-CanadaCondensed-Medium.otf</b></summary>
+<summary><b>[12] Radio-CanadaCondensed-Medium.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -5668,28 +5294,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Medium" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -5901,7 +5505,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[12] Radio-Canada-Light.otf</b></summary>
+<summary><b>[11] Radio-Canada-Light.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -5945,28 +5549,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Light" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -6164,7 +5746,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[10] Radio-Canada-Regular.otf</b></summary>
+<summary><b>[9] Radio-Canada-Regular.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -6180,28 +5762,6 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** Style name used in "fonts/otf/Radio-Canada-Regular.otf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -6389,7 +5949,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[9] Radio-Canada[wdth,wght].ttf</b></summary>
+<summary><b>[8] Radio-Canada[wdth,wght].ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -6416,28 +5976,6 @@ Named instances must be present in all variable fonts in order not to frustrate
 the users&#x27; typical expectations of a traditional static font workflow.</pre>
 
 * 🔥 **FAIL** This variable font lacks named instances on the fvar table. [code: lacks-named-instances]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 1125 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 372, but got 255 instead. [code: descent]
 
 </details>
 <details>
@@ -6596,8 +6134,8 @@ than 100 reported misalignments.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 80 | 209 | 2393 | 149 | 1427 | 0 |
-| 0% | 2% | 5% | 56% | 3% | 34% | 0% |
+| 0 | 59 | 209 | 2393 | 149 | 1448 | 0 |
+| 0% | 1% | 5% | 56% | 3% | 34% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
