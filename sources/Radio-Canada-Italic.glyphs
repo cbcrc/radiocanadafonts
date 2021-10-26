@@ -15,76 +15,59 @@ tag = wght;
 );
 customParameters = (
 {
-name = "Family Alignment Zones";
-value = (
-{
-pos = 720;
-size = 10;
-},
-{
-pos = 690;
-size = 10;
-},
-{
-pos = 515;
-size = 10;
-},
-{
-pos = 0;
-size = "-10";
-},
-{
-pos = "-185";
-size = "-10";
-}
-);
-},
-{
-name = compatibleFullNames;
-value = "Radio-Canada Italic";
-},
-{
-name = preferredFamilyName;
-value = "Radio-Canada";
-},
-{
 name = fsType;
 value = (
 );
 },
 {
-name = vendorID;
-value = "    ";
+name = "Write lastChange";
+value = 0;
 },
 {
-name = blueFuzz;
+name = "Use Typo Metrics";
 value = 1;
 },
 {
-name = blueScale;
-value = 0.04;
+name = "Use Line Breaks";
+value = 1;
 },
 {
-name = blueShift;
-value = 7;
+name = "Axis Mappings";
+value = {
+wdth = {
+75 = 75;
+100 = 100;
+};
+wght = {
+300 = 60;
+400 = 92;
+500 = 100;
+600 = 125;
+700 = 150;
+};
+};
+},
+{
+name = "Variable Font Origin";
+value = master06;
+},
+{
+name = "Enforce Compatibility Check";
+value = 0;
 }
 );
 date = "2021-02-18 21:03:02 +0000";
-familyName = "Radio Canada Italic";
+familyName = "Radio-Canada Italic";
 fontMaster = (
 {
 axesValues = (
-0,
-0
+75,
+60
 );
 customParameters = (
 {
-name = typoAscender;
-value = 950;
-},
-{
-name = typoDescender;
-value = -250;
+name = "Master Icon Glyph Name";
+value = R;
 },
 {
 name = hheaAscender;
@@ -95,38 +78,9 @@ name = hheaDescender;
 value = -250;
 },
 {
-name = winAscent;
-value = 950;
+name = hheaLineGap;
+value = 0;
 },
-{
-name = winDescent;
-value = 250;
-},
-{
-name = underlineThickness;
-value = 50;
-},
-{
-name = underlinePosition;
-value = -125;
-}
-);
-guides = (
-{
-angle = 78;
-pos = (240,0);
-}
-);
-iconName = Light;
-id = master05;
-name = LightItalic;
-},
-{
-axesValues = (
-0,
-0
-);
-customParameters = (
 {
 name = typoAscender;
 value = 950;
@@ -136,109 +90,8 @@ name = typoDescender;
 value = -250;
 },
 {
-name = hheaAscender;
-value = 950;
-},
-{
-name = hheaDescender;
-value = -250;
-},
-{
-name = winAscent;
-value = 950;
-},
-{
-name = winDescent;
-value = 250;
-},
-{
-name = underlineThickness;
-value = 50;
-},
-{
-name = underlinePosition;
-value = -125;
-}
-);
-guides = (
-{
-angle = 78;
-pos = (240,0);
-}
-);
-id = master06;
-name = Italic;
-},
-{
-axesValues = (
-0,
-0
-);
-customParameters = (
-{
-name = typoAscender;
-value = 950;
-},
-{
-name = typoDescender;
-value = -250;
-},
-{
-name = hheaAscender;
-value = 950;
-},
-{
-name = hheaDescender;
-value = -250;
-},
-{
-name = winAscent;
-value = 950;
-},
-{
-name = winDescent;
-value = 250;
-},
-{
-name = underlineThickness;
-value = 50;
-},
-{
-name = underlinePosition;
-value = -125;
-}
-);
-guides = (
-{
-angle = 78;
-pos = (240,0);
-}
-);
-iconName = Bold;
-id = master01;
-name = BoldItalic;
-},
-{
-axesValues = (
-0,
-0
-);
-customParameters = (
-{
-name = typoAscender;
-value = 950;
-},
-{
-name = typoDescender;
-value = -250;
-},
-{
-name = hheaAscender;
-value = 950;
-},
-{
-name = hheaDescender;
-value = -250;
+name = typoLineGap;
+value = 0;
 },
 {
 name = winAscent;
@@ -265,14 +118,48 @@ pos = (240,0);
 );
 iconName = Light_Condensed;
 id = master03;
+metricValues = (
+{
+pos = 800;
+},
+{
+pos = 690;
+},
+{
+over = 10;
+pos = 515;
+},
+{
+over = -10;
+},
+{
+pos = -250;
+}
+);
 name = LightCondensedItalic;
 },
 {
 axesValues = (
-0,
-0
+75,
+88
 );
 customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = R;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
 {
 name = typoAscender;
 value = 950;
@@ -282,12 +169,8 @@ name = typoDescender;
 value = -250;
 },
 {
-name = hheaAscender;
-value = 950;
-},
-{
-name = hheaDescender;
-value = -250;
+name = typoLineGap;
+value = 0;
 },
 {
 name = winAscent;
@@ -314,14 +197,48 @@ pos = (190,0);
 );
 iconName = Condensed;
 id = master04;
-name = CondensedItalic;
+metricValues = (
+{
+pos = 800;
+},
+{
+pos = 690;
+},
+{
+over = 10;
+pos = 515;
+},
+{
+over = -10;
+},
+{
+pos = -250;
+}
+);
+name = "Condensed Italic";
 },
 {
 axesValues = (
-0,
-0
+75,
+137
 );
 customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = R;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
 {
 name = typoAscender;
 value = 950;
@@ -331,12 +248,8 @@ name = typoDescender;
 value = -250;
 },
 {
-name = hheaAscender;
-value = 950;
-},
-{
-name = hheaDescender;
-value = -250;
+name = typoLineGap;
+value = 0;
 },
 {
 name = winAscent;
@@ -363,7 +276,261 @@ pos = (190,0);
 );
 iconName = Bold_Condensed;
 id = master02;
-name = BoldCondensedItalic;
+metricValues = (
+{
+pos = 800;
+},
+{
+pos = 690;
+},
+{
+over = 10;
+pos = 525;
+},
+{
+over = -10;
+},
+{
+pos = -250;
+}
+);
+name = "Bold Condensed Italic";
+},
+{
+axesValues = (
+100,
+60
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = R;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 950;
+},
+{
+name = typoDescender;
+value = -250;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 950;
+},
+{
+name = winDescent;
+value = 250;
+},
+{
+name = underlineThickness;
+value = 50;
+},
+{
+name = underlinePosition;
+value = -125;
+}
+);
+guides = (
+{
+angle = 78;
+pos = (240,0);
+}
+);
+iconName = Light;
+id = master05;
+metricValues = (
+{
+pos = 800;
+},
+{
+pos = 690;
+},
+{
+over = 10;
+pos = 510;
+},
+{
+over = -10;
+},
+{
+pos = -250;
+}
+);
+name = "Light Italic";
+},
+{
+axesValues = (
+100,
+92
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = R;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 950;
+},
+{
+name = typoDescender;
+value = -250;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 950;
+},
+{
+name = winDescent;
+value = 250;
+},
+{
+name = underlineThickness;
+value = 50;
+},
+{
+name = underlinePosition;
+value = -125;
+}
+);
+guides = (
+{
+angle = 78;
+pos = (240,0);
+}
+);
+id = master06;
+metricValues = (
+{
+pos = 800;
+},
+{
+pos = 690;
+},
+{
+over = 10;
+pos = 515;
+},
+{
+over = -10;
+},
+{
+pos = -250;
+}
+);
+name = Italic;
+},
+{
+axesValues = (
+100,
+150
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = R;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 950;
+},
+{
+name = typoDescender;
+value = -250;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 950;
+},
+{
+name = winDescent;
+value = 250;
+},
+{
+name = underlineThickness;
+value = 50;
+},
+{
+name = underlinePosition;
+value = -125;
+}
+);
+guides = (
+{
+angle = 78;
+pos = (240,0);
+}
+);
+iconName = Bold;
+id = master01;
+metricValues = (
+{
+pos = 800;
+},
+{
+pos = 690;
+},
+{
+over = 10;
+pos = 525;
+},
+{
+over = -10;
+},
+{
+pos = -250;
+}
+);
+name = "Bold Italic";
 }
 );
 glyphs = (
@@ -104060,851 +104227,205 @@ width = 600;
 unicode = 697;
 }
 );
+instances = (
+{
+axesValues = (
+100,
+60
+);
+instanceInterpolations = {
+master05 = 1;
+};
+name = "Light Italic";
+},
+{
+axesValues = (
+100,
+92
+);
+instanceInterpolations = {
+master06 = 1;
+};
+name = Italic;
+},
+{
+axesValues = (
+100,
+150
+);
+instanceInterpolations = {
+master01 = 1;
+};
+isBold = 1;
+name = "Bold Italic";
+},
+{
+axesValues = (
+75,
+60
+);
+instanceInterpolations = {
+master03 = 1;
+};
+name = LightCondensedItalic;
+weightClass = 300;
+widthClass = 3;
+},
+{
+axesValues = (
+75,
+88
+);
+instanceInterpolations = {
+master04 = 1;
+};
+name = "Condensed Italic";
+widthClass = 3;
+},
+{
+axesValues = (
+75,
+137
+);
+instanceInterpolations = {
+master02 = 1;
+};
+isBold = 1;
+linkStyle = Condensed;
+name = "Bold Condensed Italic";
+weightClass = 700;
+widthClass = 3;
+}
+);
 kerningLTR = {
-master05 = {
-"@MMK_L_i" = {
-"@MMK_R_T" = 0;
-};
-"@MMK_L_A" = {
-"@MMK_R_v" = -20;
-"@MMK_R_U" = -10;
-"@MMK_R_S" = -10;
-"@MMK_R_V" = -20;
-X = -10;
-"@MMK_R_Y" = -50;
-"@MMK_R_T" = -50;
-"@MMK_R_O" = -10;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_v" = {
-"@MMK_R_A" = -20;
-"@MMK_R_Y" = -10;
-"@MMK_R_punc_low" = -40;
-"@MMK_R_J" = -40;
-"@MMK_R_T" = -10;
-X = -10;
-};
-"@MMK_L_E" = {
-"@MMK_R_O" = -10;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_punc_low" = {
-"@MMK_R_V" = -60;
-"@MMK_R_Y" = -70;
-"@MMK_R_T" = -60;
-"@MMK_R_v" = -40;
-};
-"@MMK_L_z" = {
-"@MMK_R_Y" = -20;
-"@MMK_R_T" = -20;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_R" = {
-"@MMK_R_A" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -20;
-"@MMK_R_S" = -10;
-};
-"@MMK_L_I" = {
-"@MMK_R_o" = -10;
-};
-P = {
-"@MMK_R_o" = -10;
-"@MMK_R_punc_low" = -80;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -40;
-"@MMK_R_I" = -10;
-X = -20;
-"@MMK_R_Y" = -10;
-"@MMK_R_a" = -10;
-"@MMK_R_J" = -60;
-};
-"@MMK_L_V" = {
-"@MMK_R_o" = -20;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -20;
-x = -10;
-"@MMK_R_z" = -10;
-"@MMK_R_u" = -10;
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_a" = -20;
-"@MMK_R_s" = -20;
-"@MMK_R_n" = -10;
-"@MMK_R_J" = -60;
-"@MMK_R_punc_low" = -60;
-};
-"@MMK_L_u" = {
-"@MMK_R_Y" = -20;
-"@MMK_R_T" = -30;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_braceleft" = {
-"@MMK_R_j" = 100;
-};
-"@MMK_L_c" = {
-"@MMK_R_T" = -10;
-"@MMK_R_Y" = -10;
-};
-"@MMK_L_punc_mid" = {
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -40;
-"@MMK_R_T" = -40;
-X = -20;
-};
-"@MMK_L_U" = {
-"@MMK_R_J" = -20;
-"@MMK_R_A" = -10;
-};
-"@MMK_L_t" = {
-"@MMK_R_Y" = -10;
-};
-"@MMK_L_L" = {
-"@MMK_R_t" = -10;
-"@MMK_R_o" = -10;
-"@MMK_R_A" = -10;
-"@MMK_R_V" = -60;
-"@MMK_R_u" = -10;
-"@MMK_R_Y" = -80;
-"@MMK_R_T" = -80;
-"@MMK_R_f" = -10;
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_O" = -40;
-"@MMK_R_J" = -10;
-"@MMK_R_v" = -10;
-"@MMK_R_U" = -30;
-};
-"@MMK_L_k" = {
-"@MMK_R_Y" = -20;
-"@MMK_R_T" = -10;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_C" = {
-"@MMK_R_O" = -20;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -10;
-X = -10;
-};
-X = {
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_v" = -10;
-"@MMK_R_o" = -10;
-"@MMK_R_A" = -10;
-"@MMK_R_u" = -10;
-"@MMK_R_s" = -10;
-"@MMK_R_O" = -10;
-"@MMK_R_J" = -20;
-};
-"@MMK_L_Y" = {
-"@MMK_R_o" = -50;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -50;
-x = -30;
-"@MMK_R_z" = -20;
-"@MMK_R_u" = -30;
-"@MMK_R_punc_mid" = -40;
-"@MMK_R_a" = -40;
-"@MMK_R_s" = -40;
-"@MMK_R_n" = -20;
-"@MMK_R_O" = -20;
-"@MMK_R_J" = -60;
-"@MMK_R_punc_low" = -70;
-"@MMK_R_v" = -10;
-};
-"@MMK_L_o" = {
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -50;
-x = -10;
-"@MMK_R_T" = -40;
-"@MMK_R_I" = -10;
-X = -10;
-};
-"@MMK_L_G" = {
-"@MMK_R_J" = -10;
-};
-B = {
-"@MMK_R_V" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -20;
-X = -10;
-};
-"@MMK_L_f" = {
-asterisk = 20;
-"@MMK_R_punc_low" = -40;
-question = 40;
-X = 10;
-"@MMK_R_Y" = 30;
-"@MMK_R_T" = 40;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_T" = {
-"@MMK_R_o" = -40;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -50;
-x = -20;
-"@MMK_R_z" = -20;
-"@MMK_R_u" = -30;
-"@MMK_R_punc_mid" = -40;
-"@MMK_R_a" = -30;
-"@MMK_R_s" = -30;
-"@MMK_R_n" = -30;
-"@MMK_R_i" = 0;
-"@MMK_R_O" = -10;
-"@MMK_R_punc_low" = -60;
-"@MMK_R_J" = -60;
-"@MMK_R_v" = -10;
-};
-"@MMK_L_s" = {
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -40;
-"@MMK_R_T" = -30;
-X = -10;
-};
-"@MMK_L_K" = {
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_v" = -10;
-"@MMK_R_U" = -10;
-"@MMK_R_o" = -10;
-"@MMK_R_S" = -20;
-"@MMK_R_u" = -10;
-"@MMK_R_V" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_n" = -10;
-"@MMK_R_O" = -20;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_a" = {
-"@MMK_R_Y" = -30;
-"@MMK_R_T" = -30;
-"@MMK_R_V" = -20;
-};
-F = {
-"@MMK_R_A" = -20;
-"@MMK_R_o" = -10;
-"@MMK_R_punc_low" = -60;
-"@MMK_R_J" = -40;
-"@MMK_R_a" = -20;
-};
-"@MMK_L_O" = {
-"@MMK_R_A" = -10;
-"@MMK_R_Y" = -20;
-"@MMK_R_J" = -20;
-"@MMK_R_T" = -10;
-x = -5;
-X = -10;
-};
-"@MMK_L_n" = {
-"@MMK_R_Y" = -30;
-"@MMK_R_T" = -40;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_e" = {
-"@MMK_R_T" = -20;
-"@MMK_R_Y" = -40;
-};
-x = {
-"@MMK_R_O" = -5;
-"@MMK_R_V" = -10;
-"@MMK_R_Y" = -30;
-"@MMK_R_T" = -20;
-"@MMK_R_o" = -10;
-};
-"@MMK_L_S" = {
-"@MMK_R_J" = -10;
-};
-"@MMK_L_r" = {
-"@MMK_R_J" = -20;
-"@MMK_R_punc_low" = -40;
-"@MMK_R_A" = -10;
-};
-};
-master06 = {
-"@MMK_L_i" = {
-"@MMK_R_T" = 0;
-};
-"@MMK_L_A" = {
-"@MMK_R_v" = -20;
-"@MMK_R_U" = -10;
-"@MMK_R_S" = -10;
-"@MMK_R_V" = -20;
-X = -10;
-"@MMK_R_Y" = -50;
-"@MMK_R_T" = -50;
-"@MMK_R_O" = -10;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_v" = {
-"@MMK_R_A" = -20;
-"@MMK_R_Y" = -10;
-"@MMK_R_punc_low" = -40;
-"@MMK_R_J" = -40;
-"@MMK_R_T" = -10;
-X = -10;
-};
-"@MMK_L_E" = {
-"@MMK_R_O" = -10;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_punc_low" = {
-"@MMK_R_V" = -60;
-"@MMK_R_Y" = -70;
-"@MMK_R_T" = -60;
-"@MMK_R_v" = -40;
-};
-"@MMK_L_z" = {
-"@MMK_R_Y" = -20;
-"@MMK_R_T" = -20;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_R" = {
-"@MMK_R_A" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -20;
-"@MMK_R_S" = -10;
-};
-"@MMK_L_I" = {
-"@MMK_R_o" = -10;
-};
-P = {
-"@MMK_R_o" = -10;
-"@MMK_R_punc_low" = -60;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -40;
-"@MMK_R_I" = -10;
-X = -20;
-"@MMK_R_Y" = -10;
-"@MMK_R_a" = -10;
-"@MMK_R_J" = -60;
-};
-"@MMK_L_V" = {
-"@MMK_R_o" = -20;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -20;
-x = -10;
-"@MMK_R_z" = -10;
-"@MMK_R_u" = -10;
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_a" = -20;
-"@MMK_R_s" = -20;
-"@MMK_R_n" = -10;
-"@MMK_R_J" = -60;
-"@MMK_R_punc_low" = -60;
-};
-"@MMK_L_u" = {
-"@MMK_R_Y" = -20;
-"@MMK_R_T" = -30;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_braceleft" = {
-"@MMK_R_j" = 100;
-};
-"@MMK_L_c" = {
-"@MMK_R_T" = -10;
-"@MMK_R_Y" = -10;
-};
-"@MMK_L_punc_mid" = {
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -40;
-"@MMK_R_T" = -40;
-X = -20;
-};
-"@MMK_L_U" = {
-"@MMK_R_J" = -20;
-"@MMK_R_A" = -10;
-};
-"@MMK_L_t" = {
-"@MMK_R_Y" = -10;
-};
-"@MMK_L_L" = {
-"@MMK_R_t" = -10;
-"@MMK_R_o" = -10;
-"@MMK_R_A" = -10;
-"@MMK_R_V" = -60;
-"@MMK_R_u" = -10;
-"@MMK_R_Y" = -80;
-"@MMK_R_T" = -80;
-"@MMK_R_f" = -10;
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_O" = -40;
-"@MMK_R_J" = -10;
-"@MMK_R_v" = -10;
-"@MMK_R_U" = -30;
-};
-"@MMK_L_k" = {
-"@MMK_R_Y" = -20;
-"@MMK_R_T" = -10;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_C" = {
-"@MMK_R_O" = -20;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -10;
-X = -10;
-};
-X = {
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_v" = -10;
-"@MMK_R_o" = -10;
-"@MMK_R_A" = -10;
-"@MMK_R_u" = -10;
-"@MMK_R_s" = -10;
-"@MMK_R_O" = -10;
-"@MMK_R_J" = -20;
-};
-"@MMK_L_Y" = {
-"@MMK_R_o" = -50;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -50;
-x = -30;
-"@MMK_R_z" = -20;
-"@MMK_R_u" = -30;
-"@MMK_R_punc_mid" = -40;
-"@MMK_R_a" = -40;
-"@MMK_R_s" = -40;
-"@MMK_R_n" = -20;
-"@MMK_R_O" = -20;
-"@MMK_R_J" = -60;
-"@MMK_R_punc_low" = -70;
-"@MMK_R_v" = -10;
-};
-"@MMK_L_o" = {
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -50;
-x = -10;
-"@MMK_R_T" = -40;
-"@MMK_R_I" = -10;
-X = -10;
-};
-"@MMK_L_G" = {
-"@MMK_R_J" = -10;
-};
-B = {
-"@MMK_R_V" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -20;
-X = -10;
-};
-"@MMK_L_f" = {
-asterisk = 20;
-"@MMK_R_punc_low" = -40;
-question = 40;
-X = 10;
-"@MMK_R_Y" = 30;
-"@MMK_R_T" = 40;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_T" = {
-"@MMK_R_o" = -40;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -50;
-x = -20;
-"@MMK_R_z" = -20;
-"@MMK_R_u" = -30;
-"@MMK_R_punc_mid" = -40;
-"@MMK_R_a" = -30;
-"@MMK_R_s" = -30;
-"@MMK_R_n" = -30;
-"@MMK_R_i" = 0;
-"@MMK_R_O" = -10;
-"@MMK_R_punc_low" = -60;
-"@MMK_R_J" = -60;
-"@MMK_R_v" = -10;
-};
-"@MMK_L_s" = {
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -40;
-"@MMK_R_T" = -30;
-X = -10;
-};
-"@MMK_L_K" = {
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_v" = -10;
-"@MMK_R_U" = -10;
-"@MMK_R_o" = -10;
-"@MMK_R_S" = -20;
-"@MMK_R_u" = -10;
-"@MMK_R_V" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_n" = -10;
-"@MMK_R_O" = -20;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_a" = {
-"@MMK_R_Y" = -30;
-"@MMK_R_T" = -30;
-"@MMK_R_V" = -20;
-};
-F = {
-"@MMK_R_A" = -20;
-"@MMK_R_o" = -10;
-"@MMK_R_punc_low" = -50;
-"@MMK_R_J" = -40;
-"@MMK_R_a" = -20;
-};
-"@MMK_L_O" = {
-"@MMK_R_A" = -10;
-"@MMK_R_Y" = -20;
-"@MMK_R_J" = -20;
-"@MMK_R_T" = -10;
-x = -5;
-X = -10;
-};
-"@MMK_L_n" = {
-"@MMK_R_Y" = -30;
-"@MMK_R_T" = -40;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_e" = {
-"@MMK_R_T" = -20;
-"@MMK_R_Y" = -40;
-};
-x = {
-"@MMK_R_O" = -5;
-"@MMK_R_V" = -10;
-"@MMK_R_Y" = -30;
-"@MMK_R_T" = -20;
-"@MMK_R_o" = -10;
-};
-"@MMK_L_S" = {
-"@MMK_R_J" = -10;
-};
-"@MMK_L_r" = {
-"@MMK_R_J" = -20;
-"@MMK_R_punc_low" = -40;
-"@MMK_R_A" = -10;
-};
-};
-master01 = {
-"@MMK_L_i" = {
-"@MMK_R_T" = 0;
-};
-"@MMK_L_A" = {
-"@MMK_R_v" = -20;
-"@MMK_R_U" = -10;
-"@MMK_R_S" = -10;
-"@MMK_R_V" = -20;
-X = -10;
-"@MMK_R_Y" = -50;
-"@MMK_R_T" = -50;
-"@MMK_R_O" = -10;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_v" = {
-"@MMK_R_A" = -20;
-"@MMK_R_Y" = -10;
-"@MMK_R_punc_low" = -40;
-"@MMK_R_J" = -40;
-"@MMK_R_T" = -10;
-X = -10;
-};
-"@MMK_L_E" = {
-"@MMK_R_O" = -10;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_punc_low" = {
-"@MMK_R_V" = -60;
-"@MMK_R_Y" = -70;
-"@MMK_R_T" = -60;
-"@MMK_R_v" = -40;
-};
-"@MMK_L_z" = {
-"@MMK_R_Y" = -20;
-"@MMK_R_T" = -20;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_R" = {
-"@MMK_R_A" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -20;
-"@MMK_R_S" = -10;
-};
-"@MMK_L_I" = {
-"@MMK_R_o" = -10;
-};
-P = {
-"@MMK_R_o" = -10;
-"@MMK_R_punc_low" = -60;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -40;
-"@MMK_R_I" = -10;
-X = -20;
-"@MMK_R_Y" = -10;
-"@MMK_R_a" = -10;
-"@MMK_R_J" = -60;
-};
-"@MMK_L_V" = {
-"@MMK_R_o" = -20;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -20;
-x = -10;
-"@MMK_R_z" = -10;
-"@MMK_R_u" = -10;
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_a" = -20;
-"@MMK_R_s" = -20;
-"@MMK_R_n" = -10;
-"@MMK_R_J" = -60;
-"@MMK_R_punc_low" = -60;
-};
-"@MMK_L_u" = {
-"@MMK_R_Y" = -20;
-"@MMK_R_T" = -30;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_braceleft" = {
-"@MMK_R_j" = 100;
-};
-"@MMK_L_c" = {
-"@MMK_R_T" = -10;
-"@MMK_R_Y" = -10;
-};
-"@MMK_L_punc_mid" = {
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -40;
-"@MMK_R_T" = -40;
-X = -20;
-};
-"@MMK_L_U" = {
-"@MMK_R_J" = -20;
-"@MMK_R_A" = -10;
-};
-"@MMK_L_t" = {
-"@MMK_R_Y" = -10;
-};
-"@MMK_L_L" = {
-"@MMK_R_t" = -10;
-"@MMK_R_o" = -10;
-"@MMK_R_A" = -10;
-"@MMK_R_V" = -60;
-"@MMK_R_u" = -10;
-"@MMK_R_Y" = -80;
-"@MMK_R_T" = -80;
-"@MMK_R_f" = -10;
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_O" = -40;
-"@MMK_R_J" = -10;
-"@MMK_R_v" = -10;
-"@MMK_R_U" = -30;
-};
-"@MMK_L_k" = {
-"@MMK_R_Y" = -20;
-"@MMK_R_T" = -10;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_C" = {
-"@MMK_R_O" = -20;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -10;
-X = -10;
-};
-X = {
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_v" = -10;
-"@MMK_R_o" = -10;
-"@MMK_R_A" = -10;
-"@MMK_R_u" = -10;
-"@MMK_R_s" = -10;
-"@MMK_R_O" = -10;
-"@MMK_R_J" = -20;
-};
-"@MMK_L_Y" = {
-"@MMK_R_o" = -50;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -50;
-x = -30;
-"@MMK_R_z" = -20;
-"@MMK_R_u" = -30;
-"@MMK_R_punc_mid" = -40;
-"@MMK_R_a" = -40;
-"@MMK_R_s" = -40;
-"@MMK_R_n" = -20;
-"@MMK_R_O" = -20;
-"@MMK_R_J" = -60;
-"@MMK_R_punc_low" = -70;
-"@MMK_R_v" = -10;
-};
-"@MMK_L_o" = {
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -50;
-x = -10;
-"@MMK_R_T" = -40;
-"@MMK_R_I" = -10;
-X = -10;
-};
-"@MMK_L_G" = {
-"@MMK_R_J" = -10;
-};
-B = {
-"@MMK_R_V" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -20;
-X = -10;
-};
-"@MMK_L_f" = {
-asterisk = 20;
-"@MMK_R_punc_low" = -40;
-question = 40;
-X = 30;
-"@MMK_R_Y" = 30;
-"@MMK_R_T" = 40;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_T" = {
-"@MMK_R_o" = -40;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -50;
-x = -20;
-"@MMK_R_z" = -20;
-"@MMK_R_u" = -30;
-"@MMK_R_punc_mid" = -40;
-"@MMK_R_a" = -30;
-"@MMK_R_s" = -30;
-"@MMK_R_n" = -30;
-"@MMK_R_i" = 0;
-"@MMK_R_O" = -10;
-"@MMK_R_punc_low" = -60;
-"@MMK_R_J" = -60;
-"@MMK_R_v" = -10;
-};
-"@MMK_L_s" = {
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -40;
-"@MMK_R_T" = -30;
-X = -10;
-};
-"@MMK_L_K" = {
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_v" = -10;
-"@MMK_R_U" = -10;
-"@MMK_R_o" = -10;
-"@MMK_R_S" = -20;
-"@MMK_R_u" = -10;
-"@MMK_R_V" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_n" = -10;
-"@MMK_R_O" = -20;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_a" = {
-"@MMK_R_Y" = -30;
-"@MMK_R_T" = -30;
-"@MMK_R_V" = -20;
-};
-F = {
-"@MMK_R_A" = -20;
-"@MMK_R_o" = -10;
-"@MMK_R_punc_low" = -40;
-"@MMK_R_J" = -40;
-"@MMK_R_a" = -20;
-};
-"@MMK_L_O" = {
-"@MMK_R_A" = -10;
-"@MMK_R_Y" = -20;
-"@MMK_R_J" = -20;
-"@MMK_R_T" = -10;
-x = -5;
-X = -10;
-};
-"@MMK_L_n" = {
-"@MMK_R_Y" = -30;
-"@MMK_R_T" = -40;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_e" = {
-"@MMK_R_T" = -20;
-"@MMK_R_Y" = -40;
-};
-x = {
-"@MMK_R_O" = -5;
-"@MMK_R_V" = -10;
-"@MMK_R_Y" = -30;
-"@MMK_R_T" = -20;
-"@MMK_R_o" = -10;
-};
-"@MMK_L_S" = {
-"@MMK_R_J" = -10;
-};
-"@MMK_L_r" = {
-"@MMK_R_J" = -20;
-"@MMK_R_punc_low" = -40;
-"@MMK_R_A" = -10;
-};
-};
 master03 = {
-"@MMK_L_i" = {
-"@MMK_R_T" = 0;
-};
 "@MMK_L_A" = {
-"@MMK_R_v" = -20;
-"@MMK_R_U" = -10;
-"@MMK_R_S" = -10;
-"@MMK_R_V" = -20;
-X = -10;
-"@MMK_R_Y" = -50;
-"@MMK_R_T" = -50;
-"@MMK_R_O" = -10;
 "@MMK_R_J" = -10;
+"@MMK_R_O" = -10;
+"@MMK_R_S" = -10;
+"@MMK_R_T" = -50;
+"@MMK_R_U" = -10;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -50;
+"@MMK_R_v" = -20;
+X = -10;
 };
-"@MMK_L_v" = {
-"@MMK_R_A" = -20;
+"@MMK_L_C" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -20;
 "@MMK_R_Y" = -10;
-"@MMK_R_punc_low" = -40;
-"@MMK_R_J" = -40;
-"@MMK_R_T" = -10;
 X = -10;
 };
 "@MMK_L_E" = {
-"@MMK_R_O" = -10;
 "@MMK_R_J" = -10;
+"@MMK_R_O" = -10;
 };
-"@MMK_L_punc_low" = {
-"@MMK_R_V" = -60;
-"@MMK_R_Y" = -70;
-"@MMK_R_T" = -60;
-"@MMK_R_v" = -40;
-};
-"@MMK_L_z" = {
-"@MMK_R_Y" = -20;
-"@MMK_R_T" = -20;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_R" = {
-"@MMK_R_A" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -20;
-"@MMK_R_S" = -10;
+"@MMK_L_G" = {
+"@MMK_R_J" = -10;
 };
 "@MMK_L_I" = {
 "@MMK_R_o" = -10;
 };
-P = {
-"@MMK_R_o" = -10;
-"@MMK_R_punc_low" = -80;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -40;
-"@MMK_R_I" = -10;
-X = -20;
+"@MMK_L_K" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -20;
+"@MMK_R_U" = -10;
+"@MMK_R_V" = -10;
 "@MMK_R_Y" = -10;
-"@MMK_R_a" = -10;
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
+};
+"@MMK_L_L" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -40;
+"@MMK_R_T" = -80;
+"@MMK_R_U" = -30;
+"@MMK_R_V" = -60;
+"@MMK_R_Y" = -80;
+"@MMK_R_f" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_t" = -10;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
+};
+"@MMK_L_O" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_T" = -10;
+"@MMK_R_Y" = -20;
+X = -10;
+x = -5;
+};
+"@MMK_L_R" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_Y" = -10;
+};
+"@MMK_L_S" = {
+"@MMK_R_J" = -10;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -50;
 "@MMK_R_J" = -60;
+"@MMK_R_O" = -10;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -30;
+"@MMK_R_i" = 0;
+"@MMK_R_n" = -30;
+"@MMK_R_o" = -40;
+"@MMK_R_punc_low" = -60;
+"@MMK_R_punc_mid" = -40;
+"@MMK_R_s" = -30;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -10;
+"@MMK_R_z" = -20;
+x = -20;
+};
+"@MMK_L_U" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
 };
 "@MMK_L_V" = {
-"@MMK_R_o" = -20;
-"@MMK_R_S" = -10;
 "@MMK_R_A" = -20;
-x = -10;
-"@MMK_R_z" = -10;
-"@MMK_R_u" = -10;
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_a" = -20;
-"@MMK_R_s" = -20;
-"@MMK_R_n" = -10;
 "@MMK_R_J" = -60;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -20;
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -20;
 "@MMK_R_punc_low" = -60;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_s" = -20;
+"@MMK_R_u" = -10;
+"@MMK_R_z" = -10;
+x = -10;
 };
-"@MMK_L_u" = {
-"@MMK_R_Y" = -20;
+"@MMK_L_Y" = {
+"@MMK_R_A" = -50;
+"@MMK_R_J" = -60;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -40;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -50;
+"@MMK_R_punc_low" = -70;
+"@MMK_R_punc_mid" = -40;
+"@MMK_R_s" = -40;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -10;
+"@MMK_R_z" = -20;
+x = -30;
+};
+"@MMK_L_a" = {
 "@MMK_R_T" = -30;
-"@MMK_R_V" = -10;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -30;
 };
 "@MMK_L_braceleft" = {
 "@MMK_R_j" = 100;
@@ -104913,254 +104434,254 @@ x = -10;
 "@MMK_R_T" = -10;
 "@MMK_R_Y" = -10;
 };
-"@MMK_L_punc_mid" = {
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -40;
-"@MMK_R_T" = -40;
-X = -20;
-};
-"@MMK_L_U" = {
-"@MMK_R_J" = -20;
-"@MMK_R_A" = -10;
-};
-"@MMK_L_t" = {
-"@MMK_R_Y" = -10;
-};
-"@MMK_L_L" = {
-"@MMK_R_t" = -10;
-"@MMK_R_o" = -10;
-"@MMK_R_A" = -10;
-"@MMK_R_V" = -60;
-"@MMK_R_u" = -10;
-"@MMK_R_Y" = -80;
-"@MMK_R_T" = -80;
-"@MMK_R_f" = -10;
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_O" = -40;
-"@MMK_R_J" = -10;
-"@MMK_R_v" = -10;
-"@MMK_R_U" = -30;
-};
-"@MMK_L_k" = {
-"@MMK_R_Y" = -20;
-"@MMK_R_T" = -10;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_C" = {
-"@MMK_R_O" = -20;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -10;
-X = -10;
-};
-X = {
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_v" = -10;
-"@MMK_R_o" = -10;
-"@MMK_R_A" = -10;
-"@MMK_R_u" = -10;
-"@MMK_R_s" = -10;
-"@MMK_R_O" = -10;
-"@MMK_R_J" = -20;
-};
-"@MMK_L_Y" = {
-"@MMK_R_o" = -50;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -50;
-x = -30;
-"@MMK_R_z" = -20;
-"@MMK_R_u" = -30;
-"@MMK_R_punc_mid" = -40;
-"@MMK_R_a" = -40;
-"@MMK_R_s" = -40;
-"@MMK_R_n" = -20;
-"@MMK_R_O" = -20;
-"@MMK_R_J" = -60;
-"@MMK_R_punc_low" = -70;
-"@MMK_R_v" = -10;
-};
-"@MMK_L_o" = {
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -50;
-x = -10;
-"@MMK_R_T" = -40;
-"@MMK_R_I" = -10;
-X = -10;
-};
-"@MMK_L_G" = {
-"@MMK_R_J" = -10;
-};
-B = {
-"@MMK_R_V" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -20;
-X = -10;
-};
-"@MMK_L_f" = {
-asterisk = 20;
-"@MMK_R_punc_low" = -40;
-question = 40;
-X = 10;
-"@MMK_R_Y" = 30;
-"@MMK_R_T" = 40;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_T" = {
-"@MMK_R_o" = -40;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -50;
-x = -20;
-"@MMK_R_z" = -20;
-"@MMK_R_u" = -30;
-"@MMK_R_punc_mid" = -40;
-"@MMK_R_a" = -30;
-"@MMK_R_s" = -30;
-"@MMK_R_n" = -30;
-"@MMK_R_i" = 0;
-"@MMK_R_O" = -10;
-"@MMK_R_punc_low" = -60;
-"@MMK_R_J" = -60;
-"@MMK_R_v" = -10;
-};
-"@MMK_L_s" = {
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -40;
-"@MMK_R_T" = -30;
-X = -10;
-};
-"@MMK_L_K" = {
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_v" = -10;
-"@MMK_R_U" = -10;
-"@MMK_R_o" = -10;
-"@MMK_R_S" = -20;
-"@MMK_R_u" = -10;
-"@MMK_R_V" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_n" = -10;
-"@MMK_R_O" = -20;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_a" = {
-"@MMK_R_Y" = -30;
-"@MMK_R_T" = -30;
-"@MMK_R_V" = -20;
-};
-F = {
-"@MMK_R_A" = -20;
-"@MMK_R_o" = -10;
-"@MMK_R_punc_low" = -60;
-"@MMK_R_J" = -40;
-"@MMK_R_a" = -20;
-};
-"@MMK_L_O" = {
-"@MMK_R_A" = -10;
-"@MMK_R_Y" = -20;
-"@MMK_R_J" = -20;
-"@MMK_R_T" = -10;
-x = -5;
-X = -10;
-};
-"@MMK_L_n" = {
-"@MMK_R_Y" = -30;
-"@MMK_R_T" = -40;
-"@MMK_R_V" = -10;
-};
 "@MMK_L_e" = {
 "@MMK_R_T" = -20;
 "@MMK_R_Y" = -40;
 };
-x = {
-"@MMK_R_O" = -5;
+"@MMK_L_f" = {
+"@MMK_R_J" = -10;
+"@MMK_R_T" = 40;
+"@MMK_R_Y" = 30;
+"@MMK_R_punc_low" = -40;
+X = 10;
+asterisk = 20;
+question = 40;
+};
+"@MMK_L_i" = {
+"@MMK_R_T" = 0;
+};
+"@MMK_L_k" = {
+"@MMK_R_T" = -10;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+"@MMK_L_n" = {
+"@MMK_R_T" = -40;
 "@MMK_R_V" = -10;
 "@MMK_R_Y" = -30;
-"@MMK_R_T" = -20;
-"@MMK_R_o" = -10;
 };
-"@MMK_L_S" = {
-"@MMK_R_J" = -10;
+"@MMK_L_o" = {
+"@MMK_R_I" = -10;
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -50;
+X = -10;
+x = -10;
+};
+"@MMK_L_punc_low" = {
+"@MMK_R_T" = -60;
+"@MMK_R_V" = -60;
+"@MMK_R_Y" = -70;
+"@MMK_R_v" = -40;
+};
+"@MMK_L_punc_mid" = {
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -40;
+X = -20;
 };
 "@MMK_L_r" = {
+"@MMK_R_A" = -10;
 "@MMK_R_J" = -20;
 "@MMK_R_punc_low" = -40;
+};
+"@MMK_L_s" = {
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -40;
+X = -10;
+};
+"@MMK_L_t" = {
+"@MMK_R_Y" = -10;
+};
+"@MMK_L_u" = {
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+"@MMK_L_v" = {
+"@MMK_R_A" = -20;
+"@MMK_R_J" = -40;
+"@MMK_R_T" = -10;
+"@MMK_R_Y" = -10;
+"@MMK_R_punc_low" = -40;
+X = -10;
+};
+"@MMK_L_z" = {
+"@MMK_R_T" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+B = {
+"@MMK_R_J" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -10;
+X = -10;
+};
+F = {
+"@MMK_R_A" = -20;
+"@MMK_R_J" = -40;
+"@MMK_R_a" = -20;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_low" = -60;
+};
+P = {
+"@MMK_R_A" = -40;
+"@MMK_R_I" = -10;
+"@MMK_R_J" = -60;
+"@MMK_R_S" = -10;
+"@MMK_R_Y" = -10;
+"@MMK_R_a" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_low" = -80;
+X = -20;
+};
+X = {
 "@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_O" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_s" = -10;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
+};
+x = {
+"@MMK_R_O" = -5;
+"@MMK_R_T" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -30;
+"@MMK_R_o" = -10;
 };
 };
 master04 = {
-"@MMK_L_i" = {
-"@MMK_R_T" = 0;
-};
 "@MMK_L_A" = {
-"@MMK_R_v" = -20;
-"@MMK_R_U" = -10;
-"@MMK_R_S" = -10;
-"@MMK_R_V" = -20;
-X = -10;
-"@MMK_R_Y" = -50;
-"@MMK_R_T" = -50;
-"@MMK_R_O" = -10;
 "@MMK_R_J" = -10;
+"@MMK_R_O" = -10;
+"@MMK_R_S" = -10;
+"@MMK_R_T" = -50;
+"@MMK_R_U" = -10;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -50;
+"@MMK_R_v" = -20;
+X = -10;
 };
-"@MMK_L_v" = {
-"@MMK_R_A" = -20;
+"@MMK_L_C" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -20;
 "@MMK_R_Y" = -10;
-"@MMK_R_punc_low" = -40;
-"@MMK_R_J" = -40;
-"@MMK_R_T" = -10;
 X = -10;
 };
 "@MMK_L_E" = {
-"@MMK_R_O" = -10;
 "@MMK_R_J" = -10;
+"@MMK_R_O" = -10;
 };
-"@MMK_L_punc_low" = {
-"@MMK_R_V" = -60;
-"@MMK_R_Y" = -70;
-"@MMK_R_T" = -60;
-"@MMK_R_v" = -40;
-};
-"@MMK_L_z" = {
-"@MMK_R_Y" = -20;
-"@MMK_R_T" = -20;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_R" = {
-"@MMK_R_A" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -20;
-"@MMK_R_S" = -10;
+"@MMK_L_G" = {
+"@MMK_R_J" = -10;
 };
 "@MMK_L_I" = {
 "@MMK_R_o" = -10;
 };
-P = {
-"@MMK_R_o" = -10;
-"@MMK_R_punc_low" = -60;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -40;
-"@MMK_R_I" = -10;
-X = -20;
+"@MMK_L_K" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -20;
+"@MMK_R_U" = -10;
+"@MMK_R_V" = -10;
 "@MMK_R_Y" = -10;
-"@MMK_R_a" = -10;
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
+};
+"@MMK_L_L" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -40;
+"@MMK_R_T" = -80;
+"@MMK_R_U" = -30;
+"@MMK_R_V" = -60;
+"@MMK_R_Y" = -80;
+"@MMK_R_f" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_t" = -10;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
+};
+"@MMK_L_O" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_T" = -10;
+"@MMK_R_Y" = -20;
+X = -10;
+x = -5;
+};
+"@MMK_L_R" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_Y" = -10;
+};
+"@MMK_L_S" = {
+"@MMK_R_J" = -10;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -50;
 "@MMK_R_J" = -60;
+"@MMK_R_O" = -10;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -30;
+"@MMK_R_i" = 0;
+"@MMK_R_n" = -30;
+"@MMK_R_o" = -40;
+"@MMK_R_punc_low" = -60;
+"@MMK_R_punc_mid" = -40;
+"@MMK_R_s" = -30;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -10;
+"@MMK_R_z" = -20;
+x = -20;
+};
+"@MMK_L_U" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
 };
 "@MMK_L_V" = {
-"@MMK_R_o" = -20;
-"@MMK_R_S" = -10;
 "@MMK_R_A" = -20;
-x = -10;
-"@MMK_R_z" = -10;
-"@MMK_R_u" = -10;
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_a" = -20;
-"@MMK_R_s" = -20;
-"@MMK_R_n" = -10;
 "@MMK_R_J" = -60;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -20;
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -20;
 "@MMK_R_punc_low" = -60;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_s" = -20;
+"@MMK_R_u" = -10;
+"@MMK_R_z" = -10;
+x = -10;
 };
-"@MMK_L_u" = {
-"@MMK_R_Y" = -20;
+"@MMK_L_Y" = {
+"@MMK_R_A" = -50;
+"@MMK_R_J" = -60;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -40;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -50;
+"@MMK_R_punc_low" = -70;
+"@MMK_R_punc_mid" = -40;
+"@MMK_R_s" = -40;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -10;
+"@MMK_R_z" = -20;
+x = -30;
+};
+"@MMK_L_a" = {
 "@MMK_R_T" = -30;
-"@MMK_R_V" = -10;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -30;
 };
 "@MMK_L_braceleft" = {
 "@MMK_R_j" = 100;
@@ -105169,254 +104690,254 @@ x = -10;
 "@MMK_R_T" = -10;
 "@MMK_R_Y" = -10;
 };
-"@MMK_L_punc_mid" = {
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -40;
-"@MMK_R_T" = -40;
-X = -20;
-};
-"@MMK_L_U" = {
-"@MMK_R_J" = -20;
-"@MMK_R_A" = -10;
-};
-"@MMK_L_t" = {
-"@MMK_R_Y" = -10;
-};
-"@MMK_L_L" = {
-"@MMK_R_t" = -10;
-"@MMK_R_o" = -10;
-"@MMK_R_A" = -10;
-"@MMK_R_V" = -60;
-"@MMK_R_u" = -10;
-"@MMK_R_Y" = -80;
-"@MMK_R_T" = -80;
-"@MMK_R_f" = -10;
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_O" = -40;
-"@MMK_R_J" = -10;
-"@MMK_R_v" = -10;
-"@MMK_R_U" = -30;
-};
-"@MMK_L_k" = {
-"@MMK_R_Y" = -20;
-"@MMK_R_T" = -10;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_C" = {
-"@MMK_R_O" = -20;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -10;
-X = -10;
-};
-X = {
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_v" = -10;
-"@MMK_R_o" = -10;
-"@MMK_R_A" = -10;
-"@MMK_R_u" = -10;
-"@MMK_R_s" = -10;
-"@MMK_R_O" = -10;
-"@MMK_R_J" = -20;
-};
-"@MMK_L_Y" = {
-"@MMK_R_o" = -50;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -50;
-x = -30;
-"@MMK_R_z" = -20;
-"@MMK_R_u" = -30;
-"@MMK_R_punc_mid" = -40;
-"@MMK_R_a" = -40;
-"@MMK_R_s" = -40;
-"@MMK_R_n" = -20;
-"@MMK_R_O" = -20;
-"@MMK_R_J" = -60;
-"@MMK_R_punc_low" = -70;
-"@MMK_R_v" = -10;
-};
-"@MMK_L_o" = {
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -50;
-x = -10;
-"@MMK_R_T" = -40;
-"@MMK_R_I" = -10;
-X = -10;
-};
-"@MMK_L_G" = {
-"@MMK_R_J" = -10;
-};
-B = {
-"@MMK_R_V" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -20;
-X = -10;
-};
-"@MMK_L_f" = {
-asterisk = 20;
-"@MMK_R_punc_low" = -40;
-question = 40;
-X = 10;
-"@MMK_R_Y" = 30;
-"@MMK_R_T" = 40;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_T" = {
-"@MMK_R_o" = -40;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -50;
-x = -20;
-"@MMK_R_z" = -20;
-"@MMK_R_u" = -30;
-"@MMK_R_punc_mid" = -40;
-"@MMK_R_a" = -30;
-"@MMK_R_s" = -30;
-"@MMK_R_n" = -30;
-"@MMK_R_i" = 0;
-"@MMK_R_O" = -10;
-"@MMK_R_punc_low" = -60;
-"@MMK_R_J" = -60;
-"@MMK_R_v" = -10;
-};
-"@MMK_L_s" = {
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -40;
-"@MMK_R_T" = -30;
-X = -10;
-};
-"@MMK_L_K" = {
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_v" = -10;
-"@MMK_R_U" = -10;
-"@MMK_R_o" = -10;
-"@MMK_R_S" = -20;
-"@MMK_R_u" = -10;
-"@MMK_R_V" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_n" = -10;
-"@MMK_R_O" = -20;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_a" = {
-"@MMK_R_Y" = -30;
-"@MMK_R_T" = -30;
-"@MMK_R_V" = -20;
-};
-F = {
-"@MMK_R_A" = -20;
-"@MMK_R_o" = -10;
-"@MMK_R_punc_low" = -50;
-"@MMK_R_J" = -40;
-"@MMK_R_a" = -20;
-};
-"@MMK_L_O" = {
-"@MMK_R_A" = -10;
-"@MMK_R_Y" = -20;
-"@MMK_R_J" = -20;
-"@MMK_R_T" = -10;
-x = -5;
-X = -10;
-};
-"@MMK_L_n" = {
-"@MMK_R_Y" = -30;
-"@MMK_R_T" = -40;
-"@MMK_R_V" = -10;
-};
 "@MMK_L_e" = {
 "@MMK_R_T" = -20;
 "@MMK_R_Y" = -40;
 };
-x = {
-"@MMK_R_O" = -5;
+"@MMK_L_f" = {
+"@MMK_R_J" = -10;
+"@MMK_R_T" = 40;
+"@MMK_R_Y" = 30;
+"@MMK_R_punc_low" = -40;
+X = 10;
+asterisk = 20;
+question = 40;
+};
+"@MMK_L_i" = {
+"@MMK_R_T" = 0;
+};
+"@MMK_L_k" = {
+"@MMK_R_T" = -10;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+"@MMK_L_n" = {
+"@MMK_R_T" = -40;
 "@MMK_R_V" = -10;
 "@MMK_R_Y" = -30;
-"@MMK_R_T" = -20;
-"@MMK_R_o" = -10;
 };
-"@MMK_L_S" = {
-"@MMK_R_J" = -10;
+"@MMK_L_o" = {
+"@MMK_R_I" = -10;
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -50;
+X = -10;
+x = -10;
+};
+"@MMK_L_punc_low" = {
+"@MMK_R_T" = -60;
+"@MMK_R_V" = -60;
+"@MMK_R_Y" = -70;
+"@MMK_R_v" = -40;
+};
+"@MMK_L_punc_mid" = {
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -40;
+X = -20;
 };
 "@MMK_L_r" = {
+"@MMK_R_A" = -10;
 "@MMK_R_J" = -20;
 "@MMK_R_punc_low" = -40;
+};
+"@MMK_L_s" = {
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -40;
+X = -10;
+};
+"@MMK_L_t" = {
+"@MMK_R_Y" = -10;
+};
+"@MMK_L_u" = {
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+"@MMK_L_v" = {
+"@MMK_R_A" = -20;
+"@MMK_R_J" = -40;
+"@MMK_R_T" = -10;
+"@MMK_R_Y" = -10;
+"@MMK_R_punc_low" = -40;
+X = -10;
+};
+"@MMK_L_z" = {
+"@MMK_R_T" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+B = {
+"@MMK_R_J" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -10;
+X = -10;
+};
+F = {
+"@MMK_R_A" = -20;
+"@MMK_R_J" = -40;
+"@MMK_R_a" = -20;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_low" = -50;
+};
+P = {
+"@MMK_R_A" = -40;
+"@MMK_R_I" = -10;
+"@MMK_R_J" = -60;
+"@MMK_R_S" = -10;
+"@MMK_R_Y" = -10;
+"@MMK_R_a" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_low" = -60;
+X = -20;
+};
+X = {
 "@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_O" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_s" = -10;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
+};
+x = {
+"@MMK_R_O" = -5;
+"@MMK_R_T" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -30;
+"@MMK_R_o" = -10;
 };
 };
 master02 = {
-"@MMK_L_i" = {
-"@MMK_R_T" = 0;
-};
 "@MMK_L_A" = {
-"@MMK_R_v" = -20;
-"@MMK_R_U" = -10;
-"@MMK_R_S" = -10;
-"@MMK_R_V" = -20;
-X = -10;
-"@MMK_R_Y" = -50;
-"@MMK_R_T" = -50;
-"@MMK_R_O" = -10;
 "@MMK_R_J" = -10;
+"@MMK_R_O" = -10;
+"@MMK_R_S" = -10;
+"@MMK_R_T" = -50;
+"@MMK_R_U" = -10;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -50;
+"@MMK_R_v" = -20;
+X = -10;
 };
-"@MMK_L_v" = {
-"@MMK_R_A" = -20;
+"@MMK_L_C" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -20;
 "@MMK_R_Y" = -10;
-"@MMK_R_punc_low" = -40;
-"@MMK_R_J" = -40;
-"@MMK_R_T" = -10;
 X = -10;
 };
 "@MMK_L_E" = {
-"@MMK_R_O" = -10;
 "@MMK_R_J" = -10;
+"@MMK_R_O" = -10;
 };
-"@MMK_L_punc_low" = {
-"@MMK_R_V" = -60;
-"@MMK_R_Y" = -70;
-"@MMK_R_T" = -60;
-"@MMK_R_v" = -40;
-};
-"@MMK_L_z" = {
-"@MMK_R_Y" = -20;
-"@MMK_R_T" = -20;
-"@MMK_R_V" = -10;
-};
-"@MMK_L_R" = {
-"@MMK_R_A" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -20;
-"@MMK_R_S" = -10;
+"@MMK_L_G" = {
+"@MMK_R_J" = -10;
 };
 "@MMK_L_I" = {
 "@MMK_R_o" = -10;
 };
-P = {
-"@MMK_R_o" = -10;
-"@MMK_R_punc_low" = -60;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -40;
-"@MMK_R_I" = -10;
-X = -20;
+"@MMK_L_K" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -20;
+"@MMK_R_U" = -10;
+"@MMK_R_V" = -10;
 "@MMK_R_Y" = -10;
-"@MMK_R_a" = -10;
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
+};
+"@MMK_L_L" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -40;
+"@MMK_R_T" = -80;
+"@MMK_R_U" = -30;
+"@MMK_R_V" = -60;
+"@MMK_R_Y" = -80;
+"@MMK_R_f" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_t" = -10;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
+};
+"@MMK_L_O" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_T" = -10;
+"@MMK_R_Y" = -20;
+X = -10;
+x = -5;
+};
+"@MMK_L_R" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_Y" = -10;
+};
+"@MMK_L_S" = {
+"@MMK_R_J" = -10;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -50;
 "@MMK_R_J" = -60;
+"@MMK_R_O" = -10;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -30;
+"@MMK_R_i" = 0;
+"@MMK_R_n" = -30;
+"@MMK_R_o" = -40;
+"@MMK_R_punc_low" = -60;
+"@MMK_R_punc_mid" = -40;
+"@MMK_R_s" = -30;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -10;
+"@MMK_R_z" = -20;
+x = -20;
+};
+"@MMK_L_U" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
 };
 "@MMK_L_V" = {
-"@MMK_R_o" = -20;
-"@MMK_R_S" = -10;
 "@MMK_R_A" = -20;
-x = -10;
-"@MMK_R_z" = -10;
-"@MMK_R_u" = -10;
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_a" = -20;
-"@MMK_R_s" = -20;
-"@MMK_R_n" = -10;
 "@MMK_R_J" = -60;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -20;
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -20;
 "@MMK_R_punc_low" = -60;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_s" = -20;
+"@MMK_R_u" = -10;
+"@MMK_R_z" = -10;
+x = -10;
 };
-"@MMK_L_u" = {
-"@MMK_R_Y" = -20;
+"@MMK_L_Y" = {
+"@MMK_R_A" = -50;
+"@MMK_R_J" = -60;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -40;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -50;
+"@MMK_R_punc_low" = -70;
+"@MMK_R_punc_mid" = -40;
+"@MMK_R_s" = -40;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -10;
+"@MMK_R_z" = -20;
+x = -30;
+};
+"@MMK_L_a" = {
 "@MMK_R_T" = -30;
-"@MMK_R_V" = -10;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -30;
 };
 "@MMK_L_braceleft" = {
 "@MMK_R_j" = 100;
@@ -105425,179 +104946,912 @@ x = -10;
 "@MMK_R_T" = -10;
 "@MMK_R_Y" = -10;
 };
+"@MMK_L_e" = {
+"@MMK_R_T" = -20;
+"@MMK_R_Y" = -40;
+};
+"@MMK_L_f" = {
+"@MMK_R_J" = -10;
+"@MMK_R_T" = 40;
+"@MMK_R_Y" = 30;
+"@MMK_R_punc_low" = -30;
+X = 30;
+asterisk = 20;
+question = 40;
+};
+"@MMK_L_i" = {
+"@MMK_R_T" = 0;
+};
+"@MMK_L_k" = {
+"@MMK_R_T" = -10;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+"@MMK_L_n" = {
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -30;
+};
+"@MMK_L_o" = {
+"@MMK_R_I" = -10;
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -50;
+X = -10;
+x = -10;
+};
+"@MMK_L_punc_low" = {
+"@MMK_R_T" = -60;
+"@MMK_R_V" = -60;
+"@MMK_R_Y" = -70;
+"@MMK_R_v" = -40;
+};
 "@MMK_L_punc_mid" = {
+"@MMK_R_T" = -40;
 "@MMK_R_V" = -20;
 "@MMK_R_Y" = -40;
-"@MMK_R_T" = -40;
 X = -20;
 };
-"@MMK_L_U" = {
-"@MMK_R_J" = -20;
+"@MMK_L_r" = {
 "@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_punc_low" = -40;
+};
+"@MMK_L_s" = {
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -40;
+X = -10;
 };
 "@MMK_L_t" = {
 "@MMK_R_Y" = -10;
 };
-"@MMK_L_L" = {
-"@MMK_R_t" = -10;
-"@MMK_R_o" = -10;
-"@MMK_R_A" = -10;
-"@MMK_R_V" = -60;
-"@MMK_R_u" = -10;
-"@MMK_R_Y" = -80;
-"@MMK_R_T" = -80;
-"@MMK_R_f" = -10;
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_O" = -40;
-"@MMK_R_J" = -10;
-"@MMK_R_v" = -10;
-"@MMK_R_U" = -30;
-};
-"@MMK_L_k" = {
-"@MMK_R_Y" = -20;
-"@MMK_R_T" = -10;
+"@MMK_L_u" = {
+"@MMK_R_T" = -30;
 "@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
 };
-"@MMK_L_C" = {
-"@MMK_R_O" = -20;
+"@MMK_L_v" = {
+"@MMK_R_A" = -20;
+"@MMK_R_J" = -40;
+"@MMK_R_T" = -10;
 "@MMK_R_Y" = -10;
-"@MMK_R_J" = -10;
+"@MMK_R_punc_low" = -40;
 X = -10;
+};
+"@MMK_L_z" = {
+"@MMK_R_T" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+B = {
+"@MMK_R_J" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -10;
+X = -10;
+};
+F = {
+"@MMK_R_A" = -20;
+"@MMK_R_J" = -40;
+"@MMK_R_a" = -20;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_low" = -40;
+};
+P = {
+"@MMK_R_A" = -40;
+"@MMK_R_I" = -10;
+"@MMK_R_J" = -60;
+"@MMK_R_S" = -10;
+"@MMK_R_Y" = -10;
+"@MMK_R_a" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_low" = -60;
+X = -20;
 };
 X = {
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_v" = -10;
-"@MMK_R_o" = -10;
 "@MMK_R_A" = -10;
-"@MMK_R_u" = -10;
-"@MMK_R_s" = -10;
-"@MMK_R_O" = -10;
 "@MMK_R_J" = -20;
-};
-"@MMK_L_Y" = {
-"@MMK_R_o" = -50;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -50;
-x = -30;
-"@MMK_R_z" = -20;
-"@MMK_R_u" = -30;
-"@MMK_R_punc_mid" = -40;
-"@MMK_R_a" = -40;
-"@MMK_R_s" = -40;
-"@MMK_R_n" = -20;
-"@MMK_R_O" = -20;
-"@MMK_R_J" = -60;
-"@MMK_R_punc_low" = -70;
+"@MMK_R_O" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_s" = -10;
+"@MMK_R_u" = -10;
 "@MMK_R_v" = -10;
 };
-"@MMK_L_o" = {
+x = {
+"@MMK_R_O" = -5;
+"@MMK_R_T" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -30;
+"@MMK_R_o" = -10;
+};
+};
+master05 = {
+"@MMK_L_A" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -10;
+"@MMK_R_S" = -10;
+"@MMK_R_T" = -50;
+"@MMK_R_U" = -10;
 "@MMK_R_V" = -20;
 "@MMK_R_Y" = -50;
-x = -10;
-"@MMK_R_T" = -40;
-"@MMK_R_I" = -10;
+"@MMK_R_v" = -20;
 X = -10;
+};
+"@MMK_L_C" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -20;
+"@MMK_R_Y" = -10;
+X = -10;
+};
+"@MMK_L_E" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -10;
 };
 "@MMK_L_G" = {
 "@MMK_R_J" = -10;
 };
-B = {
-"@MMK_R_V" = -10;
-"@MMK_R_Y" = -10;
-"@MMK_R_J" = -20;
-X = -10;
-};
-"@MMK_L_f" = {
-asterisk = 20;
-"@MMK_R_punc_low" = -30;
-question = 40;
-X = 30;
-"@MMK_R_Y" = 30;
-"@MMK_R_T" = 40;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_T" = {
-"@MMK_R_o" = -40;
-"@MMK_R_S" = -10;
-"@MMK_R_A" = -50;
-x = -20;
-"@MMK_R_z" = -20;
-"@MMK_R_u" = -30;
-"@MMK_R_punc_mid" = -40;
-"@MMK_R_a" = -30;
-"@MMK_R_s" = -30;
-"@MMK_R_n" = -30;
-"@MMK_R_i" = 0;
-"@MMK_R_O" = -10;
-"@MMK_R_punc_low" = -60;
-"@MMK_R_J" = -60;
-"@MMK_R_v" = -10;
-};
-"@MMK_L_s" = {
-"@MMK_R_V" = -20;
-"@MMK_R_Y" = -40;
-"@MMK_R_T" = -30;
-X = -10;
+"@MMK_L_I" = {
+"@MMK_R_o" = -10;
 };
 "@MMK_L_K" = {
-"@MMK_R_punc_mid" = -20;
-"@MMK_R_v" = -10;
-"@MMK_R_U" = -10;
-"@MMK_R_o" = -10;
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -20;
 "@MMK_R_S" = -20;
-"@MMK_R_u" = -10;
+"@MMK_R_U" = -10;
 "@MMK_R_V" = -10;
 "@MMK_R_Y" = -10;
 "@MMK_R_n" = -10;
-"@MMK_R_O" = -20;
-"@MMK_R_J" = -10;
-};
-"@MMK_L_a" = {
-"@MMK_R_Y" = -30;
-"@MMK_R_T" = -30;
-"@MMK_R_V" = -20;
-};
-F = {
-"@MMK_R_A" = -20;
 "@MMK_R_o" = -10;
-"@MMK_R_punc_low" = -40;
-"@MMK_R_J" = -40;
-"@MMK_R_a" = -20;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
+};
+"@MMK_L_L" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -40;
+"@MMK_R_T" = -80;
+"@MMK_R_U" = -30;
+"@MMK_R_V" = -60;
+"@MMK_R_Y" = -80;
+"@MMK_R_f" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_t" = -10;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -10;
-"@MMK_R_Y" = -20;
 "@MMK_R_J" = -20;
 "@MMK_R_T" = -10;
-x = -5;
+"@MMK_R_Y" = -20;
 X = -10;
+x = -5;
 };
-"@MMK_L_n" = {
+"@MMK_L_R" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_Y" = -10;
+};
+"@MMK_L_S" = {
+"@MMK_R_J" = -10;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -50;
+"@MMK_R_J" = -60;
+"@MMK_R_O" = -10;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -30;
+"@MMK_R_i" = 0;
+"@MMK_R_n" = -30;
+"@MMK_R_o" = -40;
+"@MMK_R_punc_low" = -60;
+"@MMK_R_punc_mid" = -40;
+"@MMK_R_s" = -30;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -10;
+"@MMK_R_z" = -20;
+x = -20;
+};
+"@MMK_L_U" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+};
+"@MMK_L_V" = {
+"@MMK_R_A" = -20;
+"@MMK_R_J" = -60;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -20;
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -20;
+"@MMK_R_punc_low" = -60;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_s" = -20;
+"@MMK_R_u" = -10;
+"@MMK_R_z" = -10;
+x = -10;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -50;
+"@MMK_R_J" = -60;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -40;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -50;
+"@MMK_R_punc_low" = -70;
+"@MMK_R_punc_mid" = -40;
+"@MMK_R_s" = -40;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -10;
+"@MMK_R_z" = -20;
+x = -30;
+};
+"@MMK_L_a" = {
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -20;
 "@MMK_R_Y" = -30;
-"@MMK_R_T" = -40;
-"@MMK_R_V" = -10;
+};
+"@MMK_L_braceleft" = {
+"@MMK_R_j" = 100;
+};
+"@MMK_L_c" = {
+"@MMK_R_T" = -10;
+"@MMK_R_Y" = -10;
 };
 "@MMK_L_e" = {
 "@MMK_R_T" = -20;
 "@MMK_R_Y" = -40;
 };
-x = {
-"@MMK_R_O" = -5;
+"@MMK_L_f" = {
+"@MMK_R_J" = -10;
+"@MMK_R_T" = 40;
+"@MMK_R_Y" = 30;
+"@MMK_R_punc_low" = -40;
+X = 10;
+asterisk = 20;
+question = 40;
+};
+"@MMK_L_i" = {
+"@MMK_R_T" = 0;
+};
+"@MMK_L_k" = {
+"@MMK_R_T" = -10;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+"@MMK_L_n" = {
+"@MMK_R_T" = -40;
 "@MMK_R_V" = -10;
 "@MMK_R_Y" = -30;
+};
+"@MMK_L_o" = {
+"@MMK_R_I" = -10;
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -50;
+X = -10;
+x = -10;
+};
+"@MMK_L_punc_low" = {
+"@MMK_R_T" = -60;
+"@MMK_R_V" = -60;
+"@MMK_R_Y" = -70;
+"@MMK_R_v" = -40;
+};
+"@MMK_L_punc_mid" = {
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -40;
+X = -20;
+};
+"@MMK_L_r" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_punc_low" = -40;
+};
+"@MMK_L_s" = {
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -40;
+X = -10;
+};
+"@MMK_L_t" = {
+"@MMK_R_Y" = -10;
+};
+"@MMK_L_u" = {
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+"@MMK_L_v" = {
+"@MMK_R_A" = -20;
+"@MMK_R_J" = -40;
+"@MMK_R_T" = -10;
+"@MMK_R_Y" = -10;
+"@MMK_R_punc_low" = -40;
+X = -10;
+};
+"@MMK_L_z" = {
 "@MMK_R_T" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+B = {
+"@MMK_R_J" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -10;
+X = -10;
+};
+F = {
+"@MMK_R_A" = -20;
+"@MMK_R_J" = -40;
+"@MMK_R_a" = -20;
 "@MMK_R_o" = -10;
+"@MMK_R_punc_low" = -60;
+};
+P = {
+"@MMK_R_A" = -40;
+"@MMK_R_I" = -10;
+"@MMK_R_J" = -60;
+"@MMK_R_S" = -10;
+"@MMK_R_Y" = -10;
+"@MMK_R_a" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_low" = -80;
+X = -20;
+};
+X = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_O" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_s" = -10;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
+};
+x = {
+"@MMK_R_O" = -5;
+"@MMK_R_T" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -30;
+"@MMK_R_o" = -10;
+};
+};
+master06 = {
+"@MMK_L_A" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -10;
+"@MMK_R_S" = -10;
+"@MMK_R_T" = -50;
+"@MMK_R_U" = -10;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -50;
+"@MMK_R_v" = -20;
+X = -10;
+};
+"@MMK_L_C" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -20;
+"@MMK_R_Y" = -10;
+X = -10;
+};
+"@MMK_L_E" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -10;
+};
+"@MMK_L_G" = {
+"@MMK_R_J" = -10;
+};
+"@MMK_L_I" = {
+"@MMK_R_o" = -10;
+};
+"@MMK_L_K" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -20;
+"@MMK_R_U" = -10;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -10;
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
+};
+"@MMK_L_L" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -40;
+"@MMK_R_T" = -80;
+"@MMK_R_U" = -30;
+"@MMK_R_V" = -60;
+"@MMK_R_Y" = -80;
+"@MMK_R_f" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_t" = -10;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
+};
+"@MMK_L_O" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_T" = -10;
+"@MMK_R_Y" = -20;
+X = -10;
+x = -5;
+};
+"@MMK_L_R" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_Y" = -10;
 };
 "@MMK_L_S" = {
 "@MMK_R_J" = -10;
 };
+"@MMK_L_T" = {
+"@MMK_R_A" = -50;
+"@MMK_R_J" = -60;
+"@MMK_R_O" = -10;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -30;
+"@MMK_R_i" = 0;
+"@MMK_R_n" = -30;
+"@MMK_R_o" = -40;
+"@MMK_R_punc_low" = -60;
+"@MMK_R_punc_mid" = -40;
+"@MMK_R_s" = -30;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -10;
+"@MMK_R_z" = -20;
+x = -20;
+};
+"@MMK_L_U" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+};
+"@MMK_L_V" = {
+"@MMK_R_A" = -20;
+"@MMK_R_J" = -60;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -20;
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -20;
+"@MMK_R_punc_low" = -60;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_s" = -20;
+"@MMK_R_u" = -10;
+"@MMK_R_z" = -10;
+x = -10;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -50;
+"@MMK_R_J" = -60;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -40;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -50;
+"@MMK_R_punc_low" = -70;
+"@MMK_R_punc_mid" = -40;
+"@MMK_R_s" = -40;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -10;
+"@MMK_R_z" = -20;
+x = -30;
+};
+"@MMK_L_a" = {
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -30;
+};
+"@MMK_L_braceleft" = {
+"@MMK_R_j" = 100;
+};
+"@MMK_L_c" = {
+"@MMK_R_T" = -10;
+"@MMK_R_Y" = -10;
+};
+"@MMK_L_e" = {
+"@MMK_R_T" = -20;
+"@MMK_R_Y" = -40;
+};
+"@MMK_L_f" = {
+"@MMK_R_J" = -10;
+"@MMK_R_T" = 40;
+"@MMK_R_Y" = 30;
+"@MMK_R_punc_low" = -40;
+X = 10;
+asterisk = 20;
+question = 40;
+};
+"@MMK_L_i" = {
+"@MMK_R_T" = 0;
+};
+"@MMK_L_k" = {
+"@MMK_R_T" = -10;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+"@MMK_L_n" = {
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -30;
+};
+"@MMK_L_o" = {
+"@MMK_R_I" = -10;
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -50;
+X = -10;
+x = -10;
+};
+"@MMK_L_punc_low" = {
+"@MMK_R_T" = -60;
+"@MMK_R_V" = -60;
+"@MMK_R_Y" = -70;
+"@MMK_R_v" = -40;
+};
+"@MMK_L_punc_mid" = {
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -40;
+X = -20;
+};
 "@MMK_L_r" = {
+"@MMK_R_A" = -10;
 "@MMK_R_J" = -20;
 "@MMK_R_punc_low" = -40;
+};
+"@MMK_L_s" = {
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -40;
+X = -10;
+};
+"@MMK_L_t" = {
+"@MMK_R_Y" = -10;
+};
+"@MMK_L_u" = {
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+"@MMK_L_v" = {
+"@MMK_R_A" = -20;
+"@MMK_R_J" = -40;
+"@MMK_R_T" = -10;
+"@MMK_R_Y" = -10;
+"@MMK_R_punc_low" = -40;
+X = -10;
+};
+"@MMK_L_z" = {
+"@MMK_R_T" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+B = {
+"@MMK_R_J" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -10;
+X = -10;
+};
+F = {
+"@MMK_R_A" = -20;
+"@MMK_R_J" = -40;
+"@MMK_R_a" = -20;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_low" = -50;
+};
+P = {
+"@MMK_R_A" = -40;
+"@MMK_R_I" = -10;
+"@MMK_R_J" = -60;
+"@MMK_R_S" = -10;
+"@MMK_R_Y" = -10;
+"@MMK_R_a" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_low" = -60;
+X = -20;
+};
+X = {
 "@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_O" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_s" = -10;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
+};
+x = {
+"@MMK_R_O" = -5;
+"@MMK_R_T" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -30;
+"@MMK_R_o" = -10;
+};
+};
+master01 = {
+"@MMK_L_A" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -10;
+"@MMK_R_S" = -10;
+"@MMK_R_T" = -50;
+"@MMK_R_U" = -10;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -50;
+"@MMK_R_v" = -20;
+X = -10;
+};
+"@MMK_L_C" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -20;
+"@MMK_R_Y" = -10;
+X = -10;
+};
+"@MMK_L_E" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -10;
+};
+"@MMK_L_G" = {
+"@MMK_R_J" = -10;
+};
+"@MMK_L_I" = {
+"@MMK_R_o" = -10;
+};
+"@MMK_L_K" = {
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -20;
+"@MMK_R_U" = -10;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -10;
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
+};
+"@MMK_L_L" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -10;
+"@MMK_R_O" = -40;
+"@MMK_R_T" = -80;
+"@MMK_R_U" = -30;
+"@MMK_R_V" = -60;
+"@MMK_R_Y" = -80;
+"@MMK_R_f" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_t" = -10;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
+};
+"@MMK_L_O" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_T" = -10;
+"@MMK_R_Y" = -20;
+X = -10;
+x = -5;
+};
+"@MMK_L_R" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_Y" = -10;
+};
+"@MMK_L_S" = {
+"@MMK_R_J" = -10;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -50;
+"@MMK_R_J" = -60;
+"@MMK_R_O" = -10;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -30;
+"@MMK_R_i" = 0;
+"@MMK_R_n" = -30;
+"@MMK_R_o" = -40;
+"@MMK_R_punc_low" = -60;
+"@MMK_R_punc_mid" = -40;
+"@MMK_R_s" = -30;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -10;
+"@MMK_R_z" = -20;
+x = -20;
+};
+"@MMK_L_U" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+};
+"@MMK_L_V" = {
+"@MMK_R_A" = -20;
+"@MMK_R_J" = -60;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -20;
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -20;
+"@MMK_R_punc_low" = -60;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_s" = -20;
+"@MMK_R_u" = -10;
+"@MMK_R_z" = -10;
+x = -10;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -50;
+"@MMK_R_J" = -60;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -40;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -50;
+"@MMK_R_punc_low" = -70;
+"@MMK_R_punc_mid" = -40;
+"@MMK_R_s" = -40;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -10;
+"@MMK_R_z" = -20;
+x = -30;
+};
+"@MMK_L_a" = {
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -30;
+};
+"@MMK_L_braceleft" = {
+"@MMK_R_j" = 100;
+};
+"@MMK_L_c" = {
+"@MMK_R_T" = -10;
+"@MMK_R_Y" = -10;
+};
+"@MMK_L_e" = {
+"@MMK_R_T" = -20;
+"@MMK_R_Y" = -40;
+};
+"@MMK_L_f" = {
+"@MMK_R_J" = -10;
+"@MMK_R_T" = 40;
+"@MMK_R_Y" = 30;
+"@MMK_R_punc_low" = -40;
+X = 30;
+asterisk = 20;
+question = 40;
+};
+"@MMK_L_i" = {
+"@MMK_R_T" = 0;
+};
+"@MMK_L_k" = {
+"@MMK_R_T" = -10;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+"@MMK_L_n" = {
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -30;
+};
+"@MMK_L_o" = {
+"@MMK_R_I" = -10;
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -50;
+X = -10;
+x = -10;
+};
+"@MMK_L_punc_low" = {
+"@MMK_R_T" = -60;
+"@MMK_R_V" = -60;
+"@MMK_R_Y" = -70;
+"@MMK_R_v" = -40;
+};
+"@MMK_L_punc_mid" = {
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -40;
+X = -20;
+};
+"@MMK_L_r" = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_punc_low" = -40;
+};
+"@MMK_L_s" = {
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -20;
+"@MMK_R_Y" = -40;
+X = -10;
+};
+"@MMK_L_t" = {
+"@MMK_R_Y" = -10;
+};
+"@MMK_L_u" = {
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+"@MMK_L_v" = {
+"@MMK_R_A" = -20;
+"@MMK_R_J" = -40;
+"@MMK_R_T" = -10;
+"@MMK_R_Y" = -10;
+"@MMK_R_punc_low" = -40;
+X = -10;
+};
+"@MMK_L_z" = {
+"@MMK_R_T" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -20;
+};
+B = {
+"@MMK_R_J" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -10;
+X = -10;
+};
+F = {
+"@MMK_R_A" = -20;
+"@MMK_R_J" = -40;
+"@MMK_R_a" = -20;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_low" = -40;
+};
+P = {
+"@MMK_R_A" = -40;
+"@MMK_R_I" = -10;
+"@MMK_R_J" = -60;
+"@MMK_R_S" = -10;
+"@MMK_R_Y" = -10;
+"@MMK_R_a" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_low" = -60;
+X = -20;
+};
+X = {
+"@MMK_R_A" = -10;
+"@MMK_R_J" = -20;
+"@MMK_R_O" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_punc_mid" = -20;
+"@MMK_R_s" = -10;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -10;
+};
+x = {
+"@MMK_R_O" = -5;
+"@MMK_R_T" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_Y" = -30;
+"@MMK_R_o" = -10;
 };
 };
 };
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+}
+);
 properties = (
 {
 key = designers;
@@ -105610,7 +105864,7 @@ value = "Charles Daoud, Etienne Aubert Bonn, Alexandre Saumier Demers";
 },
 {
 key = designerURL;
-value = "http://charlesdaoud.com/ https://coppersandbrasses.com/";
+value = "http://charlesdaoud.com";
 },
 {
 key = manufacturers;
@@ -105623,26 +105877,32 @@ value = "Eli Heuer";
 },
 {
 key = manufacturerURL;
-value = "https://elih.blog";
+value = "https://fonts.google.com";
 },
 {
-key = vendorID;
-value = "    ";
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
 },
 {
-key = compatibleFullNames;
+key = licenses;
 values = (
 {
 language = dflt;
-value = "Radio-Canada Italic";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2017 The Radio Canada Project Authors (https://github.com/cbcrc/radiocanadafonts)";
 }
 );
 }
 );
-settings = {
-disablesNiceNames = 1;
-};
 unitsPerEm = 1000;
-versionMajor = 1;
-versionMinor = 400;
+versionMajor = 2;
+versionMinor = 0;
 }
