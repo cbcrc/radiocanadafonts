@@ -222051,77 +222051,6 @@ instances = (
 customParameters = (
 {
 name = familyName;
-value = "Radio-Canada";
-}
-);
-interpolationWidth = 60;
-instanceInterpolations = {
-master05 = 1;
-};
-name = Light;
-weightClass = Light;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Radio-Canada";
-}
-);
-interpolationWidth = 92;
-instanceInterpolations = {
-master06 = 1;
-};
-name = Regular;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Radio-Canada";
-}
-);
-instanceInterpolations = {
-master01 = 0.13793;
-master06 = 0.86207;
-};
-name = Medium;
-weightClass = Medium;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Radio-Canada";
-}
-);
-interpolationWidth = 125;
-instanceInterpolations = {
-master01 = 0.56897;
-master06 = 0.43103;
-};
-name = SemiBold;
-weightClass = SemiBold;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Radio-Canada";
-}
-);
-interpolationWidth = 150;
-instanceInterpolations = {
-master01 = 1;
-};
-isBold = 1;
-name = Bold;
-weightClass = Bold;
-},
-{
-customParameters = (
-{
-name = familyName;
 value = "Radio-Canada Condensed";
 }
 );
@@ -222200,6 +222129,77 @@ linkStyle = Condensed;
 name = Bold;
 weightClass = Bold;
 widthClass = Condensed;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Radio-Canada";
+}
+);
+interpolationWidth = 60;
+instanceInterpolations = {
+master05 = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Radio-Canada";
+}
+);
+interpolationWidth = 92;
+instanceInterpolations = {
+master06 = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Radio-Canada";
+}
+);
+instanceInterpolations = {
+master01 = 0.13793;
+master06 = 0.86207;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Radio-Canada";
+}
+);
+interpolationWidth = 125;
+instanceInterpolations = {
+master01 = 0.56897;
+master06 = 0.43103;
+};
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Radio-Canada";
+}
+);
+interpolationWidth = 150;
+instanceInterpolations = {
+master01 = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
 }
 );
 kerning = {
