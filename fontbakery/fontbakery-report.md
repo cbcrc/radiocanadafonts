@@ -57,38 +57,6 @@ Radio-Canada Medium: -255
 Radio-Canada Medium Italic: -250
 Radio-Canada Condensed Bold: -255
 Radio-Canada Condensed Regular: -255 [code: sTypoDescender-mismatch]
-* 🔥 **FAIL** usWinAscent is not the same across the family:
-Radio-Canada Italic: 950
-Radio-Canada Regular: 1170
-Radio-Canada Bold Italic: 950
-Radio-Canada Light: 1170
-Radio-Canada SemiBold: 1170
-Radio-Canada Light Italic: 950
-Radio-Canada Condensed Light: 1170
-Radio-Canada Condensed Medium: 1170
-Radio-Canada SemiBold Italic: 950
-Radio-Canada Condensed SemiBold: 1170
-Radio-Canada Bold: 1170
-Radio-Canada Medium: 1170
-Radio-Canada Medium Italic: 950
-Radio-Canada Condensed Bold: 1170
-Radio-Canada Condensed Regular: 1170 [code: usWinAscent-mismatch]
-* 🔥 **FAIL** usWinDescent is not the same across the family:
-Radio-Canada Italic: 250
-Radio-Canada Regular: 448
-Radio-Canada Bold Italic: 250
-Radio-Canada Light: 448
-Radio-Canada SemiBold: 448
-Radio-Canada Light Italic: 250
-Radio-Canada Condensed Light: 448
-Radio-Canada Condensed Medium: 448
-Radio-Canada SemiBold Italic: 250
-Radio-Canada Condensed SemiBold: 448
-Radio-Canada Bold: 448
-Radio-Canada Medium: 448
-Radio-Canada Medium Italic: 250
-Radio-Canada Condensed Bold: 448
-Radio-Canada Condensed Regular: 448 [code: usWinDescent-mismatch]
 * 🔥 **FAIL** ascent is not the same across the family:
 Radio-Canada Italic: 950
 Radio-Canada Regular: 945
@@ -139,7 +107,7 @@ differ only in weight or style [...]&#x27;</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-Italic[wdth,wght].ttf</b></summary>
+<summary><b>[14] Radio-Canada-Italic[wdth,wght].ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -251,28 +219,6 @@ https://github.com/google/fonts/tree/main/axisregistry</pre>
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 950 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 448, but got 250 instead. [code: descent]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
 * [com.google.fonts/check/vendor_id](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id)
@@ -381,17 +327,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - four.pl
  - seven.pl
  - nine.pl
- - four.pl
- - three.pl
- - one.pl
  - five.pl
- - eight.pl
- - two.pl
+ - uni030C.alt
  - six.pl
- - uni030C.alt 
  - zero.pl
+ - two.pl
+ - one.pl
+ - eight.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -563,44 +509,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -633,7 +579,7 @@ than 100 reported misalignments.</pre>
 <br>
 </details>
 <details>
-<summary><b>[19] Radio-Canada-BoldItalic.ttf</b></summary>
+<summary><b>[18] Radio-Canada-BoldItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -708,28 +654,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Bold Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 950 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 448, but got 250 instead. [code: descent]
 
 </details>
 <details>
@@ -936,17 +860,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - four.pl
  - seven.pl
  - nine.pl
- - four.pl
- - three.pl
- - one.pl
  - five.pl
- - eight.pl
- - two.pl
+ - uni030C.alt
  - six.pl
- - uni030C.alt 
  - zero.pl
+ - two.pl
+ - one.pl
+ - eight.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -1264,44 +1188,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -1640,44 +1564,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -2041,44 +1965,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -2168,7 +2092,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-Canada-LightItalic.ttf</b></summary>
+<summary><b>[15] Radio-Canada-LightItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -2235,28 +2159,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Light Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 950 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 448, but got 250 instead. [code: descent]
 
 </details>
 <details>
@@ -2472,17 +2374,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - four.pl
  - seven.pl
  - nine.pl
- - four.pl
- - three.pl
- - one.pl
  - five.pl
- - eight.pl
- - two.pl
+ - uni030C.alt
  - six.pl
- - uni030C.alt 
  - zero.pl
+ - two.pl
+ - one.pl
+ - eight.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -2805,44 +2707,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -3188,44 +3090,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -3314,7 +3216,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[18] Radio-Canada-SemiBoldItalic.ttf</b></summary>
+<summary><b>[17] Radio-Canada-SemiBoldItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -3381,28 +3283,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "SemiBold Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 950 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 448, but got 250 instead. [code: descent]
 
 </details>
 <details>
@@ -3618,17 +3498,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - four.pl
  - seven.pl
  - nine.pl
- - four.pl
- - three.pl
- - one.pl
  - five.pl
- - eight.pl
- - two.pl
+ - uni030C.alt
  - six.pl
- - uni030C.alt 
  - zero.pl
+ - two.pl
+ - one.pl
+ - eight.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -3994,44 +3874,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -4120,7 +4000,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-Canada-Italic.ttf</b></summary>
+<summary><b>[15] Radio-Canada-Italic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -4169,28 +4049,6 @@ set of characters defined in the `GF-latin-core` glyph-set.</pre>
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 950 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 448, but got 250 instead. [code: descent]
 
 </details>
 <details>
@@ -4385,17 +4243,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - four.pl
  - seven.pl
  - nine.pl
- - four.pl
- - three.pl
- - one.pl
  - five.pl
- - eight.pl
- - two.pl
+ - uni030C.alt
  - six.pl
- - uni030C.alt 
  - zero.pl
+ - two.pl
+ - one.pl
+ - eight.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -4742,44 +4600,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -5118,44 +4976,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -5244,7 +5102,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[17] Radio-Canada-MediumItalic.ttf</b></summary>
+<summary><b>[16] Radio-Canada-MediumItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -5293,28 +5151,6 @@ set of characters defined in the `GF-latin-core` glyph-set.</pre>
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Medium Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 950 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 448, but got 250 instead. [code: descent]
 
 </details>
 <details>
@@ -5530,17 +5366,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - four.pl
  - seven.pl
  - nine.pl
- - four.pl
- - three.pl
- - one.pl
  - five.pl
- - eight.pl
- - two.pl
+ - uni030C.alt
  - six.pl
- - uni030C.alt 
  - zero.pl
+ - two.pl
+ - one.pl
+ - eight.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -5916,44 +5752,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -6304,44 +6140,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -6431,7 +6267,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-Canada-BoldItalic.otf</b></summary>
+<summary><b>[15] Radio-Canada-BoldItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -6506,28 +6342,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Bold Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 950 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 448, but got 250 instead. [code: descent]
 
 </details>
 <details>
@@ -6647,17 +6461,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - four.pl
  - seven.pl
  - nine.pl
- - four.pl
- - three.pl
- - one.pl
  - five.pl
- - eight.pl
- - two.pl
+ - uni030C.alt
  - six.pl
- - uni030C.alt 
  - zero.pl
+ - two.pl
+ - one.pl
+ - eight.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -6930,44 +6744,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -7224,44 +7038,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -7337,7 +7151,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-Canada-Italic.otf</b></summary>
+<summary><b>[12] Radio-Canada-Italic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -7386,28 +7200,6 @@ set of characters defined in the `GF-latin-core` glyph-set.</pre>
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 950 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 448, but got 250 instead. [code: descent]
 
 </details>
 <details>
@@ -7519,17 +7311,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - four.pl
  - seven.pl
  - nine.pl
- - four.pl
- - three.pl
- - one.pl
  - five.pl
- - eight.pl
- - two.pl
+ - uni030C.alt
  - six.pl
- - uni030C.alt 
  - zero.pl
+ - two.pl
+ - one.pl
+ - eight.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -7609,7 +7401,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-SemiBoldItalic.otf</b></summary>
+<summary><b>[14] Radio-Canada-SemiBoldItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -7676,28 +7468,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "SemiBold Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 950 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 448, but got 250 instead. [code: descent]
 
 </details>
 <details>
@@ -7830,17 +7600,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - four.pl
  - seven.pl
  - nine.pl
- - four.pl
- - three.pl
- - one.pl
  - five.pl
- - eight.pl
- - two.pl
+ - uni030C.alt
  - six.pl
- - uni030C.alt 
  - zero.pl
+ - two.pl
+ - one.pl
+ - eight.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -7921,7 +7691,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-LightItalic.otf</b></summary>
+<summary><b>[14] Radio-Canada-LightItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -7988,28 +7758,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Light Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 950 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 448, but got 250 instead. [code: descent]
 
 </details>
 <details>
@@ -8142,17 +7890,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - four.pl
  - seven.pl
  - nine.pl
- - four.pl
- - three.pl
- - one.pl
  - five.pl
- - eight.pl
- - two.pl
+ - uni030C.alt
  - six.pl
- - uni030C.alt 
  - zero.pl
+ - two.pl
+ - one.pl
+ - eight.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -8431,44 +8179,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -8557,7 +8305,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-Canada-MediumItalic.otf</b></summary>
+<summary><b>[13] Radio-Canada-MediumItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -8606,28 +8354,6 @@ set of characters defined in the `GF-latin-core` glyph-set.</pre>
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Medium Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1170, but got 950 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 448, but got 250 instead. [code: descent]
 
 </details>
 <details>
@@ -8760,17 +8486,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - four.pl
  - seven.pl
  - nine.pl
- - four.pl
- - three.pl
- - one.pl
  - five.pl
- - eight.pl
- - two.pl
+ - uni030C.alt
  - six.pl
- - uni030C.alt 
  - zero.pl
+ - two.pl
+ - one.pl
+ - eight.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -9041,44 +8767,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -9316,44 +9042,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -9611,44 +9337,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -9894,44 +9620,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -10138,44 +9864,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -10432,44 +10158,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -10735,44 +10461,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - uni03020303
- - breve.cap
- - uni03020301
- - periodcentered.loclCAT
- - uni03060309
- - two.lf
- - dieresis.cap
- - hungarumlaut.cap
- - caron.alt
- - uni03060300
- - acute.cap
  - zero.lf
- - uni0326.alt
- - grave.cap
- - uni03060301
+ - dieresis.cap
+ - i.loclTRK
+ - breve.cap
  - dotbelow
- - uni03020300
- - uni030C.alt
- - three.lf
+ - grave.cap
  - uni03020309
+ - two.lf
+ - acute.cap
+ - four.lf
  - tilde.cap
+ - uni030C.alt
+ - ring_acute
+ - uni03020303
+ - uni03020301
+ - uni03060309
+ - five.lf
+ - caron.alt
+ - three.lf
+ - dotaccent.cap
+ - one.lf
+ - seven.lf
+ - uni03020300
  - uni03060303
  - circumflex.cap
- - caron.cap
- - four.lf
- - ring_acute
- - one.lf
- - ring_acute.cap
- - six.lf
- - five.lf
  - uni0326
- - dotaccent.cap
- - seven.lf
+ - caron.cap
+ - uni03060300
+ - hungarumlaut.cap
+ - six.lf
+ - uni03060301
+ - uni0326.alt
  - macron.cap
+ - periodcentered.loclCAT
  - ring.cap
- - nine.lf 
  - eight.lf
+ - ring_acute.cap 
+ - nine.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -10845,7 +10571,7 @@ vectors.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 32 | 118 | 314 | 3601 | 229 | 2218 | 0 |
+| 32 | 107 | 314 | 3601 | 229 | 2229 | 0 |
 | 0% | 2% | 5% | 55% | 4% | 34% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
