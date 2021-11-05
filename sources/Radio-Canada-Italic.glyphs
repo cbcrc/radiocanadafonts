@@ -104263,9 +104263,6 @@ layerId = master01;
 shapes = (
 {
 ref = minute;
-},
-{
-ref = minute;
 }
 );
 userData = {
@@ -104276,9 +104273,6 @@ width = 243;
 {
 layerId = master02;
 shapes = (
-{
-ref = minute;
-},
 {
 ref = minute;
 }
@@ -104293,9 +104287,6 @@ layerId = master03;
 shapes = (
 {
 ref = minute;
-},
-{
-ref = minute;
 }
 );
 userData = {
@@ -104306,9 +104297,6 @@ width = 205;
 {
 layerId = master04;
 shapes = (
-{
-ref = minute;
-},
 {
 ref = minute;
 }
@@ -104323,9 +104311,6 @@ layerId = master05;
 shapes = (
 {
 ref = minute;
-},
-{
-ref = minute;
 }
 );
 userData = {
@@ -104338,15 +104323,12 @@ layerId = master06;
 shapes = (
 {
 ref = minute;
-},
-{
-ref = minute;
 }
 );
 userData = {
 com.schriftgestaltung.Glyphs.lastChange = "2021-03-10 01:09:46 +0000";
 };
-width = 600;
+width = 190;
 }
 );
 unicode = 698;
