@@ -107,7 +107,7 @@ differ only in weight or style [...]&#x27;</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-Canada-Italic[wdth,wght].ttf</b></summary>
+<summary><b>[13] Radio-Canada-Italic[wdth,wght].ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -135,17 +135,6 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** The file 'Radio-Canada-Italic[wdth,wght].ttf' must be renamed to 'Radio-Canada[wdth,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints: 0x2074 (SUPERSCRIPT FOUR) [code: missing-codepoints]
 
 </details>
 <details>
@@ -327,17 +316,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - four.pl
- - seven.pl
- - nine.pl
- - five.pl
- - uni030C.alt
- - six.pl
  - zero.pl
- - two.pl
- - one.pl
- - eight.pl 
  - three.pl
+ - nine.pl
+ - uni030C.alt
+ - one.pl
+ - five.pl
+ - seven.pl
+ - six.pl
+ - eight.pl
+ - four.pl 
+ - two.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -509,44 +498,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -579,7 +568,7 @@ than 100 reported misalignments.</pre>
 <br>
 </details>
 <details>
-<summary><b>[18] Radio-Canada-BoldItalic.ttf</b></summary>
+<summary><b>[17] Radio-Canada-BoldItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -607,17 +596,6 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Radio-Canada-BoldItalic.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints: 0x2074 (SUPERSCRIPT FOUR) [code: missing-codepoints]
 
 </details>
 <details>
@@ -860,17 +838,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - four.pl
- - seven.pl
- - nine.pl
- - five.pl
- - uni030C.alt
- - six.pl
  - zero.pl
- - two.pl
- - one.pl
- - eight.pl 
  - three.pl
+ - nine.pl
+ - uni030C.alt
+ - one.pl
+ - five.pl
+ - seven.pl
+ - six.pl
+ - eight.pl
+ - four.pl 
+ - two.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -1188,44 +1166,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -1564,44 +1542,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -1965,44 +1943,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -2092,7 +2070,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-LightItalic.ttf</b></summary>
+<summary><b>[14] Radio-Canada-LightItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -2120,17 +2098,6 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Radio-Canada-LightItalic.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints: 0x2074 (SUPERSCRIPT FOUR) [code: missing-codepoints]
 
 </details>
 <details>
@@ -2374,17 +2341,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - four.pl
- - seven.pl
- - nine.pl
- - five.pl
- - uni030C.alt
- - six.pl
  - zero.pl
- - two.pl
- - one.pl
- - eight.pl 
  - three.pl
+ - nine.pl
+ - uni030C.alt
+ - one.pl
+ - five.pl
+ - seven.pl
+ - six.pl
+ - eight.pl
+ - four.pl 
+ - two.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -2707,44 +2674,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -3090,44 +3057,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -3216,7 +3183,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[17] Radio-Canada-SemiBoldItalic.ttf</b></summary>
+<summary><b>[16] Radio-Canada-SemiBoldItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -3244,17 +3211,6 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Radio-Canada-SemiBoldItalic.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints: 0x2074 (SUPERSCRIPT FOUR) [code: missing-codepoints]
 
 </details>
 <details>
@@ -3498,17 +3454,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - four.pl
- - seven.pl
- - nine.pl
- - five.pl
- - uni030C.alt
- - six.pl
  - zero.pl
- - two.pl
- - one.pl
- - eight.pl 
  - three.pl
+ - nine.pl
+ - uni030C.alt
+ - one.pl
+ - five.pl
+ - seven.pl
+ - six.pl
+ - eight.pl
+ - four.pl 
+ - two.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -3874,44 +3830,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -4000,7 +3956,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-Italic.ttf</b></summary>
+<summary><b>[14] Radio-Canada-Italic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -4028,17 +3984,6 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Radio-Canada-Italic.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints: 0x2074 (SUPERSCRIPT FOUR) [code: missing-codepoints]
 
 </details>
 <details>
@@ -4243,17 +4188,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - four.pl
- - seven.pl
- - nine.pl
- - five.pl
- - uni030C.alt
- - six.pl
  - zero.pl
- - two.pl
- - one.pl
- - eight.pl 
  - three.pl
+ - nine.pl
+ - uni030C.alt
+ - one.pl
+ - five.pl
+ - seven.pl
+ - six.pl
+ - eight.pl
+ - four.pl 
+ - two.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -4600,44 +4545,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -4976,44 +4921,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -5102,7 +5047,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-Canada-MediumItalic.ttf</b></summary>
+<summary><b>[15] Radio-Canada-MediumItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -5130,17 +5075,6 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Radio-Canada-MediumItalic.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints: 0x2074 (SUPERSCRIPT FOUR) [code: missing-codepoints]
 
 </details>
 <details>
@@ -5366,17 +5300,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - four.pl
- - seven.pl
- - nine.pl
- - five.pl
- - uni030C.alt
- - six.pl
  - zero.pl
- - two.pl
- - one.pl
- - eight.pl 
  - three.pl
+ - nine.pl
+ - uni030C.alt
+ - one.pl
+ - five.pl
+ - seven.pl
+ - six.pl
+ - eight.pl
+ - four.pl 
+ - two.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -5752,44 +5686,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -6140,44 +6074,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -6267,7 +6201,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-BoldItalic.otf</b></summary>
+<summary><b>[14] Radio-Canada-BoldItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -6295,17 +6229,6 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** Style name used in "fonts/otf/Radio-Canada-BoldItalic.otf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints: 0x2074 (SUPERSCRIPT FOUR) [code: missing-codepoints]
 
 </details>
 <details>
@@ -6461,17 +6384,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - four.pl
- - seven.pl
- - nine.pl
- - five.pl
- - uni030C.alt
- - six.pl
  - zero.pl
- - two.pl
- - one.pl
- - eight.pl 
  - three.pl
+ - nine.pl
+ - uni030C.alt
+ - one.pl
+ - five.pl
+ - seven.pl
+ - six.pl
+ - eight.pl
+ - four.pl 
+ - two.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -6744,44 +6667,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -7038,44 +6961,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -7151,7 +7074,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[12] Radio-Canada-Italic.otf</b></summary>
+<summary><b>[11] Radio-Canada-Italic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -7179,17 +7102,6 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** Style name used in "fonts/otf/Radio-Canada-Italic.otf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints: 0x2074 (SUPERSCRIPT FOUR) [code: missing-codepoints]
 
 </details>
 <details>
@@ -7311,17 +7223,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - four.pl
- - seven.pl
- - nine.pl
- - five.pl
- - uni030C.alt
- - six.pl
  - zero.pl
- - two.pl
- - one.pl
- - eight.pl 
  - three.pl
+ - nine.pl
+ - uni030C.alt
+ - one.pl
+ - five.pl
+ - seven.pl
+ - six.pl
+ - eight.pl
+ - four.pl 
+ - two.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -7401,7 +7313,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-Canada-SemiBoldItalic.otf</b></summary>
+<summary><b>[13] Radio-Canada-SemiBoldItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -7429,17 +7341,6 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** Style name used in "fonts/otf/Radio-Canada-SemiBoldItalic.otf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints: 0x2074 (SUPERSCRIPT FOUR) [code: missing-codepoints]
 
 </details>
 <details>
@@ -7600,17 +7501,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - four.pl
- - seven.pl
- - nine.pl
- - five.pl
- - uni030C.alt
- - six.pl
  - zero.pl
- - two.pl
- - one.pl
- - eight.pl 
  - three.pl
+ - nine.pl
+ - uni030C.alt
+ - one.pl
+ - five.pl
+ - seven.pl
+ - six.pl
+ - eight.pl
+ - four.pl 
+ - two.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -7691,7 +7592,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-Canada-LightItalic.otf</b></summary>
+<summary><b>[13] Radio-Canada-LightItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -7719,17 +7620,6 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** Style name used in "fonts/otf/Radio-Canada-LightItalic.otf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints: 0x2074 (SUPERSCRIPT FOUR) [code: missing-codepoints]
 
 </details>
 <details>
@@ -7890,17 +7780,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - four.pl
- - seven.pl
- - nine.pl
- - five.pl
- - uni030C.alt
- - six.pl
  - zero.pl
- - two.pl
- - one.pl
- - eight.pl 
  - three.pl
+ - nine.pl
+ - uni030C.alt
+ - one.pl
+ - five.pl
+ - seven.pl
+ - six.pl
+ - eight.pl
+ - four.pl 
+ - two.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -8179,44 +8069,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -8305,7 +8195,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-Canada-MediumItalic.otf</b></summary>
+<summary><b>[12] Radio-Canada-MediumItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -8333,17 +8223,6 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** Style name used in "fonts/otf/Radio-Canada-MediumItalic.otf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints: 0x2074 (SUPERSCRIPT FOUR) [code: missing-codepoints]
 
 </details>
 <details>
@@ -8486,17 +8365,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - four.pl
- - seven.pl
- - nine.pl
- - five.pl
- - uni030C.alt
- - six.pl
  - zero.pl
- - two.pl
- - one.pl
- - eight.pl 
  - three.pl
+ - nine.pl
+ - uni030C.alt
+ - one.pl
+ - five.pl
+ - seven.pl
+ - six.pl
+ - eight.pl
+ - four.pl 
+ - two.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -8767,44 +8646,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -9042,44 +8921,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -9337,44 +9216,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -9620,44 +9499,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -9864,44 +9743,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -10158,44 +10037,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -10461,44 +10340,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - dieresis.cap
- - i.loclTRK
- - breve.cap
- - dotbelow
- - grave.cap
- - uni03020309
  - two.lf
- - acute.cap
- - four.lf
- - tilde.cap
- - uni030C.alt
- - ring_acute
- - uni03020303
- - uni03020301
- - uni03060309
- - five.lf
- - caron.alt
- - three.lf
- - dotaccent.cap
- - one.lf
- - seven.lf
- - uni03020300
- - uni03060303
- - circumflex.cap
- - uni0326
- - caron.cap
- - uni03060300
- - hungarumlaut.cap
- - six.lf
- - uni03060301
- - uni0326.alt
- - macron.cap
- - periodcentered.loclCAT
- - ring.cap
- - eight.lf
- - ring_acute.cap 
  - nine.lf
+ - uni0326.alt
+ - uni03060309
+ - dieresis.cap
+ - breve.cap
+ - three.lf
+ - seven.lf
+ - five.lf
+ - one.lf
+ - macron.cap
+ - tilde.cap
+ - uni03060303
+ - ring_acute.cap
+ - six.lf
+ - i.loclTRK
+ - ring_acute
+ - dotaccent.cap
+ - caron.cap
+ - grave.cap
+ - uni03020301
+ - acute.cap
+ - uni03020300
+ - uni03060301
+ - zero.lf
+ - uni030C.alt
+ - hungarumlaut.cap
+ - circumflex.cap
+ - caron.alt
+ - ring.cap
+ - four.lf
+ - uni03020303
+ - periodcentered.loclCAT
+ - uni03020309
+ - uni03060300
+ - dotbelow
+ - eight.lf 
+ - uni0326
  [code: unreachable-glyphs]
 
 </details>
@@ -10571,8 +10450,8 @@ vectors.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 32 | 107 | 314 | 3601 | 229 | 2229 | 0 |
-| 0% | 2% | 5% | 55% | 4% | 34% | 0% |
+| 32 | 96 | 314 | 3601 | 229 | 2240 | 0 |
+| 0% | 1% | 5% | 55% | 4% | 34% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
