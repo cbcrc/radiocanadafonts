@@ -3,14 +3,14 @@
 .formatVersion = 3;
 axes = (
 {
-default = 100;
-name = Width;
-tag = wdth;
-},
-{
 default = 400;
 name = Weight;
 tag = wght;
+},
+{
+default = 100;
+name = Width;
+tag = wdth;
 }
 );
 classes = (
@@ -31,12 +31,16 @@ name = "Write lastChange";
 value = 0;
 },
 {
+name = "Use Line Breaks";
+value = 1;
+},
+{
 name = "Use Typo Metrics";
 value = 1;
 },
 {
-name = "Use Line Breaks";
-value = 1;
+name = "Variable Font Origin";
+value = master06;
 },
 {
 name = "Axis Mappings";
@@ -53,10 +57,6 @@ wght = {
 700 = 150;
 };
 };
-},
-{
-name = "Variable Font Origin";
-value = master06;
 },
 {
 name = "Enforce Compatibility Check";
@@ -266,8 +266,8 @@ tag = liga;
 fontMaster = (
 {
 axesValues = (
-75,
-60
+60,
+75
 );
 customParameters = (
 {
@@ -345,8 +345,8 @@ name = "Condensed Light Italic";
 },
 {
 axesValues = (
-75,
-88
+88,
+75
 );
 customParameters = (
 {
@@ -424,8 +424,8 @@ name = "Condensed Italic";
 },
 {
 axesValues = (
-75,
-137
+137,
+75
 );
 customParameters = (
 {
@@ -503,8 +503,8 @@ name = "Condensed Bold Italic";
 },
 {
 axesValues = (
-100,
-60
+60,
+100
 );
 customParameters = (
 {
@@ -582,8 +582,8 @@ name = "Light Italic";
 },
 {
 axesValues = (
-100,
-92
+92,
+100
 );
 customParameters = (
 {
@@ -660,8 +660,8 @@ name = Italic;
 },
 {
 axesValues = (
-100,
-150
+150,
+100
 );
 customParameters = (
 {
@@ -104628,8 +104628,8 @@ unicode = 697;
 instances = (
 {
 axesValues = (
-75,
-60
+60,
+75
 );
 instanceInterpolations = {
 master03 = 1;
@@ -104651,8 +104651,8 @@ widthClass = 3;
 },
 {
 axesValues = (
-75,
-88
+88,
+75
 );
 instanceInterpolations = {
 master04 = 1;
@@ -104673,8 +104673,8 @@ widthClass = 3;
 },
 {
 axesValues = (
-75,
-88
+88,
+75
 );
 instanceInterpolations = {
 master04 = 1;
@@ -104696,8 +104696,8 @@ widthClass = 3;
 },
 {
 axesValues = (
-75,
-88
+88,
+75
 );
 instanceInterpolations = {
 master04 = 1;
@@ -104718,8 +104718,8 @@ widthClass = 3;
 },
 {
 axesValues = (
-75,
-137
+137,
+75
 );
 instanceInterpolations = {
 master02 = 1;
@@ -104743,8 +104743,8 @@ widthClass = 3;
 },
 {
 axesValues = (
-100,
-60
+60,
+100
 );
 instanceInterpolations = {
 master05 = 1;
@@ -104764,8 +104764,8 @@ value = "Radio-Canada";
 },
 {
 axesValues = (
-100,
-92
+92,
+100
 );
 instanceInterpolations = {
 master06 = 1;
@@ -104785,8 +104785,8 @@ value = "Radio-Canada";
 },
 {
 axesValues = (
-100,
-92
+92,
+100
 );
 instanceInterpolations = {
 master06 = 1;
@@ -104807,8 +104807,8 @@ weightClass = 500;
 },
 {
 axesValues = (
-100,
-125
+125,
+100
 );
 instanceInterpolations = {
 master01 = 0.56897;
@@ -104830,8 +104830,8 @@ weightClass = 600;
 },
 {
 axesValues = (
-100,
-150
+150,
+100
 );
 instanceInterpolations = {
 master01 = 1;
@@ -106418,20 +106418,20 @@ value = "Charles Daoud, Etienne Aubert Bonn, Alexandre Saumier Demers";
 },
 {
 key = designerURL;
-value = "http://charlesdaoud.com";
+value = "http://charlesdaoud.com/";
 },
 {
 key = manufacturers;
 values = (
 {
 language = dflt;
-value = "Eli Heuer";
+value = "Radio-Canada";
 }
 );
 },
 {
 key = manufacturerURL;
-value = "https://fonts.google.com";
+value = "https://github.com/cbcrc/";
 },
 {
 key = licenseURL;
@@ -106451,7 +106451,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2017 The Radio Canada Project Authors (https://github.com/cbcrc/radiocanadafonts)";
+value = "Copyright 2017 The Radio-Canada Project Authors (https://github.com/cbcrc/radiocanadafonts)";
 }
 );
 }
