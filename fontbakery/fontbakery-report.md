@@ -26,8 +26,7 @@ Per the OpenType spec:
 &#x27;The Font Family name [...] should be shared among at most four fonts that
 differ only in weight or style [...]&#x27;</pre>
 
-* 🔥 **FAIL** Family 'Radio-Canada Italic' has 5 fonts (should be 4 or fewer). [code: too-many]
-* 🔥 **FAIL** Family 'Radio-Canada' has 5 fonts (should be 4 or fewer). [code: too-many]
+* 🔥 **FAIL** Family 'Radio-Canada' has 7 fonts (should be 4 or fewer). [code: too-many]
 
 </details>
 <br>
@@ -242,17 +241,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni030C.alt
- - two.pl
- - five.pl
- - three.pl
- - nine.pl
  - zero.pl
  - one.pl
- - six.pl
+ - two.pl
+ - three.pl
  - seven.pl
- - four.pl 
+ - four.pl
+ - five.pl
  - eight.pl
+ - six.pl
+ - nine.pl 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -424,44 +423,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -494,7 +493,7 @@ than 100 reported misalignments.</pre>
 <br>
 </details>
 <details>
-<summary><b>[17] Radio-Canada-BoldItalic.ttf</b></summary>
+<summary><b>[15] Radio-Canada-BoldItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -547,25 +546,7 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
-* 🔥 **FAIL** SUBFAMILY_NAME for Win "Bold" must be "Regular" [code: bad-familyname]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
-<pre>--- Rationale ---
-Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
-
-* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Bold Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name?</summary>
-
-* [com.google.fonts/check/name/match_familyname_fullfont](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont)
-
-* 🔥 **FAIL** On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Radio-Canada Italic') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Radio-Canada Bold Italic') [code: does-not]
+* 🔥 **FAIL** SUBFAMILY_NAME for Win "Bold Italic" must be "Regular" [code: bad-familyname]
 
 </details>
 <details>
@@ -764,17 +745,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni030C.alt
- - two.pl
- - five.pl
- - three.pl
- - nine.pl
  - zero.pl
  - one.pl
- - six.pl
+ - two.pl
+ - three.pl
  - seven.pl
- - four.pl 
+ - four.pl
+ - five.pl
  - eight.pl
+ - six.pl
+ - nine.pl 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -1092,44 +1073,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -1468,44 +1449,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -1869,44 +1850,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -2267,17 +2248,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni030C.alt
- - two.pl
- - five.pl
- - three.pl
- - nine.pl
  - zero.pl
  - one.pl
- - six.pl
+ - two.pl
+ - three.pl
  - seven.pl
- - four.pl 
+ - four.pl
+ - five.pl
  - eight.pl
+ - six.pl
+ - nine.pl 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -2600,44 +2581,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -2983,44 +2964,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -3380,17 +3361,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni030C.alt
- - two.pl
- - five.pl
- - three.pl
- - nine.pl
  - zero.pl
  - one.pl
- - six.pl
+ - two.pl
+ - three.pl
  - seven.pl
- - four.pl 
+ - four.pl
+ - five.pl
  - eight.pl
+ - six.pl
+ - nine.pl 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -3756,44 +3737,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -4114,17 +4095,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni030C.alt
- - two.pl
- - five.pl
- - three.pl
- - nine.pl
  - zero.pl
  - one.pl
- - six.pl
+ - two.pl
+ - three.pl
  - seven.pl
- - four.pl 
+ - four.pl
+ - five.pl
  - eight.pl
+ - six.pl
+ - nine.pl 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -4471,44 +4452,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -4847,44 +4828,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -5226,17 +5207,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni030C.alt
- - two.pl
- - five.pl
- - three.pl
- - nine.pl
  - zero.pl
  - one.pl
- - six.pl
+ - two.pl
+ - three.pl
  - seven.pl
- - four.pl 
+ - four.pl
+ - five.pl
  - eight.pl
+ - six.pl
+ - nine.pl 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -5612,44 +5593,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -6000,44 +5981,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -6127,7 +6108,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-Canada-BoldItalic.otf</b></summary>
+<summary><b>[12] Radio-Canada-BoldItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -6180,25 +6161,7 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
-* 🔥 **FAIL** SUBFAMILY_NAME for Win "Bold" must be "Regular" [code: bad-familyname]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
-<pre>--- Rationale ---
-Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
-
-* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Bold Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name?</summary>
-
-* [com.google.fonts/check/name/match_familyname_fullfont](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont)
-
-* 🔥 **FAIL** On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Radio-Canada Italic') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Radio-Canada Bold Italic') [code: does-not]
+* 🔥 **FAIL** SUBFAMILY_NAME for Win "Bold Italic" must be "Regular" [code: bad-familyname]
 
 </details>
 <details>
@@ -6310,17 +6273,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni030C.alt
- - two.pl
- - five.pl
- - three.pl
- - nine.pl
  - zero.pl
  - one.pl
- - six.pl
+ - two.pl
+ - three.pl
  - seven.pl
- - four.pl 
+ - four.pl
+ - five.pl
  - eight.pl
+ - six.pl
+ - nine.pl 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -6593,44 +6556,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -6887,44 +6850,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -7149,17 +7112,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni030C.alt
- - two.pl
- - five.pl
- - three.pl
- - nine.pl
  - zero.pl
  - one.pl
- - six.pl
+ - two.pl
+ - three.pl
  - seven.pl
- - four.pl 
+ - four.pl
+ - five.pl
  - eight.pl
+ - six.pl
+ - nine.pl 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -7421,17 +7384,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni030C.alt
- - two.pl
- - five.pl
- - three.pl
- - nine.pl
  - zero.pl
  - one.pl
- - six.pl
+ - two.pl
+ - three.pl
  - seven.pl
- - four.pl 
+ - four.pl
+ - five.pl
  - eight.pl
+ - six.pl
+ - nine.pl 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -7700,17 +7663,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni030C.alt
- - two.pl
- - five.pl
- - three.pl
- - nine.pl
  - zero.pl
  - one.pl
- - six.pl
+ - two.pl
+ - three.pl
  - seven.pl
- - four.pl 
+ - four.pl
+ - five.pl
  - eight.pl
+ - six.pl
+ - nine.pl 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -7989,44 +7952,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -8285,17 +8248,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni030C.alt
- - two.pl
- - five.pl
- - three.pl
- - nine.pl
  - zero.pl
  - one.pl
- - six.pl
+ - two.pl
+ - three.pl
  - seven.pl
- - four.pl 
+ - four.pl
+ - five.pl
  - eight.pl
+ - six.pl
+ - nine.pl 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -8560,44 +8523,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -8835,44 +8798,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -9130,44 +9093,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -9413,44 +9376,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -9657,44 +9620,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -9951,44 +9914,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -10254,44 +10217,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020309
- - uni030C.alt
- - four.lf
- - grave.cap
+ - uni03060309
+ - hungarumlaut.cap
  - dotbelow
- - caron.cap
- - circumflex.cap
- - uni03020301
+ - ring_acute.cap
+ - tilde.cap
  - acute.cap
  - i.loclTRK
- - uni03060300
- - ring_acute
- - caron.alt
- - uni03060309
- - uni03020300
- - two.lf
- - zero.lf
- - seven.lf
- - ring_acute.cap
- - breve.cap
- - uni0326.alt
- - hungarumlaut.cap
- - nine.lf
- - eight.lf
- - five.lf
- - six.lf
- - three.lf
- - periodcentered.loclCAT
- - ring.cap
  - dieresis.cap
- - one.lf
- - uni03060303
- - tilde.cap
- - uni03020303
- - uni0326
- - dotaccent.cap
- - macron.cap 
+ - four.lf
+ - seven.lf
+ - periodcentered.loclCAT
+ - two.lf
+ - uni0326.alt
+ - uni03060300
+ - six.lf
+ - caron.alt
  - uni03060301
+ - uni03020309
+ - grave.cap
+ - one.lf
+ - dotaccent.cap
+ - ring_acute
+ - breve.cap
+ - uni03020300
+ - circumflex.cap
+ - uni03020303
+ - zero.lf
+ - eight.lf
+ - caron.cap
+ - ring.cap
+ - macron.cap
+ - uni0326
+ - three.lf
+ - uni03060303
+ - nine.lf
+ - uni03020301
+ - five.lf 
+ - uni030C.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -10364,7 +10327,7 @@ vectors.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 32 | 95 | 314 | 3601 | 229 | 2241 | 0 |
+| 32 | 91 | 314 | 3603 | 229 | 2243 | 0 |
 | 0% | 1% | 5% | 55% | 4% | 34% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
