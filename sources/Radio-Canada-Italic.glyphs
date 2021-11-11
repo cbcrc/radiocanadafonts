@@ -104714,6 +104714,7 @@ value = "Radio-Canada Condensed";
 );
 }
 );
+weightClass = 600;
 widthClass = 3;
 },
 {
@@ -104725,6 +104726,7 @@ instanceInterpolations = {
 master02 = 1;
 };
 isBold = 1;
+isItalic = 1;
 linkStyle = Condensed;
 name = "Bold Italic";
 properties = (
@@ -104761,6 +104763,7 @@ value = "Radio-Canada";
 );
 }
 );
+weightClass = 300;
 },
 {
 axesValues = (
@@ -104837,6 +104840,7 @@ instanceInterpolations = {
 master01 = 1;
 };
 isBold = 1;
+isItalic = 1;
 name = "Bold Italic";
 properties = (
 {
@@ -104849,6 +104853,7 @@ value = "Radio-Canada";
 );
 }
 );
+weightClass = 700;
 }
 );
 kerningLTR = {
