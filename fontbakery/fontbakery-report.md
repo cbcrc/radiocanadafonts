@@ -32,7 +32,7 @@ differ only in weight or style [...]&#x27;</pre>
 <br>
 </details>
 <details>
-<summary><b>[12] Radio-Canada-Italic[wdth,wght].ttf</b></summary>
+<summary><b>[11] Radio-Canada-Italic[wdth,wght].ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -89,27 +89,6 @@ each axis entry at the Google Fonts Axis Registry, available at
 https://github.com/google/fonts/tree/main/axisregistry</pre>
 
 * 🔥 **FAIL** On the font variation axis 'wdth', the name 'Medium' is not among the expected ones (UltraCondensed, ExtraCondensed, Condensed, SemiCondensed, Normal, SemiExpanded, Expanded, ExtraExpanded, UltraExpanded) according to the Google Fonts Axis Registry. [code: invalid-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -221,14 +200,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -266,7 +245,7 @@ than 100 reported misalignments.</pre>
 <br>
 </details>
 <details>
-<summary><b>[9] Radio-Canada[wdth,wght].ttf</b></summary>
+<summary><b>[8] Radio-Canada[wdth,wght].ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -289,27 +268,6 @@ each axis entry at the Google Fonts Axis Registry, available at
 https://github.com/google/fonts/tree/main/axisregistry</pre>
 
 * 🔥 **FAIL** On the font variation axis 'wdth', the name 'Medium' is not among the expected ones (UltraCondensed, ExtraCondensed, Condensed, SemiCondensed, Normal, SemiExpanded, Expanded, ExtraExpanded, UltraExpanded) according to the Google Fonts Axis Registry. [code: invalid-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -424,44 +382,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -494,7 +452,7 @@ than 100 reported misalignments.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-Canada-BoldItalic.ttf</b></summary>
+<summary><b>[15] Radio-Canada-BoldItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -548,27 +506,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
 * 🔥 **FAIL** SUBFAMILY_NAME for Win "Bold Italic" must be "Regular" [code: bad-familyname]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -767,14 +704,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -873,7 +810,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-Canada-Regular.ttf</b></summary>
+<summary><b>[13] Radio-Canada-Regular.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -901,27 +838,6 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Radio-Canada-Regular.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -1116,44 +1032,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -1242,7 +1158,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-Canada-Light.ttf</b></summary>
+<summary><b>[15] Radio-Canada-Light.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -1298,27 +1214,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Light" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -1513,44 +1408,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -1639,7 +1534,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[17] Radio-Canada-SemiBold.ttf</b></summary>
+<summary><b>[16] Radio-Canada-SemiBold.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -1695,27 +1590,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "SemiBold" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -1935,44 +1809,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -2062,7 +1936,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-LightItalic.ttf</b></summary>
+<summary><b>[14] Radio-Canada-LightItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -2118,27 +1992,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Light Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -2354,14 +2207,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -2416,7 +2269,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-CanadaCondensed-LightItalic.ttf</b></summary>
+<summary><b>[14] Radio-CanadaCondensed-LightItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -2472,27 +2325,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Light Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -2708,14 +2540,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -2770,7 +2602,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[18] Radio-CanadaCondensed-SemiBoldItalic.ttf</b></summary>
+<summary><b>[17] Radio-CanadaCondensed-SemiBoldItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -2826,27 +2658,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "SemiBold Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -3062,14 +2873,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -3178,7 +2989,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-CanadaCondensed-Light.ttf</b></summary>
+<summary><b>[15] Radio-CanadaCondensed-Light.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -3234,27 +3045,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Light" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -3470,44 +3260,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -3582,7 +3372,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[18] Radio-CanadaCondensed-MediumItalic.ttf</b></summary>
+<summary><b>[17] Radio-CanadaCondensed-MediumItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -3638,27 +3428,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Medium Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -3874,14 +3643,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -3990,7 +3759,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[17] Radio-CanadaCondensed-Medium.ttf</b></summary>
+<summary><b>[16] Radio-CanadaCondensed-Medium.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -4046,27 +3815,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Medium" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -4282,44 +4030,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -4408,7 +4156,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[17] Radio-Canada-SemiBoldItalic.ttf</b></summary>
+<summary><b>[16] Radio-Canada-SemiBoldItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -4464,27 +4212,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "SemiBold Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -4700,14 +4427,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -4805,7 +4532,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[17] Radio-CanadaCondensed-SemiBold.ttf</b></summary>
+<summary><b>[16] Radio-CanadaCondensed-SemiBold.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -4861,27 +4588,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "SemiBold" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -5097,44 +4803,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -5223,7 +4929,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-CanadaCondensed-BoldItalic.ttf</b></summary>
+<summary><b>[15] Radio-CanadaCondensed-BoldItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -5277,27 +4983,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
 * 🔥 **FAIL** SUBFAMILY_NAME for Win "Bold Italic" must be "Regular" [code: bad-familyname]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -5525,14 +5210,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -5575,7 +5260,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-Italic.ttf</b></summary>
+<summary><b>[14] Radio-Canada-Italic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -5613,27 +5298,6 @@ and separated by commas:
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -5828,14 +5492,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -5931,7 +5595,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-Canada-Bold.ttf</b></summary>
+<summary><b>[15] Radio-Canada-Bold.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -5985,27 +5649,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
 * 🔥 **FAIL** SUBFAMILY_NAME for Win "Bold" must be "Regular" [code: bad-familyname]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -6206,44 +5849,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -6332,7 +5975,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-Canada-Medium.ttf</b></summary>
+<summary><b>[15] Radio-Canada-Medium.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -6388,27 +6031,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Medium" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -6603,44 +6225,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -6729,7 +6351,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-Canada-MediumItalic.ttf</b></summary>
+<summary><b>[15] Radio-Canada-MediumItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -6767,27 +6389,6 @@ and separated by commas:
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Medium Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -7003,14 +6604,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -7106,7 +6707,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[18] Radio-CanadaCondensed-Bold.ttf</b></summary>
+<summary><b>[17] Radio-CanadaCondensed-Bold.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -7160,27 +6761,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
 * 🔥 **FAIL** SUBFAMILY_NAME for Win "Bold" must be "Regular" [code: bad-familyname]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -7410,44 +6990,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -7537,7 +7117,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-CanadaCondensed-Regular.ttf</b></summary>
+<summary><b>[15] Radio-CanadaCondensed-Regular.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -7583,27 +7163,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 &#x27;weightClass&#x27; customParameter.</pre>
 
 * 🔥 **FAIL** OS/2 usWeightClass is '387' when it should be '400'. [code: bad-value]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -7819,44 +7378,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -7946,7 +7505,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[18] Radio-CanadaCondensed-Italic.ttf</b></summary>
+<summary><b>[17] Radio-CanadaCondensed-Italic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -8002,27 +7561,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -8238,14 +7776,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -8354,7 +7892,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-Canada-BoldItalic.otf</b></summary>
+<summary><b>[12] Radio-Canada-BoldItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -8408,27 +7946,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
 * 🔥 **FAIL** SUBFAMILY_NAME for Win "Bold Italic" must be "Regular" [code: bad-familyname]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -8540,14 +8057,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -8632,7 +8149,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-CanadaCondensed-Light.otf</b></summary>
+<summary><b>[13] Radio-CanadaCondensed-Light.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -8688,27 +8205,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Light" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -8844,44 +8340,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -8957,7 +8453,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-CanadaCondensed-Regular.otf</b></summary>
+<summary><b>[12] Radio-CanadaCondensed-Regular.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -9003,27 +8499,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 &#x27;weightClass&#x27; customParameter.</pre>
 
 * 🔥 **FAIL** OS/2 usWeightClass is '387' when it should be '400'. [code: bad-value]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -9159,44 +8634,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -9272,7 +8747,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-CanadaCondensed-Italic.otf</b></summary>
+<summary><b>[14] Radio-CanadaCondensed-Italic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -9328,27 +8803,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -9481,14 +8935,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -9583,7 +9037,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[12] Radio-Canada-Italic.otf</b></summary>
+<summary><b>[11] Radio-Canada-Italic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -9621,27 +9075,6 @@ and separated by commas:
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -9753,14 +9186,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -9837,7 +9270,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-Canada-SemiBoldItalic.otf</b></summary>
+<summary><b>[13] Radio-Canada-SemiBoldItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -9893,27 +9326,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "SemiBold Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -10046,14 +9458,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -10137,7 +9549,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-Canada-LightItalic.otf</b></summary>
+<summary><b>[13] Radio-Canada-LightItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -10193,27 +9605,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Light Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -10346,14 +9737,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -10438,7 +9829,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-CanadaCondensed-Bold.otf</b></summary>
+<summary><b>[15] Radio-CanadaCondensed-Bold.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -10492,27 +9883,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
 * 🔥 **FAIL** SUBFAMILY_NAME for Win "Bold" must be "Regular" [code: bad-familyname]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -10656,44 +10026,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -10782,7 +10152,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-Canada-MediumItalic.otf</b></summary>
+<summary><b>[12] Radio-Canada-MediumItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -10820,27 +10190,6 @@ and separated by commas:
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Medium Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -10973,14 +10322,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -11057,7 +10406,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-CanadaCondensed-SemiBold.otf</b></summary>
+<summary><b>[13] Radio-CanadaCondensed-SemiBold.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -11113,27 +10462,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "SemiBold" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -11269,44 +10597,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -11376,7 +10704,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-CanadaCondensed-MediumItalic.otf</b></summary>
+<summary><b>[14] Radio-CanadaCondensed-MediumItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -11432,27 +10760,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Medium Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -11585,14 +10892,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -11687,7 +10994,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-CanadaCondensed-LightItalic.otf</b></summary>
+<summary><b>[13] Radio-CanadaCondensed-LightItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -11743,27 +11050,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Light Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -11896,14 +11182,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -11988,7 +11274,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-Canada-Bold.otf</b></summary>
+<summary><b>[13] Radio-Canada-Bold.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -12042,27 +11328,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
 * 🔥 **FAIL** SUBFAMILY_NAME for Win "Bold" must be "Regular" [code: bad-familyname]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -12177,44 +11442,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -12302,7 +11567,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-Canada-Light.otf</b></summary>
+<summary><b>[12] Radio-Canada-Light.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -12358,27 +11623,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Light" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -12493,44 +11737,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -12606,7 +11850,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-Canada-Medium.otf</b></summary>
+<summary><b>[12] Radio-Canada-Medium.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -12662,27 +11906,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Medium" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -12797,44 +12020,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -12899,7 +12122,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-CanadaCondensed-SemiBoldItalic.otf</b></summary>
+<summary><b>[14] Radio-CanadaCondensed-SemiBoldItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -12955,27 +12178,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "SemiBold Italic" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -13108,14 +12310,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -13210,7 +12412,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[11] Radio-Canada-Regular.otf</b></summary>
+<summary><b>[10] Radio-Canada-Regular.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -13238,27 +12440,6 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** Style name used in "fonts/otf/Radio-Canada-Regular.otf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -13373,44 +12554,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -13476,7 +12657,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-Canada-SemiBold.otf</b></summary>
+<summary><b>[13] Radio-Canada-SemiBold.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -13532,27 +12713,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "SemiBold" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -13688,44 +12848,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -13800,7 +12960,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-CanadaCondensed-BoldItalic.otf</b></summary>
+<summary><b>[13] Radio-CanadaCondensed-BoldItalic.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -13854,27 +13014,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
 
 * 🔥 **FAIL** SUBFAMILY_NAME for Win "Bold Italic" must be "Regular" [code: bad-familyname]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -14015,14 +13154,14 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - three.pl
- - uni030C.alt
  - zero.pl
- - four.pl
  - two.pl
- - seven.pl
  - six.pl
+ - three.pl
+ - seven.pl
+ - four.pl
+ - uni030C.alt
+ - eight.pl
  - five.pl
  - nine.pl 
  - one.pl
@@ -14064,7 +13203,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-CanadaCondensed-Medium.otf</b></summary>
+<summary><b>[13] Radio-CanadaCondensed-Medium.otf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
 
@@ -14120,27 +13259,6 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 Requirements for the TYPOGRAPHIC_SUBFAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Medium" must be "Regular". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
-yMax, abs(yMin) values. If they are less than these values, clipping can occur
-on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
-If the font includes tall/deep writing systems such as Arabic or Devanagari, the
-winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-When the win Metrics are significantly greater than the upm, the linespacing can
-appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
-means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1170 instead [code: ascent]
 
 </details>
 <details>
@@ -14276,44 +13394,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - i.loclTRK
- - caron.alt
- - five.lf
  - uni03060303
- - dotaccent.cap
- - uni030C.alt
- - breve.cap
- - ring.cap
- - uni03020300
- - uni03060301
- - ring_acute
- - macron.cap
- - acute.cap
- - dieresis.cap
- - uni03020301
- - dotbelow
  - tilde.cap
- - eight.lf
- - six.lf
- - caron.cap
- - three.lf
- - uni0326
- - nine.lf
- - hungarumlaut.cap
- - one.lf
- - uni03020309
- - periodcentered.loclCAT
- - uni03020303
- - four.lf
- - zero.lf
- - ring_acute.cap
- - grave.cap
- - seven.lf
  - uni0326.alt
- - uni03060300
+ - uni03020301
+ - caron.cap
+ - uni030C.alt
+ - uni03020309
+ - uni03020300
+ - breve.cap
+ - zero.lf
+ - eight.lf
+ - dotaccent.cap
+ - uni03060301
+ - three.lf
+ - acute.cap
+ - circumflex.cap
+ - dieresis.cap
+ - hungarumlaut.cap
  - uni03060309
- - circumflex.cap 
+ - periodcentered.loclCAT
+ - uni03060300
  - two.lf
+ - dotbelow
+ - uni0326
+ - ring_acute.cap
+ - macron.cap
+ - five.lf
+ - ring_acute
+ - ring.cap
+ - seven.lf
+ - four.lf
+ - caron.alt
+ - grave.cap
+ - i.loclTRK
+ - one.lf
+ - nine.lf
+ - six.lf 
+ - uni03020303
  [code: unreachable-glyphs]
 
 </details>
@@ -14386,8 +13504,8 @@ vectors.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 42 | 163 | 420 | 4740 | 299 | 2878 | 0 |
-| 0% | 2% | 5% | 55% | 4% | 34% | 0% |
+| 42 | 121 | 420 | 4740 | 299 | 2920 | 0 |
+| 0% | 1% | 5% | 55% | 4% | 34% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
