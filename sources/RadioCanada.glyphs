@@ -31212,7 +31212,7 @@ position = "{238, 563}";
 },
 {
 name = ogonek;
-position = "{293, 0}";
+position = "{404, 0}";
 },
 {
 name = top;
@@ -31292,7 +31292,7 @@ position = "{230, 540}";
 },
 {
 name = ogonek;
-position = "{316, 0}";
+position = "{359, 0}";
 },
 {
 name = top;
@@ -31372,7 +31372,7 @@ position = "{242, 552}";
 },
 {
 name = ogonek;
-position = "{368, 0}";
+position = "{369, 0}";
 },
 {
 name = top;
@@ -31452,7 +31452,7 @@ position = "{273, 545}";
 },
 {
 name = ogonek;
-position = "{380, 0}";
+position = "{420, 0}";
 },
 {
 name = top;
@@ -31532,7 +31532,7 @@ position = "{291, 551}";
 },
 {
 name = ogonek;
-position = "{387, 0}";
+position = "{456, 0}";
 },
 {
 name = top;
@@ -33754,7 +33754,7 @@ name = a;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 293, 0}";
+transform = "{1, 0, 0, 1, 404, 0}";
 }
 );
 layerId = master02;
@@ -33770,7 +33770,7 @@ name = a;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 316, 0}";
+transform = "{1, 0, 0, 1, 359, 0}";
 }
 );
 layerId = master03;
@@ -33786,7 +33786,7 @@ name = a;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 368, 0}";
+transform = "{1, 0, 0, 1, 369, 0}";
 }
 );
 layerId = master04;
@@ -33802,7 +33802,7 @@ name = a;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 380, 0}";
+transform = "{1, 0, 0, 1, 420, 0}";
 }
 );
 layerId = master05;
@@ -33818,7 +33818,7 @@ name = a;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 387, 0}";
+transform = "{1, 0, 0, 1, 456, 0}";
 }
 );
 layerId = master06;
@@ -207630,8 +207630,9 @@ components = (
 name = circumflexcomb;
 },
 {
+alignment = -1;
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 0, 197}";
+transform = "{1, 0, 0, 1, 167, 120}";
 }
 );
 layerId = master01;
