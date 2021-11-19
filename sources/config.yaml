@@ -2,8 +2,8 @@ sources:
   - RadioCanada.glyphs
   - RadioCanada-Italic.glyphs
 axisOrder:
-  - wght
   - wdth
+  - wght
   - ital
 familyName: Radio-Canada
 stat:
@@ -13,8 +13,9 @@ stat:
     values:
     - name: Condensed
       value: 75
-    - name: Medium
+    - name: Normal
       value: 100
+      flags: 2
   - name: Weight
     tag: wght
     values:
@@ -43,8 +44,9 @@ stat:
     values:
     - name: Condensed
       value: 75
-    - name: Medium
+    - name: Normal
       value: 100
+      flags: 2
   - name: Weight
     tag: wght
     values:
