@@ -390,7 +390,7 @@ value = -125;
 descender = -250;
 id = master04;
 name = "Condensed Regular ";
-weightValue = 88;
+weightValue = 90;
 width = Condensed;
 widthValue = 75;
 xHeight = 515;
@@ -452,7 +452,7 @@ descender = -250;
 id = master02;
 name = "Condensed Bold";
 weight = Bold;
-weightValue = 137;
+weightValue = 150;
 width = Condensed;
 widthValue = 75;
 xHeight = 525;
@@ -584,7 +584,7 @@ position = "{300, 0}";
 }
 );
 id = master06;
-weightValue = 92;
+weightValue = 90;
 xHeight = 515;
 },
 {
@@ -222758,7 +222758,8 @@ value = "Radio-Canada Condensed";
 interpolationWeight = 88;
 interpolationWidth = 75;
 instanceInterpolations = {
-master04 = 1;
+master03 = 0.06667;
+master04 = 0.93333;
 };
 name = Regular;
 widthClass = Condensed;
@@ -222773,8 +222774,8 @@ value = "Radio-Canada Condensed";
 interpolationWeight = 96;
 interpolationWidth = 75;
 instanceInterpolations = {
-master02 = 0.16327;
-master04 = 0.83673;
+master02 = 0.1;
+master04 = 0.9;
 };
 name = Medium;
 weightClass = Medium;
@@ -222790,8 +222791,8 @@ value = "Radio-Canada Condensed";
 interpolationWeight = 115;
 interpolationWidth = 75;
 instanceInterpolations = {
-master02 = 0.55102;
-master04 = 0.44898;
+master02 = 0.41667;
+master04 = 0.58333;
 };
 name = SemiBold;
 weightClass = SemiBold;
@@ -222807,7 +222808,8 @@ value = "Radio-Canada Condensed";
 interpolationWeight = 137;
 interpolationWidth = 75;
 instanceInterpolations = {
-master02 = 1;
+master02 = 0.78333;
+master04 = 0.21667;
 };
 isBold = 1;
 linkStyle = Condensed;
@@ -222838,7 +222840,8 @@ value = "Radio-Canada";
 );
 interpolationWeight = 92;
 instanceInterpolations = {
-master06 = 1;
+master01 = 0.03333;
+master06 = 0.96667;
 };
 name = Regular;
 },
@@ -222850,8 +222853,8 @@ value = "Radio-Canada";
 }
 );
 instanceInterpolations = {
-master01 = 0.13793;
-master06 = 0.86207;
+master01 = 0.16667;
+master06 = 0.83333;
 };
 name = Medium;
 weightClass = Medium;
@@ -222865,8 +222868,8 @@ value = "Radio-Canada";
 );
 interpolationWeight = 125;
 instanceInterpolations = {
-master01 = 0.56897;
-master06 = 0.43103;
+master01 = 0.58333;
+master06 = 0.41667;
 };
 name = SemiBold;
 weightClass = SemiBold;
