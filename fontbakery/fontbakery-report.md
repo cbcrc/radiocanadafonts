@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.3
+Fontbakery version: 0.8.4
 
 <details>
 <summary><b>[2] Family checks</b></summary>
@@ -32,19 +32,7 @@ differ only in weight or style [...]&#x27;</pre>
 <br>
 </details>
 <details>
-<summary><b>[9] RadioCanada[wdth,wght].ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[7] RadioCanada[wdth,wght].ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -60,18 +48,6 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** The file 'RadioCanada[wdth,wght].ttf' must be renamed to 'Radio-Canada[wdth,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Validate STAT particle names and values match the fallback names in GFAxisRegistry. </summary>
-
-* [com.google.fonts/check/STAT/gf-axisregistry](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT/gf-axisregistry)
-<pre>--- Rationale ---
-Check that particle names and values on STAT table match the fallback names in
-each axis entry at the Google Fonts Axis Registry, available at
-https://github.com/google/fonts/tree/main/axisregistry</pre>
-
-* 🔥 **FAIL** On the font variation axis 'wdth', the name 'Medium' is not among the expected ones (UltraCondensed, ExtraCondensed, Condensed, SemiCondensed, Normal, SemiExpanded, Expanded, ExtraExpanded, UltraExpanded) according to the Google Fonts Axis Registry. [code: invalid-name]
 
 </details>
 <details>
@@ -186,44 +162,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -258,19 +234,7 @@ than 100 reported misalignments.</pre>
 <br>
 </details>
 <details>
-<summary><b>[11] RadioCanada-Italic[wdth,wght].ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[9] RadioCanada-Italic[wdth,wght].ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -303,18 +267,6 @@ and separated by commas:
 
 * 🔥 **FAIL** Instance "Medium Italic" wght value is "400.0". It should be "500.0" [code: bad-coordinate]
 * 🔥 **FAIL** Further info can be found in our spec https://github.com/googlefonts/gf-docs/tree/main/Spec#axes
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Validate STAT particle names and values match the fallback names in GFAxisRegistry. </summary>
-
-* [com.google.fonts/check/STAT/gf-axisregistry](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT/gf-axisregistry)
-<pre>--- Rationale ---
-Check that particle names and values on STAT table match the fallback names in
-each axis entry at the Google Fonts Axis Registry, available at
-https://github.com/google/fonts/tree/main/axisregistry</pre>
-
-* 🔥 **FAIL** On the font variation axis 'wdth', the name 'Medium' is not among the expected ones (UltraCondensed, ExtraCondensed, Condensed, SemiCondensed, Normal, SemiExpanded, Expanded, ExtraExpanded, UltraExpanded) according to the Google Fonts Axis Registry. [code: invalid-name]
 
 </details>
 <details>
@@ -426,17 +378,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
- - uni030C.alt 
+ - uni030C.alt
+ - five.pl
  - one.pl
+ - nine.pl
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -471,19 +423,7 @@ than 100 reported misalignments.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-Canada-LightItalic.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[12] Radio-Canada-LightItalic.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -659,19 +599,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -753,19 +693,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-CanadaCondensed-SemiBold.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[12] Radio-CanadaCondensed-SemiBold.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -944,46 +872,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -1055,19 +983,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[12] Radio-CanadaCondensed-Regular.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[11] Radio-CanadaCondensed-Regular.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -1236,46 +1152,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -1351,19 +1267,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-Canada-Bold.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[12] Radio-Canada-Bold.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -1519,46 +1423,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -1646,19 +1550,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-CanadaCondensed-Italic.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[13] Radio-CanadaCondensed-Italic.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -1834,19 +1726,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -1936,19 +1828,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-CanadaCondensed-Light.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[12] Radio-CanadaCondensed-Light.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -2127,46 +2007,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -2242,19 +2122,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-Canada-SemiBoldItalic.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[12] Radio-Canada-SemiBoldItalic.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -2430,19 +2298,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -2523,19 +2391,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-CanadaCondensed-BoldItalic.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[12] Radio-CanadaCondensed-BoldItalic.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -2717,19 +2573,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -2768,19 +2624,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[12] Radio-Canada-BoldItalic.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[11] Radio-Canada-BoldItalic.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -2933,19 +2777,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -3027,19 +2871,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-CanadaCondensed-Bold.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[14] Radio-CanadaCondensed-Bold.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -3224,46 +3056,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -3352,19 +3184,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-CanadaCondensed-LightItalic.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[12] Radio-CanadaCondensed-LightItalic.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -3540,19 +3360,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -3634,19 +3454,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-CanadaCondensed-SemiBoldItalic.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[13] Radio-CanadaCondensed-SemiBoldItalic.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -3822,19 +3630,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -3924,19 +3732,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-CanadaCondensed-MediumItalic.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[13] Radio-CanadaCondensed-MediumItalic.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -4112,19 +3908,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -4214,19 +4010,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[10] Radio-Canada-Regular.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[9] Radio-Canada-Regular.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -4356,46 +4140,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -4464,19 +4248,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[11] Radio-Canada-Italic.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[10] Radio-Canada-Italic.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -4613,19 +4385,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -4697,19 +4469,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-CanadaCondensed-Medium.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[12] Radio-CanadaCondensed-Medium.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -4888,46 +4648,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -4999,19 +4759,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-Canada-SemiBold.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[12] Radio-Canada-SemiBold.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -5190,46 +4938,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -5304,19 +5052,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[12] Radio-Canada-Medium.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[11] Radio-Canada-Medium.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -5474,46 +5210,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -5584,19 +5320,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[12] Radio-Canada-MediumItalic.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[11] Radio-Canada-MediumItalic.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -5754,19 +5478,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -5838,19 +5562,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[12] Radio-Canada-Light.otf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[11] Radio-Canada-Light.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -6008,46 +5720,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -6123,19 +5835,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-Canada-Italic.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[13] Radio-Canada-Italic.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -6194,79 +5894,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni01EB	Contours detected: 3	Expected: 2
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -6355,20 +5982,94 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni01EB	Contours detected: 3	Expected: 2
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -6458,19 +6159,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-Bold.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[14] Radio-Canada-Bold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -6545,82 +6234,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: estimated	Contours detected: 3	Expected: 2
-Glyph name: lessequal	Contours detected: 1	Expected: 2
-Glyph name: greaterequal	Contours detected: 1	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: estimated	Contours detected: 3	Expected: 2
-Glyph name: greaterequal	Contours detected: 1	Expected: 2
-Glyph name: lessequal	Contours detected: 1	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -6712,47 +6325,124 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: estimated	Contours detected: 3	Expected: 2
+ - Glyph name: lessequal	Contours detected: 1	Expected: 2
+ - Glyph name: greaterequal	Contours detected: 1	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: estimated	Contours detected: 3	Expected: 2
+ - Glyph name: greaterequal	Contours detected: 1	Expected: 2
+ - Glyph name: lessequal	Contours detected: 1	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -6840,19 +6530,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-MediumItalic.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[14] Radio-Canada-MediumItalic.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -6911,79 +6589,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni01EB	Contours detected: 3	Expected: 2
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -7093,20 +6698,94 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni01EB	Contours detected: 3	Expected: 2
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -7196,19 +6875,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] Radio-Canada-Regular.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[12] Radio-Canada-Regular.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -7257,76 +6924,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -7418,47 +7015,118 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -7546,19 +7214,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-CanadaCondensed-BoldItalic.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[14] Radio-CanadaCondensed-BoldItalic.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -7641,83 +7297,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni01EB	Contours detected: 3	Expected: 2
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: lessequal	Contours detected: 1	Expected: 2
-Glyph name: greaterequal	Contours detected: 1	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: greaterequal	Contours detected: 1	Expected: 2
-Glyph name: lessequal	Contours detected: 1	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -7827,20 +7406,98 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni01EB	Contours detected: 3	Expected: 2
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: lessequal	Contours detected: 1	Expected: 2
+ - Glyph name: greaterequal	Contours detected: 1	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: greaterequal	Contours detected: 1	Expected: 2
+ - Glyph name: lessequal	Contours detected: 1	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -7879,19 +7536,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[17] Radio-CanadaCondensed-SemiBoldItalic.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[16] Radio-CanadaCondensed-SemiBoldItalic.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -7968,79 +7613,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni01EB	Contours detected: 3	Expected: 2
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -8150,20 +7722,94 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni01EB	Contours detected: 3	Expected: 2
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -8266,19 +7912,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-BoldItalic.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[14] Radio-Canada-BoldItalic.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -8353,83 +7987,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni01EB	Contours detected: 3	Expected: 2
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: lessequal	Contours detected: 1	Expected: 2
-Glyph name: greaterequal	Contours detected: 1	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: greaterequal	Contours detected: 1	Expected: 2
-Glyph name: lessequal	Contours detected: 1	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -8518,20 +8075,98 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni01EB	Contours detected: 3	Expected: 2
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: lessequal	Contours detected: 1	Expected: 2
+ - Glyph name: greaterequal	Contours detected: 1	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: greaterequal	Contours detected: 1	Expected: 2
+ - Glyph name: lessequal	Contours detected: 1	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -8626,19 +8261,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-Light.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[14] Radio-Canada-Light.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -8715,76 +8338,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -8876,47 +8429,118 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -9004,19 +8628,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-CanadaCondensed-SemiBold.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[15] Radio-CanadaCondensed-SemiBold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -9093,76 +8705,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -9275,47 +8817,118 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -9403,19 +9016,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[17] Radio-CanadaCondensed-Italic.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[16] Radio-CanadaCondensed-Italic.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -9492,79 +9093,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni01EB	Contours detected: 3	Expected: 2
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -9674,20 +9202,94 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni01EB	Contours detected: 3	Expected: 2
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -9790,19 +9392,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-Canada-SemiBoldItalic.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[15] Radio-Canada-SemiBoldItalic.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -9879,79 +9469,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni01EB	Contours detected: 3	Expected: 2
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -10061,20 +9578,94 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni01EB	Contours detected: 3	Expected: 2
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -10168,19 +9759,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-CanadaCondensed-LightItalic.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[13] Radio-CanadaCondensed-LightItalic.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -10257,79 +9836,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni01EB	Contours detected: 3	Expected: 2
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -10439,20 +9945,94 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni01EB	Contours detected: 3	Expected: 2
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -10501,19 +10081,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-CanadaCondensed-Medium.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[15] Radio-CanadaCondensed-Medium.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -10590,76 +10158,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -10772,47 +10270,118 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -10900,19 +10469,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-CanadaCondensed-Regular.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[14] Radio-CanadaCondensed-Regular.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -10979,76 +10536,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -11161,47 +10648,118 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -11290,19 +10848,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[17] Radio-CanadaCondensed-Bold.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[16] Radio-CanadaCondensed-Bold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -11385,82 +10931,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: estimated	Contours detected: 3	Expected: 2
-Glyph name: lessequal	Contours detected: 1	Expected: 2
-Glyph name: greaterequal	Contours detected: 1	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: estimated	Contours detected: 3	Expected: 2
-Glyph name: greaterequal	Contours detected: 1	Expected: 2
-Glyph name: lessequal	Contours detected: 1	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -11573,47 +11043,124 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: estimated	Contours detected: 3	Expected: 2
+ - Glyph name: lessequal	Contours detected: 1	Expected: 2
+ - Glyph name: greaterequal	Contours detected: 1	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: estimated	Contours detected: 3	Expected: 2
+ - Glyph name: greaterequal	Contours detected: 1	Expected: 2
+ - Glyph name: lessequal	Contours detected: 1	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -11702,19 +11249,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-Medium.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[14] Radio-Canada-Medium.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -11791,76 +11326,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -11952,47 +11417,118 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -12080,19 +11616,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-CanadaCondensed-Light.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[14] Radio-CanadaCondensed-Light.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -12169,76 +11693,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -12351,47 +11805,118 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -12465,19 +11990,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-Canada-SemiBold.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[15] Radio-Canada-SemiBold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -12554,80 +12067,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: lessequal	Contours detected: 1	Expected: 2
-Glyph name: greaterequal	Contours detected: 1	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: greaterequal	Contours detected: 1	Expected: 2
-Glyph name: lessequal	Contours detected: 1	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -12740,47 +12179,122 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - circumflex.cap
- - periodcentered.loclCAT
- - uni03020301
- - zero.lf
- - acute.cap
  - caron.cap
- - ring.cap
- - tilde.cap
- - macron.cap
- - cent.BRACKET.100
- - uni03020303
- - uni03060301
- - uni03060309
- - ring_acute
- - ring_acute.cap
- - eight.lf
- - caron.alt
- - seven.lf
- - four.lf
- - dotbelow
- - dotaccent.cap
  - two.lf
+ - uni03060309
+ - macron.cap
+ - seven.lf
  - dieresis.cap
- - uni0326.alt
- - six.lf
- - three.lf
+ - ring_acute.cap
+ - zero.lf
+ - uni03060301
+ - eight.lf
  - hungarumlaut.cap
- - uni0326
- - uni03060303
- - five.lf
- - uni03020300
- - uni03020309
+ - cent.BRACKET.100
  - i.loclTRK
- - uni030C.alt
+ - circumflex.cap
+ - acute.cap
  - dollar.BRACKET.100
+ - dotaccent.cap
+ - four.lf
+ - periodcentered.loclCAT
+ - uni0326
+ - uni03020300
+ - breve.cap
  - nine.lf
+ - five.lf
+ - dotbelow
+ - tilde.cap
+ - uni03060303
  - one.lf
- - uni03060300
- - breve.cap 
+ - ring_acute
+ - three.lf
+ - uni0326.alt
+ - uni030C.alt
  - grave.cap
+ - uni03020301
+ - uni03060300
+ - ring.cap
+ - uni03020303
+ - uni03020309
+ - caron.alt 
+ - six.lf
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: lessequal	Contours detected: 1	Expected: 2
+ - Glyph name: greaterequal	Contours detected: 1	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: greaterequal	Contours detected: 1	Expected: 2
+ - Glyph name: lessequal	Contours detected: 1	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -12869,19 +12383,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-Canada-LightItalic.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[13] Radio-Canada-LightItalic.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -12958,79 +12460,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni01EB	Contours detected: 3	Expected: 2
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -13140,20 +12569,94 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni01EB	Contours detected: 3	Expected: 2
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -13202,19 +12705,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[17] Radio-CanadaCondensed-MediumItalic.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Check samples can be rendered.</summary>
-
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
-
-* 💔 **ERROR** Failed with AttributeError: 'NoneType' object has no attribute 'sample_glyphs'
-
-</details>
+<summary><b>[16] Radio-CanadaCondensed-MediumItalic.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -13291,79 +12782,6 @@ check, since your ID will soon be included in one of our upcoming releases.</pre
 Check if font has been hinted with an outdated version of ttfautohint.</pre>
 
 * ⚠ **WARN** ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: hyphensoft	Contours detected: 0	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni01EA	Contours detected: 3	Expected: 2
-Glyph name: uni01EB	Contours detected: 3	Expected: 2
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: Uhorn	Contours detected: 2	Expected: 1
-Glyph name: Uogonek	Contours detected: 2	Expected: 1
-Glyph name: aogonek	Contours detected: 3	Expected: 2
-Glyph name: eogonek	Contours detected: 3	Expected: 2
-Glyph name: ohorn	Contours detected: 3	Expected: 2
-Glyph name: uhorn	Contours detected: 2	Expected: 1
-Glyph name: uni02BA	Contours detected: 1	Expected: 2
-Glyph name: uni1E9E	Contours detected: 2	Expected: 1
-Glyph name: uni1EDB	Contours detected: 4	Expected: 3
-Glyph name: uni1EDD	Contours detected: 4	Expected: 3
-Glyph name: uni1EDF	Contours detected: 4	Expected: 3
-Glyph name: uni1EE1	Contours detected: 4	Expected: 3
-Glyph name: uni1EE3	Contours detected: 4	Expected: 3
-Glyph name: uni1EE8	Contours detected: 3	Expected: 2
-Glyph name: uni1EE9	Contours detected: 3	Expected: 2
-Glyph name: uni1EEA	Contours detected: 3	Expected: 2
-Glyph name: uni1EEB	Contours detected: 3	Expected: 2
-Glyph name: uni1EEC	Contours detected: 3	Expected: 2
-Glyph name: uni1EED	Contours detected: 3	Expected: 2
-Glyph name: uni1EEE	Contours detected: 3	Expected: 2
-Glyph name: uni1EEF	Contours detected: 3	Expected: 2
-Glyph name: uni1EF0	Contours detected: 3	Expected: 2
-Glyph name: uni1EF1	Contours detected: 3	Expected: 2
-Glyph name: uogonek	Contours detected: 2	Expected: 1 [code: contour-count]
 
 </details>
 <details>
@@ -13473,20 +12891,94 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.pl
+ - seven.pl
+ - eight.pl
  - six.pl
  - zero.pl
- - five.pl
- - seven.pl
  - cent.BRACKET.100
- - nine.pl
  - four.pl
- - eight.pl
- - three.pl
  - uni030C.alt
- - dollar.BRACKET.100 
+ - five.pl
  - one.pl
+ - nine.pl
+ - dollar.BRACKET.100
+ - two.pl 
+ - three.pl
  [code: unreachable-glyphs]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+ - Glyph name: uni01EB	Contours detected: 3	Expected: 2
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+ - Glyph name: Uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: Uogonek	Contours detected: 2	Expected: 1
+ - Glyph name: aogonek	Contours detected: 3	Expected: 2
+ - Glyph name: eogonek	Contours detected: 3	Expected: 2
+ - Glyph name: ohorn	Contours detected: 3	Expected: 2
+ - Glyph name: uhorn	Contours detected: 2	Expected: 1
+ - Glyph name: uni02BA	Contours detected: 1	Expected: 2
+ - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+ - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE1	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE3	Contours detected: 4	Expected: 3
+ - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEC	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EED	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEE	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
+ - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
+ - Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
 
 </details>
 <details>
@@ -13593,8 +13085,8 @@ lines.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 42 | 122 | 420 | 4740 | 297 | 2921 | 0 |
-| 0% | 1% | 5% | 55% | 3% | 34% | 0% |
+| 0 | 120 | 420 | 4824 | 297 | 2923 | 0 |
+| 0% | 1% | 5% | 56% | 3% | 34% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
