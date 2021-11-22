@@ -32,7 +32,7 @@ differ only in weight or style [...]&#x27;</pre>
 <br>
 </details>
 <details>
-<summary><b>[7] RadioCanada[wdth,wght].ttf</b></summary>
+<summary><b>[10] RadioCanada[wdth,wght].ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -48,6 +48,40 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** The file 'RadioCanada[wdth,wght].ttf' must be renamed to 'Radio-Canada[wdth,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Variable font weight coordinates must be multiples of 100.</summary>
+
+* [com.google.fonts/check/varfont_weight_instances](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances)
+<pre>--- Rationale ---
+The named instances on the weight axis of a variable font must have coordinates
+that are multiples of 100 on the design space.</pre>
+
+* 🔥 **FAIL** Found a variable font instance with 'wght'=420.0. This should instead be a multiple of 100. [code: bad-coordinate]
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Check variable font instances have correct coordinate values</summary>
+
+* [com.google.fonts/check/varfont_instance_coordinates](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates)
+
+* 🔥 **FAIL** Instance "Regular" wght value is "420.0". It should be "400.0" [code: bad-coordinate]
+* 🔥 **FAIL** Further info can be found in our spec https://github.com/googlefonts/gf-docs/tree/main/Spec#axes
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance.</summary>
+
+* [com.google.fonts/check/varfont/regular_wght_coord](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord)
+<pre>--- Rationale ---
+According to the Open-Type spec&#x27;s registered design-variation tag &#x27;wght&#x27;
+available at
+https://docs.microsoft.com/en-gb/typography/opentype/spec/dvaraxistag_wght
+If a variable font has a &#x27;wght&#x27; (Weight) axis, then the coordinate of its
+&#x27;Regular&#x27; instance is required to be 400.</pre>
+
+* 🔥 **FAIL** The "wght" axis coordinate of the "Regular" instance must be 400. Got 420.0 instead. [code: not-400]
 
 </details>
 <details>
@@ -162,44 +196,44 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
- - ring_acute.cap
- - uni030C.alt
- - dotbelow
- - one.lf
- - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
  - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
+ - uni030C.alt
+ - uni03060303
  - eight.lf
- - uni03020300
+ - uni0326.alt
+ - ring.cap
  - dotaccent.cap
+ - breve.cap
+ - ring_acute.cap
+ - caron.cap
+ - uni03020300
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -378,17 +412,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -599,19 +633,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -872,46 +906,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -931,13 +965,16 @@ generate significant numbers of false positives, it will pass if there are more
 than 100 reported misalignments.</pre>
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* hcircumflex (U+0125): X=190.0,Y=946.0 (should be at ascender 945?)
-	* hcircumflex (U+0125): X=75.0,Y=946.0 (should be at ascender 945?)
-	* Lcaron (U+013D): X=432.0,Y=691.0 (should be at cap-height 690?)
-	* Lcaron (U+013D): X=327.0,Y=691.0 (should be at cap-height 690?)
-	* uni1EEC (U+1EEC): X=299.0,Y=944.0 (should be at ascender 945?)
-	* uni2074 (U+2074): X=316.0,Y=688.0 (should be at cap-height 690?)
-	* uni2074 (U+2074): X=200.0,Y=688.0 (should be at cap-height 690?) and colonmonetary (U+20A1): X=276.0,Y=692.0 (should be at cap-height 690?) [code: found-misalignments]
+	* uni03BC.math (U+00B5): X=495.0,Y=-1.0 (should be at baseline 0?)
+	* questiondown (U+00BF): X=160.0,Y=-2.0 (should be at baseline 0?)
+	* Lcaron (U+013D): X=391.0,Y=691.0 (should be at cap-height 690?)
+	* Lcaron (U+013D): X=292.0,Y=691.0 (should be at cap-height 690?)
+	* uni0163 (U+0163): X=169.0,Y=2.0 (should be at baseline 0?)
+	* Ohorn (U+01A0): X=372.0,Y=691.0 (should be at cap-height 690?)
+	* uni022C (U+022C): X=166.0,Y=944.0 (should be at ascender 945?)
+	* uni022C (U+022C): X=439.0,Y=944.0 (should be at ascender 945?)
+	* uni03BC (U+03BC): X=495.0,Y=-1.0 (should be at baseline 0?)
+	* pi (U+03C0): X=469.0,Y=-1.0 (should be at baseline 0?) and 23 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -952,16 +989,16 @@ segments. As this check is liable to generate significant numbers of false
 positives, it will pass if there are more than 100 reported short segments.</pre>
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* sterling (U+00A3) contains a short segment B<<247.0,271.0>-<247.0,274.0>-<247.0,277.0>-<247.0,280.0>>
-	* sterling (U+00A3) contains a short segment B<<134.0,280.0>-<135.0,274.0>-<135.0,268.0>-<135.0,261.0>>
-	* Aogonek (U+0104) contains a short segment L<<467.0,0.0>--<466.0,0.0>>
-	* aogonek (U+0105) contains a short segment L<<339.0,0.0>--<353.0,0.0>>
-	* iogonek (U+012F) contains a short segment L<<75.0,0.0>--<85.0,0.0>>
-	* Eng (U+014A) contains a short segment L<<495.0,0.0>--<495.0,-10.0>>
-	* Scedilla (U+015E) contains a short segment L<<238.0,-99.0>--<260.0,-101.0>>
-	* uni0163 (U+0163) contains a short segment B<<246.0,-11.0>-<249.0,-11.0>-<252.0,-11.0>-<255.0,-11.0>>
-	* uogonek (U+0173) contains a short segment L<<394.0,0.0>--<410.0,0.0>>
-	* colonmonetary (U+20A1) contains a short segment B<<470.0,535.0>-<474.0,533.0>-<477.0,530.0>-<480.0,527.0>> and 12 more. [code: found-short-segments]
+	* sterling (U+00A3) contains a short segment B<<230.0,269.0>-<230.0,274.0>-<230.0,279.0>-<229.0,284.0>>
+	* yen (U+00A5) contains a short segment L<<305.0,288.0>--<308.0,295.0>>
+	* yen (U+00A5) contains a short segment L<<192.0,295.0>--<195.0,288.0>>
+	* uni03BC.math (U+00B5) contains a short segment B<<495.0,94.0>-<489.0,93.0>-<485.0,92.0>-<480.0,92.0>>
+	* Ccedilla (U+00C7) contains a short segment L<<257.0,-103.0>--<275.0,-105.0>>
+	* aogonek (U+0105) contains a short segment L<<309.0,0.0>--<323.0,0.0>>
+	* Eng (U+014A) contains a short segment L<<439.0,0.0>--<439.0,-15.0>>
+	* Scedilla (U+015E) contains a short segment L<<209.0,-103.0>--<228.0,-105.0>>
+	* Scedilla (U+015E) contains a short segment L<<188.0,-235.0>--<209.0,-235.0>>
+	* uni0163 (U+0163) contains a short segment B<<230.0,-11.0>-<232.0,-11.0>-<233.0,-11.0>-<235.0,-11.0>> and 12 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -975,9 +1012,9 @@ This check is not run for variable fonts, as they may legitimately have colinear
 vectors.</pre>
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* exclam (U+0021): L<<201.0,238.0>--<221.0,521.0>> -> L<<221.0,521.0>--<221.0,690.0>>
-	* exclam (U+0021): L<<94.0,690.0>--<94.0,521.0>> -> L<<94.0,521.0>--<114.0,238.0>>
-	* exclamdown (U+00A1): L<<114.0,283.0>--<94.0,0.0>> -> L<<94.0,0.0>--<94.0,-185.0>> and exclamdown (U+00A1): L<<221.0,-185.0>--<221.0,0.0>> -> L<<221.0,0.0>--<201.0,283.0>> [code: found-colinear-vectors]
+	* exclam (U+0021): L<<186.0,231.0>--<204.0,519.0>> -> L<<204.0,519.0>--<204.0,690.0>>
+	* exclam (U+0021): L<<86.0,690.0>--<86.0,519.0>> -> L<<86.0,519.0>--<104.0,231.0>>
+	* exclamdown (U+00A1): L<<104.0,288.0>--<86.0,0.0>> -> L<<86.0,0.0>--<86.0,-185.0>> and exclamdown (U+00A1): L<<204.0,-185.0>--<204.0,0.0>> -> L<<204.0,0.0>--<186.0,288.0>> [code: found-colinear-vectors]
 
 </details>
 <br>
@@ -1016,7 +1053,7 @@ applications.
 Glyphsapp users can change the usWeightClass value of an instance by adding a
 &#x27;weightClass&#x27; customParameter.</pre>
 
-* 🔥 **FAIL** OS/2 usWeightClass is '387' when it should be '400'. [code: bad-value]
+* 🔥 **FAIL** OS/2 usWeightClass is '393' when it should be '400'. [code: bad-value]
 
 </details>
 <details>
@@ -1152,46 +1189,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -1211,16 +1248,16 @@ generate significant numbers of false positives, it will pass if there are more
 than 100 reported misalignments.</pre>
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* f (U+0066): X=305.0,Y=514.0 (should be at x-height 515?)
-	* f (U+0066): X=180.0,Y=514.0 (should be at x-height 515?)
+	* f (U+0066): X=302.0,Y=514.0 (should be at x-height 515?)
+	* f (U+0066): X=178.0,Y=514.0 (should be at x-height 515?)
 	* f (U+0066): X=92.0,Y=514.0 (should be at x-height 515?)
 	* f (U+0066): X=16.0,Y=514.0 (should be at x-height 515?)
 	* uni03BC.math (U+00B5): X=476.0,Y=-2.0 (should be at baseline 0?)
-	* Aring (U+00C5): X=262.0,Y=947.0 (should be at ascender 945?)
+	* Aring (U+00C5): X=261.0,Y=946.0 (should be at ascender 945?)
 	* aring (U+00E5): X=116.0,Y=691.0 (should be at cap-height 690?)
-	* aring (U+00E5): X=331.0,Y=691.0 (should be at cap-height 690?)
+	* aring (U+00E5): X=330.0,Y=691.0 (should be at cap-height 690?)
 	* aring (U+00E5): X=116.0,Y=691.0 (should be at cap-height 690?)
-	* hcircumflex (U+0125): X=161.0,Y=944.0 (should be at ascender 945?) and 40 more. [code: found-misalignments]
+	* hcircumflex (U+0125): X=160.0,Y=944.0 (should be at ascender 945?) and 33 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -1235,16 +1272,16 @@ segments. As this check is liable to generate significant numbers of false
 positives, it will pass if there are more than 100 reported short segments.</pre>
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* R (U+0052) contains a short segment B<<240.0,261.0>-<244.0,261.0>-<248.0,261.0>-<252.0,261.0>>
-	* uni03BC.math (U+00B5) contains a short segment B<<476.0,71.0>-<472.0,70.0>-<469.0,69.0>-<465.0,69.0>>
-	* aogonek (U+0105) contains a short segment L<<321.0,0.0>--<329.0,0.0>>
+	* R (U+0052) contains a short segment B<<237.0,262.0>-<241.0,262.0>-<245.0,262.0>-<250.0,262.0>>
+	* uni03BC.math (U+00B5) contains a short segment B<<476.0,69.0>-<471.0,68.0>-<468.0,67.0>-<464.0,67.0>>
+	* aogonek (U+0105) contains a short segment L<<321.0,0.0>--<328.0,0.0>>
 	* iogonek (U+012F) contains a short segment L<<73.0,0.0>--<77.0,0.0>>
-	* Racute (U+0154) contains a short segment B<<240.0,261.0>-<244.0,261.0>-<248.0,261.0>-<252.0,261.0>>
-	* uni0156 (U+0156) contains a short segment B<<240.0,261.0>-<244.0,261.0>-<248.0,261.0>-<252.0,261.0>>
-	* Rcaron (U+0158) contains a short segment B<<240.0,261.0>-<244.0,261.0>-<248.0,261.0>-<252.0,261.0>>
-	* Scedilla (U+015E) contains a short segment L<<212.0,-108.0>--<233.0,-110.0>>
-	* Scedilla (U+015E) contains a short segment L<<188.0,-241.0>--<208.0,-241.0>>
-	* uni0162 (U+0162) contains a short segment L<<187.0,0.0>--<204.0,0.0>> and 12 more. [code: found-short-segments]
+	* Racute (U+0154) contains a short segment B<<237.0,262.0>-<241.0,262.0>-<245.0,262.0>-<250.0,262.0>>
+	* uni0156 (U+0156) contains a short segment B<<237.0,262.0>-<241.0,262.0>-<245.0,262.0>-<250.0,262.0>>
+	* Rcaron (U+0158) contains a short segment B<<237.0,262.0>-<241.0,262.0>-<245.0,262.0>-<250.0,262.0>>
+	* Scedilla (U+015E) contains a short segment L<<211.0,-107.0>--<232.0,-109.0>>
+	* Scedilla (U+015E) contains a short segment L<<187.0,-240.0>--<206.0,-240.0>>
+	* uni0162 (U+0162) contains a short segment L<<185.0,0.0>--<202.0,0.0>> and 13 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -1258,10 +1295,9 @@ This check is not run for variable fonts, as they may legitimately have colinear
 vectors.</pre>
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* at (U+0040): L<<494.0,298.0>--<494.0,152.0>> -> L<<494.0,152.0>--<495.0,139.0>>
-	* exclam (U+0021): L<<172.0,206.0>--<186.0,514.0>> -> L<<186.0,514.0>--<186.0,690.0>>
-	* exclam (U+0021): L<<92.0,690.0>--<92.0,514.0>> -> L<<92.0,514.0>--<106.0,206.0>>
-	* exclamdown (U+00A1): L<<106.0,308.0>--<92.0,0.0>> -> L<<92.0,0.0>--<92.0,-185.0>> and exclamdown (U+00A1): L<<186.0,-185.0>--<186.0,0.0>> -> L<<186.0,0.0>--<172.0,308.0>> [code: found-colinear-vectors]
+	* exclam (U+0021): L<<172.0,204.0>--<186.0,514.0>> -> L<<186.0,514.0>--<186.0,690.0>>
+	* exclam (U+0021): L<<94.0,690.0>--<94.0,514.0>> -> L<<94.0,514.0>--<108.0,204.0>>
+	* exclamdown (U+00A1): L<<108.0,309.0>--<94.0,0.0>> -> L<<94.0,0.0>--<94.0,-185.0>> and exclamdown (U+00A1): L<<186.0,-185.0>--<186.0,0.0>> -> L<<186.0,0.0>--<172.0,309.0>> [code: found-colinear-vectors]
 
 </details>
 <br>
@@ -1423,46 +1459,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -1726,19 +1762,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -2007,46 +2043,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -2298,19 +2334,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -2573,19 +2609,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -2777,19 +2813,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -2871,7 +2907,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-CanadaCondensed-Bold.otf</b></summary>
+<summary><b>[13] Radio-CanadaCondensed-Bold.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -3056,46 +3092,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -3115,16 +3151,16 @@ generate significant numbers of false positives, it will pass if there are more
 than 100 reported misalignments.</pre>
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* dollar (U+0024): X=322.0,Y=-2.0 (should be at baseline 0?)
-	* parenleft (U+0028): X=217.0,Y=-256.0 (should be at descender -255?)
-	* parenright (U+0029): X=29.0,Y=-257.0 (should be at descender -255?)
-	* eth (U+00F0): X=271.0,Y=689.0 (should be at cap-height 690?)
-	* ccaron (U+010D): X=256.0,Y=689.0 (should be at cap-height 690?)
-	* ebreve (U+0115): X=250.0,Y=688.0 (should be at cap-height 690?)
-	* ecaron (U+011B): X=250.0,Y=689.0 (should be at cap-height 690?)
-	* hcircumflex (U+0125): X=192.0,Y=946.0 (should be at ascender 945?)
-	* hcircumflex (U+0125): X=65.0,Y=946.0 (should be at ascender 945?)
-	* Lcaron (U+013D): X=434.0,Y=692.0 (should be at cap-height 690?) and 28 more. [code: found-misalignments]
+	* parenright (U+0029): X=25.0,Y=-253.0 (should be at descender -255?)
+	* j (U+006A): X=189.0,Y=1.0 (should be at baseline 0?)
+	* questiondown (U+00BF): X=353.0,Y=-1.0 (should be at baseline 0?)
+	* eth (U+00F0): X=272.0,Y=688.0 (should be at cap-height 690?)
+	* amacron (U+0101): X=365.0,Y=692.0 (should be at cap-height 690?)
+	* amacron (U+0101): X=79.0,Y=692.0 (should be at cap-height 690?)
+	* hcircumflex (U+0125): X=185.0,Y=946.0 (should be at ascender 945?)
+	* hcircumflex (U+0125): X=66.0,Y=946.0 (should be at ascender 945?)
+	* ij (U+0133): X=441.0,Y=1.0 (should be at baseline 0?)
+	* jcircumflex (U+0135): X=189.0,Y=1.0 (should be at baseline 0?) and 40 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -3139,16 +3175,16 @@ segments. As this check is liable to generate significant numbers of false
 positives, it will pass if there are more than 100 reported short segments.</pre>
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* sterling (U+00A3) contains a short segment L<<116.0,265.0>--<116.0,262.0>>
-	* Ccedilla (U+00C7) contains a short segment L<<265.0,-96.0>--<280.0,-98.0>>
-	* Aogonek (U+0104) contains a short segment L<<405.0,0.0>--<403.0,0.0>>
-	* Scedilla (U+015E) contains a short segment L<<205.0,-96.0>--<220.0,-98.0>>
-	* scedilla (U+015F) contains a short segment L<<130.0,-96.0>--<145.0,-98.0>>
-	* uni0162 (U+0162) contains a short segment L<<194.0,-96.0>--<209.0,-98.0>>
-	* uni0163 (U+0163) contains a short segment L<<151.0,-96.0>--<166.0,-98.0>>
-	* uni0163 (U+0163) contains a short segment B<<238.0,-12.0>-<240.0,-12.0>-<243.0,-12.0>-<246.0,-12.0>>
-	* lira (U+20A4) contains a short segment B<<85.0,485.0>-<85.0,480.0>-<85.0,474.0>-<85.0,469.0>>
-	* uni20AD (U+20AD) contains a short segment L<<261.0,276.0>--<268.0,276.0>> and 4 more. [code: found-short-segments]
+	* f (U+0066) contains a short segment L<<214.0,523.0>--<214.0,529.0>>
+	* sterling (U+00A3) contains a short segment B<<120.0,272.0>-<120.0,269.0>-<120.0,265.0>-<120.0,262.0>>
+	* yen (U+00A5) contains a short segment L<<184.0,286.0>--<185.0,285.0>>
+	* uni03BC.math (U+00B5) contains a short segment B<<511.0,114.0>-<505.0,112.0>-<500.0,111.0>-<494.0,111.0>>
+	* Ccedilla (U+00C7) contains a short segment L<<262.0,-99.0>--<278.0,-101.0>>
+	* Scedilla (U+015E) contains a short segment L<<207.0,-99.0>--<223.0,-101.0>>
+	* scedilla (U+015F) contains a short segment L<<137.0,-99.0>--<153.0,-101.0>>
+	* uni0162 (U+0162) contains a short segment L<<193.0,-99.0>--<209.0,-101.0>>
+	* uni0163 (U+0163) contains a short segment L<<152.0,-99.0>--<168.0,-101.0>>
+	* uni0163 (U+0163) contains a short segment B<<235.0,-11.0>-<237.0,-12.0>-<240.0,-12.0>-<242.0,-12.0>> and 14 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -3162,23 +3198,9 @@ This check is not run for variable fonts, as they may legitimately have colinear
 vectors.</pre>
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* exclam (U+0021): L<<206.0,265.0>--<230.0,526.0>> -> L<<230.0,526.0>--<230.0,690.0>>
-	* exclam (U+0021): L<<78.0,690.0>--<78.0,526.0>> -> L<<78.0,526.0>--<102.0,265.0>>
-	* exclamdown (U+00A1): L<<102.0,261.0>--<78.0,0.0>> -> L<<78.0,0.0>--<78.0,-185.0>> and exclamdown (U+00A1): L<<230.0,-185.0>--<230.0,0.0>> -> L<<230.0,0.0>--<206.0,261.0>> [code: found-colinear-vectors]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary>
-
-* [com.google.fonts/check/outline_jaggy_segments](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments)
-<pre>--- Rationale ---
-This check heuristically detects outline segments which form a particularly
-small angle, indicative of an outline error. This may cause false positives in
-cases such as extreme ink traps, so should be regarded as advisory and backed up
-by manual inspection.</pre>
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-	* estimated (U+212E): B<<495.0,591.0>-<500.0,587.0>-<505.0,582.0>-<509.0,577.0>>/L<<509.0,577.0>--<495.0,591.0>> = 6.340191745909908 and estimated (U+212E): L<<509.0,577.0>--<495.0,591.0>>/B<<495.0,591.0>-<500.0,587.0>-<505.0,582.0>-<509.0,577.0>> = 6.340191745909908 [code: found-jaggy-segments]
+	* exclam (U+0021): L<<199.0,252.0>--<220.0,523.0>> -> L<<220.0,523.0>--<220.0,690.0>>
+	* exclam (U+0021): L<<81.0,690.0>--<81.0,523.0>> -> L<<81.0,523.0>--<103.0,252.0>>
+	* exclamdown (U+00A1): L<<103.0,271.0>--<81.0,0.0>> -> L<<81.0,0.0>--<81.0,-185.0>> and exclamdown (U+00A1): L<<220.0,-185.0>--<220.0,0.0>> -> L<<220.0,0.0>--<199.0,271.0>> [code: found-colinear-vectors]
 
 </details>
 <br>
@@ -3360,19 +3382,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -3630,19 +3652,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -3908,19 +3930,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -4010,7 +4032,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[9] Radio-Canada-Regular.otf</b></summary>
+<summary><b>[10] Radio-Canada-Regular.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -4026,6 +4048,24 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** Style name used in "fonts/otf/Radio-Canada-Regular.otf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
+
+* [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
+<pre>--- Rationale ---
+Google Fonts expects variable fonts, static ttfs and static otfs to have
+differing OS/2 usWeightClass values.
+For Variable Fonts, Thin-Black must be 100-900
+For static ttfs, Thin-Black can be 100-900 or 250-900
+For static otfs, Thin-Black must be 250-900
+If static otfs are set lower than 250, text may appear blurry in legacy Windows
+applications.
+Glyphsapp users can change the usWeightClass value of an instance by adding a
+&#x27;weightClass&#x27; customParameter.</pre>
+
+* 🔥 **FAIL** OS/2 usWeightClass is '420' when it should be '400'. [code: bad-value]
 
 </details>
 <details>
@@ -4140,46 +4180,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -4199,12 +4239,15 @@ generate significant numbers of false positives, it will pass if there are more
 than 100 reported misalignments.</pre>
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* uni022C (U+022C): X=218.0,Y=943.0 (should be at ascender 945?)
-	* uni022C (U+022C): X=514.0,Y=943.0 (should be at ascender 945?)
+	* braceleft (U+007B): X=308.0,Y=-253.0 (should be at descender -255?)
+	* braceright (U+007D): X=41.0,Y=-253.0 (should be at descender -255?)
+	* uni022C (U+022C): X=218.0,Y=944.0 (should be at ascender 945?)
+	* uni022C (U+022C): X=515.0,Y=944.0 (should be at ascender 945?)
 	* uni1EB2 (U+1EB2): X=291.0,Y=947.0 (should be at ascender 945?)
-	* uni1EB2 (U+1EB2): X=357.0,Y=947.0 (should be at ascender 945?)
-	* uni2074 (U+2074): X=310.0,Y=689.0 (should be at cap-height 690?)
-	* uni2074 (U+2074): X=222.0,Y=689.0 (should be at cap-height 690?) and colonmonetary (U+20A1): X=284.0,Y=688.0 (should be at cap-height 690?) [code: found-misalignments]
+	* uni1EB2 (U+1EB2): X=358.0,Y=947.0 (should be at ascender 945?)
+	* uni1EDE (U+1EDE): X=321.0,Y=947.0 (should be at ascender 945?)
+	* uni2074 (U+2074): X=311.0,Y=689.0 (should be at cap-height 690?)
+	* uni2074 (U+2074): X=221.0,Y=689.0 (should be at cap-height 690?) and colonmonetary (U+20A1): X=284.0,Y=688.0 (should be at cap-height 690?) [code: found-misalignments]
 
 </details>
 <details>
@@ -4219,14 +4262,15 @@ segments. As this check is liable to generate significant numbers of false
 positives, it will pass if there are more than 100 reported short segments.</pre>
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* aogonek (U+0105) contains a short segment L<<387.0,0.0>--<393.0,0.0>>
-	* uni0162 (U+0162) contains a short segment L<<240.0,0.0>--<256.0,0.0>>
-	* uni0163 (U+0163) contains a short segment B<<255.0,-10.0>-<258.0,-10.0>-<261.0,-10.0>-<264.0,-10.0>>
-	* uogonek (U+0173) contains a short segment L<<439.0,0.0>--<444.0,0.0>>
-	* colonmonetary (U+20A1) contains a short segment B<<371.0,-10.0>-<372.0,-10.0>-<372.0,-10.0>-<373.0,-10.0>>
-	* lira (U+20A4) contains a short segment B<<209.0,455.0>-<209.0,458.0>-<209.0,461.0>-<209.0,464.0>>
-	* lira (U+20A4) contains a short segment B<<115.0,474.0>-<115.0,467.0>-<115.0,461.0>-<116.0,455.0>>
-	* uni20AD (U+20AD) contains a short segment L<<352.0,373.0>--<341.0,389.0>> and uni20AD (U+20AD) contains a short segment L<<216.0,373.0>--<196.0,373.0>> [code: found-short-segments]
+	* aogonek (U+0105) contains a short segment L<<386.0,0.0>--<393.0,0.0>>
+	* Eng (U+014A) contains a short segment L<<549.0,0.0>--<549.0,-28.0>>
+	* uni0162 (U+0162) contains a short segment L<<239.0,0.0>--<256.0,0.0>>
+	* uni0163 (U+0163) contains a short segment B<<256.0,-10.0>-<259.0,-10.0>-<262.0,-10.0>-<265.0,-10.0>>
+	* uogonek (U+0173) contains a short segment L<<438.0,0.0>--<444.0,0.0>>
+	* lira (U+20A4) contains a short segment B<<211.0,456.0>-<211.0,458.0>-<211.0,461.0>-<211.0,464.0>>
+	* lira (U+20A4) contains a short segment B<<115.0,474.0>-<115.0,467.0>-<115.0,461.0>-<115.0,456.0>>
+	* uni20AD (U+20AD) contains a short segment L<<354.0,374.0>--<343.0,389.0>>
+	* uni20AD (U+20AD) contains a short segment L<<217.0,374.0>--<198.0,374.0>> and uni20B9 (U+20B9) contains a short segment B<<337.0,690.0>-<336.0,690.0>-<335.0,690.0>-<333.0,690.0>> [code: found-short-segments]
 
 </details>
 <details>
@@ -4240,9 +4284,9 @@ This check is not run for variable fonts, as they may legitimately have colinear
 vectors.</pre>
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* exclam (U+0021): L<<110.0,690.0>--<110.0,515.0>> -> L<<110.0,515.0>--<126.0,210.0>>
-	* exclam (U+0021): L<<196.0,210.0>--<212.0,515.0>> -> L<<212.0,515.0>--<212.0,690.0>>
-	* exclamdown (U+00A1): L<<126.0,305.0>--<110.0,0.0>> -> L<<110.0,0.0>--<110.0,-185.0>> and exclamdown (U+00A1): L<<212.0,-185.0>--<212.0,0.0>> -> L<<212.0,0.0>--<196.0,305.0>> [code: found-colinear-vectors]
+	* exclam (U+0021): L<<110.0,690.0>--<110.0,515.0>> -> L<<110.0,515.0>--<126.0,212.0>>
+	* exclam (U+0021): L<<197.0,212.0>--<214.0,515.0>> -> L<<214.0,515.0>--<214.0,690.0>>
+	* exclamdown (U+00A1): L<<126.0,304.0>--<110.0,0.0>> -> L<<110.0,0.0>--<110.0,-185.0>> and exclamdown (U+00A1): L<<214.0,-185.0>--<214.0,0.0>> -> L<<214.0,0.0>--<197.0,304.0>> [code: found-colinear-vectors]
 
 </details>
 <br>
@@ -4385,19 +4429,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -4469,7 +4513,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[12] Radio-CanadaCondensed-Medium.otf</b></summary>
+<summary><b>[13] Radio-CanadaCondensed-Medium.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -4502,7 +4546,7 @@ applications.
 Glyphsapp users can change the usWeightClass value of an instance by adding a
 &#x27;weightClass&#x27; customParameter.</pre>
 
-* 🔥 **FAIL** OS/2 usWeightClass is '450' when it should be '400'. [code: bad-value]
+* 🔥 **FAIL** OS/2 usWeightClass is '460' when it should be '400'. [code: bad-value]
 
 </details>
 <details>
@@ -4648,46 +4692,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -4707,14 +4751,16 @@ generate significant numbers of false positives, it will pass if there are more
 than 100 reported misalignments.</pre>
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* uni022C (U+022C): X=213.0,Y=943.0 (should be at ascender 945?)
-	* uni022C (U+022C): X=509.0,Y=943.0 (should be at ascender 945?)
-	* uni1EA8 (U+1EA8): X=435.0,Y=944.0 (should be at ascender 945?)
-	* uni1EC2 (U+1EC2): X=435.0,Y=944.0 (should be at ascender 945?)
-	* uni1ED4 (U+1ED4): X=471.0,Y=944.0 (should be at ascender 945?)
-	* uni2074 (U+2074): X=311.0,Y=689.0 (should be at cap-height 690?)
-	* uni2074 (U+2074): X=218.0,Y=689.0 (should be at cap-height 690?)
-	* colonmonetary (U+20A1): X=292.0,Y=-2.0 (should be at baseline 0?) and colonmonetary (U+20A1): X=282.0,Y=689.0 (should be at cap-height 690?) [code: found-misalignments]
+	* f (U+0066): X=308.0,Y=515.0 (should be at x-height 516?)
+	* f (U+0066): X=184.0,Y=515.0 (should be at x-height 516?)
+	* f (U+0066): X=92.0,Y=515.0 (should be at x-height 516?)
+	* f (U+0066): X=16.0,Y=515.0 (should be at x-height 516?)
+	* braceleft (U+007B): X=259.0,Y=-253.0 (should be at descender -255?)
+	* braceright (U+007D): X=39.0,Y=-254.0 (should be at descender -255?)
+	* uni03BC.math (U+00B5): X=480.0,Y=-2.0 (should be at baseline 0?)
+	* aring (U+00E5): X=116.0,Y=692.0 (should be at cap-height 690?)
+	* aring (U+00E5): X=331.0,Y=692.0 (should be at cap-height 690?)
+	* aring (U+00E5): X=116.0,Y=692.0 (should be at cap-height 690?) and 35 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -4729,15 +4775,16 @@ segments. As this check is liable to generate significant numbers of false
 positives, it will pass if there are more than 100 reported short segments.</pre>
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* aogonek (U+0105) contains a short segment L<<379.0,0.0>--<386.0,0.0>>
-	* iogonek (U+012F) contains a short segment L<<87.0,0.0>--<89.0,0.0>>
-	* Eng (U+014A) contains a short segment L<<540.0,0.0>--<540.0,-27.0>>
-	* uni0162 (U+0162) contains a short segment L<<234.0,0.0>--<252.0,0.0>>
-	* uni0163 (U+0163) contains a short segment B<<253.0,-10.0>-<256.0,-10.0>-<259.0,-10.0>-<262.0,-10.0>>
-	* uogonek (U+0173) contains a short segment L<<431.0,0.0>--<438.0,0.0>>
-	* lira (U+20A4) contains a short segment B<<210.0,456.0>-<210.0,458.0>-<210.0,461.0>-<210.0,464.0>>
-	* lira (U+20A4) contains a short segment B<<112.0,475.0>-<112.0,468.0>-<113.0,462.0>-<113.0,456.0>>
-	* uni20AD (U+20AD) contains a short segment L<<353.0,375.0>--<343.0,390.0>> and uni20AD (U+20AD) contains a short segment L<<216.0,375.0>--<197.0,375.0>> [code: found-short-segments]
+	* R (U+0052) contains a short segment B<<245.0,259.0>-<248.0,259.0>-<251.0,259.0>-<254.0,259.0>>
+	* yen (U+00A5) contains a short segment L<<296.0,302.0>--<302.0,302.0>>
+	* yen (U+00A5) contains a short segment L<<302.0,302.0>--<302.0,303.0>>
+	* yen (U+00A5) contains a short segment L<<198.0,303.0>--<199.0,302.0>>
+	* yen (U+00A5) contains a short segment L<<199.0,302.0>--<204.0,302.0>>
+	* uni03BC.math (U+00B5) contains a short segment B<<481.0,77.0>-<476.0,75.0>-<473.0,74.0>-<469.0,74.0>>
+	* aogonek (U+0105) contains a short segment L<<318.0,0.0>--<328.0,0.0>>
+	* iogonek (U+012F) contains a short segment L<<72.0,0.0>--<77.0,0.0>>
+	* Racute (U+0154) contains a short segment B<<245.0,259.0>-<248.0,259.0>-<251.0,259.0>-<254.0,259.0>>
+	* uni0156 (U+0156) contains a short segment B<<245.0,259.0>-<248.0,259.0>-<251.0,259.0>-<254.0,259.0>> and 15 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -4751,15 +4798,40 @@ This check is not run for variable fonts, as they may legitimately have colinear
 vectors.</pre>
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* exclam (U+0021): L<<107.0,690.0>--<107.0,516.0>> -> L<<107.0,516.0>--<124.0,215.0>>
-	* exclam (U+0021): L<<197.0,215.0>--<214.0,516.0>> -> L<<214.0,516.0>--<214.0,690.0>>
-	* exclamdown (U+00A1): L<<124.0,301.0>--<107.0,0.0>> -> L<<107.0,0.0>--<107.0,-185.0>> and exclamdown (U+00A1): L<<214.0,-185.0>--<214.0,0.0>> -> L<<214.0,0.0>--<197.0,301.0>> [code: found-colinear-vectors]
+	* at (U+0040): L<<492.0,299.0>--<492.0,150.0>> -> L<<492.0,150.0>--<493.0,140.0>>
+	* exclam (U+0021): L<<175.0,212.0>--<190.0,515.0>> -> L<<190.0,515.0>--<190.0,690.0>>
+	* exclam (U+0021): L<<91.0,690.0>--<91.0,515.0>> -> L<<91.0,515.0>--<106.0,212.0>>
+	* exclamdown (U+00A1): L<<106.0,303.0>--<91.0,0.0>> -> L<<91.0,0.0>--<91.0,-185.0>> and exclamdown (U+00A1): L<<190.0,-185.0>--<190.0,0.0>> -> L<<190.0,0.0>--<175.0,303.0>> [code: found-colinear-vectors]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
+
+* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
+<pre>--- Rationale ---
+This check detects line segments which are nearly, but not quite, exactly
+horizontal or vertical. Sometimes such lines are created by design, but often
+they are indicative of a design error.
+This check is disabled for italic styles, which often contain nearly-upright
+lines.</pre>
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * u (U+0075): L<<441.0,122.0>--<442.0,516.0>>
+ * uacute (U+00FA): L<<441.0,122.0>--<442.0,516.0>>
+ * ubreve (U+016D): L<<441.0,122.0>--<442.0,516.0>>
+ * ucircumflex (U+00FB): L<<441.0,122.0>--<442.0,516.0>>
+ * udieresis (U+00FC): L<<441.0,122.0>--<442.0,516.0>>
+ * ugrave (U+00F9): L<<441.0,122.0>--<442.0,516.0>>
+ * uhorn (U+01B0): L<<441.0,122.0>--<442.0,441.0>>
+ * uhungarumlaut (U+0171): L<<441.0,122.0>--<442.0,516.0>>
+ * umacron (U+016B): L<<441.0,122.0>--<442.0,516.0>>
+ * uni0215 (U+0215): L<<441.0,122.0>--<442.0,516.0>> and 13 more. [code: found-semi-vertical]
 
 </details>
 <br>
 </details>
 <details>
-<summary><b>[12] Radio-Canada-SemiBold.otf</b></summary>
+<summary><b>[13] Radio-Canada-SemiBold.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -4938,46 +5010,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -4997,16 +5069,16 @@ generate significant numbers of false positives, it will pass if there are more
 than 100 reported misalignments.</pre>
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* questiondown (U+00BF): X=193.0,Y=2.0 (should be at baseline 0?)
-	* Lcaron (U+013D): X=471.0,Y=691.0 (should be at cap-height 690?)
+	* ntilde (U+00F1): X=376.0,Y=691.0 (should be at cap-height 690?)
+	* itilde (U+0129): X=200.0,Y=691.0 (should be at cap-height 690?)
+	* Lcaron (U+013D): X=472.0,Y=691.0 (should be at cap-height 690?)
 	* Lcaron (U+013D): X=355.0,Y=691.0 (should be at cap-height 690?)
-	* uni022A (U+022A): X=208.0,Y=946.0 (should be at ascender 945?)
-	* uni022A (U+022A): X=529.0,Y=946.0 (should be at ascender 945?)
-	* uni1EA7 (U+1EA7): X=99.0,Y=943.0 (should be at ascender 945?)
-	* uni1EA7 (U+1EA7): X=244.0,Y=943.0 (should be at ascender 945?)
-	* uni1EC1 (U+1EC1): X=125.0,Y=943.0 (should be at ascender 945?)
-	* uni1EC1 (U+1EC1): X=270.0,Y=943.0 (should be at ascender 945?)
-	* uni1ED3 (U+1ED3): X=126.0,Y=943.0 (should be at ascender 945?) and 8 more. [code: found-misalignments]
+	* tilde (U+02DC): X=356.0,Y=691.0 (should be at cap-height 690?)
+	* hookabovecomb (U+0309): X=83.0,Y=688.0 (should be at cap-height 690?)
+	* uni1EA2 (U+1EA2): X=290.0,Y=946.0 (should be at ascender 945?)
+	* uni1EA3 (U+1EA3): X=348.0,Y=688.0 (should be at cap-height 690?)
+	* uni1EA7 (U+1EA7): X=98.0,Y=943.0 (should be at ascender 945?)
+	* uni1EA7 (U+1EA7): X=244.0,Y=943.0 (should be at ascender 945?) and 23 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -5021,16 +5093,16 @@ segments. As this check is liable to generate significant numbers of false
 positives, it will pass if there are more than 100 reported short segments.</pre>
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* ampersand (U+0026) contains a short segment L<<360.0,353.0>--<373.0,360.0>>
-	* sterling (U+00A3) contains a short segment B<<272.0,260.0>-<272.0,265.0>-<272.0,270.0>-<272.0,275.0>>
+	* ampersand (U+0026) contains a short segment L<<361.0,353.0>--<373.0,360.0>>
+	* sterling (U+00A3) contains a short segment B<<273.0,260.0>-<273.0,265.0>-<273.0,270.0>-<273.0,275.0>>
 	* sterling (U+00A3) contains a short segment B<<146.0,275.0>-<146.0,270.0>-<146.0,265.0>-<146.0,260.0>>
-	* aogonek (U+0105) contains a short segment L<<369.0,0.0>--<386.0,0.0>>
-	* Eng (U+014A) contains a short segment L<<539.0,0.0>--<539.0,-4.0>>
-	* uni0163 (U+0163) contains a short segment B<<266.0,-11.0>-<270.0,-11.0>-<274.0,-11.0>-<279.0,-11.0>>
+	* uni03BC.math (U+00B5) contains a short segment B<<578.0,102.0>-<571.0,99.0>-<566.0,98.0>-<559.0,98.0>>
+	* aogonek (U+0105) contains a short segment L<<369.0,0.0>--<385.0,0.0>>
+	* Eng (U+014A) contains a short segment L<<538.0,0.0>--<538.0,-3.0>>
+	* uni0163 (U+0163) contains a short segment B<<266.0,-11.0>-<270.0,-11.0>-<275.0,-11.0>-<279.0,-11.0>>
 	* uogonek (U+0173) contains a short segment L<<429.0,0.0>--<445.0,0.0>>
-	* florin (U+0192) contains a short segment L<<344.0,521.0>--<344.0,538.0>>
-	* uni20AD (U+20AD) contains a short segment L<<286.0,280.0>--<304.0,280.0>>
-	* uni20AD (U+20AD) contains a short segment L<<385.0,383.0>--<380.0,390.0>> and 8 more. [code: found-short-segments]
+	* florin (U+0192) contains a short segment L<<344.0,521.0>--<344.0,537.0>>
+	* uni03BC (U+03BC) contains a short segment B<<578.0,102.0>-<571.0,99.0>-<566.0,98.0>-<559.0,98.0>> and 11 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -5044,15 +5116,34 @@ This check is not run for variable fonts, as they may legitimately have colinear
 vectors.</pre>
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* exclam (U+0021): L<<102.0,690.0>--<102.0,521.0>> -> L<<102.0,521.0>--<124.0,238.0>>
-	* exclam (U+0021): L<<219.0,238.0>--<240.0,521.0>> -> L<<240.0,521.0>--<240.0,690.0>>
-	* exclamdown (U+00A1): L<<124.0,282.0>--<102.0,0.0>> -> L<<102.0,0.0>--<102.0,-185.0>> and exclamdown (U+00A1): L<<240.0,-185.0>--<240.0,0.0>> -> L<<240.0,0.0>--<219.0,282.0>> [code: found-colinear-vectors]
+	* exclam (U+0021): L<<102.0,690.0>--<102.0,521.0>> -> L<<102.0,521.0>--<124.0,239.0>>
+	* exclam (U+0021): L<<219.0,239.0>--<241.0,521.0>> -> L<<241.0,521.0>--<241.0,690.0>>
+	* exclamdown (U+00A1): L<<124.0,282.0>--<102.0,0.0>> -> L<<102.0,0.0>--<102.0,-185.0>> and exclamdown (U+00A1): L<<241.0,-185.0>--<241.0,0.0>> -> L<<241.0,0.0>--<219.0,282.0>> [code: found-colinear-vectors]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
+
+* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
+<pre>--- Rationale ---
+This check detects line segments which are nearly, but not quite, exactly
+horizontal or vertical. Sometimes such lines are created by design, but often
+they are indicative of a design error.
+This check is disabled for italic styles, which often contain nearly-upright
+lines.</pre>
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * r (U+0072): L<<369.0,404.0>--<370.0,532.0>>
+ * racute (U+0155): L<<369.0,404.0>--<370.0,532.0>>
+ * rcaron (U+0159): L<<369.0,404.0>--<370.0,532.0>>
+ * uni0157 (U+0157): L<<369.0,404.0>--<370.0,532.0>>
+ * uni0211 (U+0211): L<<369.0,404.0>--<370.0,532.0>> and uni0213 (U+0213): L<<369.0,404.0>--<370.0,532.0>> [code: found-semi-vertical]
 
 </details>
 <br>
 </details>
 <details>
-<summary><b>[11] Radio-Canada-Medium.otf</b></summary>
+<summary><b>[12] Radio-Canada-Medium.otf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -5210,46 +5301,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -5269,14 +5360,16 @@ generate significant numbers of false positives, it will pass if there are more
 than 100 reported misalignments.</pre>
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* braceleft (U+007B): X=309.0,Y=-256.0 (should be at descender -255?)
+	* bracketleft (U+005B): X=98.0,Y=-253.0 (should be at descender -255?)
+	* bracketleft (U+005B): X=349.0,Y=-253.0 (should be at descender -255?)
+	* bracketright (U+005D): X=-29.0,Y=-253.0 (should be at descender -255?)
+	* bracketright (U+005D): X=223.0,Y=-253.0 (should be at descender -255?)
+	* braceleft (U+007B): X=310.0,Y=-256.0 (should be at descender -255?)
 	* braceright (U+007D): X=41.0,Y=-256.0 (should be at descender -255?)
-	* uni1EA8 (U+1EA8): X=442.0,Y=946.0 (should be at ascender 945?)
-	* uni1EC2 (U+1EC2): X=442.0,Y=946.0 (should be at ascender 945?)
-	* uni1ED4 (U+1ED4): X=479.0,Y=946.0 (should be at ascender 945?)
-	* uni2074 (U+2074): X=314.0,Y=689.0 (should be at cap-height 690?)
-	* uni2074 (U+2074): X=219.0,Y=689.0 (should be at cap-height 690?)
-	* colonmonetary (U+20A1): X=300.0,Y=-2.0 (should be at baseline 0?) and colonmonetary (U+20A1): X=286.0,Y=688.0 (should be at cap-height 690?) [code: found-misalignments]
+	* uni022C (U+022C): X=216.0,Y=946.0 (should be at ascender 945?)
+	* uni022C (U+022C): X=519.0,Y=946.0 (should be at ascender 945?)
+	* uni1EA8 (U+1EA8): X=443.0,Y=947.0 (should be at ascender 945?)
+	* uni1EC2 (U+1EC2): X=442.0,Y=947.0 (should be at ascender 945?) and 6 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -5291,14 +5384,14 @@ segments. As this check is liable to generate significant numbers of false
 positives, it will pass if there are more than 100 reported short segments.</pre>
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* aogonek (U+0105) contains a short segment L<<383.0,0.0>--<391.0,0.0>>
-	* Eng (U+014A) contains a short segment L<<547.0,0.0>--<547.0,-24.0>>
-	* uni0163 (U+0163) contains a short segment B<<258.0,-10.0>-<261.0,-10.0>-<264.0,-10.0>-<268.0,-10.0>>
-	* uogonek (U+0173) contains a short segment L<<437.0,0.0>--<444.0,0.0>>
-	* lira (U+20A4) contains a short segment B<<216.0,458.0>-<216.0,459.0>-<216.0,461.0>-<216.0,463.0>>
-	* lira (U+20A4) contains a short segment B<<114.0,473.0>-<114.0,468.0>-<114.0,463.0>-<114.0,458.0>>
-	* uni20AD (U+20AD) contains a short segment L<<360.0,375.0>--<350.0,389.0>>
-	* uni20AD (U+20AD) contains a short segment L<<219.0,375.0>--<203.0,375.0>> and uni20B9 (U+20B9) contains a short segment B<<345.0,690.0>-<341.0,690.0>-<338.0,690.0>-<335.0,690.0>> [code: found-short-segments]
+	* aogonek (U+0105) contains a short segment L<<382.0,0.0>--<391.0,0.0>>
+	* Eng (U+014A) contains a short segment L<<547.0,0.0>--<547.0,-22.0>>
+	* uni0163 (U+0163) contains a short segment B<<258.0,-10.0>-<262.0,-10.0>-<265.0,-10.0>-<268.0,-10.0>>
+	* uogonek (U+0173) contains a short segment L<<436.0,0.0>--<444.0,0.0>>
+	* lira (U+20A4) contains a short segment B<<218.0,459.0>-<218.0,459.0>-<218.0,461.0>-<218.0,462.0>>
+	* lira (U+20A4) contains a short segment B<<113.0,472.0>-<113.0,468.0>-<113.0,463.0>-<114.0,459.0>>
+	* uni20AD (U+20AD) contains a short segment L<<362.0,376.0>--<352.0,389.0>>
+	* uni20AD (U+20AD) contains a short segment L<<220.0,376.0>--<204.0,376.0>> and uni20B9 (U+20B9) contains a short segment B<<346.0,690.0>-<342.0,690.0>-<339.0,690.0>-<335.0,690.0>> [code: found-short-segments]
 
 </details>
 <details>
@@ -5312,9 +5405,24 @@ This check is not run for variable fonts, as they may legitimately have colinear
 vectors.</pre>
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* exclam (U+0021): L<<108.0,690.0>--<108.0,516.0>> -> L<<108.0,516.0>--<125.0,217.0>>
-	* exclam (U+0021): L<<202.0,217.0>--<219.0,516.0>> -> L<<219.0,516.0>--<219.0,690.0>>
-	* exclamdown (U+00A1): L<<125.0,299.0>--<108.0,0.0>> -> L<<108.0,0.0>--<108.0,-185.0>> and exclamdown (U+00A1): L<<219.0,-185.0>--<219.0,0.0>> -> L<<219.0,0.0>--<202.0,299.0>> [code: found-colinear-vectors]
+	* exclam (U+0021): L<<108.0,690.0>--<108.0,517.0>> -> L<<108.0,517.0>--<125.0,218.0>>
+	* exclam (U+0021): L<<203.0,218.0>--<220.0,517.0>> -> L<<220.0,517.0>--<220.0,690.0>>
+	* exclamdown (U+00A1): L<<125.0,298.0>--<108.0,0.0>> -> L<<108.0,0.0>--<108.0,-185.0>> and exclamdown (U+00A1): L<<220.0,-185.0>--<220.0,0.0>> -> L<<220.0,0.0>--<203.0,298.0>> [code: found-colinear-vectors]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
+
+* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
+<pre>--- Rationale ---
+This check detects line segments which are nearly, but not quite, exactly
+horizontal or vertical. Sometimes such lines are created by design, but often
+they are indicative of a design error.
+This check is disabled for italic styles, which often contain nearly-upright
+lines.</pre>
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * uni20BC (U+20BC): L<<87.0,436.0>--<88.0,0.0>> [code: found-semi-vertical]
 
 </details>
 <br>
@@ -5478,19 +5586,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -5720,46 +5828,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -5982,19 +6090,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -6325,46 +6433,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -6698,19 +6806,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -6875,7 +6983,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[12] Radio-Canada-Regular.ttf</b></summary>
+<summary><b>[13] Radio-Canada-Regular.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -6891,6 +6999,24 @@ and separated by commas:
 - Familyname-Italic[wght].ttf</pre>
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/Radio-Canada-Regular.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
+
+* [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
+<pre>--- Rationale ---
+Google Fonts expects variable fonts, static ttfs and static otfs to have
+differing OS/2 usWeightClass values.
+For Variable Fonts, Thin-Black must be 100-900
+For static ttfs, Thin-Black can be 100-900 or 250-900
+For static otfs, Thin-Black must be 250-900
+If static otfs are set lower than 250, text may appear blurry in legacy Windows
+applications.
+Glyphsapp users can change the usWeightClass value of an instance by adding a
+&#x27;weightClass&#x27; customParameter.</pre>
+
+* 🔥 **FAIL** OS/2 usWeightClass is '420' when it should be '400'. [code: bad-value]
 
 </details>
 <details>
@@ -7015,46 +7141,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -7145,16 +7271,16 @@ generate significant numbers of false positives, it will pass if there are more
 than 100 reported misalignments.</pre>
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* uni03BC.math (U+00B5): X=213.5,Y=1.0 (should be at baseline 0?)
+	* braceleft (U+007B): X=308.0,Y=-253.0 (should be at descender -255?)
+	* braceright (U+007D): X=41.0,Y=-253.0 (should be at descender -255?)
+	* uni03BC.math (U+00B5): X=214.0,Y=1.0 (should be at baseline 0?)
 	* atilde (U+00E3): X=290.0,Y=688.5 (should be at cap-height 690?)
-	* ntilde (U+00F1): X=339.0,Y=688.5 (should be at cap-height 690?)
+	* ntilde (U+00F1): X=339.0,Y=689.0 (should be at cap-height 690?)
 	* otilde (U+00F5): X=311.0,Y=688.5 (should be at cap-height 690?)
-	* itilde (U+0129): X=161.0,Y=688.5 (should be at cap-height 690?)
-	* oe (U+0153): X=722.0,Y=1.5 (should be at baseline 0?)
+	* itilde (U+0129): X=161.0,Y=689.0 (should be at cap-height 690?)
+	* oe (U+0153): X=723.0,Y=1.5 (should be at baseline 0?)
 	* utilde (U+0169): X=323.0,Y=688.5 (should be at cap-height 690?)
-	* uni022C (U+022C): X=218.0,Y=943.0 (should be at ascender 945?)
-	* uni022C (U+022C): X=514.0,Y=943.0 (should be at ascender 945?)
-	* uni022D (U+022D): X=311.0,Y=688.5 (should be at cap-height 690?) and 12 more. [code: found-misalignments]
+	* uni022C (U+022C): X=217.0,Y=944.0 (should be at ascender 945?) and 19 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -7169,16 +7295,16 @@ segments. As this check is liable to generate significant numbers of false
 positives, it will pass if there are more than 100 reported short segments.</pre>
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* at (U+0040) contains a short segment B<<691.0,451.0>-<687.0,429.0>-<685.5,411.5>>
-	* at (U+0040) contains a short segment B<<685.5,411.5>-<684.0,394.0>-<684.0,373.0>>
-	* a (U+0061) contains a short segment L<<366.0,308.0>--<366.0,314.0>>
-	* ordfeminine (U+00AA) contains a short segment L<<288.0,531.0>--<288.0,535.0>>
-	* agrave (U+00E0) contains a short segment L<<366.0,308.0>--<366.0,314.0>>
-	* aacute (U+00E1) contains a short segment L<<366.0,308.0>--<366.0,314.0>>
-	* acircumflex (U+00E2) contains a short segment L<<366.0,308.0>--<366.0,314.0>>
-	* atilde (U+00E3) contains a short segment L<<366.0,308.0>--<366.0,314.0>>
-	* adieresis (U+00E4) contains a short segment L<<366.0,308.0>--<366.0,314.0>>
-	* aring (U+00E5) contains a short segment L<<366.0,308.0>--<366.0,314.0>> and 37 more. [code: found-short-segments]
+	* at (U+0040) contains a short segment B<<692.0,451.0>-<688.0,429.0>-<686.5,411.5>>
+	* at (U+0040) contains a short segment B<<686.5,411.5>-<685.0,394.0>-<685.0,373.0>>
+	* a (U+0061) contains a short segment L<<365.0,308.0>--<365.0,314.0>>
+	* ordfeminine (U+00AA) contains a short segment L<<287.0,531.0>--<287.0,535.0>>
+	* agrave (U+00E0) contains a short segment L<<365.0,308.0>--<365.0,314.0>>
+	* aacute (U+00E1) contains a short segment L<<365.0,308.0>--<365.0,314.0>>
+	* acircumflex (U+00E2) contains a short segment L<<365.0,308.0>--<365.0,314.0>>
+	* atilde (U+00E3) contains a short segment L<<365.0,308.0>--<365.0,314.0>>
+	* adieresis (U+00E4) contains a short segment L<<365.0,308.0>--<365.0,314.0>>
+	* aring (U+00E5) contains a short segment L<<365.0,308.0>--<365.0,314.0>> and 37 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -7192,9 +7318,9 @@ This check is not run for variable fonts, as they may legitimately have colinear
 vectors.</pre>
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* exclam (U+0021): L<<126.0,210.0>--<110.0,515.0>> -> L<<110.0,515.0>--<110.0,690.0>>
-	* exclam (U+0021): L<<212.0,690.0>--<212.0,515.0>> -> L<<212.0,515.0>--<196.0,210.0>>
-	* exclamdown (U+00A1): L<<110.0,-185.0>--<110.0,0.0>> -> L<<110.0,0.0>--<126.0,305.0>> and exclamdown (U+00A1): L<<196.0,305.0>--<212.0,0.0>> -> L<<212.0,0.0>--<212.0,-185.0>> [code: found-colinear-vectors]
+	* exclam (U+0021): L<<126.0,212.0>--<110.0,515.0>> -> L<<110.0,515.0>--<110.0,690.0>>
+	* exclam (U+0021): L<<214.0,690.0>--<214.0,515.0>> -> L<<214.0,515.0>--<197.0,212.0>>
+	* exclamdown (U+00A1): L<<110.0,-185.0>--<110.0,0.0>> -> L<<110.0,0.0>--<126.0,304.0>> and exclamdown (U+00A1): L<<197.0,304.0>--<214.0,0.0>> -> L<<214.0,0.0>--<214.0,-185.0>> [code: found-colinear-vectors]
 
 </details>
 <details>
@@ -7208,7 +7334,7 @@ cases such as extreme ink traps, so should be regarded as advisory and backed up
 by manual inspection.</pre>
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
-	* uni20BA (U+20BA): B<<407.5,75.0>-<333.0,4.0>-<196.0,0.0>>/L<<196.0,0.0>--<196.0,0.0>> = 1.6723943610890797 [code: found-jaggy-segments]
+	* uni20BA (U+20BA): B<<410.0,75.0>-<335.0,4.0>-<198.0,0.0>>/L<<198.0,0.0>--<198.0,0.0>> = 1.6723943610890797 [code: found-jaggy-segments]
 
 </details>
 <br>
@@ -7406,19 +7532,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -7722,19 +7848,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -8075,19 +8201,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -8429,46 +8555,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -8817,46 +8943,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -8947,16 +9073,16 @@ generate significant numbers of false positives, it will pass if there are more
 than 100 reported misalignments.</pre>
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* six (U+0036): X=414.5,Y=690.5 (should be at cap-height 690?)
-	* e (U+0065): X=374.0,Y=2.0 (should be at baseline 0?)
-	* s (U+0073): X=323.5,Y=519.0 (should be at x-height 520?)
-	* ordfeminine (U+00AA): X=118.5,Y=690.5 (should be at cap-height 690?)
-	* germandbls (U+00DF): X=284.0,Y=1.0 (should be at baseline 0?)
-	* atilde (U+00E3): X=127.0,Y=691.5 (should be at cap-height 690?)
-	* atilde (U+00E3): X=262.0,Y=691.5 (should be at cap-height 690?)
-	* atilde (U+00E3): X=308.0,Y=688.5 (should be at cap-height 690?)
-	* adieresis (U+00E4): X=103.5,Y=691.0 (should be at cap-height 690?)
-	* adieresis (U+00E4): X=195.0,Y=691.0 (should be at cap-height 690?) and 82 more. [code: found-misalignments]
+	* six (U+0036): X=375.5,Y=691.5 (should be at cap-height 690?)
+	* d (U+0064): X=283.0,Y=517.5 (should be at x-height 519?)
+	* p (U+0070): X=223.5,Y=1.5 (should be at baseline 0?)
+	* s (U+0073): X=299.0,Y=517.5 (should be at x-height 519?)
+	* ordfeminine (U+00AA): X=108.5,Y=691.0 (should be at cap-height 690?)
+	* uni03BC.math (U+00B5): X=495.0,Y=-1.0 (should be at baseline 0?)
+	* questiondown (U+00BF): X=160.0,Y=-2.0 (should be at baseline 0?)
+	* germandbls (U+00DF): X=259.5,Y=-1.0 (should be at baseline 0?)
+	* atilde (U+00E3): X=240.0,Y=688.5 (should be at cap-height 690?)
+	* adieresis (U+00E4): X=94.0,Y=688.0 (should be at cap-height 690?) and 74 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -8971,16 +9097,16 @@ segments. As this check is liable to generate significant numbers of false
 positives, it will pass if there are more than 100 reported short segments.</pre>
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* ampersand (U+0026) contains a short segment L<<234.0,293.0>--<231.0,291.0>>
-	* at (U+0040) contains a short segment B<<652.0,448.0>-<649.0,427.0>-<647.5,409.5>>
-	* at (U+0040) contains a short segment B<<647.5,409.5>-<646.0,392.0>-<646.0,371.0>>
-	* at (U+0040) contains a short segment B<<658.5,100.5>-<671.0,84.0>-<692.0,84.0>>
-	* a (U+0061) contains a short segment L<<321.0,312.0>--<321.0,316.0>>
-	* sterling (U+00A3) contains a short segment B<<135.0,261.0>-<135.0,271.0>-<134.0,280.0>>
-	* sterling (U+00A3) contains a short segment B<<247.0,280.0>-<247.0,276.0>-<247.0,271.0>>
-	* ordfeminine (U+00AA) contains a short segment L<<254.0,533.0>--<254.0,534.0>>
-	* agrave (U+00E0) contains a short segment L<<321.0,312.0>--<321.0,316.0>>
-	* aacute (U+00E1) contains a short segment L<<321.0,312.0>--<321.0,316.0>> and 44 more. [code: found-short-segments]
+	* ampersand (U+0026) contains a short segment L<<218.0,289.0>--<216.0,288.0>>
+	* at (U+0040) contains a short segment B<<604.5,96.0>-<616.0,79.0>-<636.0,79.0>>
+	* sterling (U+00A3) contains a short segment B<<229.0,284.0>-<230.0,277.0>-<230.0,269.0>>
+	* yen (U+00A5) contains a short segment L<<195.0,288.0>--<192.0,295.0>>
+	* yen (U+00A5) contains a short segment L<<308.0,295.0>--<305.0,288.0>>
+	* uni03BC.math (U+00B5) contains a short segment B<<480.0,92.0>-<486.0,92.0>-<495.0,94.0>>
+	* ae (U+00E6) contains a short segment L<<294.0,311.0>--<294.0,316.0>>
+	* Eng (U+014A) contains a short segment B<<340.0,-90.0>-<351.0,-94.0>-<361.0,-96.5>>
+	* Eng (U+014A) contains a short segment B<<361.0,-96.5>-<371.0,-99.0>-<382.0,-99.0>>
+	* uni019D (U+019D) contains a short segment B<<-26.0,-90.0>-<-14.0,-94.0>-<-4.0,-96.5>> and 16 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -8994,9 +9120,9 @@ This check is not run for variable fonts, as they may legitimately have colinear
 vectors.</pre>
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* exclam (U+0021): L<<114.0,238.0>--<94.0,521.0>> -> L<<94.0,521.0>--<94.0,690.0>>
-	* exclam (U+0021): L<<221.0,690.0>--<221.0,521.0>> -> L<<221.0,521.0>--<201.0,238.0>>
-	* exclamdown (U+00A1): L<<201.0,283.0>--<221.0,0.0>> -> L<<221.0,0.0>--<221.0,-185.0>> and exclamdown (U+00A1): L<<94.0,-185.0>--<94.0,0.0>> -> L<<94.0,0.0>--<114.0,283.0>> [code: found-colinear-vectors]
+	* exclam (U+0021): L<<104.0,231.0>--<86.0,519.0>> -> L<<86.0,519.0>--<86.0,690.0>>
+	* exclam (U+0021): L<<204.0,690.0>--<204.0,519.0>> -> L<<204.0,519.0>--<186.0,231.0>>
+	* exclamdown (U+00A1): L<<186.0,288.0>--<204.0,0.0>> -> L<<204.0,0.0>--<204.0,-185.0>> and exclamdown (U+00A1): L<<86.0,-185.0>--<86.0,0.0>> -> L<<86.0,0.0>--<104.0,288.0>> [code: found-colinear-vectors]
 
 </details>
 <details>
@@ -9010,7 +9136,7 @@ cases such as extreme ink traps, so should be regarded as advisory and backed up
 by manual inspection.</pre>
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
-	* uni20BA (U+20BA): B<<407.5,70.0>-<334.0,3.0>-<204.0,0.0>>/L<<204.0,0.0>--<204.0,0.0>> = 1.3219756595369752 [code: found-jaggy-segments]
+	* uni20BA (U+20BA): B<<317.0,29.0>-<259.0,2.0>-<186.0,0.0>>/L<<186.0,0.0>--<186.0,0.0>> = 1.5693548047488257 [code: found-jaggy-segments]
 
 </details>
 <br>
@@ -9202,19 +9328,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -9578,19 +9704,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -9945,19 +10071,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -10081,7 +10207,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-CanadaCondensed-Medium.ttf</b></summary>
+<summary><b>[16] Radio-CanadaCondensed-Medium.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -10114,7 +10240,7 @@ applications.
 Glyphsapp users can change the usWeightClass value of an instance by adding a
 &#x27;weightClass&#x27; customParameter.</pre>
 
-* 🔥 **FAIL** OS/2 usWeightClass is '450' when it should be '400'. [code: bad-value]
+* 🔥 **FAIL** OS/2 usWeightClass is '460' when it should be '400'. [code: bad-value]
 
 </details>
 <details>
@@ -10270,46 +10396,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -10400,16 +10526,16 @@ generate significant numbers of false positives, it will pass if there are more
 than 100 reported misalignments.</pre>
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* atilde (U+00E3): X=285.0,Y=689.0 (should be at cap-height 690?)
-	* ntilde (U+00F1): X=334.5,Y=690.5 (should be at cap-height 690?)
-	* otilde (U+00F5): X=307.0,Y=689.0 (should be at cap-height 690?)
-	* itilde (U+0129): X=159.5,Y=690.5 (should be at cap-height 690?)
-	* oe (U+0153): X=715.5,Y=1.5 (should be at baseline 0?)
-	* utilde (U+0169): X=319.0,Y=689.0 (should be at cap-height 690?)
-	* uni022C (U+022C): X=213.0,Y=944.0 (should be at ascender 945?)
-	* uni022C (U+022C): X=508.0,Y=944.0 (should be at ascender 945?)
-	* uni022D (U+022D): X=307.0,Y=689.0 (should be at cap-height 690?)
-	* tilde (U+02DC): X=319.5,Y=690.5 (should be at cap-height 690?) and 13 more. [code: found-misalignments]
+	* nine (U+0039): X=133.0,Y=1.5 (should be at baseline 0?)
+	* f (U+0066): X=16.0,Y=515.0 (should be at x-height 516?)
+	* f (U+0066): X=92.0,Y=515.0 (should be at x-height 516?)
+	* f (U+0066): X=184.0,Y=515.0 (should be at x-height 516?)
+	* f (U+0066): X=308.0,Y=515.0 (should be at x-height 516?)
+	* braceleft (U+007B): X=259.0,Y=-253.0 (should be at descender -255?)
+	* braceright (U+007D): X=39.0,Y=-254.0 (should be at descender -255?)
+	* ordfeminine (U+00AA): X=110.5,Y=689.0 (should be at cap-height 690?)
+	* uni03BC.math (U+00B5): X=480.0,Y=-2.0 (should be at baseline 0?)
+	* uni03BC.math (U+00B5): X=185.0,Y=-1.0 (should be at baseline 0?) and 56 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -10424,16 +10550,16 @@ segments. As this check is liable to generate significant numbers of false
 positives, it will pass if there are more than 100 reported short segments.</pre>
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* at (U+0040) contains a short segment B<<684.0,451.0>-<681.0,429.0>-<679.0,411.5>>
-	* at (U+0040) contains a short segment B<<679.0,411.5>-<677.0,394.0>-<677.0,373.0>>
-	* a (U+0061) contains a short segment L<<358.0,309.0>--<358.0,314.0>>
-	* ordfeminine (U+00AA) contains a short segment L<<282.0,531.0>--<282.0,535.0>>
-	* agrave (U+00E0) contains a short segment L<<358.0,309.0>--<358.0,314.0>>
-	* aacute (U+00E1) contains a short segment L<<358.0,309.0>--<358.0,314.0>>
-	* acircumflex (U+00E2) contains a short segment L<<358.0,309.0>--<358.0,314.0>>
-	* atilde (U+00E3) contains a short segment L<<358.0,309.0>--<358.0,314.0>>
-	* adieresis (U+00E4) contains a short segment L<<358.0,309.0>--<358.0,314.0>>
-	* aring (U+00E5) contains a short segment L<<358.0,309.0>--<358.0,314.0>> and 36 more. [code: found-short-segments]
+	* at (U+0040) contains a short segment B<<597.5,84.5>-<610.0,68.0>-<629.0,68.0>>
+	* R (U+0052) contains a short segment B<<254.0,259.0>-<250.0,259.0>-<245.0,259.0>>
+	* yen (U+00A5) contains a short segment L<<204.0,302.0>--<199.0,302.0>>
+	* yen (U+00A5) contains a short segment L<<199.0,302.0>--<198.0,303.0>>
+	* yen (U+00A5) contains a short segment L<<302.0,303.0>--<302.0,302.0>>
+	* yen (U+00A5) contains a short segment L<<302.0,302.0>--<296.0,302.0>>
+	* ordfeminine (U+00AA) contains a short segment L<<237.0,473.0>--<235.0,472.0>>
+	* uni03BC.math (U+00B5) contains a short segment B<<469.0,74.0>-<472.0,74.0>-<474.5,75.0>>
+	* uni03BC.math (U+00B5) contains a short segment B<<474.5,75.0>-<477.0,76.0>-<481.0,77.0>>
+	* ae (U+00E6) contains a short segment L<<302.0,308.0>--<302.0,314.0>> and 26 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -10447,9 +10573,10 @@ This check is not run for variable fonts, as they may legitimately have colinear
 vectors.</pre>
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* exclam (U+0021): L<<124.0,215.0>--<107.0,516.0>> -> L<<107.0,516.0>--<107.0,690.0>>
-	* exclam (U+0021): L<<214.0,690.0>--<214.0,516.0>> -> L<<214.0,516.0>--<197.0,215.0>>
-	* exclamdown (U+00A1): L<<107.0,-185.0>--<107.0,0.0>> -> L<<107.0,0.0>--<124.0,301.0>> and exclamdown (U+00A1): L<<197.0,301.0>--<214.0,0.0>> -> L<<214.0,0.0>--<214.0,-185.0>> [code: found-colinear-vectors]
+	* at (U+0040): L<<493.0,140.0>--<492.0,150.0>> -> L<<492.0,150.0>--<492.0,299.0>>
+	* exclam (U+0021): L<<106.0,212.0>--<91.0,515.0>> -> L<<91.0,515.0>--<91.0,690.0>>
+	* exclam (U+0021): L<<190.0,690.0>--<190.0,515.0>> -> L<<190.0,515.0>--<175.0,212.0>>
+	* exclamdown (U+00A1): L<<175.0,303.0>--<190.0,0.0>> -> L<<190.0,0.0>--<190.0,-185.0>> and exclamdown (U+00A1): L<<91.0,-185.0>--<91.0,0.0>> -> L<<91.0,0.0>--<106.0,303.0>> [code: found-colinear-vectors]
 
 </details>
 <details>
@@ -10463,7 +10590,31 @@ cases such as extreme ink traps, so should be regarded as advisory and backed up
 by manual inspection.</pre>
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
-	* uni20BA (U+20BA): B<<407.5,74.0>-<333.0,4.0>-<197.0,0.0>>/L<<197.0,0.0>--<197.0,0.0>> = 1.68468431789628 [code: found-jaggy-segments]
+	* uni20BA (U+20BA): B<<297.0,29.0>-<240.0,3.0>-<172.0,0.0>>/L<<172.0,0.0>--<172.0,0.0>> = 2.526116911619449 [code: found-jaggy-segments]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
+
+* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
+<pre>--- Rationale ---
+This check detects line segments which are nearly, but not quite, exactly
+horizontal or vertical. Sometimes such lines are created by design, but often
+they are indicative of a design error.
+This check is disabled for italic styles, which often contain nearly-upright
+lines.</pre>
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * u (U+0075): L<<442.0,516.0>--<441.0,122.0>>
+ * uacute (U+00FA): L<<442.0,516.0>--<441.0,122.0>>
+ * ubreve (U+016D): L<<442.0,516.0>--<441.0,122.0>>
+ * ucircumflex (U+00FB): L<<442.0,516.0>--<441.0,122.0>>
+ * udieresis (U+00FC): L<<442.0,516.0>--<441.0,122.0>>
+ * ugrave (U+00F9): L<<442.0,516.0>--<441.0,122.0>>
+ * uhorn (U+01B0): L<<442.0,516.0>--<441.0,122.0>>
+ * uhungarumlaut (U+0171): L<<442.0,516.0>--<441.0,122.0>>
+ * umacron (U+016B): L<<442.0,516.0>--<441.0,122.0>>
+ * uni0215 (U+0215): L<<442.0,516.0>--<441.0,122.0>> and 13 more. [code: found-semi-vertical]
 
 </details>
 <br>
@@ -10502,7 +10653,7 @@ applications.
 Glyphsapp users can change the usWeightClass value of an instance by adding a
 &#x27;weightClass&#x27; customParameter.</pre>
 
-* 🔥 **FAIL** OS/2 usWeightClass is '387' when it should be '400'. [code: bad-value]
+* 🔥 **FAIL** OS/2 usWeightClass is '393' when it should be '400'. [code: bad-value]
 
 </details>
 <details>
@@ -10648,46 +10799,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -10778,16 +10929,16 @@ generate significant numbers of false positives, it will pass if there are more
 than 100 reported misalignments.</pre>
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* nine (U+0039): X=134.5,Y=1.5 (should be at baseline 0?)
+	* nine (U+0039): X=135.5,Y=1.5 (should be at baseline 0?)
 	* f (U+0066): X=16.0,Y=514.0 (should be at x-height 515?)
 	* f (U+0066): X=92.0,Y=514.0 (should be at x-height 515?)
-	* f (U+0066): X=180.0,Y=514.0 (should be at x-height 515?)
-	* f (U+0066): X=305.0,Y=514.0 (should be at x-height 515?)
-	* ordfeminine (U+00AA): X=111.5,Y=689.0 (should be at cap-height 690?)
+	* f (U+0066): X=178.0,Y=514.0 (should be at x-height 515?)
+	* f (U+0066): X=302.0,Y=514.0 (should be at x-height 515?)
+	* ordfeminine (U+00AA): X=112.5,Y=688.5 (should be at cap-height 690?)
 	* uni03BC.math (U+00B5): X=476.0,Y=-2.0 (should be at baseline 0?)
-	* uni03BC.math (U+00B5): X=184.5,Y=-1.0 (should be at baseline 0?)
-	* Aring (U+00C5): X=262.0,Y=947.0 (should be at ascender 945?)
-	* germandbls (U+00DF): X=364.0,Y=689.5 (should be at cap-height 690?) and 66 more. [code: found-misalignments]
+	* uni03BC.math (U+00B5): X=184.0,Y=-0.5 (should be at baseline 0?)
+	* Aring (U+00C5): X=260.0,Y=946.0 (should be at ascender 945?)
+	* germandbls (U+00DF): X=361.5,Y=689.0 (should be at cap-height 690?) and 59 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -10802,16 +10953,16 @@ segments. As this check is liable to generate significant numbers of false
 positives, it will pass if there are more than 100 reported short segments.</pre>
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* R (U+0052) contains a short segment B<<252.0,261.0>-<246.0,261.0>-<240.0,261.0>>
-	* uni03BC.math (U+00B5) contains a short segment B<<465.0,69.0>-<468.0,69.0>-<470.5,69.5>>
-	* uni03BC.math (U+00B5) contains a short segment B<<470.5,69.5>-<473.0,70.0>-<476.0,71.0>>
-	* ae (U+00E6) contains a short segment L<<304.0,307.0>--<304.0,314.0>>
-	* ae (U+00E6) contains a short segment B<<677.0,266.0>-<677.0,258.0>-<676.5,249.0>>
-	* ae (U+00E6) contains a short segment B<<676.5,249.0>-<676.0,240.0>-<675.0,231.0>>
-	* Eng (U+014A) contains a short segment B<<337.0,-108.0>-<348.0,-112.0>-<358.0,-114.5>>
-	* Eng (U+014A) contains a short segment B<<358.0,-114.5>-<368.0,-117.0>-<379.0,-117.0>>
-	* Racute (U+0154) contains a short segment B<<252.0,261.0>-<246.0,261.0>-<240.0,261.0>>
-	* uni0156 (U+0156) contains a short segment B<<252.0,261.0>-<246.0,261.0>-<240.0,261.0>> and 21 more. [code: found-short-segments]
+	* R (U+0052) contains a short segment B<<250.0,262.0>-<243.0,262.0>-<237.0,262.0>>
+	* uni03BC.math (U+00B5) contains a short segment B<<464.0,67.0>-<467.0,67.0>-<470.0,68.0>>
+	* uni03BC.math (U+00B5) contains a short segment B<<470.0,68.0>-<473.0,69.0>-<476.0,69.0>>
+	* ae (U+00E6) contains a short segment L<<304.0,306.0>--<304.0,315.0>>
+	* ae (U+00E6) contains a short segment B<<675.0,267.0>-<675.0,259.0>-<674.5,250.0>>
+	* ae (U+00E6) contains a short segment B<<674.5,250.0>-<674.0,241.0>-<673.0,232.0>>
+	* Eng (U+014A) contains a short segment B<<333.0,-109.0>-<344.0,-113.0>-<354.0,-115.5>>
+	* Eng (U+014A) contains a short segment B<<354.0,-115.5>-<364.0,-118.0>-<376.0,-118.0>>
+	* Racute (U+0154) contains a short segment B<<250.0,262.0>-<243.0,262.0>-<237.0,262.0>>
+	* uni0156 (U+0156) contains a short segment B<<250.0,262.0>-<243.0,262.0>-<237.0,262.0>> and 23 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -10825,10 +10976,10 @@ This check is not run for variable fonts, as they may legitimately have colinear
 vectors.</pre>
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* at (U+0040): L<<495.0,139.0>--<494.0,152.0>> -> L<<494.0,152.0>--<494.0,298.0>>
-	* exclam (U+0021): L<<106.0,206.0>--<92.0,514.0>> -> L<<92.0,514.0>--<92.0,690.0>>
-	* exclam (U+0021): L<<186.0,690.0>--<186.0,514.0>> -> L<<186.0,514.0>--<172.0,206.0>>
-	* exclamdown (U+00A1): L<<172.0,308.0>--<186.0,0.0>> -> L<<186.0,0.0>--<186.0,-185.0>> and exclamdown (U+00A1): L<<92.0,-185.0>--<92.0,0.0>> -> L<<92.0,0.0>--<106.0,308.0>> [code: found-colinear-vectors]
+	* at (U+0040): L<<491.0,139.0>--<491.0,151.0>> -> L<<491.0,151.0>--<491.0,298.0>>
+	* exclam (U+0021): L<<108.0,204.0>--<94.0,514.0>> -> L<<94.0,514.0>--<94.0,690.0>>
+	* exclam (U+0021): L<<186.0,690.0>--<186.0,514.0>> -> L<<186.0,514.0>--<172.0,204.0>>
+	* exclamdown (U+00A1): L<<172.0,309.0>--<186.0,0.0>> -> L<<186.0,0.0>--<186.0,-185.0>> and exclamdown (U+00A1): L<<94.0,-185.0>--<94.0,0.0>> -> L<<94.0,0.0>--<108.0,309.0>> [code: found-colinear-vectors]
 
 </details>
 <details>
@@ -10842,13 +10993,13 @@ cases such as extreme ink traps, so should be regarded as advisory and backed up
 by manual inspection.</pre>
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
-	* uni20BA (U+20BA): B<<290.5,29.0>-<234.0,3.0>-<167.0,0.0>>/L<<167.0,0.0>--<167.0,0.0>> = 2.563770211464955 [code: found-jaggy-segments]
+	* uni20BA (U+20BA): B<<286.0,28.5>-<230.0,3.0>-<165.0,0.0>>/L<<165.0,0.0>--<165.0,0.0>> = 2.6425452940647234 [code: found-jaggy-segments]
 
 </details>
 <br>
 </details>
 <details>
-<summary><b>[16] Radio-CanadaCondensed-Bold.ttf</b></summary>
+<summary><b>[15] Radio-CanadaCondensed-Bold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -11043,46 +11194,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -11131,14 +11282,12 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: uni1EEF	Contours detected: 3	Expected: 2
  - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
  - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
- - Glyph name: estimated	Contours detected: 3	Expected: 2
  - Glyph name: lessequal	Contours detected: 1	Expected: 2
  - Glyph name: greaterequal	Contours detected: 1	Expected: 2
  - Glyph name: Uhorn	Contours detected: 2	Expected: 1
  - Glyph name: Uogonek	Contours detected: 2	Expected: 1
  - Glyph name: aogonek	Contours detected: 3	Expected: 2
  - Glyph name: eogonek	Contours detected: 3	Expected: 2
- - Glyph name: estimated	Contours detected: 3	Expected: 2
  - Glyph name: greaterequal	Contours detected: 1	Expected: 2
  - Glyph name: lessequal	Contours detected: 1	Expected: 2
  - Glyph name: ohorn	Contours detected: 3	Expected: 2
@@ -11164,34 +11313,6 @@ The following glyphs do not have the recommended number of contours:
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary>
-
-* [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
-<pre>--- Rationale ---
-This check heuristically looks for on-curve points which are close to, but do
-not sit on, significant boundary coordinates. For example, a point which has a
-Y-coordinate of 1 or -1 might be a misplaced baseline point. As well as the
-baseline, here we also check for points near the x-height (but only for lower
-case Latin letters), cap-height, ascender and descender Y coordinates.
-Not all such misaligned curve points are a mistake, and sometimes the design may
-call for points in locations near the boundaries. As this check is liable to
-generate significant numbers of false positives, it will pass if there are more
-than 100 reported misalignments.</pre>
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* dollar (U+0024): X=322.0,Y=-2.0 (should be at baseline 0?)
-	* parenleft (U+0028): X=217.0,Y=-256.0 (should be at descender -255?)
-	* parenright (U+0029): X=29.0,Y=-257.0 (should be at descender -255?)
-	* c (U+0063): X=337.0,Y=526.0 (should be at x-height 525?)
-	* c (U+0063): X=337.0,Y=-1.0 (should be at baseline 0?)
-	* e (U+0065): X=355.0,Y=1.5 (should be at baseline 0?)
-	* s (U+0073): X=302.0,Y=527.0 (should be at x-height 525?)
-	* s (U+0073): X=91.5,Y=0.5 (should be at baseline 0?)
-	* germandbls (U+00DF): X=263.0,Y=-2.0 (should be at baseline 0?)
-	* atilde (U+00E3): X=108.5,Y=689.5 (should be at cap-height 690?) and 71 more. [code: found-misalignments]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Are any segments inordinately short?</summary>
 
 * [com.google.fonts/check/outline_short_segments](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments)
@@ -11203,16 +11324,16 @@ segments. As this check is liable to generate significant numbers of false
 positives, it will pass if there are more than 100 reported short segments.</pre>
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* at (U+0040) contains a short segment B<<648.0,101.0>-<663.0,101.0>-<676.0,116.5>>
-	* a (U+0061) contains a short segment L<<278.0,317.0>--<278.0,318.0>>
-	* agrave (U+00E0) contains a short segment L<<278.0,317.0>--<278.0,318.0>>
-	* aacute (U+00E1) contains a short segment L<<278.0,317.0>--<278.0,318.0>>
-	* acircumflex (U+00E2) contains a short segment L<<278.0,317.0>--<278.0,318.0>>
-	* atilde (U+00E3) contains a short segment L<<278.0,317.0>--<278.0,318.0>>
-	* adieresis (U+00E4) contains a short segment L<<278.0,317.0>--<278.0,318.0>>
-	* aring (U+00E5) contains a short segment L<<278.0,317.0>--<278.0,318.0>>
-	* ae (U+00E6) contains a short segment L<<279.0,317.0>--<279.0,318.0>>
-	* amacron (U+0101) contains a short segment L<<278.0,317.0>--<278.0,318.0>> and 41 more. [code: found-short-segments]
+	* a (U+0061) contains a short segment L<<283.0,315.0>--<283.0,321.0>>
+	* f (U+0066) contains a short segment L<<88.0,523.0>--<88.0,528.0>>
+	* sterling (U+00A3) contains a short segment B<<120.0,262.0>-<120.0,267.0>-<120.0,272.0>>
+	* yen (U+00A5) contains a short segment L<<185.0,285.0>--<184.0,286.0>>
+	* yen (U+00A5) contains a short segment L<<315.0,286.0>--<315.0,286.0>>
+	* ordfeminine (U+00AA) contains a short segment L<<225.0,534.0>--<225.0,537.0>>
+	* uni03BC.math (U+00B5) contains a short segment B<<494.0,111.0>-<501.0,111.0>-<511.0,114.0>>
+	* agrave (U+00E0) contains a short segment L<<283.0,315.0>--<283.0,321.0>>
+	* aacute (U+00E1) contains a short segment L<<283.0,315.0>--<283.0,321.0>>
+	* acircumflex (U+00E2) contains a short segment L<<283.0,315.0>--<283.0,321.0>> and 43 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -11226,9 +11347,9 @@ This check is not run for variable fonts, as they may legitimately have colinear
 vectors.</pre>
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* exclam (U+0021): L<<102.0,265.0>--<78.0,526.0>> -> L<<78.0,526.0>--<78.0,690.0>>
-	* exclam (U+0021): L<<230.0,690.0>--<230.0,526.0>> -> L<<230.0,526.0>--<206.0,265.0>>
-	* exclamdown (U+00A1): L<<206.0,261.0>--<230.0,0.0>> -> L<<230.0,0.0>--<230.0,-185.0>> and exclamdown (U+00A1): L<<78.0,-185.0>--<78.0,0.0>> -> L<<78.0,0.0>--<102.0,261.0>> [code: found-colinear-vectors]
+	* exclam (U+0021): L<<103.0,252.0>--<81.0,523.0>> -> L<<81.0,523.0>--<81.0,690.0>>
+	* exclam (U+0021): L<<220.0,690.0>--<220.0,523.0>> -> L<<220.0,523.0>--<199.0,252.0>>
+	* exclamdown (U+00A1): L<<199.0,271.0>--<220.0,0.0>> -> L<<220.0,0.0>--<220.0,-185.0>> and exclamdown (U+00A1): L<<81.0,-185.0>--<81.0,0.0>> -> L<<81.0,0.0>--<103.0,271.0>> [code: found-colinear-vectors]
 
 </details>
 <details>
@@ -11242,14 +11363,13 @@ cases such as extreme ink traps, so should be regarded as advisory and backed up
 by manual inspection.</pre>
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
-	* estimated (U+212E): B<<509.0,577.0>-<503.0,584.0>-<495.0,591.0>>/L<<495.0,591.0>--<509.0,577.0>> = 3.814074834290474
-	* estimated (U+212E): L<<495.0,591.0>--<509.0,577.0>>/B<<509.0,577.0>-<503.0,584.0>-<495.0,591.0>> = 4.398705354995591 and uni20BA (U+20BA): B<<408.0,66.0>-<336.0,3.0>-<212.0,0.0>>/L<<212.0,0.0>--<212.0,0.0>> = 1.3859178508122376 [code: found-jaggy-segments]
+	* uni20BA (U+20BA): B<<340.5,29.5>-<281.0,2.0>-<202.0,0.0>>/L<<202.0,0.0>--<202.0,0.0>> = 1.4502162909332779 [code: found-jaggy-segments]
 
 </details>
 <br>
 </details>
 <details>
-<summary><b>[14] Radio-Canada-Medium.ttf</b></summary>
+<summary><b>[15] Radio-Canada-Medium.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -11417,46 +11537,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -11547,16 +11667,16 @@ generate significant numbers of false positives, it will pass if there are more
 than 100 reported misalignments.</pre>
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* braceleft (U+007B): X=309.0,Y=-256.0 (should be at descender -255?)
+	* bracketleft (U+005B): X=98.0,Y=-253.0 (should be at descender -255?)
+	* bracketleft (U+005B): X=349.0,Y=-253.0 (should be at descender -255?)
+	* bracketright (U+005D): X=-29.0,Y=-253.0 (should be at descender -255?)
+	* bracketright (U+005D): X=223.0,Y=-253.0 (should be at descender -255?)
+	* braceleft (U+007B): X=310.0,Y=-256.0 (should be at descender -255?)
 	* braceright (U+007D): X=41.0,Y=-256.0 (should be at descender -255?)
 	* atilde (U+00E3): X=290.0,Y=689.0 (should be at cap-height 690?)
-	* ntilde (U+00F1): X=341.0,Y=691.5 (should be at cap-height 690?)
-	* ntilde (U+00F1): X=391.0,Y=688.5 (should be at cap-height 690?)
-	* otilde (U+00F5): X=312.0,Y=689.0 (should be at cap-height 690?)
-	* itilde (U+0129): X=163.0,Y=691.5 (should be at cap-height 690?)
-	* itilde (U+0129): X=213.0,Y=688.5 (should be at cap-height 690?)
-	* oe (U+0153): X=727.0,Y=1.5 (should be at baseline 0?)
-	* utilde (U+0169): X=325.0,Y=689.0 (should be at cap-height 690?) and 15 more. [code: found-misalignments]
+	* ntilde (U+00F1): X=341.0,Y=692.0 (should be at cap-height 690?)
+	* ntilde (U+00F1): X=391.0,Y=689.0 (should be at cap-height 690?)
+	* otilde (U+00F5): X=313.0,Y=689.0 (should be at cap-height 690?) and 32 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -11571,16 +11691,16 @@ segments. As this check is liable to generate significant numbers of false
 positives, it will pass if there are more than 100 reported short segments.</pre>
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* at (U+0040) contains a short segment B<<695.0,450.0>-<692.0,429.0>-<690.0,411.5>>
-	* at (U+0040) contains a short segment B<<690.0,411.5>-<688.0,394.0>-<688.0,373.0>>
-	* a (U+0061) contains a short segment L<<362.0,309.0>--<362.0,315.0>>
+	* at (U+0040) contains a short segment B<<696.0,450.0>-<692.0,428.0>-<690.5,411.0>>
+	* at (U+0040) contains a short segment B<<690.5,411.0>-<689.0,394.0>-<689.0,373.0>>
+	* a (U+0061) contains a short segment L<<361.0,309.0>--<361.0,315.0>>
 	* ordfeminine (U+00AA) contains a short segment L<<285.0,531.0>--<285.0,534.0>>
-	* agrave (U+00E0) contains a short segment L<<362.0,309.0>--<362.0,315.0>>
-	* aacute (U+00E1) contains a short segment L<<362.0,309.0>--<362.0,315.0>>
-	* acircumflex (U+00E2) contains a short segment L<<362.0,309.0>--<362.0,315.0>>
-	* atilde (U+00E3) contains a short segment L<<362.0,309.0>--<362.0,315.0>>
-	* adieresis (U+00E4) contains a short segment L<<362.0,309.0>--<362.0,315.0>>
-	* aring (U+00E5) contains a short segment L<<362.0,309.0>--<362.0,315.0>> and 36 more. [code: found-short-segments]
+	* agrave (U+00E0) contains a short segment L<<361.0,309.0>--<361.0,315.0>>
+	* aacute (U+00E1) contains a short segment L<<361.0,309.0>--<361.0,315.0>>
+	* acircumflex (U+00E2) contains a short segment L<<361.0,309.0>--<361.0,315.0>>
+	* atilde (U+00E3) contains a short segment L<<361.0,309.0>--<361.0,315.0>>
+	* adieresis (U+00E4) contains a short segment L<<361.0,309.0>--<361.0,315.0>>
+	* aring (U+00E5) contains a short segment L<<361.0,309.0>--<361.0,315.0>> and 36 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -11594,9 +11714,9 @@ This check is not run for variable fonts, as they may legitimately have colinear
 vectors.</pre>
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* exclam (U+0021): L<<125.0,217.0>--<108.0,516.0>> -> L<<108.0,516.0>--<108.0,690.0>>
-	* exclam (U+0021): L<<219.0,690.0>--<219.0,516.0>> -> L<<219.0,516.0>--<202.0,217.0>>
-	* exclamdown (U+00A1): L<<108.0,-185.0>--<108.0,0.0>> -> L<<108.0,0.0>--<125.0,299.0>> and exclamdown (U+00A1): L<<202.0,299.0>--<219.0,0.0>> -> L<<219.0,0.0>--<219.0,-185.0>> [code: found-colinear-vectors]
+	* exclam (U+0021): L<<125.0,218.0>--<108.0,517.0>> -> L<<108.0,517.0>--<108.0,690.0>>
+	* exclam (U+0021): L<<220.0,690.0>--<220.0,517.0>> -> L<<220.0,517.0>--<203.0,218.0>>
+	* exclamdown (U+00A1): L<<108.0,-185.0>--<108.0,0.0>> -> L<<108.0,0.0>--<125.0,298.0>> and exclamdown (U+00A1): L<<203.0,298.0>--<220.0,0.0>> -> L<<220.0,0.0>--<220.0,-185.0>> [code: found-colinear-vectors]
 
 </details>
 <details>
@@ -11610,7 +11730,22 @@ cases such as extreme ink traps, so should be regarded as advisory and backed up
 by manual inspection.</pre>
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
-	* uni20BA (U+20BA): B<<418.5,77.0>-<344.0,5.0>-<203.0,0.0>>/L<<203.0,0.0>--<203.0,0.0>> = 2.0309142368530164 [code: found-jaggy-segments]
+	* uni20BA (U+20BA): B<<421.0,77.5>-<346.0,5.0>-<204.0,0.0>>/L<<204.0,0.0>--<204.0,0.0>> = 2.01662387462303 [code: found-jaggy-segments]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
+
+* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
+<pre>--- Rationale ---
+This check detects line segments which are nearly, but not quite, exactly
+horizontal or vertical. Sometimes such lines are created by design, but often
+they are indicative of a design error.
+This check is disabled for italic styles, which often contain nearly-upright
+lines.</pre>
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * uni20BC (U+20BC): L<<88.0,0.0>--<87.0,436.0>> [code: found-semi-vertical]
 
 </details>
 <br>
@@ -11805,46 +11940,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -11990,7 +12125,7 @@ vectors.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] Radio-Canada-SemiBold.ttf</b></summary>
+<summary><b>[16] Radio-Canada-SemiBold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -12179,46 +12314,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - grave.cap
- - nine.lf
- - ring_acute
- - five.lf
- - six.lf
- - three.lf
+ - macron.cap
+ - uni030C.alt
+ - uni03060303
+ - eight.lf
+ - uni0326.alt
+ - ring.cap
+ - dotaccent.cap
+ - cent.BRACKET.100
+ - breve.cap
  - ring_acute.cap
  - dollar.BRACKET.100
- - uni030C.alt
- - dotbelow
- - one.lf
  - caron.cap
- - uni03060300
- - uni03060301
- - ring.cap
- - uni03060303
- - acute.cap
- - macron.cap
- - zero.lf
- - four.lf
- - tilde.cap
- - uni03060309
- - hungarumlaut.cap
- - uni03020301
- - two.lf
- - breve.cap
- - periodcentered.loclCAT
- - uni03020309
- - cent.BRACKET.100
- - dieresis.cap
- - uni0326
- - uni0326.alt
- - caron.alt
- - eight.lf
  - uni03020300
- - dotaccent.cap
+ - grave.cap
+ - dotbelow
+ - uni03020303
+ - uni03020301
+ - five.lf
+ - uni03060301
+ - zero.lf
+ - ring_acute
+ - six.lf
+ - one.lf
+ - hungarumlaut.cap
+ - four.lf
+ - uni03060300
+ - periodcentered.loclCAT
+ - two.lf
+ - three.lf
+ - i.loclTRK
  - circumflex.cap
  - seven.lf
- - uni03020303 
- - i.loclTRK
+ - dieresis.cap
+ - uni03060309
+ - uni03020309
+ - uni0326
+ - nine.lf
+ - caron.alt
+ - tilde.cap 
+ - acute.cap
  [code: unreachable-glyphs]
 
 </details>
@@ -12315,14 +12450,14 @@ than 100 reported misalignments.</pre>
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 	* six (U+0036): X=446.5,Y=689.0 (should be at cap-height 690?)
 	* nine (U+0039): X=153.5,Y=1.0 (should be at baseline 0?)
-	* e (U+0065): X=405.5,Y=1.5 (should be at baseline 0?)
-	* questiondown (U+00BF): X=193.0,Y=2.0 (should be at baseline 0?)
+	* e (U+0065): X=406.5,Y=1.5 (should be at baseline 0?)
+	* s (U+0073): X=351.0,Y=519.0 (should be at x-height 521?)
 	* atilde (U+00E3): X=140.5,Y=690.5 (should be at cap-height 690?)
 	* atilde (U+00E3): X=289.0,Y=690.5 (should be at cap-height 690?)
-	* adieresis (U+00E4): X=113.0,Y=689.5 (should be at cap-height 690?)
-	* adieresis (U+00E4): X=212.5,Y=689.5 (should be at cap-height 690?)
-	* adieresis (U+00E4): X=316.0,Y=689.5 (should be at cap-height 690?)
-	* adieresis (U+00E4): X=415.5,Y=689.5 (should be at cap-height 690?) and 83 more. [code: found-misalignments]
+	* ae (U+00E6): X=701.5,Y=1.5 (should be at baseline 0?)
+	* egrave (U+00E8): X=406.5,Y=1.5 (should be at baseline 0?)
+	* eacute (U+00E9): X=406.5,Y=1.5 (should be at baseline 0?)
+	* ecircumflex (U+00EA): X=406.5,Y=1.5 (should be at baseline 0?) and 67 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -12337,16 +12472,16 @@ segments. As this check is liable to generate significant numbers of false
 positives, it will pass if there are more than 100 reported short segments.</pre>
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* ampersand (U+0026) contains a short segment L<<253.0,292.0>--<253.0,291.0>>
+	* ampersand (U+0026) contains a short segment L<<188.0,369.0>--<188.0,369.0>>
 	* at (U+0040) contains a short segment B<<709.0,448.0>-<705.0,426.0>-<703.5,409.0>>
 	* at (U+0040) contains a short segment B<<703.5,409.0>-<702.0,392.0>-<702.0,371.0>>
-	* a (U+0061) contains a short segment L<<350.0,311.0>--<350.0,316.0>>
+	* a (U+0061) contains a short segment L<<349.0,311.0>--<349.0,316.0>>
 	* sterling (U+00A3) contains a short segment B<<146.0,260.0>-<146.0,268.0>-<146.0,275.0>>
-	* sterling (U+00A3) contains a short segment B<<272.0,275.0>-<272.0,268.0>-<272.0,260.0>>
-	* agrave (U+00E0) contains a short segment L<<350.0,311.0>--<350.0,316.0>>
-	* aacute (U+00E1) contains a short segment L<<350.0,311.0>--<350.0,316.0>>
-	* acircumflex (U+00E2) contains a short segment L<<350.0,311.0>--<350.0,316.0>>
-	* atilde (U+00E3) contains a short segment L<<350.0,311.0>--<350.0,316.0>> and 40 more. [code: found-short-segments]
+	* sterling (U+00A3) contains a short segment B<<273.0,275.0>-<273.0,268.0>-<273.0,260.0>>
+	* uni03BC.math (U+00B5) contains a short segment B<<559.0,98.0>-<569.0,98.0>-<578.0,102.0>>
+	* agrave (U+00E0) contains a short segment L<<349.0,311.0>--<349.0,316.0>>
+	* aacute (U+00E1) contains a short segment L<<349.0,311.0>--<349.0,316.0>>
+	* acircumflex (U+00E2) contains a short segment L<<349.0,311.0>--<349.0,316.0>> and 42 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -12360,10 +12495,9 @@ This check is not run for variable fonts, as they may legitimately have colinear
 vectors.</pre>
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* exclam (U+0021): L<<124.0,238.0>--<102.0,521.0>> -> L<<102.0,521.0>--<102.0,690.0>>
-	* exclam (U+0021): L<<240.0,690.0>--<240.0,521.0>> -> L<<240.0,521.0>--<219.0,238.0>>
-	* exclamdown (U+00A1): L<<102.0,-185.0>--<102.0,0.0>> -> L<<102.0,0.0>--<124.0,282.0>>
-	* exclamdown (U+00A1): L<<219.0,282.0>--<240.0,0.0>> -> L<<240.0,0.0>--<240.0,-185.0>> and lira (U+20A4): L<<50.0,468.0>--<109.0,468.0>> -> L<<109.0,468.0>--<109.0,468.0>> [code: found-colinear-vectors]
+	* exclam (U+0021): L<<124.0,239.0>--<102.0,521.0>> -> L<<102.0,521.0>--<102.0,690.0>>
+	* exclam (U+0021): L<<241.0,690.0>--<241.0,521.0>> -> L<<241.0,521.0>--<219.0,239.0>>
+	* exclamdown (U+00A1): L<<102.0,-185.0>--<102.0,0.0>> -> L<<102.0,0.0>--<124.0,282.0>> and exclamdown (U+00A1): L<<219.0,282.0>--<241.0,0.0>> -> L<<241.0,0.0>--<241.0,-185.0>> [code: found-colinear-vectors]
 
 </details>
 <details>
@@ -12377,7 +12511,26 @@ cases such as extreme ink traps, so should be regarded as advisory and backed up
 by manual inspection.</pre>
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
-	* uni20BA (U+20BA): B<<394.5,40.5>-<327.0,4.0>-<224.0,0.0>>/L<<224.0,0.0>--<224.0,0.0>> = 2.2239612403854863 [code: found-jaggy-segments]
+	* uni20BA (U+20BA): B<<395.5,40.5>-<328.0,4.0>-<225.0,0.0>>/L<<225.0,0.0>--<225.0,0.0>> = 2.2239612403854863 [code: found-jaggy-segments]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
+
+* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
+<pre>--- Rationale ---
+This check detects line segments which are nearly, but not quite, exactly
+horizontal or vertical. Sometimes such lines are created by design, but often
+they are indicative of a design error.
+This check is disabled for italic styles, which often contain nearly-upright
+lines.</pre>
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * r (U+0072): L<<370.0,532.0>--<369.0,404.0>>
+ * racute (U+0155): L<<370.0,532.0>--<369.0,404.0>>
+ * rcaron (U+0159): L<<370.0,532.0>--<369.0,404.0>>
+ * uni0157 (U+0157): L<<370.0,532.0>--<369.0,404.0>>
+ * uni0211 (U+0211): L<<370.0,532.0>--<369.0,404.0>> and uni0213 (U+0213): L<<370.0,532.0>--<369.0,404.0>> [code: found-semi-vertical]
 
 </details>
 <br>
@@ -12569,19 +12722,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -12891,19 +13044,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
  - one.pl
- - nine.pl
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - seven.pl
- - uni030C.alt
- - eight.pl
- - three.pl
  - four.pl
+ - three.pl
+ - uni030C.alt
  - two.pl
- - five.pl 
+ - five.pl
+ - cent.BRACKET.100
+ - dollar.BRACKET.100
+ - nine.pl
  - six.pl
+ - zero.pl
+ - eight.pl 
+ - seven.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -13085,7 +13238,7 @@ lines.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 120 | 420 | 4824 | 297 | 2923 | 0 |
+| 0 | 125 | 424 | 4824 | 297 | 2914 | 0 |
 | 0% | 1% | 5% | 56% | 3% | 34% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
