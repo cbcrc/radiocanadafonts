@@ -408,7 +408,7 @@ position = "{190, 0}";
 }
 );
 id = master04;
-weightValue = 88;
+weightValue = 90;
 width = Condensed;
 widthValue = 75;
 xHeight = 515;
@@ -477,7 +477,7 @@ position = "{190, 0}";
 id = master02;
 name = "Condensed Bold Italic";
 weight = Bold;
-weightValue = 137;
+weightValue = 150;
 width = Condensed;
 widthValue = 75;
 xHeight = 525;
@@ -610,7 +610,7 @@ position = "{240, 0}";
 }
 );
 id = master06;
-weightValue = 92;
+weightValue = 90;
 xHeight = 515;
 },
 {
@@ -105428,7 +105428,8 @@ value = "Radio-Canada Condensed";
 interpolationWeight = 88;
 interpolationWidth = 75;
 instanceInterpolations = {
-master04 = 1;
+master03 = 0.06667;
+master04 = 0.93333;
 };
 name = Italic;
 widthClass = Condensed;
@@ -105443,7 +105444,8 @@ value = "Radio-Canada Condensed";
 interpolationWeight = 88;
 interpolationWidth = 75;
 instanceInterpolations = {
-master04 = 1;
+master03 = 0.06667;
+master04 = 0.93333;
 };
 name = "Medium Italic";
 weightClass = Medium;
@@ -105459,7 +105461,8 @@ value = "Radio-Canada Condensed";
 interpolationWeight = 88;
 interpolationWidth = 75;
 instanceInterpolations = {
-master04 = 1;
+master03 = 0.06667;
+master04 = 0.93333;
 };
 name = "SemiBold Italic";
 weightClass = SemiBold;
@@ -105475,7 +105478,8 @@ value = "Radio-Canada Condensed";
 interpolationWeight = 137;
 interpolationWidth = 75;
 instanceInterpolations = {
-master02 = 1;
+master02 = 0.78333;
+master04 = 0.21667;
 };
 isBold = 1;
 isItalic = 1;
@@ -105507,7 +105511,8 @@ value = "Radio-Canada";
 );
 interpolationWeight = 92;
 instanceInterpolations = {
-master06 = 1;
+master01 = 0.03333;
+master06 = 0.96667;
 };
 name = Italic;
 },
@@ -105520,7 +105525,8 @@ value = "Radio-Canada";
 );
 interpolationWeight = 92;
 instanceInterpolations = {
-master06 = 1;
+master01 = 0.03333;
+master06 = 0.96667;
 };
 name = "Medium Italic";
 weightClass = Medium;
@@ -105534,8 +105540,8 @@ value = "Radio-Canada";
 );
 interpolationWeight = 125;
 instanceInterpolations = {
-master01 = 0.56897;
-master06 = 0.43103;
+master01 = 0.58333;
+master06 = 0.41667;
 };
 name = "SemiBold Italic";
 weightClass = SemiBold;
