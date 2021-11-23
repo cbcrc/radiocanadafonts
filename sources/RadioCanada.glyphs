@@ -1,5 +1,5 @@
 {
-.appVersion = "3086";
+.appVersion = "3101";
 classes = (
 {
 code = " A AE AEacute Aacute Abreve Acircumflex Adieresis Adotbelow Agrave Amacron Aogonek Aring Aringacute Atilde B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Delta E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Edotbelow Egrave Emacron Eng Eogonek Eth Etilde Euro F G Gbreve Gcaron Gcedilla Gcircumflex Gdotaccent Germandbls H Hbar Hcircumflex I I.alt IJ IJacute Iacute Iacute.alt Ibreve Ibreve.alt Icircumflex Icircumflex.alt Idieresis Idieresis.alt Idotaccent Idotaccent.alt Idotbelow Idotbelow.alt Igrave Igrave.alt Imacron Imacron.alt Iogonek Iogonek.alt Itilde Itilde.alt J J.alt Jcircumflex Jcircumflex.alt K Kcedilla L Lacute Lcaron Lcedilla Ldot Lslash M N Nacute Ncaron Ncedilla Nhookleft Ntilde O OE Oacute Obreve Ocircumflex Odieresis Odotbelow Ograve Ohungarumlaut Omacron Omega Oogonek Oslash Oslashacute Otilde P Q R Racute Rcaron Rcedilla S Sacute Scaron Scedilla Schwa Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent Thorn U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent ";
@@ -70,9 +70,9 @@ wdth = {
 };
 wght = {
 300 = 60;
-400 = 90;
-500 = 100;
-600 = 125;
+400 = 88;
+500 = 110;
+600 = 130;
 700 = 150;
 };
 };
@@ -390,7 +390,7 @@ value = -125;
 descender = -250;
 id = master04;
 name = "Condensed Regular ";
-weightValue = 90;
+weightValue = 88;
 width = Condensed;
 widthValue = 75;
 xHeight = 515;
@@ -584,7 +584,7 @@ position = "{300, 0}";
 }
 );
 id = master06;
-weightValue = 90;
+weightValue = 88;
 xHeight = 515;
 },
 {
@@ -222758,8 +222758,7 @@ value = "Radio-Canada Condensed";
 interpolationWeight = 88;
 interpolationWidth = 75;
 instanceInterpolations = {
-master03 = 0.06667;
-master04 = 0.93333;
+master04 = 1;
 };
 name = Regular;
 widthClass = Condensed;
@@ -222771,11 +222770,11 @@ name = familyName;
 value = "Radio-Canada Condensed";
 }
 );
-interpolationWeight = 96;
+interpolationWeight = 110;
 interpolationWidth = 75;
 instanceInterpolations = {
-master02 = 0.1;
-master04 = 0.9;
+master02 = 0.35484;
+master04 = 0.64516;
 };
 name = Medium;
 weightClass = Medium;
@@ -222788,11 +222787,11 @@ name = familyName;
 value = "Radio-Canada Condensed";
 }
 );
-interpolationWeight = 115;
+interpolationWeight = 130;
 interpolationWidth = 75;
 instanceInterpolations = {
-master02 = 0.41667;
-master04 = 0.58333;
+master02 = 0.67742;
+master04 = 0.32258;
 };
 name = SemiBold;
 weightClass = SemiBold;
@@ -222805,11 +222804,10 @@ name = familyName;
 value = "Radio-Canada Condensed";
 }
 );
-interpolationWeight = 137;
+interpolationWeight = 150;
 interpolationWidth = 75;
 instanceInterpolations = {
-master02 = 0.78333;
-master04 = 0.21667;
+master02 = 1;
 };
 isBold = 1;
 linkStyle = Condensed;
@@ -222838,10 +222836,9 @@ name = familyName;
 value = "Radio-Canada";
 }
 );
-interpolationWeight = 92;
+interpolationWeight = 88;
 instanceInterpolations = {
-master01 = 0.03333;
-master06 = 0.96667;
+master06 = 1;
 };
 name = Regular;
 },
@@ -222852,9 +222849,10 @@ name = familyName;
 value = "Radio-Canada";
 }
 );
+interpolationWeight = 110;
 instanceInterpolations = {
-master01 = 0.16667;
-master06 = 0.83333;
+master01 = 0.35484;
+master06 = 0.64516;
 };
 name = Medium;
 weightClass = Medium;
@@ -222866,10 +222864,10 @@ name = familyName;
 value = "Radio-Canada";
 }
 );
-interpolationWeight = 125;
+interpolationWeight = 130;
 instanceInterpolations = {
-master01 = 0.58333;
-master06 = 0.41667;
+master01 = 0.67742;
+master06 = 0.32258;
 };
 name = SemiBold;
 weightClass = SemiBold;

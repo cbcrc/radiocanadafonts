@@ -1,5 +1,5 @@
 {
-.appVersion = "3086";
+.appVersion = "3101";
 classes = (
 {
 automatic = 1;
@@ -39,9 +39,9 @@ wdth = {
 };
 wght = {
 300 = 60;
-400 = 90;
-500 = 100;
-600 = 125;
+400 = 88;
+500 = 110;
+600 = 130;
 700 = 150;
 };
 };
@@ -408,7 +408,7 @@ position = "{190, 0}";
 }
 );
 id = master04;
-weightValue = 90;
+weightValue = 88;
 width = Condensed;
 widthValue = 75;
 xHeight = 515;
@@ -610,7 +610,7 @@ position = "{240, 0}";
 }
 );
 id = master06;
-weightValue = 90;
+weightValue = 88;
 xHeight = 515;
 },
 {
@@ -105428,8 +105428,7 @@ value = "Radio-Canada Condensed";
 interpolationWeight = 88;
 interpolationWidth = 75;
 instanceInterpolations = {
-master03 = 0.06667;
-master04 = 0.93333;
+master04 = 1;
 };
 name = Italic;
 widthClass = Condensed;
@@ -105441,11 +105440,11 @@ name = familyName;
 value = "Radio-Canada Condensed";
 }
 );
-interpolationWeight = 88;
+interpolationWeight = 110;
 interpolationWidth = 75;
 instanceInterpolations = {
-master03 = 0.06667;
-master04 = 0.93333;
+master02 = 0.35484;
+master04 = 0.64516;
 };
 name = "Medium Italic";
 weightClass = Medium;
@@ -105458,11 +105457,11 @@ name = familyName;
 value = "Radio-Canada Condensed";
 }
 );
-interpolationWeight = 88;
+interpolationWeight = 130;
 interpolationWidth = 75;
 instanceInterpolations = {
-master03 = 0.06667;
-master04 = 0.93333;
+master02 = 0.67742;
+master04 = 0.32258;
 };
 name = "SemiBold Italic";
 weightClass = SemiBold;
@@ -105475,11 +105474,10 @@ name = familyName;
 value = "Radio-Canada Condensed";
 }
 );
-interpolationWeight = 137;
+interpolationWeight = 150;
 interpolationWidth = 75;
 instanceInterpolations = {
-master02 = 0.78333;
-master04 = 0.21667;
+master02 = 1;
 };
 isBold = 1;
 isItalic = 1;
@@ -105509,10 +105507,9 @@ name = familyName;
 value = "Radio-Canada";
 }
 );
-interpolationWeight = 92;
+interpolationWeight = 88;
 instanceInterpolations = {
-master01 = 0.03333;
-master06 = 0.96667;
+master06 = 1;
 };
 name = Italic;
 },
@@ -105523,10 +105520,10 @@ name = familyName;
 value = "Radio-Canada";
 }
 );
-interpolationWeight = 92;
+interpolationWeight = 110;
 instanceInterpolations = {
-master01 = 0.03333;
-master06 = 0.96667;
+master01 = 0.35484;
+master06 = 0.64516;
 };
 name = "Medium Italic";
 weightClass = Medium;
@@ -105538,10 +105535,10 @@ name = familyName;
 value = "Radio-Canada";
 }
 );
-interpolationWeight = 125;
+interpolationWeight = 130;
 instanceInterpolations = {
-master01 = 0.58333;
-master06 = 0.41667;
+master01 = 0.67742;
+master06 = 0.32258;
 };
 name = "SemiBold Italic";
 weightClass = SemiBold;
