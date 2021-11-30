@@ -1,6 +1,6 @@
 # Radio-Canada Typeface
 
-![Basic specimen for RC Roman](documentation/images/nameplate.png)
+![Nameplate image](documentation/images/nameplate.png)
 
 The Canadian Broadcasting Corporation, or CBC/Radio-Canada, is a Canadian crown corporation that serves as the national public radio and television broadcaster.
 
@@ -9,10 +9,6 @@ In early 2017, work started on a custom typeface for use by CBC/Radio-Canada. In
 This project has been selected as a winner at the 2018 Communication Arts Typography competition in the Typeface Design category.
 
 This typeface family is still under development, and will be coming soon to Google Fonts.
-
-A 8.5x11 PDF user manual is avaiable [here](documentation/user-manual).
-
-![Animated specimen for RC Roman](documentation/images/animated-vf-specimen-roman.gif)
 
 ## Variable Font Axes
 
