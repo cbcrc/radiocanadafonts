@@ -1,69 +1,67 @@
-# RENDER THIS DOCUMENT WITH DRAWBOT: https://www.drawbot.com
+# drawbot.com - use drawbot-skia on Linux systems
 # $ pip install git+https://github.com/typemytype/drawbot
-
 from drawBot import *
-import math
 
 
-# CONSTANTS
-W = 1024  # Width
-H = 256  # Height
-M = 64  # Margin
-U = 32  # Unit (Grid Unit)
-F = 64  # Frames (Animation)
+# Constants, these are the main "settings" for the image
+WIDTH = 2048
+HEIGHT = 512
+MARGIN = 128
+FRAMES = 1
+GRID_VIEW = False  # Change this from "False" to "True" for a grid overlay
 
 
-# DRAWS A GRID
+# Draws a grid
 def grid():
-    strokeWidth(0.5)
-    stroke(1, 0, 0, 0.5)
-    step_X = 0
-    step_Y = 0
-    increment_X = U
-    increment_Y = U
-    for x in range(28):
-        polygon((M + step_X, M), (M + step_X, H - M))
-        step_X += increment_X
-    for y in range(6):
-        polygon((M, M + step_Y), (W - M, M + step_Y))
-        step_Y += increment_Y
-    fill(None)
-    rect(M, M, W - (2 * M), H - (2 * M))
+    stroke(1, 0, 0, 0.75)
+    strokeWidth(2)
+    STEP_X, STEP_Y = 0, 0
+    INCREMENT_X, INCREMENT_Y = MARGIN / 2, MARGIN / 2
+    rect(MARGIN, MARGIN, WIDTH - (MARGIN * 2), HEIGHT - (MARGIN * 2))
+    for x in range(29):
+        polygon((MARGIN + STEP_X, MARGIN), (MARGIN + STEP_X, HEIGHT - MARGIN))
+        STEP_X += INCREMENT_X
+    for y in range(12):
+        polygon((MARGIN, MARGIN + STEP_Y), (WIDTH - MARGIN, MARGIN + STEP_Y))
+        STEP_Y += INCREMENT_Y
+    polygon((WIDTH / 2, 0), (WIDTH / 2, HEIGHT))
+    polygon((0, HEIGHT / 2), (WIDTH, HEIGHT / 2))
 
 
-# NEW PAGE
-def new_page():
-    newPage(W, H)
+# Draw the page/frame and a grid if "GRID_VIEW" is set to "True"
+def draw_background():
+    newPage(WIDTH, HEIGHT)
     fill(0)
-    rect(-2, -2, W + 2, H + 2)
+    rect(-2, -2, WIDTH + 2, HEIGHT + 2)
+    if GRID_VIEW:
+        grid()
+        pass
+    else:
+        pass
 
 
-# START DRAWBOT
-newDrawing()
-
-
-# TEST FONTS
-font("../../fonts/variable/RadioCanada-[wdth,wght].ttf")
+# Print font info
+font("RadioCanada[wdth,wght].ttf")
 for axis, data in listFontVariations().items():
     print((axis, data))
-# for eachFontName in installedFonts():
-#    print(eachFontName)
 
 
-# MAIN
-new_page()
-#grid()  # Toggle for grid view
+# Draws the image
+def draw_image():
+    draw_background()
+    fill(0.95)
+    stroke(None)
+    font("RadioCanada[wdth,wght].ttf")
+    fontSize(MARGIN * 1.83)
+    fontVariations(wght=700)
+    fontVariations(wdth=100)
+    text("Radio-Canada", (MARGIN - 8, MARGIN + 53))
 
-font("../../fonts/variable/RadioCanada-[wdth,wght].ttf")
-fontSize(U * 3.6)
-stroke(None)
-fill(1)
-fontVariations(wght=700)
-fontVariations(wdth=100)
-text("Radio-Canada", ( M+(U*0.05), M+(U*0.85) ))
 
-# SAVE THE IMAGE IN THIS SCRIPT'S DIRECTORY
-saveImage("nameplate.png")
-
-# END DRAWBOT
-endDrawing()
+# Build and save the image
+if __name__ == "__main__":
+    newDrawing()
+    draw_image()
+    saveImage("nameplate.png")
+    endDrawing()
+    print("DrawBot: Done :-)")
