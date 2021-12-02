@@ -1,5 +1,5 @@
 {
-.appVersion = "3101";
+.appVersion = "3104";
 classes = (
 {
 code = " A AE AEacute Aacute Abreve Acircumflex Adieresis Adotbelow Agrave Amacron Aogonek Aring Aringacute Atilde B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Delta E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Edotbelow Egrave Emacron Eng Eogonek Eth Etilde Euro F G Gbreve Gcaron Gcedilla Gcircumflex Gdotaccent Germandbls H Hbar Hcircumflex I I.alt IJ IJacute Iacute Iacute.alt Ibreve Ibreve.alt Icircumflex Icircumflex.alt Idieresis Idieresis.alt Idotaccent Idotaccent.alt Idotbelow Idotbelow.alt Igrave Igrave.alt Imacron Imacron.alt Iogonek Iogonek.alt Itilde Itilde.alt J J.alt Jcircumflex Jcircumflex.alt K Kcedilla L Lacute Lcaron Lcedilla Ldot Lslash M N Nacute Ncaron Ncedilla Nhookleft Ntilde O OE Oacute Obreve Ocircumflex Odieresis Odotbelow Ograve Ohungarumlaut Omacron Omega Oogonek Oslash Oslashacute Otilde P Q R Racute Rcaron Rcedilla S Sacute Scaron Scedilla Schwa Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent Thorn U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent ";
@@ -109,7 +109,7 @@ date = "2021-02-18 03:46:07 +0000";
 designer = "Charles Daoud, Etienne Aubert Bonn, Alexandre Saumier Demers";
 designerURL = "http://charlesdaoud.com/";
 disablesNiceNames = 1;
-familyName = "Radio-Canada";
+familyName = "Radio Canada";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
@@ -222736,7 +222736,7 @@ instances = (
 customParameters = (
 {
 name = familyName;
-value = "Radio-Canada Condensed";
+value = "Radio Canada Condensed";
 }
 );
 interpolationWeight = 60;
@@ -222752,7 +222752,7 @@ widthClass = Condensed;
 customParameters = (
 {
 name = familyName;
-value = "Radio-Canada Condensed";
+value = "Radio Canada Condensed";
 }
 );
 interpolationWeight = 88;
@@ -222767,7 +222767,7 @@ widthClass = Condensed;
 customParameters = (
 {
 name = familyName;
-value = "Radio-Canada Condensed";
+value = "Radio Canada Condensed";
 }
 );
 interpolationWeight = 110;
@@ -222784,7 +222784,7 @@ widthClass = Condensed;
 customParameters = (
 {
 name = familyName;
-value = "Radio-Canada Condensed";
+value = "Radio Canada Condensed";
 }
 );
 interpolationWeight = 130;
@@ -222801,7 +222801,7 @@ widthClass = Condensed;
 customParameters = (
 {
 name = familyName;
-value = "Radio-Canada Condensed";
+value = "Radio Canada Condensed";
 }
 );
 interpolationWeight = 150;
@@ -222810,18 +222810,11 @@ instanceInterpolations = {
 master02 = 1;
 };
 isBold = 1;
-linkStyle = Condensed;
 name = Bold;
 weightClass = Bold;
 widthClass = Condensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Radio-Canada";
-}
-);
 interpolationWeight = 60;
 instanceInterpolations = {
 master05 = 1;
@@ -222830,12 +222823,6 @@ name = Light;
 weightClass = Light;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Radio-Canada";
-}
-);
 interpolationWeight = 88;
 instanceInterpolations = {
 master06 = 1;
@@ -222843,12 +222830,6 @@ master06 = 1;
 name = Regular;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Radio-Canada";
-}
-);
 interpolationWeight = 110;
 instanceInterpolations = {
 master01 = 0.35484;
@@ -222858,12 +222839,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Radio-Canada";
-}
-);
 interpolationWeight = 130;
 instanceInterpolations = {
 master01 = 0.67742;
@@ -222873,12 +222848,6 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Radio-Canada";
-}
-);
 interpolationWeight = 150;
 instanceInterpolations = {
 master01 = 1;
