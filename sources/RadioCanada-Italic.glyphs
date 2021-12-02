@@ -1,5 +1,5 @@
 {
-.appVersion = "3101";
+.appVersion = "3104";
 classes = (
 {
 automatic = 1;
@@ -77,7 +77,7 @@ Tag = wdth;
 date = "2021-02-18 21:03:02 +0000";
 designer = "Charles Daoud, Etienne Aubert Bonn, Alexandre Saumier Demers";
 designerURL = "http://charlesdaoud.com/";
-familyName = "Radio-Canada";
+familyName = "Radio Canada";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
@@ -105406,7 +105406,7 @@ instances = (
 customParameters = (
 {
 name = familyName;
-value = "Radio-Canada Condensed";
+value = "Radio Canada Condensed";
 }
 );
 interpolationWeight = 60;
@@ -105422,7 +105422,7 @@ widthClass = Condensed;
 customParameters = (
 {
 name = familyName;
-value = "Radio-Canada Condensed";
+value = "Radio Canada Condensed";
 }
 );
 interpolationWeight = 88;
@@ -105437,7 +105437,7 @@ widthClass = Condensed;
 customParameters = (
 {
 name = familyName;
-value = "Radio-Canada Condensed";
+value = "Radio Canada Condensed";
 }
 );
 interpolationWeight = 110;
@@ -105454,7 +105454,7 @@ widthClass = Condensed;
 customParameters = (
 {
 name = familyName;
-value = "Radio-Canada Condensed";
+value = "Radio Canada Condensed";
 }
 );
 interpolationWeight = 130;
@@ -105471,7 +105471,7 @@ widthClass = Condensed;
 customParameters = (
 {
 name = familyName;
-value = "Radio-Canada Condensed";
+value = "Radio Canada Condensed";
 }
 );
 interpolationWeight = 150;
@@ -105481,75 +105481,49 @@ master02 = 1;
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = Condensed;
 name = "Bold Italic";
 weightClass = Bold;
 widthClass = Condensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Radio-Canada";
-}
-);
 interpolationWeight = 60;
 instanceInterpolations = {
 master05 = 1;
 };
+isItalic = 1;
+linkStyle = Light;
 name = "Light Italic";
 weightClass = Light;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Radio-Canada";
-}
-);
 interpolationWeight = 88;
 instanceInterpolations = {
 master06 = 1;
 };
+isItalic = 1;
 name = Italic;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Radio-Canada";
-}
-);
 interpolationWeight = 110;
 instanceInterpolations = {
 master01 = 0.35484;
 master06 = 0.64516;
 };
+linkStyle = Medium;
 name = "Medium Italic";
 weightClass = Medium;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Radio-Canada";
-}
-);
 interpolationWeight = 130;
 instanceInterpolations = {
 master01 = 0.67742;
 master06 = 0.32258;
 };
+linkStyle = SemiBold;
 name = "SemiBold Italic";
 weightClass = SemiBold;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Radio-Canada";
-}
-);
 interpolationWeight = 150;
 instanceInterpolations = {
 master01 = 1;
