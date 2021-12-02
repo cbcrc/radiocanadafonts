@@ -1,5 +1,5 @@
 {
-.appVersion = "3104";
+.appVersion = "3105";
 classes = (
 {
 automatic = 1;
@@ -339,6 +339,7 @@ position = "{240, 0}";
 }
 );
 id = master03;
+italicAngle = 12;
 name = "Condensed Light Italic";
 weight = Light;
 weightValue = 60;
@@ -408,6 +409,7 @@ position = "{190, 0}";
 }
 );
 id = master04;
+italicAngle = 12;
 weightValue = 88;
 width = Condensed;
 widthValue = 75;
@@ -475,6 +477,7 @@ position = "{190, 0}";
 }
 );
 id = master02;
+italicAngle = 12;
 name = "Condensed Bold Italic";
 weight = Bold;
 weightValue = 150;
@@ -544,6 +547,7 @@ position = "{240, 0}";
 }
 );
 id = master05;
+italicAngle = 12;
 weight = Light;
 weightValue = 60;
 xHeight = 510;
@@ -610,6 +614,7 @@ position = "{240, 0}";
 }
 );
 id = master06;
+italicAngle = 12;
 weightValue = 88;
 xHeight = 515;
 },
@@ -671,10 +676,11 @@ descender = -250;
 guideLines = (
 {
 angle = 78;
-position = "{240, 0}";
+position = "{6, 0}";
 }
 );
 id = master01;
+italicAngle = 12;
 weight = Bold;
 weightValue = 150;
 xHeight = 525;
@@ -105414,6 +105420,8 @@ interpolationWidth = 75;
 instanceInterpolations = {
 master03 = 1;
 };
+isItalic = 1;
+linkStyle = "Condensed Lightt";
 name = "Light Italic";
 weightClass = Light;
 widthClass = Condensed;
@@ -105430,6 +105438,8 @@ interpolationWidth = 75;
 instanceInterpolations = {
 master04 = 1;
 };
+isItalic = 1;
+linkStyle = "Condensed Regularr";
 name = Italic;
 widthClass = Condensed;
 },
@@ -105446,6 +105456,8 @@ instanceInterpolations = {
 master02 = 0.35484;
 master04 = 0.64516;
 };
+isItalic = 1;
+linkStyle = "Condensed Medium";
 name = "Medium Italic";
 weightClass = Medium;
 widthClass = Condensed;
@@ -105463,6 +105475,8 @@ instanceInterpolations = {
 master02 = 0.67742;
 master04 = 0.32258;
 };
+isItalic = 1;
+linkStyle = "Condensed SemiBold";
 name = "SemiBold Italic";
 weightClass = SemiBold;
 widthClass = Condensed;
@@ -105501,6 +105515,7 @@ instanceInterpolations = {
 master06 = 1;
 };
 isItalic = 1;
+linkStyle = Regular;
 name = Italic;
 },
 {
@@ -105509,6 +105524,7 @@ instanceInterpolations = {
 master01 = 0.35484;
 master06 = 0.64516;
 };
+isItalic = 1;
 linkStyle = Medium;
 name = "Medium Italic";
 weightClass = Medium;
@@ -105519,6 +105535,7 @@ instanceInterpolations = {
 master01 = 0.67742;
 master06 = 0.32258;
 };
+isItalic = 1;
 linkStyle = SemiBold;
 name = "SemiBold Italic";
 weightClass = SemiBold;
@@ -107075,6 +107092,9 @@ x = {
 manufacturer = "Radio-Canada";
 manufacturerURL = "https://github.com/cbcrc/";
 unitsPerEm = 1000;
+userData = {
+GSDontShowVersionAlert = 1;
+};
 versionMajor = 2;
 versionMinor = 0;
 }
