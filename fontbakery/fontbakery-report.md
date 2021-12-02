@@ -126,46 +126,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - breve.cap
- - dieresis.cap
  - three.lf
- - uni0326.alt
- - uni03060303
- - uni030C.alt
- - eight.lf
- - two.lf
- - uni03060309
- - dollar.BRACKET.100
- - circumflex.cap
- - uni03020301
- - uni03020309
- - four.lf
- - ring_acute
- - uni03020300
- - uni03060300
- - cent.BRACKET.100
- - one.lf
- - tilde.cap
- - zero.lf
- - grave.cap
- - seven.lf
- - nine.lf
- - ring.cap
- - caron.cap
- - i.loclTRK
+ - dieresis.cap
  - five.lf
- - six.lf
- - uni03020303
+ - uni03020309
  - uni0326
- - ring_acute.cap
- - dotaccent.cap
- - dotbelow
- - acute.cap
+ - breve.cap
+ - six.lf
+ - ring.cap
  - periodcentered.loclCAT
- - hungarumlaut.cap
- - macron.cap
- - caron.alt 
+ - ring_acute.cap
+ - zero.lf
+ - caron.cap
+ - circumflex.cap
+ - four.lf
+ - uni03020301
+ - grave.cap
+ - one.lf
  - uni03060301
+ - eight.lf
+ - seven.lf
+ - macron.cap
+ - ring_acute
+ - dollar.BRACKET.100
+ - uni03060300
+ - hungarumlaut.cap
+ - tilde.cap
+ - i.loclTRK
+ - uni03060309
+ - uni03020300
+ - caron.alt
+ - uni03060303
+ - dotaccent.cap
+ - acute.cap
+ - dotbelow
+ - uni030C.alt
+ - uni0326.alt
+ - uni03020303
+ - cent.BRACKET.100
+ - nine.lf 
+ - two.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -455,46 +455,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - breve.cap
- - dieresis.cap
  - three.lf
- - uni0326.alt
- - uni03060303
- - uni030C.alt
- - eight.lf
- - two.lf
- - uni03060309
- - dollar.BRACKET.100
- - circumflex.cap
- - uni03020301
- - uni03020309
- - four.lf
- - ring_acute
- - uni03020300
- - uni03060300
- - cent.BRACKET.100
- - one.lf
- - tilde.cap
- - zero.lf
- - grave.cap
- - seven.lf
- - nine.lf
- - ring.cap
- - caron.cap
- - i.loclTRK
+ - dieresis.cap
  - five.lf
- - six.lf
- - uni03020303
+ - uni03020309
  - uni0326
- - ring_acute.cap
- - dotaccent.cap
- - dotbelow
- - acute.cap
+ - breve.cap
+ - six.lf
+ - ring.cap
  - periodcentered.loclCAT
- - hungarumlaut.cap
- - macron.cap
- - caron.alt 
+ - ring_acute.cap
+ - zero.lf
+ - caron.cap
+ - circumflex.cap
+ - four.lf
+ - uni03020301
+ - grave.cap
+ - one.lf
  - uni03060301
+ - eight.lf
+ - seven.lf
+ - macron.cap
+ - ring_acute
+ - dollar.BRACKET.100
+ - uni03060300
+ - hungarumlaut.cap
+ - tilde.cap
+ - i.loclTRK
+ - uni03060309
+ - uni03020300
+ - caron.alt
+ - uni03060303
+ - dotaccent.cap
+ - acute.cap
+ - dotbelow
+ - uni030C.alt
+ - uni0326.alt
+ - uni03020303
+ - cent.BRACKET.100
+ - nine.lf 
+ - two.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -775,18 +775,18 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - nine.pl
- - one.pl
- - uni030C.alt
- - zero.pl
- - five.pl
- - dollar.BRACKET.100
- - eight.pl
- - seven.pl
- - cent.BRACKET.100
- - four.pl
  - two.pl
- - three.pl 
+ - five.pl
  - six.pl
+ - seven.pl
+ - three.pl
+ - eight.pl
+ - four.pl
+ - uni030C.alt
+ - dollar.BRACKET.100
+ - cent.BRACKET.100
+ - one.pl 
+ - zero.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -1033,46 +1033,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - breve.cap
- - dieresis.cap
  - three.lf
- - uni0326.alt
- - uni03060303
- - uni030C.alt
- - eight.lf
- - two.lf
- - uni03060309
- - dollar.BRACKET.100
- - circumflex.cap
- - uni03020301
- - uni03020309
- - four.lf
- - ring_acute
- - uni03020300
- - uni03060300
- - cent.BRACKET.100
- - one.lf
- - tilde.cap
- - zero.lf
- - grave.cap
- - seven.lf
- - nine.lf
- - ring.cap
- - caron.cap
- - i.loclTRK
+ - dieresis.cap
  - five.lf
- - six.lf
- - uni03020303
+ - uni03020309
  - uni0326
- - ring_acute.cap
- - dotaccent.cap
- - dotbelow
- - acute.cap
+ - breve.cap
+ - six.lf
+ - ring.cap
  - periodcentered.loclCAT
- - hungarumlaut.cap
- - macron.cap
- - caron.alt 
+ - ring_acute.cap
+ - zero.lf
+ - caron.cap
+ - circumflex.cap
+ - four.lf
+ - uni03020301
+ - grave.cap
+ - one.lf
  - uni03060301
+ - eight.lf
+ - seven.lf
+ - macron.cap
+ - ring_acute
+ - dollar.BRACKET.100
+ - uni03060300
+ - hungarumlaut.cap
+ - tilde.cap
+ - i.loclTRK
+ - uni03060309
+ - uni03020300
+ - caron.alt
+ - uni03060303
+ - dotaccent.cap
+ - acute.cap
+ - dotbelow
+ - uni030C.alt
+ - uni0326.alt
+ - uni03020303
+ - cent.BRACKET.100
+ - nine.lf 
+ - two.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -1355,46 +1355,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - breve.cap
- - dieresis.cap
  - three.lf
- - uni0326.alt
- - uni03060303
- - uni030C.alt
- - eight.lf
- - two.lf
- - uni03060309
- - dollar.BRACKET.100
- - circumflex.cap
- - uni03020301
- - uni03020309
- - four.lf
- - ring_acute
- - uni03020300
- - uni03060300
- - cent.BRACKET.100
- - one.lf
- - tilde.cap
- - zero.lf
- - grave.cap
- - seven.lf
- - nine.lf
- - ring.cap
- - caron.cap
- - i.loclTRK
+ - dieresis.cap
  - five.lf
- - six.lf
- - uni03020303
+ - uni03020309
  - uni0326
- - ring_acute.cap
- - dotaccent.cap
- - dotbelow
- - acute.cap
+ - breve.cap
+ - six.lf
+ - ring.cap
  - periodcentered.loclCAT
- - hungarumlaut.cap
- - macron.cap
- - caron.alt 
+ - ring_acute.cap
+ - zero.lf
+ - caron.cap
+ - circumflex.cap
+ - four.lf
+ - uni03020301
+ - grave.cap
+ - one.lf
  - uni03060301
+ - eight.lf
+ - seven.lf
+ - macron.cap
+ - ring_acute
+ - dollar.BRACKET.100
+ - uni03060300
+ - hungarumlaut.cap
+ - tilde.cap
+ - i.loclTRK
+ - uni03060309
+ - uni03020300
+ - caron.alt
+ - uni03060303
+ - dotaccent.cap
+ - acute.cap
+ - dotbelow
+ - uni030C.alt
+ - uni0326.alt
+ - uni03020303
+ - cent.BRACKET.100
+ - nine.lf 
+ - two.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -1564,7 +1564,7 @@ Checks that the family name infered from the font filename matches the string at
 nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise checks
 that nameID 1 is the family name + the style name.</pre>
 
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Radio Canada Condensed SemiBold" but got "Radio Canada Condensed Condensed SemiBold". [code: mismatch]
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Radio Canada Condensed SemiBold" but got "Radio Canada Condensed Radio Canada Condensed SemiBold". [code: mismatch]
 
 </details>
 <details>
@@ -1572,7 +1572,7 @@ that nameID 1 is the family name + the style name.</pre>
 
 * [com.google.fonts/check/name/match_familyname_fullfont](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont)
 
-* 🔥 **FAIL** On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Radio Canada Condensed Condensed SemiBold') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Radio Canada Condensed SemiBold Italic') [code: does-not]
+* 🔥 **FAIL** On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Radio Canada Condensed Radio Canada Condensed SemiBold') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Radio Canada Condensed SemiBold Italic') [code: does-not]
 
 </details>
 <details>
@@ -1659,7 +1659,7 @@ decided that allowing up to 27 chars would still be on the safe side, though.
 [2] https://github.com/googlefonts/fontbakery/issues/2179</pre>
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Radio Canada Condensed Condensed SemiBold' / SUBFAMILY_NAME = 'Italic'
+ FONT_FAMILY_NAME = 'Radio Canada Condensed Radio Canada Condensed SemiBold' / SUBFAMILY_NAME = 'Italic'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 
@@ -1716,18 +1716,18 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - nine.pl
- - one.pl
- - uni030C.alt
- - zero.pl
- - five.pl
- - dollar.BRACKET.100
- - eight.pl
- - seven.pl
- - cent.BRACKET.100
- - four.pl
  - two.pl
- - three.pl 
+ - five.pl
  - six.pl
+ - seven.pl
+ - three.pl
+ - eight.pl
+ - four.pl
+ - uni030C.alt
+ - dollar.BRACKET.100
+ - cent.BRACKET.100
+ - one.pl 
+ - zero.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -2040,46 +2040,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - breve.cap
- - dieresis.cap
  - three.lf
- - uni0326.alt
- - uni03060303
- - uni030C.alt
- - eight.lf
- - two.lf
- - uni03060309
- - dollar.BRACKET.100
- - circumflex.cap
- - uni03020301
- - uni03020309
- - four.lf
- - ring_acute
- - uni03020300
- - uni03060300
- - cent.BRACKET.100
- - one.lf
- - tilde.cap
- - zero.lf
- - grave.cap
- - seven.lf
- - nine.lf
- - ring.cap
- - caron.cap
- - i.loclTRK
+ - dieresis.cap
  - five.lf
- - six.lf
- - uni03020303
+ - uni03020309
  - uni0326
- - ring_acute.cap
- - dotaccent.cap
- - dotbelow
- - acute.cap
+ - breve.cap
+ - six.lf
+ - ring.cap
  - periodcentered.loclCAT
- - hungarumlaut.cap
- - macron.cap
- - caron.alt 
+ - ring_acute.cap
+ - zero.lf
+ - caron.cap
+ - circumflex.cap
+ - four.lf
+ - uni03020301
+ - grave.cap
+ - one.lf
  - uni03060301
+ - eight.lf
+ - seven.lf
+ - macron.cap
+ - ring_acute
+ - dollar.BRACKET.100
+ - uni03060300
+ - hungarumlaut.cap
+ - tilde.cap
+ - i.loclTRK
+ - uni03060309
+ - uni03020300
+ - caron.alt
+ - uni03060303
+ - dotaccent.cap
+ - acute.cap
+ - dotbelow
+ - uni030C.alt
+ - uni0326.alt
+ - uni03020303
+ - cent.BRACKET.100
+ - nine.lf 
+ - two.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -2369,46 +2369,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - breve.cap
- - dieresis.cap
  - three.lf
- - uni0326.alt
- - uni03060303
- - uni030C.alt
- - eight.lf
- - two.lf
- - uni03060309
- - dollar.BRACKET.100
- - circumflex.cap
- - uni03020301
- - uni03020309
- - four.lf
- - ring_acute
- - uni03020300
- - uni03060300
- - cent.BRACKET.100
- - one.lf
- - tilde.cap
- - zero.lf
- - grave.cap
- - seven.lf
- - nine.lf
- - ring.cap
- - caron.cap
- - i.loclTRK
+ - dieresis.cap
  - five.lf
- - six.lf
- - uni03020303
+ - uni03020309
  - uni0326
- - ring_acute.cap
- - dotaccent.cap
- - dotbelow
- - acute.cap
+ - breve.cap
+ - six.lf
+ - ring.cap
  - periodcentered.loclCAT
- - hungarumlaut.cap
- - macron.cap
- - caron.alt 
+ - ring_acute.cap
+ - zero.lf
+ - caron.cap
+ - circumflex.cap
+ - four.lf
+ - uni03020301
+ - grave.cap
+ - one.lf
  - uni03060301
+ - eight.lf
+ - seven.lf
+ - macron.cap
+ - ring_acute
+ - dollar.BRACKET.100
+ - uni03060300
+ - hungarumlaut.cap
+ - tilde.cap
+ - i.loclTRK
+ - uni03060309
+ - uni03020300
+ - caron.alt
+ - uni03060303
+ - dotaccent.cap
+ - acute.cap
+ - dotbelow
+ - uni030C.alt
+ - uni0326.alt
+ - uni03020303
+ - cent.BRACKET.100
+ - nine.lf 
+ - two.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -2597,7 +2597,7 @@ Checks that the family name infered from the font filename matches the string at
 nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise checks
 that nameID 1 is the family name + the style name.</pre>
 
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Radio Canada Condensed Light" but got "Radio Canada Condensed Condensed Lightt". [code: mismatch]
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Radio Canada Condensed Light" but got "Radio Canada Condensed Radio Canada Condensed Lightt". [code: mismatch]
 
 </details>
 <details>
@@ -2605,7 +2605,7 @@ that nameID 1 is the family name + the style name.</pre>
 
 * [com.google.fonts/check/name/match_familyname_fullfont](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont)
 
-* 🔥 **FAIL** On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Radio Canada Condensed Condensed Lightt') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Radio Canada Condensed Light Italic') [code: does-not]
+* 🔥 **FAIL** On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Radio Canada Condensed Radio Canada Condensed Lightt') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Radio Canada Condensed Light Italic') [code: does-not]
 
 </details>
 <details>
@@ -2692,7 +2692,7 @@ decided that allowing up to 27 chars would still be on the safe side, though.
 [2] https://github.com/googlefonts/fontbakery/issues/2179</pre>
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Radio Canada Condensed Condensed Lightt' / SUBFAMILY_NAME = 'Italic'
+ FONT_FAMILY_NAME = 'Radio Canada Condensed Radio Canada Condensed Lightt' / SUBFAMILY_NAME = 'Italic'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 
@@ -2749,18 +2749,18 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - nine.pl
- - one.pl
- - uni030C.alt
- - zero.pl
- - five.pl
- - dollar.BRACKET.100
- - eight.pl
- - seven.pl
- - cent.BRACKET.100
- - four.pl
  - two.pl
- - three.pl 
+ - five.pl
  - six.pl
+ - seven.pl
+ - three.pl
+ - eight.pl
+ - four.pl
+ - uni030C.alt
+ - dollar.BRACKET.100
+ - cent.BRACKET.100
+ - one.pl 
+ - zero.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -3028,46 +3028,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - breve.cap
- - dieresis.cap
  - three.lf
- - uni0326.alt
- - uni03060303
- - uni030C.alt
- - eight.lf
- - two.lf
- - uni03060309
- - dollar.BRACKET.100
- - circumflex.cap
- - uni03020301
- - uni03020309
- - four.lf
- - ring_acute
- - uni03020300
- - uni03060300
- - cent.BRACKET.100
- - one.lf
- - tilde.cap
- - zero.lf
- - grave.cap
- - seven.lf
- - nine.lf
- - ring.cap
- - caron.cap
- - i.loclTRK
+ - dieresis.cap
  - five.lf
- - six.lf
- - uni03020303
+ - uni03020309
  - uni0326
- - ring_acute.cap
- - dotaccent.cap
- - dotbelow
- - acute.cap
+ - breve.cap
+ - six.lf
+ - ring.cap
  - periodcentered.loclCAT
- - hungarumlaut.cap
- - macron.cap
- - caron.alt 
+ - ring_acute.cap
+ - zero.lf
+ - caron.cap
+ - circumflex.cap
+ - four.lf
+ - uni03020301
+ - grave.cap
+ - one.lf
  - uni03060301
+ - eight.lf
+ - seven.lf
+ - macron.cap
+ - ring_acute
+ - dollar.BRACKET.100
+ - uni03060300
+ - hungarumlaut.cap
+ - tilde.cap
+ - i.loclTRK
+ - uni03060309
+ - uni03020300
+ - caron.alt
+ - uni03060303
+ - dotaccent.cap
+ - acute.cap
+ - dotbelow
+ - uni030C.alt
+ - uni0326.alt
+ - uni03020303
+ - cent.BRACKET.100
+ - nine.lf 
+ - two.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -3349,18 +3349,18 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - nine.pl
- - one.pl
- - uni030C.alt
- - zero.pl
- - five.pl
- - dollar.BRACKET.100
- - eight.pl
- - seven.pl
- - cent.BRACKET.100
- - four.pl
  - two.pl
- - three.pl 
+ - five.pl
  - six.pl
+ - seven.pl
+ - three.pl
+ - eight.pl
+ - four.pl
+ - uni030C.alt
+ - dollar.BRACKET.100
+ - cent.BRACKET.100
+ - one.pl 
+ - zero.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -3539,7 +3539,7 @@ Checks that the family name infered from the font filename matches the string at
 nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise checks
 that nameID 1 is the family name + the style name.</pre>
 
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Radio Canada Condensed Medium" but got "Radio Canada Condensed Condensed Medium". [code: mismatch]
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Radio Canada Condensed Medium" but got "Radio Canada Condensed Radio Canada Condensed Medium". [code: mismatch]
 
 </details>
 <details>
@@ -3547,7 +3547,7 @@ that nameID 1 is the family name + the style name.</pre>
 
 * [com.google.fonts/check/name/match_familyname_fullfont](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont)
 
-* 🔥 **FAIL** On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Radio Canada Condensed Condensed Medium') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Radio Canada Condensed Medium Italic') [code: does-not]
+* 🔥 **FAIL** On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Radio Canada Condensed Radio Canada Condensed Medium') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Radio Canada Condensed Medium Italic') [code: does-not]
 
 </details>
 <details>
@@ -3634,7 +3634,7 @@ decided that allowing up to 27 chars would still be on the safe side, though.
 [2] https://github.com/googlefonts/fontbakery/issues/2179</pre>
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Radio Canada Condensed Condensed Medium' / SUBFAMILY_NAME = 'Italic'
+ FONT_FAMILY_NAME = 'Radio Canada Condensed Radio Canada Condensed Medium' / SUBFAMILY_NAME = 'Italic'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 
@@ -3691,18 +3691,18 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - nine.pl
- - one.pl
- - uni030C.alt
- - zero.pl
- - five.pl
- - dollar.BRACKET.100
- - eight.pl
- - seven.pl
- - cent.BRACKET.100
- - four.pl
  - two.pl
- - three.pl 
+ - five.pl
  - six.pl
+ - seven.pl
+ - three.pl
+ - eight.pl
+ - four.pl
+ - uni030C.alt
+ - dollar.BRACKET.100
+ - cent.BRACKET.100
+ - one.pl 
+ - zero.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -3989,18 +3989,18 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - nine.pl
- - one.pl
- - uni030C.alt
- - zero.pl
- - five.pl
- - dollar.BRACKET.100
- - eight.pl
- - seven.pl
- - cent.BRACKET.100
- - four.pl
  - two.pl
- - three.pl 
+ - five.pl
  - six.pl
+ - seven.pl
+ - three.pl
+ - eight.pl
+ - four.pl
+ - uni030C.alt
+ - dollar.BRACKET.100
+ - cent.BRACKET.100
+ - one.pl 
+ - zero.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -4286,18 +4286,18 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - nine.pl
- - one.pl
- - uni030C.alt
- - zero.pl
- - five.pl
- - dollar.BRACKET.100
- - eight.pl
- - seven.pl
- - cent.BRACKET.100
- - four.pl
  - two.pl
- - three.pl 
+ - five.pl
  - six.pl
+ - seven.pl
+ - three.pl
+ - eight.pl
+ - four.pl
+ - uni030C.alt
+ - dollar.BRACKET.100
+ - cent.BRACKET.100
+ - one.pl 
+ - zero.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -4594,46 +4594,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - breve.cap
- - dieresis.cap
  - three.lf
- - uni0326.alt
- - uni03060303
- - uni030C.alt
- - eight.lf
- - two.lf
- - uni03060309
- - dollar.BRACKET.100
- - circumflex.cap
- - uni03020301
- - uni03020309
- - four.lf
- - ring_acute
- - uni03020300
- - uni03060300
- - cent.BRACKET.100
- - one.lf
- - tilde.cap
- - zero.lf
- - grave.cap
- - seven.lf
- - nine.lf
- - ring.cap
- - caron.cap
- - i.loclTRK
+ - dieresis.cap
  - five.lf
- - six.lf
- - uni03020303
+ - uni03020309
  - uni0326
- - ring_acute.cap
- - dotaccent.cap
- - dotbelow
- - acute.cap
+ - breve.cap
+ - six.lf
+ - ring.cap
  - periodcentered.loclCAT
- - hungarumlaut.cap
- - macron.cap
- - caron.alt 
+ - ring_acute.cap
+ - zero.lf
+ - caron.cap
+ - circumflex.cap
+ - four.lf
+ - uni03020301
+ - grave.cap
+ - one.lf
  - uni03060301
+ - eight.lf
+ - seven.lf
+ - macron.cap
+ - ring_acute
+ - dollar.BRACKET.100
+ - uni03060300
+ - hungarumlaut.cap
+ - tilde.cap
+ - i.loclTRK
+ - uni03060309
+ - uni03020300
+ - caron.alt
+ - uni03060303
+ - dotaccent.cap
+ - acute.cap
+ - dotbelow
+ - uni030C.alt
+ - uni0326.alt
+ - uni03020303
+ - cent.BRACKET.100
+ - nine.lf 
+ - two.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -4943,46 +4943,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - breve.cap
- - dieresis.cap
  - three.lf
- - uni0326.alt
- - uni03060303
- - uni030C.alt
- - eight.lf
- - two.lf
- - uni03060309
- - dollar.BRACKET.100
- - circumflex.cap
- - uni03020301
- - uni03020309
- - four.lf
- - ring_acute
- - uni03020300
- - uni03060300
- - cent.BRACKET.100
- - one.lf
- - tilde.cap
- - zero.lf
- - grave.cap
- - seven.lf
- - nine.lf
- - ring.cap
- - caron.cap
- - i.loclTRK
+ - dieresis.cap
  - five.lf
- - six.lf
- - uni03020303
+ - uni03020309
  - uni0326
- - ring_acute.cap
- - dotaccent.cap
- - dotbelow
- - acute.cap
+ - breve.cap
+ - six.lf
+ - ring.cap
  - periodcentered.loclCAT
- - hungarumlaut.cap
- - macron.cap
- - caron.alt 
+ - ring_acute.cap
+ - zero.lf
+ - caron.cap
+ - circumflex.cap
+ - four.lf
+ - uni03020301
+ - grave.cap
+ - one.lf
  - uni03060301
+ - eight.lf
+ - seven.lf
+ - macron.cap
+ - ring_acute
+ - dollar.BRACKET.100
+ - uni03060300
+ - hungarumlaut.cap
+ - tilde.cap
+ - i.loclTRK
+ - uni03060309
+ - uni03020300
+ - caron.alt
+ - uni03060303
+ - dotaccent.cap
+ - acute.cap
+ - dotbelow
+ - uni030C.alt
+ - uni0326.alt
+ - uni03020303
+ - cent.BRACKET.100
+ - nine.lf 
+ - two.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -5287,46 +5287,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - breve.cap
- - dieresis.cap
  - three.lf
- - uni0326.alt
- - uni03060303
- - uni030C.alt
- - eight.lf
- - two.lf
- - uni03060309
- - dollar.BRACKET.100
- - circumflex.cap
- - uni03020301
- - uni03020309
- - four.lf
- - ring_acute
- - uni03020300
- - uni03060300
- - cent.BRACKET.100
- - one.lf
- - tilde.cap
- - zero.lf
- - grave.cap
- - seven.lf
- - nine.lf
- - ring.cap
- - caron.cap
- - i.loclTRK
+ - dieresis.cap
  - five.lf
- - six.lf
- - uni03020303
+ - uni03020309
  - uni0326
- - ring_acute.cap
- - dotaccent.cap
- - dotbelow
- - acute.cap
+ - breve.cap
+ - six.lf
+ - ring.cap
  - periodcentered.loclCAT
- - hungarumlaut.cap
- - macron.cap
- - caron.alt 
+ - ring_acute.cap
+ - zero.lf
+ - caron.cap
+ - circumflex.cap
+ - four.lf
+ - uni03020301
+ - grave.cap
+ - one.lf
  - uni03060301
+ - eight.lf
+ - seven.lf
+ - macron.cap
+ - ring_acute
+ - dollar.BRACKET.100
+ - uni03060300
+ - hungarumlaut.cap
+ - tilde.cap
+ - i.loclTRK
+ - uni03060309
+ - uni03020300
+ - caron.alt
+ - uni03060303
+ - dotaccent.cap
+ - acute.cap
+ - dotbelow
+ - uni030C.alt
+ - uni0326.alt
+ - uni03020303
+ - cent.BRACKET.100
+ - nine.lf 
+ - two.lf
  [code: unreachable-glyphs]
 
 </details>
@@ -5472,7 +5472,7 @@ Checks that the family name infered from the font filename matches the string at
 nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise checks
 that nameID 1 is the family name + the style name.</pre>
 
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Radio Canada Condensed" but got "Radio Canada Condensed Condensed Regularr". [code: mismatch]
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Radio Canada Condensed" but got "Radio Canada Condensed Radio Canada Condensed Regular". [code: mismatch]
 
 </details>
 <details>
@@ -5490,7 +5490,7 @@ Requirements for the TYPOGRAPHIC_FAMILY_NAME entries in the &#x27;name&#x27; tab
 
 * [com.google.fonts/check/name/match_familyname_fullfont](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont)
 
-* 🔥 **FAIL** On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Radio Canada Condensed Condensed Regularr') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Radio Canada Condensed Italic') [code: does-not]
+* 🔥 **FAIL** On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Radio Canada Condensed Radio Canada Condensed Regular') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Radio Canada Condensed Italic') [code: does-not]
 
 </details>
 <details>
@@ -5577,7 +5577,7 @@ decided that allowing up to 27 chars would still be on the safe side, though.
 [2] https://github.com/googlefonts/fontbakery/issues/2179</pre>
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Radio Canada Condensed Condensed Regularr' / SUBFAMILY_NAME = 'Italic'
+ FONT_FAMILY_NAME = 'Radio Canada Condensed Radio Canada Condensed Regular' / SUBFAMILY_NAME = 'Italic'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 
@@ -5634,18 +5634,18 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - nine.pl
- - one.pl
- - uni030C.alt
- - zero.pl
- - five.pl
- - dollar.BRACKET.100
- - eight.pl
- - seven.pl
- - cent.BRACKET.100
- - four.pl
  - two.pl
- - three.pl 
+ - five.pl
  - six.pl
+ - seven.pl
+ - three.pl
+ - eight.pl
+ - four.pl
+ - uni030C.alt
+ - dollar.BRACKET.100
+ - cent.BRACKET.100
+ - one.pl 
+ - zero.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -5950,18 +5950,18 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - nine.pl
- - one.pl
- - uni030C.alt
- - zero.pl
- - five.pl
- - dollar.BRACKET.100
- - eight.pl
- - seven.pl
- - cent.BRACKET.100
- - four.pl
  - two.pl
- - three.pl 
+ - five.pl
  - six.pl
+ - seven.pl
+ - three.pl
+ - eight.pl
+ - four.pl
+ - uni030C.alt
+ - dollar.BRACKET.100
+ - cent.BRACKET.100
+ - one.pl 
+ - zero.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -6200,18 +6200,18 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - nine.pl
- - one.pl
- - uni030C.alt
- - zero.pl
- - five.pl
- - dollar.BRACKET.100
- - eight.pl
- - seven.pl
- - cent.BRACKET.100
- - four.pl
  - two.pl
- - three.pl 
+ - five.pl
  - six.pl
+ - seven.pl
+ - three.pl
+ - eight.pl
+ - four.pl
+ - uni030C.alt
+ - dollar.BRACKET.100
+ - cent.BRACKET.100
+ - one.pl 
+ - zero.pl
  [code: unreachable-glyphs]
 
 </details>
