@@ -126,46 +126,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020300
- - dollar.BRACKET.100
- - dieresis.cap
- - dotbelow
- - uni03060303
- - grave.cap
- - uni03020303
- - uni03060309
- - ring_acute.cap
- - zero.lf
- - i.loclTRK
- - uni03020301
- - eight.lf
- - caron.cap
- - nine.lf
- - caron.alt
- - periodcentered.loclCAT
- - acute.cap
  - breve.cap
+ - dieresis.cap
  - three.lf
  - uni0326.alt
- - dotaccent.cap
- - macron.cap
- - tilde.cap
- - cent.BRACKET.100
- - seven.lf
+ - uni03060303
+ - uni030C.alt
+ - eight.lf
+ - two.lf
+ - uni03060309
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - uni03020301
  - uni03020309
  - four.lf
- - uni0326
- - circumflex.cap
- - five.lf
- - ring.cap
- - one.lf
- - uni03060301
- - two.lf
  - ring_acute
+ - uni03020300
  - uni03060300
- - hungarumlaut.cap
- - uni030C.alt 
+ - cent.BRACKET.100
+ - one.lf
+ - tilde.cap
+ - zero.lf
+ - grave.cap
+ - seven.lf
+ - nine.lf
+ - ring.cap
+ - caron.cap
+ - i.loclTRK
+ - five.lf
  - six.lf
+ - uni03020303
+ - uni0326
+ - ring_acute.cap
+ - dotaccent.cap
+ - dotbelow
+ - acute.cap
+ - periodcentered.loclCAT
+ - hungarumlaut.cap
+ - macron.cap
+ - caron.alt 
+ - uni03060301
  [code: unreachable-glyphs]
 
 </details>
@@ -455,46 +455,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020300
- - dollar.BRACKET.100
- - dieresis.cap
- - dotbelow
- - uni03060303
- - grave.cap
- - uni03020303
- - uni03060309
- - ring_acute.cap
- - zero.lf
- - i.loclTRK
- - uni03020301
- - eight.lf
- - caron.cap
- - nine.lf
- - caron.alt
- - periodcentered.loclCAT
- - acute.cap
  - breve.cap
+ - dieresis.cap
  - three.lf
  - uni0326.alt
- - dotaccent.cap
- - macron.cap
- - tilde.cap
- - cent.BRACKET.100
- - seven.lf
+ - uni03060303
+ - uni030C.alt
+ - eight.lf
+ - two.lf
+ - uni03060309
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - uni03020301
  - uni03020309
  - four.lf
- - uni0326
- - circumflex.cap
- - five.lf
- - ring.cap
- - one.lf
- - uni03060301
- - two.lf
  - ring_acute
+ - uni03020300
  - uni03060300
- - hungarumlaut.cap
- - uni030C.alt 
+ - cent.BRACKET.100
+ - one.lf
+ - tilde.cap
+ - zero.lf
+ - grave.cap
+ - seven.lf
+ - nine.lf
+ - ring.cap
+ - caron.cap
+ - i.loclTRK
+ - five.lf
  - six.lf
+ - uni03020303
+ - uni0326
+ - ring_acute.cap
+ - dotaccent.cap
+ - dotbelow
+ - acute.cap
+ - periodcentered.loclCAT
+ - hungarumlaut.cap
+ - macron.cap
+ - caron.alt 
+ - uni03060301
  [code: unreachable-glyphs]
 
 </details>
@@ -654,20 +654,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[10] RadioCanada-LightItalic.ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking post.italicAngle value.</summary>
-
-* [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
-<pre>--- Rationale ---
-The &#x27;post&#x27; table italicAngle property should be a reasonable amount, likely not
-more than -20°, never more than -30°, and never greater than 0°. Note that in
-the OpenType specification, the value is negative for a lean rightwards.
-https://docs.microsoft.com/en-us/typography/opentype/spec/post</pre>
-
-* 🔥 **FAIL** Font is italic, so post.italicAngle should be non-zero. [code: zero-italic]
-
-</details>
+<summary><b>[9] RadioCanada-LightItalic.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -787,19 +774,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - dollar.BRACKET.100
- - eight.pl
- - cent.BRACKET.100
- - two.pl
- - three.pl
- - seven.pl
- - six.pl
- - five.pl
  - nine.pl
  - one.pl
+ - uni030C.alt
  - zero.pl
- - uni030C.alt 
+ - five.pl
+ - dollar.BRACKET.100
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
  - four.pl
+ - two.pl
+ - three.pl 
+ - six.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -1046,46 +1033,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020300
- - dollar.BRACKET.100
- - dieresis.cap
- - dotbelow
- - uni03060303
- - grave.cap
- - uni03020303
- - uni03060309
- - ring_acute.cap
- - zero.lf
- - i.loclTRK
- - uni03020301
- - eight.lf
- - caron.cap
- - nine.lf
- - caron.alt
- - periodcentered.loclCAT
- - acute.cap
  - breve.cap
+ - dieresis.cap
  - three.lf
  - uni0326.alt
- - dotaccent.cap
- - macron.cap
- - tilde.cap
- - cent.BRACKET.100
- - seven.lf
+ - uni03060303
+ - uni030C.alt
+ - eight.lf
+ - two.lf
+ - uni03060309
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - uni03020301
  - uni03020309
  - four.lf
- - uni0326
- - circumflex.cap
- - five.lf
- - ring.cap
- - one.lf
- - uni03060301
- - two.lf
  - ring_acute
+ - uni03020300
  - uni03060300
- - hungarumlaut.cap
- - uni030C.alt 
+ - cent.BRACKET.100
+ - one.lf
+ - tilde.cap
+ - zero.lf
+ - grave.cap
+ - seven.lf
+ - nine.lf
+ - ring.cap
+ - caron.cap
+ - i.loclTRK
+ - five.lf
  - six.lf
+ - uni03020303
+ - uni0326
+ - ring_acute.cap
+ - dotaccent.cap
+ - dotbelow
+ - acute.cap
+ - periodcentered.loclCAT
+ - hungarumlaut.cap
+ - macron.cap
+ - caron.alt 
+ - uni03060301
  [code: unreachable-glyphs]
 
 </details>
@@ -1368,46 +1355,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020300
- - dollar.BRACKET.100
- - dieresis.cap
- - dotbelow
- - uni03060303
- - grave.cap
- - uni03020303
- - uni03060309
- - ring_acute.cap
- - zero.lf
- - i.loclTRK
- - uni03020301
- - eight.lf
- - caron.cap
- - nine.lf
- - caron.alt
- - periodcentered.loclCAT
- - acute.cap
  - breve.cap
+ - dieresis.cap
  - three.lf
  - uni0326.alt
- - dotaccent.cap
- - macron.cap
- - tilde.cap
- - cent.BRACKET.100
- - seven.lf
+ - uni03060303
+ - uni030C.alt
+ - eight.lf
+ - two.lf
+ - uni03060309
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - uni03020301
  - uni03020309
  - four.lf
- - uni0326
- - circumflex.cap
- - five.lf
- - ring.cap
- - one.lf
- - uni03060301
- - two.lf
  - ring_acute
+ - uni03020300
  - uni03060300
- - hungarumlaut.cap
- - uni030C.alt 
+ - cent.BRACKET.100
+ - one.lf
+ - tilde.cap
+ - zero.lf
+ - grave.cap
+ - seven.lf
+ - nine.lf
+ - ring.cap
+ - caron.cap
+ - i.loclTRK
+ - five.lf
  - six.lf
+ - uni03020303
+ - uni0326
+ - ring_acute.cap
+ - dotaccent.cap
+ - dotbelow
+ - acute.cap
+ - periodcentered.loclCAT
+ - hungarumlaut.cap
+ - macron.cap
+ - caron.alt 
+ - uni03060301
  [code: unreachable-glyphs]
 
 </details>
@@ -1567,41 +1554,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[18] RadioCanadaCondensed-SemiBoldItalic.ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value.</summary>
-
-* [com.google.fonts/check/fsselection](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection)
-
-* 🔥 **FAIL** OS/2 fsSelection REGULAR bit should be unset. [code: bad-REGULAR]
-* 🔥 **FAIL** OS/2 fsSelection ITALIC bit should be set. [code: bad-ITALIC]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking post.italicAngle value.</summary>
-
-* [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
-<pre>--- Rationale ---
-The &#x27;post&#x27; table italicAngle property should be a reasonable amount, likely not
-more than -20°, never more than -30°, and never greater than 0°. Note that in
-the OpenType specification, the value is negative for a lean rightwards.
-https://docs.microsoft.com/en-us/typography/opentype/spec/post</pre>
-
-* 🔥 **FAIL** Font is italic, so post.italicAngle should be non-zero. [code: zero-italic]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking head.macStyle value.</summary>
-
-* [com.google.fonts/check/mac_style](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mac_style)
-<pre>--- Rationale ---
-The values of the flags on the macStyle entry on the &#x27;head&#x27; OpenType table that
-describe whether a font is bold and/or italic must be coherent with the actual
-style of the font as inferred by its filename.</pre>
-
-* 🔥 **FAIL** head macStyle ITALIC bit should be set. [code: bad-ITALIC]
-
-</details>
+<summary><b>[14] RadioCanadaCondensed-SemiBoldItalic.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
 
@@ -1611,15 +1564,15 @@ Checks that the family name infered from the font filename matches the string at
 nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise checks
 that nameID 1 is the family name + the style name.</pre>
 
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Radio Canada Condensed SemiBold" but got "Radio Canada Condensed SemiBold Italic". [code: mismatch]
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Radio Canada Condensed SemiBold" but got "Radio Canada Condensed Condensed SemiBold". [code: mismatch]
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Check name table: FONT_SUBFAMILY_NAME entries.</summary>
+<summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name?</summary>
 
-* [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
+* [com.google.fonts/check/name/match_familyname_fullfont](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont)
 
-* 🔥 **FAIL** SUBFAMILY_NAME for Win "Regular" must be "Italic" [code: bad-familyname]
+* 🔥 **FAIL** On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Radio Canada Condensed Condensed SemiBold') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Radio Canada Condensed SemiBold Italic') [code: does-not]
 
 </details>
 <details>
@@ -1706,7 +1659,7 @@ decided that allowing up to 27 chars would still be on the safe side, though.
 [2] https://github.com/googlefonts/fontbakery/issues/2179</pre>
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Radio Canada Condensed SemiBold Italic' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'Radio Canada Condensed Condensed SemiBold' / SUBFAMILY_NAME = 'Italic'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 
@@ -1762,19 +1715,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - dollar.BRACKET.100
- - eight.pl
- - cent.BRACKET.100
- - two.pl
- - three.pl
- - seven.pl
- - six.pl
- - five.pl
  - nine.pl
  - one.pl
+ - uni030C.alt
  - zero.pl
- - uni030C.alt 
+ - five.pl
+ - dollar.BRACKET.100
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
  - four.pl
+ - two.pl
+ - three.pl 
+ - six.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -1940,29 +1893,6 @@ by manual inspection.</pre>
 	* greaterequal (U+2265): L<<53.0,170.0>--<71.0,182.0>>/L<<71.0,182.0>--<54.0,176.0>> = 14.250032697803595 and uni20BA (U+20BA): B<<301.0,26.0>-<232.0,3.0>-<140.0,0.0>>/L<<140.0,0.0>--<140.0,0.0>> = 1.867678839434098 [code: found-jaggy-segments]
 
 </details>
-<details>
-<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
-
-* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
-<pre>--- Rationale ---
-This check detects line segments which are nearly, but not quite, exactly
-horizontal or vertical. Sometimes such lines are created by design, but often
-they are indicative of a design error.
-This check is disabled for italic styles, which often contain nearly-upright
-lines.</pre>
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * W (U+0057): L<<220.0,690.0>--<219.0,203.0>>
- * Wacute (U+1E82): L<<220.0,690.0>--<219.0,203.0>>
- * Wcircumflex (U+0174): L<<220.0,690.0>--<219.0,203.0>>
- * Wdieresis (U+1E84): L<<220.0,690.0>--<219.0,203.0>>
- * Wgrave (U+1E80): L<<220.0,690.0>--<219.0,203.0>>
- * w (U+0077): L<<189.0,522.0>--<191.0,193.0>>
- * wacute (U+1E83): L<<189.0,522.0>--<191.0,193.0>>
- * wcircumflex (U+0175): L<<189.0,522.0>--<191.0,193.0>>
- * wdieresis (U+1E85): L<<189.0,522.0>--<191.0,193.0>> and wgrave (U+1E81): L<<189.0,522.0>--<191.0,193.0>> [code: found-semi-vertical]
-
-</details>
 <br>
 </details>
 <details>
@@ -2110,46 +2040,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020300
- - dollar.BRACKET.100
- - dieresis.cap
- - dotbelow
- - uni03060303
- - grave.cap
- - uni03020303
- - uni03060309
- - ring_acute.cap
- - zero.lf
- - i.loclTRK
- - uni03020301
- - eight.lf
- - caron.cap
- - nine.lf
- - caron.alt
- - periodcentered.loclCAT
- - acute.cap
  - breve.cap
+ - dieresis.cap
  - three.lf
  - uni0326.alt
- - dotaccent.cap
- - macron.cap
- - tilde.cap
- - cent.BRACKET.100
- - seven.lf
+ - uni03060303
+ - uni030C.alt
+ - eight.lf
+ - two.lf
+ - uni03060309
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - uni03020301
  - uni03020309
  - four.lf
- - uni0326
- - circumflex.cap
- - five.lf
- - ring.cap
- - one.lf
- - uni03060301
- - two.lf
  - ring_acute
+ - uni03020300
  - uni03060300
- - hungarumlaut.cap
- - uni030C.alt 
+ - cent.BRACKET.100
+ - one.lf
+ - tilde.cap
+ - zero.lf
+ - grave.cap
+ - seven.lf
+ - nine.lf
+ - ring.cap
+ - caron.cap
+ - i.loclTRK
+ - five.lf
  - six.lf
+ - uni03020303
+ - uni0326
+ - ring_acute.cap
+ - dotaccent.cap
+ - dotbelow
+ - acute.cap
+ - periodcentered.loclCAT
+ - hungarumlaut.cap
+ - macron.cap
+ - caron.alt 
+ - uni03060301
  [code: unreachable-glyphs]
 
 </details>
@@ -2439,46 +2369,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020300
- - dollar.BRACKET.100
- - dieresis.cap
- - dotbelow
- - uni03060303
- - grave.cap
- - uni03020303
- - uni03060309
- - ring_acute.cap
- - zero.lf
- - i.loclTRK
- - uni03020301
- - eight.lf
- - caron.cap
- - nine.lf
- - caron.alt
- - periodcentered.loclCAT
- - acute.cap
  - breve.cap
+ - dieresis.cap
  - three.lf
  - uni0326.alt
- - dotaccent.cap
- - macron.cap
- - tilde.cap
- - cent.BRACKET.100
- - seven.lf
+ - uni03060303
+ - uni030C.alt
+ - eight.lf
+ - two.lf
+ - uni03060309
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - uni03020301
  - uni03020309
  - four.lf
- - uni0326
- - circumflex.cap
- - five.lf
- - ring.cap
- - one.lf
- - uni03060301
- - two.lf
  - ring_acute
+ - uni03020300
  - uni03060300
- - hungarumlaut.cap
- - uni030C.alt 
+ - cent.BRACKET.100
+ - one.lf
+ - tilde.cap
+ - zero.lf
+ - grave.cap
+ - seven.lf
+ - nine.lf
+ - ring.cap
+ - caron.cap
+ - i.loclTRK
+ - five.lf
  - six.lf
+ - uni03020303
+ - uni0326
+ - ring_acute.cap
+ - dotaccent.cap
+ - dotbelow
+ - acute.cap
+ - periodcentered.loclCAT
+ - hungarumlaut.cap
+ - macron.cap
+ - caron.alt 
+ - uni03060301
  [code: unreachable-glyphs]
 
 </details>
@@ -2657,41 +2587,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] RadioCanadaCondensed-LightItalic.ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value.</summary>
-
-* [com.google.fonts/check/fsselection](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection)
-
-* 🔥 **FAIL** OS/2 fsSelection REGULAR bit should be unset. [code: bad-REGULAR]
-* 🔥 **FAIL** OS/2 fsSelection ITALIC bit should be set. [code: bad-ITALIC]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking post.italicAngle value.</summary>
-
-* [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
-<pre>--- Rationale ---
-The &#x27;post&#x27; table italicAngle property should be a reasonable amount, likely not
-more than -20°, never more than -30°, and never greater than 0°. Note that in
-the OpenType specification, the value is negative for a lean rightwards.
-https://docs.microsoft.com/en-us/typography/opentype/spec/post</pre>
-
-* 🔥 **FAIL** Font is italic, so post.italicAngle should be non-zero. [code: zero-italic]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking head.macStyle value.</summary>
-
-* [com.google.fonts/check/mac_style](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mac_style)
-<pre>--- Rationale ---
-The values of the flags on the macStyle entry on the &#x27;head&#x27; OpenType table that
-describe whether a font is bold and/or italic must be coherent with the actual
-style of the font as inferred by its filename.</pre>
-
-* 🔥 **FAIL** head macStyle ITALIC bit should be set. [code: bad-ITALIC]
-
-</details>
+<summary><b>[12] RadioCanadaCondensed-LightItalic.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
 
@@ -2701,15 +2597,15 @@ Checks that the family name infered from the font filename matches the string at
 nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise checks
 that nameID 1 is the family name + the style name.</pre>
 
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Radio Canada Condensed Light" but got "Radio Canada Condensed Light Italic". [code: mismatch]
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Radio Canada Condensed Light" but got "Radio Canada Condensed Condensed Lightt". [code: mismatch]
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Check name table: FONT_SUBFAMILY_NAME entries.</summary>
+<summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name?</summary>
 
-* [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
+* [com.google.fonts/check/name/match_familyname_fullfont](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont)
 
-* 🔥 **FAIL** SUBFAMILY_NAME for Win "Regular" must be "Italic" [code: bad-familyname]
+* 🔥 **FAIL** On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Radio Canada Condensed Condensed Lightt') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Radio Canada Condensed Light Italic') [code: does-not]
 
 </details>
 <details>
@@ -2796,7 +2692,7 @@ decided that allowing up to 27 chars would still be on the safe side, though.
 [2] https://github.com/googlefonts/fontbakery/issues/2179</pre>
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Radio Canada Condensed Light Italic' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'Radio Canada Condensed Condensed Lightt' / SUBFAMILY_NAME = 'Italic'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 
@@ -2852,19 +2748,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - dollar.BRACKET.100
- - eight.pl
- - cent.BRACKET.100
- - two.pl
- - three.pl
- - seven.pl
- - six.pl
- - five.pl
  - nine.pl
  - one.pl
+ - uni030C.alt
  - zero.pl
- - uni030C.alt 
+ - five.pl
+ - dollar.BRACKET.100
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
  - four.pl
+ - two.pl
+ - three.pl 
+ - six.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -3132,46 +3028,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020300
- - dollar.BRACKET.100
- - dieresis.cap
- - dotbelow
- - uni03060303
- - grave.cap
- - uni03020303
- - uni03060309
- - ring_acute.cap
- - zero.lf
- - i.loclTRK
- - uni03020301
- - eight.lf
- - caron.cap
- - nine.lf
- - caron.alt
- - periodcentered.loclCAT
- - acute.cap
  - breve.cap
+ - dieresis.cap
  - three.lf
  - uni0326.alt
- - dotaccent.cap
- - macron.cap
- - tilde.cap
- - cent.BRACKET.100
- - seven.lf
+ - uni03060303
+ - uni030C.alt
+ - eight.lf
+ - two.lf
+ - uni03060309
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - uni03020301
  - uni03020309
  - four.lf
- - uni0326
- - circumflex.cap
- - five.lf
- - ring.cap
- - one.lf
- - uni03060301
- - two.lf
  - ring_acute
+ - uni03020300
  - uni03060300
- - hungarumlaut.cap
- - uni030C.alt 
+ - cent.BRACKET.100
+ - one.lf
+ - tilde.cap
+ - zero.lf
+ - grave.cap
+ - seven.lf
+ - nine.lf
+ - ring.cap
+ - caron.cap
+ - i.loclTRK
+ - five.lf
  - six.lf
+ - uni03020303
+ - uni0326
+ - ring_acute.cap
+ - dotaccent.cap
+ - dotbelow
+ - acute.cap
+ - periodcentered.loclCAT
+ - hungarumlaut.cap
+ - macron.cap
+ - caron.alt 
+ - uni03060301
  [code: unreachable-glyphs]
 
 </details>
@@ -3332,49 +3228,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[15] RadioCanada-MediumItalic.ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value.</summary>
-
-* [com.google.fonts/check/fsselection](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection)
-
-* 🔥 **FAIL** OS/2 fsSelection REGULAR bit should be unset. [code: bad-REGULAR]
-* 🔥 **FAIL** OS/2 fsSelection ITALIC bit should be set. [code: bad-ITALIC]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking post.italicAngle value.</summary>
-
-* [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
-<pre>--- Rationale ---
-The &#x27;post&#x27; table italicAngle property should be a reasonable amount, likely not
-more than -20°, never more than -30°, and never greater than 0°. Note that in
-the OpenType specification, the value is negative for a lean rightwards.
-https://docs.microsoft.com/en-us/typography/opentype/spec/post</pre>
-
-* 🔥 **FAIL** Font is italic, so post.italicAngle should be non-zero. [code: zero-italic]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking head.macStyle value.</summary>
-
-* [com.google.fonts/check/mac_style](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mac_style)
-<pre>--- Rationale ---
-The values of the flags on the macStyle entry on the &#x27;head&#x27; OpenType table that
-describe whether a font is bold and/or italic must be coherent with the actual
-style of the font as inferred by its filename.</pre>
-
-* 🔥 **FAIL** head macStyle ITALIC bit should be set. [code: bad-ITALIC]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check name table: FONT_SUBFAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
-
-* 🔥 **FAIL** SUBFAMILY_NAME for Win "Regular" must be "Italic" [code: bad-familyname]
-
-</details>
+<summary><b>[11] RadioCanada-MediumItalic.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -3494,19 +3348,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - dollar.BRACKET.100
- - eight.pl
- - cent.BRACKET.100
- - two.pl
- - three.pl
- - seven.pl
- - six.pl
- - five.pl
  - nine.pl
  - one.pl
+ - uni030C.alt
  - zero.pl
- - uni030C.alt 
+ - five.pl
+ - dollar.BRACKET.100
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
  - four.pl
+ - two.pl
+ - three.pl 
+ - six.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -3675,41 +3529,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[18] RadioCanadaCondensed-MediumItalic.ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value.</summary>
-
-* [com.google.fonts/check/fsselection](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection)
-
-* 🔥 **FAIL** OS/2 fsSelection REGULAR bit should be unset. [code: bad-REGULAR]
-* 🔥 **FAIL** OS/2 fsSelection ITALIC bit should be set. [code: bad-ITALIC]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking post.italicAngle value.</summary>
-
-* [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
-<pre>--- Rationale ---
-The &#x27;post&#x27; table italicAngle property should be a reasonable amount, likely not
-more than -20°, never more than -30°, and never greater than 0°. Note that in
-the OpenType specification, the value is negative for a lean rightwards.
-https://docs.microsoft.com/en-us/typography/opentype/spec/post</pre>
-
-* 🔥 **FAIL** Font is italic, so post.italicAngle should be non-zero. [code: zero-italic]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking head.macStyle value.</summary>
-
-* [com.google.fonts/check/mac_style](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mac_style)
-<pre>--- Rationale ---
-The values of the flags on the macStyle entry on the &#x27;head&#x27; OpenType table that
-describe whether a font is bold and/or italic must be coherent with the actual
-style of the font as inferred by its filename.</pre>
-
-* 🔥 **FAIL** head macStyle ITALIC bit should be set. [code: bad-ITALIC]
-
-</details>
+<summary><b>[14] RadioCanadaCondensed-MediumItalic.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
 
@@ -3719,15 +3539,15 @@ Checks that the family name infered from the font filename matches the string at
 nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise checks
 that nameID 1 is the family name + the style name.</pre>
 
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Radio Canada Condensed Medium" but got "Radio Canada Condensed Medium Italic". [code: mismatch]
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Radio Canada Condensed Medium" but got "Radio Canada Condensed Condensed Medium". [code: mismatch]
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Check name table: FONT_SUBFAMILY_NAME entries.</summary>
+<summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name?</summary>
 
-* [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
+* [com.google.fonts/check/name/match_familyname_fullfont](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont)
 
-* 🔥 **FAIL** SUBFAMILY_NAME for Win "Regular" must be "Italic" [code: bad-familyname]
+* 🔥 **FAIL** On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Radio Canada Condensed Condensed Medium') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Radio Canada Condensed Medium Italic') [code: does-not]
 
 </details>
 <details>
@@ -3814,7 +3634,7 @@ decided that allowing up to 27 chars would still be on the safe side, though.
 [2] https://github.com/googlefonts/fontbakery/issues/2179</pre>
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Radio Canada Condensed Medium Italic' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'Radio Canada Condensed Condensed Medium' / SUBFAMILY_NAME = 'Italic'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 
@@ -3870,19 +3690,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - dollar.BRACKET.100
- - eight.pl
- - cent.BRACKET.100
- - two.pl
- - three.pl
- - seven.pl
- - six.pl
- - five.pl
  - nine.pl
  - one.pl
+ - uni030C.alt
  - zero.pl
- - uni030C.alt 
+ - five.pl
+ - dollar.BRACKET.100
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
  - four.pl
+ - two.pl
+ - three.pl 
+ - six.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -4045,43 +3865,10 @@ by manual inspection.</pre>
 	* uni20BA (U+20BA): B<<280.0,25.5>-<211.0,3.0>-<124.0,0.0>>/L<<124.0,0.0>--<124.0,0.0>> = 1.9749340108819595 [code: found-jaggy-segments]
 
 </details>
-<details>
-<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
-
-* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
-<pre>--- Rationale ---
-This check detects line segments which are nearly, but not quite, exactly
-horizontal or vertical. Sometimes such lines are created by design, but often
-they are indicative of a design error.
-This check is disabled for italic styles, which often contain nearly-upright
-lines.</pre>
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * W (U+0057): L<<203.0,690.0>--<205.0,182.0>>
- * Wacute (U+1E82): L<<203.0,690.0>--<205.0,182.0>>
- * Wcircumflex (U+0174): L<<203.0,690.0>--<205.0,182.0>>
- * Wdieresis (U+1E84): L<<203.0,690.0>--<205.0,182.0>>
- * Wgrave (U+1E80): L<<203.0,690.0>--<205.0,182.0>>
- * uni20A9 (U+20A9): L<<203.0,690.0>--<204.0,403.0>> and uni20A9 (U+20A9): L<<204.0,319.0>--<205.0,182.0>> [code: found-semi-vertical]
-
-</details>
 <br>
 </details>
 <details>
-<summary><b>[12] RadioCanada-Italic.ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking post.italicAngle value.</summary>
-
-* [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
-<pre>--- Rationale ---
-The &#x27;post&#x27; table italicAngle property should be a reasonable amount, likely not
-more than -20°, never more than -30°, and never greater than 0°. Note that in
-the OpenType specification, the value is negative for a lean rightwards.
-https://docs.microsoft.com/en-us/typography/opentype/spec/post</pre>
-
-* 🔥 **FAIL** Font is italic, so post.italicAngle should be non-zero. [code: zero-italic]
-
-</details>
+<summary><b>[11] RadioCanada-Italic.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -4201,19 +3988,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - dollar.BRACKET.100
- - eight.pl
- - cent.BRACKET.100
- - two.pl
- - three.pl
- - seven.pl
- - six.pl
- - five.pl
  - nine.pl
  - one.pl
+ - uni030C.alt
  - zero.pl
- - uni030C.alt 
+ - five.pl
+ - dollar.BRACKET.100
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
  - four.pl
+ - two.pl
+ - three.pl 
+ - six.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -4378,20 +4165,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[12] RadioCanada-BoldItalic.ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking post.italicAngle value.</summary>
-
-* [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
-<pre>--- Rationale ---
-The &#x27;post&#x27; table italicAngle property should be a reasonable amount, likely not
-more than -20°, never more than -30°, and never greater than 0°. Note that in
-the OpenType specification, the value is negative for a lean rightwards.
-https://docs.microsoft.com/en-us/typography/opentype/spec/post</pre>
-
-* 🔥 **FAIL** Font is italic, so post.italicAngle should be non-zero. [code: zero-italic]
-
-</details>
+<summary><b>[11] RadioCanada-BoldItalic.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -4511,19 +4285,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - dollar.BRACKET.100
- - eight.pl
- - cent.BRACKET.100
- - two.pl
- - three.pl
- - seven.pl
- - six.pl
- - five.pl
  - nine.pl
  - one.pl
+ - uni030C.alt
  - zero.pl
- - uni030C.alt 
+ - five.pl
+ - dollar.BRACKET.100
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
  - four.pl
+ - two.pl
+ - three.pl 
+ - six.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -4820,46 +4594,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020300
- - dollar.BRACKET.100
- - dieresis.cap
- - dotbelow
- - uni03060303
- - grave.cap
- - uni03020303
- - uni03060309
- - ring_acute.cap
- - zero.lf
- - i.loclTRK
- - uni03020301
- - eight.lf
- - caron.cap
- - nine.lf
- - caron.alt
- - periodcentered.loclCAT
- - acute.cap
  - breve.cap
+ - dieresis.cap
  - three.lf
  - uni0326.alt
- - dotaccent.cap
- - macron.cap
- - tilde.cap
- - cent.BRACKET.100
- - seven.lf
+ - uni03060303
+ - uni030C.alt
+ - eight.lf
+ - two.lf
+ - uni03060309
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - uni03020301
  - uni03020309
  - four.lf
- - uni0326
- - circumflex.cap
- - five.lf
- - ring.cap
- - one.lf
- - uni03060301
- - two.lf
  - ring_acute
+ - uni03020300
  - uni03060300
- - hungarumlaut.cap
- - uni030C.alt 
+ - cent.BRACKET.100
+ - one.lf
+ - tilde.cap
+ - zero.lf
+ - grave.cap
+ - seven.lf
+ - nine.lf
+ - ring.cap
+ - caron.cap
+ - i.loclTRK
+ - five.lf
  - six.lf
+ - uni03020303
+ - uni0326
+ - ring_acute.cap
+ - dotaccent.cap
+ - dotbelow
+ - acute.cap
+ - periodcentered.loclCAT
+ - hungarumlaut.cap
+ - macron.cap
+ - caron.alt 
+ - uni03060301
  [code: unreachable-glyphs]
 
 </details>
@@ -5169,46 +4943,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020300
- - dollar.BRACKET.100
- - dieresis.cap
- - dotbelow
- - uni03060303
- - grave.cap
- - uni03020303
- - uni03060309
- - ring_acute.cap
- - zero.lf
- - i.loclTRK
- - uni03020301
- - eight.lf
- - caron.cap
- - nine.lf
- - caron.alt
- - periodcentered.loclCAT
- - acute.cap
  - breve.cap
+ - dieresis.cap
  - three.lf
  - uni0326.alt
- - dotaccent.cap
- - macron.cap
- - tilde.cap
- - cent.BRACKET.100
- - seven.lf
+ - uni03060303
+ - uni030C.alt
+ - eight.lf
+ - two.lf
+ - uni03060309
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - uni03020301
  - uni03020309
  - four.lf
- - uni0326
- - circumflex.cap
- - five.lf
- - ring.cap
- - one.lf
- - uni03060301
- - two.lf
  - ring_acute
+ - uni03020300
  - uni03060300
- - hungarumlaut.cap
- - uni030C.alt 
+ - cent.BRACKET.100
+ - one.lf
+ - tilde.cap
+ - zero.lf
+ - grave.cap
+ - seven.lf
+ - nine.lf
+ - ring.cap
+ - caron.cap
+ - i.loclTRK
+ - five.lf
  - six.lf
+ - uni03020303
+ - uni0326
+ - ring_acute.cap
+ - dotaccent.cap
+ - dotbelow
+ - acute.cap
+ - periodcentered.loclCAT
+ - hungarumlaut.cap
+ - macron.cap
+ - caron.alt 
+ - uni03060301
  [code: unreachable-glyphs]
 
 </details>
@@ -5513,46 +5287,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni03020300
- - dollar.BRACKET.100
- - dieresis.cap
- - dotbelow
- - uni03060303
- - grave.cap
- - uni03020303
- - uni03060309
- - ring_acute.cap
- - zero.lf
- - i.loclTRK
- - uni03020301
- - eight.lf
- - caron.cap
- - nine.lf
- - caron.alt
- - periodcentered.loclCAT
- - acute.cap
  - breve.cap
+ - dieresis.cap
  - three.lf
  - uni0326.alt
- - dotaccent.cap
- - macron.cap
- - tilde.cap
- - cent.BRACKET.100
- - seven.lf
+ - uni03060303
+ - uni030C.alt
+ - eight.lf
+ - two.lf
+ - uni03060309
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - uni03020301
  - uni03020309
  - four.lf
- - uni0326
- - circumflex.cap
- - five.lf
- - ring.cap
- - one.lf
- - uni03060301
- - two.lf
  - ring_acute
+ - uni03020300
  - uni03060300
- - hungarumlaut.cap
- - uni030C.alt 
+ - cent.BRACKET.100
+ - one.lf
+ - tilde.cap
+ - zero.lf
+ - grave.cap
+ - seven.lf
+ - nine.lf
+ - ring.cap
+ - caron.cap
+ - i.loclTRK
+ - five.lf
  - six.lf
+ - uni03020303
+ - uni0326
+ - ring_acute.cap
+ - dotaccent.cap
+ - dotbelow
+ - acute.cap
+ - periodcentered.loclCAT
+ - hungarumlaut.cap
+ - macron.cap
+ - caron.alt 
+ - uni03060301
  [code: unreachable-glyphs]
 
 </details>
@@ -5688,41 +5462,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[19] RadioCanadaCondensed-Italic.ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value.</summary>
-
-* [com.google.fonts/check/fsselection](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection)
-
-* 🔥 **FAIL** OS/2 fsSelection REGULAR bit should be unset. [code: bad-REGULAR]
-* 🔥 **FAIL** OS/2 fsSelection ITALIC bit should be set. [code: bad-ITALIC]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking post.italicAngle value.</summary>
-
-* [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
-<pre>--- Rationale ---
-The &#x27;post&#x27; table italicAngle property should be a reasonable amount, likely not
-more than -20°, never more than -30°, and never greater than 0°. Note that in
-the OpenType specification, the value is negative for a lean rightwards.
-https://docs.microsoft.com/en-us/typography/opentype/spec/post</pre>
-
-* 🔥 **FAIL** Font is italic, so post.italicAngle should be non-zero. [code: zero-italic]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking head.macStyle value.</summary>
-
-* [com.google.fonts/check/mac_style](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mac_style)
-<pre>--- Rationale ---
-The values of the flags on the macStyle entry on the &#x27;head&#x27; OpenType table that
-describe whether a font is bold and/or italic must be coherent with the actual
-style of the font as inferred by its filename.</pre>
-
-* 🔥 **FAIL** head macStyle ITALIC bit should be set. [code: bad-ITALIC]
-
-</details>
+<summary><b>[15] RadioCanadaCondensed-Italic.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
 
@@ -5732,15 +5472,7 @@ Checks that the family name infered from the font filename matches the string at
 nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise checks
 that nameID 1 is the family name + the style name.</pre>
 
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Radio Canada Condensed" but got "Radio Canada Condensed Italic". [code: mismatch]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check name table: FONT_SUBFAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
-
-* 🔥 **FAIL** SUBFAMILY_NAME for Win "Regular" must be "Italic" [code: bad-familyname]
+* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Radio Canada Condensed" but got "Radio Canada Condensed Condensed Regularr". [code: mismatch]
 
 </details>
 <details>
@@ -5751,6 +5483,14 @@ that nameID 1 is the family name + the style name.</pre>
 Requirements for the TYPOGRAPHIC_FAMILY_NAME entries in the &#x27;name&#x27; table.</pre>
 
 * 🔥 **FAIL** Font style is "Italic" and, for that reason, it is not expected to have a [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] entry! [code: ribbi]
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name?</summary>
+
+* [com.google.fonts/check/name/match_familyname_fullfont](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont)
+
+* 🔥 **FAIL** On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Radio Canada Condensed Condensed Regularr') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Radio Canada Condensed Italic') [code: does-not]
 
 </details>
 <details>
@@ -5837,7 +5577,7 @@ decided that allowing up to 27 chars would still be on the safe side, though.
 [2] https://github.com/googlefonts/fontbakery/issues/2179</pre>
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Radio Canada Condensed Italic' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'Radio Canada Condensed Condensed Regularr' / SUBFAMILY_NAME = 'Italic'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 
@@ -5893,19 +5633,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - dollar.BRACKET.100
- - eight.pl
- - cent.BRACKET.100
- - two.pl
- - three.pl
- - seven.pl
- - six.pl
- - five.pl
  - nine.pl
  - one.pl
+ - uni030C.alt
  - zero.pl
- - uni030C.alt 
+ - five.pl
+ - dollar.BRACKET.100
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
  - four.pl
+ - two.pl
+ - three.pl 
+ - six.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -6065,38 +5805,10 @@ by manual inspection.</pre>
 	* uni20BA (U+20BA): B<<222.0,14.5>-<167.0,2.0>-<106.0,0.0>>/L<<106.0,0.0>--<106.0,0.0>> = 1.8778774472851876 [code: found-jaggy-segments]
 
 </details>
-<details>
-<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
-
-* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
-<pre>--- Rationale ---
-This check detects line segments which are nearly, but not quite, exactly
-horizontal or vertical. Sometimes such lines are created by design, but often
-they are indicative of a design error.
-This check is disabled for italic styles, which often contain nearly-upright
-lines.</pre>
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * uni20A9 (U+20A9): L<<188.0,313.0>--<189.0,159.0>> [code: found-semi-vertical]
-
-</details>
 <br>
 </details>
 <details>
-<summary><b>[11] RadioCanadaCondensed-BoldItalic.ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking post.italicAngle value.</summary>
-
-* [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
-<pre>--- Rationale ---
-The &#x27;post&#x27; table italicAngle property should be a reasonable amount, likely not
-more than -20°, never more than -30°, and never greater than 0°. Note that in
-the OpenType specification, the value is negative for a lean rightwards.
-https://docs.microsoft.com/en-us/typography/opentype/spec/post</pre>
-
-* 🔥 **FAIL** Font is italic, so post.italicAngle should be non-zero. [code: zero-italic]
-
-</details>
+<summary><b>[10] RadioCanadaCondensed-BoldItalic.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -6237,19 +5949,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - dollar.BRACKET.100
- - eight.pl
- - cent.BRACKET.100
- - two.pl
- - three.pl
- - seven.pl
- - six.pl
- - five.pl
  - nine.pl
  - one.pl
+ - uni030C.alt
  - zero.pl
- - uni030C.alt 
+ - five.pl
+ - dollar.BRACKET.100
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
  - four.pl
+ - two.pl
+ - three.pl 
+ - six.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -6367,49 +6079,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[16] RadioCanada-SemiBoldItalic.ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value.</summary>
-
-* [com.google.fonts/check/fsselection](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection)
-
-* 🔥 **FAIL** OS/2 fsSelection REGULAR bit should be unset. [code: bad-REGULAR]
-* 🔥 **FAIL** OS/2 fsSelection ITALIC bit should be set. [code: bad-ITALIC]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking post.italicAngle value.</summary>
-
-* [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
-<pre>--- Rationale ---
-The &#x27;post&#x27; table italicAngle property should be a reasonable amount, likely not
-more than -20°, never more than -30°, and never greater than 0°. Note that in
-the OpenType specification, the value is negative for a lean rightwards.
-https://docs.microsoft.com/en-us/typography/opentype/spec/post</pre>
-
-* 🔥 **FAIL** Font is italic, so post.italicAngle should be non-zero. [code: zero-italic]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking head.macStyle value.</summary>
-
-* [com.google.fonts/check/mac_style](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mac_style)
-<pre>--- Rationale ---
-The values of the flags on the macStyle entry on the &#x27;head&#x27; OpenType table that
-describe whether a font is bold and/or italic must be coherent with the actual
-style of the font as inferred by its filename.</pre>
-
-* 🔥 **FAIL** head macStyle ITALIC bit should be set. [code: bad-ITALIC]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check name table: FONT_SUBFAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
-
-* 🔥 **FAIL** SUBFAMILY_NAME for Win "Regular" must be "Italic" [code: bad-familyname]
-
-</details>
+<summary><b>[11] RadioCanada-SemiBoldItalic.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -6479,27 +6149,6 @@ https://github.com/impallari/Raleway/issues/14).</pre>
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary>
-
-* [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
-<pre>--- Rationale ---
-According to a GlyphsApp tutorial [1], in order to make sure all versions of
-Windows recognize it as a valid font file, we must make sure that the
-concatenated length of the familyname (NameID.FONT_FAMILY_NAME) and style
-(NameID.FONT_SUBFAMILY_NAME) strings in the name table do not exceed 20
-characters.
-After discussing the problem in more detail at `FontBakery issue #2179 [2] we
-decided that allowing up to 27 chars would still be on the safe side, though.
-[1] https://glyphsapp.com/tutorials/multiple-masters-part-3-setting-up-instances
-[2] https://github.com/googlefonts/fontbakery/issues/2179</pre>
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Radio Canada SemiBold' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table.</summary>
 
 * [com.google.fonts/check/meta/script_lang_tags](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags)
@@ -6550,19 +6199,19 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - dollar.BRACKET.100
- - eight.pl
- - cent.BRACKET.100
- - two.pl
- - three.pl
- - seven.pl
- - six.pl
- - five.pl
  - nine.pl
  - one.pl
+ - uni030C.alt
  - zero.pl
- - uni030C.alt 
+ - five.pl
+ - dollar.BRACKET.100
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
  - four.pl
+ - two.pl
+ - three.pl 
+ - six.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -6737,8 +6386,8 @@ by manual inspection.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 33 | 227 | 2027 | 124 | 1685 | 0 |
-| 0% | 1% | 6% | 49% | 3% | 41% | 0% |
+| 0 | 9 | 223 | 2033 | 125 | 1706 | 0 |
+| 0% | 0% | 5% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
