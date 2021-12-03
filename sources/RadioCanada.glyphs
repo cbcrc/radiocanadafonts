@@ -1,5 +1,8 @@
 {
 .appVersion = "3105";
+DisplayStrings = (
+$
+);
 classes = (
 {
 code = " A AE AEacute Aacute Abreve Acircumflex Adieresis Adotbelow Agrave Amacron Aogonek Aring Aringacute Atilde B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Delta E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Edotbelow Egrave Emacron Eng Eogonek Eth Etilde Euro F G Gbreve Gcaron Gcedilla Gcircumflex Gdotaccent Germandbls H Hbar Hcircumflex I I.alt IJ IJacute Iacute Iacute.alt Ibreve Ibreve.alt Icircumflex Icircumflex.alt Idieresis Idieresis.alt Idotaccent Idotaccent.alt Idotbelow Idotbelow.alt Igrave Igrave.alt Imacron Imacron.alt Iogonek Iogonek.alt Itilde Itilde.alt J J.alt Jcircumflex Jcircumflex.alt K Kcedilla L Lacute Lcaron Lcedilla Ldot Lslash M N Nacute Ncaron Ncedilla Nhookleft Ntilde O OE Oacute Obreve Ocircumflex Odieresis Odotbelow Ograve Ohungarumlaut Omacron Omega Oogonek Oslash Oslashacute Otilde P Q R Racute Rcaron Rcedilla S Sacute Scaron Scedilla Schwa Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent Thorn U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent ";
@@ -196585,64 +196588,6 @@ paths = (
 closed = 1;
 nodes = (
 "292 -100 LINE",
-"292 790 LINE",
-"236 790 LINE",
-"236 -100 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"114 18 OFFCURVE",
-"182 -8 OFFCURVE",
-"257 -8 CURVE SMOOTH",
-"396 -8 OFFCURVE",
-"453 72 OFFCURVE",
-"453 171 CURVE SMOOTH",
-"453 240 OFFCURVE",
-"407 334 OFFCURVE",
-"261 390 CURVE SMOOTH",
-"153 431 OFFCURVE",
-"137 478 OFFCURVE",
-"137 532 CURVE SMOOTH",
-"137 598 OFFCURVE",
-"180 644 OFFCURVE",
-"261 644 CURVE SMOOTH",
-"313 644 OFFCURVE",
-"348 625 OFFCURVE",
-"393 589 CURVE",
-"430 633 LINE",
-"375 678 OFFCURVE",
-"327 698 OFFCURVE",
-"261 698 CURVE SMOOTH",
-"147 698 OFFCURVE",
-"78 625 OFFCURVE",
-"78 529 CURVE SMOOTH",
-"78 434 OFFCURVE",
-"128 377 OFFCURVE",
-"237 334 CURVE SMOOTH",
-"374 280 OFFCURVE",
-"392 207 OFFCURVE",
-"392 166 CURVE SMOOTH",
-"392 105 OFFCURVE",
-"360 46 OFFCURVE",
-"257 46 CURVE SMOOTH",
-"190 46 OFFCURVE",
-"144 72 OFFCURVE",
-"91 120 CURVE",
-"56 78 LINE"
-);
-}
-);
-};
-color = 4;
-layerId = "1724C472-992C-4852-B7BE-1E3A94506102";
-name = "[100]";
-paths = (
-{
-closed = 1;
-nodes = (
-"292 -100 LINE",
 "292 25 LINE",
 "236 25 LINE",
 "236 -100 LINE"
@@ -196658,9 +196603,9 @@ nodes = (
 "392 207 OFFCURVE",
 "392 166 CURVE SMOOTH",
 "392 105 OFFCURVE",
-"360 46 OFFCURVE",
-"257 46 CURVE SMOOTH",
-"190 46 OFFCURVE",
+"360 45 OFFCURVE",
+"257 45 CURVE SMOOTH",
+"190 45 OFFCURVE",
 "144 72 OFFCURVE",
 "91 120 CURVE",
 "56 78 LINE",
@@ -196671,15 +196616,15 @@ nodes = (
 "453 72 OFFCURVE",
 "453 171 CURVE SMOOTH",
 "453 240 OFFCURVE",
-"407 334 OFFCURVE",
-"261 390 CURVE SMOOTH",
-"153 431 OFFCURVE",
+"407 333 OFFCURVE",
+"261 389 CURVE SMOOTH",
+"153 430 OFFCURVE",
 "137 478 OFFCURVE",
 "137 532 CURVE SMOOTH",
 "137 598 OFFCURVE",
-"180 644 OFFCURVE",
-"261 644 CURVE SMOOTH",
-"313 644 OFFCURVE",
+"180 645 OFFCURVE",
+"261 645 CURVE SMOOTH",
+"313 645 OFFCURVE",
 "348 625 OFFCURVE",
 "393 589 CURVE",
 "430 633 LINE",
@@ -196701,9 +196646,77 @@ nodes = (
 );
 }
 );
+};
+color = 4;
+layerId = "1724C472-992C-4852-B7BE-1E3A94506102";
+name = "[100]";
+paths = (
+{
+closed = 1;
+nodes = (
+"78 434 OFFCURVE",
+"128 377 OFFCURVE",
+"237 334 CURVE SMOOTH",
+"374 280 OFFCURVE",
+"392 207 OFFCURVE",
+"392 166 CURVE SMOOTH",
+"392 105 OFFCURVE",
+"360 45 OFFCURVE",
+"257 45 CURVE SMOOTH",
+"190 45 OFFCURVE",
+"144 72 OFFCURVE",
+"91 120 CURVE",
+"56 78 LINE",
+"114 18 OFFCURVE",
+"182 -8 OFFCURVE",
+"257 -8 CURVE SMOOTH",
+"396 -8 OFFCURVE",
+"453 72 OFFCURVE",
+"453 171 CURVE SMOOTH",
+"453 240 OFFCURVE",
+"407 333 OFFCURVE",
+"261 389 CURVE SMOOTH",
+"153 430 OFFCURVE",
+"137 478 OFFCURVE",
+"137 532 CURVE SMOOTH",
+"137 598 OFFCURVE",
+"180 645 OFFCURVE",
+"261 645 CURVE SMOOTH",
+"313 645 OFFCURVE",
+"348 625 OFFCURVE",
+"393 589 CURVE",
+"430 633 LINE",
+"375 678 OFFCURVE",
+"327 698 OFFCURVE",
+"261 698 CURVE SMOOTH",
+"147 698 OFFCURVE",
+"78 625 OFFCURVE",
+"78 529 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"292 -100 LINE",
+"292 25 LINE",
+"236 25 LINE",
+"236 -100 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"236 668 LINE",
+"292 668 LINE",
+"292 790 LINE",
+"236 790 LINE"
+);
+}
+);
 userData = {
 com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 00:12:11 +0000";
 };
+visible = 1;
 width = 500;
 },
 {
@@ -197276,17 +197289,17 @@ closed = 1;
 nodes = (
 "381 -100 LINE",
 "381 37 LINE",
-"241 81 LINE",
+"241 37 LINE",
 "241 -100 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
+"381 638 LINE",
 "381 790 LINE",
 "241 790 LINE",
-"241 638 LINE",
-"381 638 LINE"
+"241 638 LINE"
 );
 }
 );
