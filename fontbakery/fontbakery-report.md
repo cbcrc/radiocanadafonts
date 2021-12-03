@@ -126,46 +126,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - caron.cap
- - ring.cap
- - uni03060301
- - dotbelow
+ - two.lf
+ - uni03060300
+ - nine.lf
+ - uni0326.alt
+ - tilde.cap
  - dieresis.cap
- - one.lf
- - uni03020309
- - i.loclTRK
- - uni03020300
- - uni03020301
  - uni03060303
- - uni03060309
- - circumflex.cap
+ - uni03020303
+ - four.lf
+ - caron.cap
+ - hungarumlaut.cap
+ - dotaccent.cap
  - eight.lf
- - dollar.BRACKET.100
- - ring_acute.cap
- - five.lf
+ - dotbelow
+ - uni03060309
+ - periodcentered.loclCAT
+ - zero.lf
+ - uni030C.alt
+ - breve.cap
+ - macron.cap
+ - ring.cap
+ - six.lf
+ - caron.alt
+ - uni03020300
  - uni0326
  - grave.cap
- - cent.BRACKET.100
- - four.lf
- - uni0326.alt
- - six.lf
- - tilde.cap
- - seven.lf
- - two.lf
+ - one.lf
  - acute.cap
- - nine.lf
- - caron.alt
- - hungarumlaut.cap
- - uni030C.alt
+ - i.loclTRK
+ - ring_acute.cap
+ - cent.BRACKET.100
+ - three.lf
+ - circumflex.cap
+ - uni03020301
+ - seven.lf
  - ring_acute
- - macron.cap
- - dotaccent.cap
- - breve.cap
- - uni03020303
- - periodcentered.loclCAT
- - three.lf 
- - uni03060300
+ - dollar.BRACKET.100
+ - five.lf
+ - uni03060301 
+ - uni03020309
  [code: unreachable-glyphs]
 
 </details>
@@ -271,7 +271,7 @@ than 100 reported misalignments.</pre>
 	* s (U+0073): X=302.0,Y=527.0 (should be at x-height 525?)
 	* s (U+0073): X=91.5,Y=0.5 (should be at baseline 0?)
 	* germandbls (U+00DF): X=263.0,Y=-2.0 (should be at baseline 0?)
-	* atilde (U+00E3): X=108.5,Y=689.5 (should be at cap-height 690?) and 71 more. [code: found-misalignments]
+	* atilde (U+00E3): X=108.5,Y=689.5 (should be at cap-height 690?) and 72 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -455,46 +455,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - caron.cap
- - ring.cap
- - uni03060301
- - dotbelow
+ - two.lf
+ - uni03060300
+ - nine.lf
+ - uni0326.alt
+ - tilde.cap
  - dieresis.cap
- - one.lf
- - uni03020309
- - i.loclTRK
- - uni03020300
- - uni03020301
  - uni03060303
- - uni03060309
- - circumflex.cap
+ - uni03020303
+ - four.lf
+ - caron.cap
+ - hungarumlaut.cap
+ - dotaccent.cap
  - eight.lf
- - dollar.BRACKET.100
- - ring_acute.cap
- - five.lf
+ - dotbelow
+ - uni03060309
+ - periodcentered.loclCAT
+ - zero.lf
+ - uni030C.alt
+ - breve.cap
+ - macron.cap
+ - ring.cap
+ - six.lf
+ - caron.alt
+ - uni03020300
  - uni0326
  - grave.cap
- - cent.BRACKET.100
- - four.lf
- - uni0326.alt
- - six.lf
- - tilde.cap
- - seven.lf
- - two.lf
+ - one.lf
  - acute.cap
- - nine.lf
- - caron.alt
- - hungarumlaut.cap
- - uni030C.alt
+ - i.loclTRK
+ - ring_acute.cap
+ - cent.BRACKET.100
+ - three.lf
+ - circumflex.cap
+ - uni03020301
+ - seven.lf
  - ring_acute
- - macron.cap
- - dotaccent.cap
- - breve.cap
- - uni03020303
- - periodcentered.loclCAT
- - three.lf 
- - uni03060300
+ - dollar.BRACKET.100
+ - five.lf
+ - uni03060301 
+ - uni03020309
  [code: unreachable-glyphs]
 
 </details>
@@ -618,7 +618,7 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 	* aacute (U+00E1) contains a short segment L<<356.0,310.0>--<356.0,315.0>>
 	* acircumflex (U+00E2) contains a short segment L<<356.0,310.0>--<356.0,315.0>>
 	* atilde (U+00E3) contains a short segment L<<356.0,310.0>--<356.0,315.0>>
-	* adieresis (U+00E4) contains a short segment L<<356.0,310.0>--<356.0,315.0>> and 41 more. [code: found-short-segments]
+	* adieresis (U+00E4) contains a short segment L<<356.0,310.0>--<356.0,315.0>> and 40 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -774,18 +774,18 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - five.pl
- - cent.BRACKET.100
  - nine.pl
- - seven.pl
  - two.pl
- - six.pl
- - uni030C.alt
  - four.pl
- - eight.pl
- - dollar.BRACKET.100
+ - uni030C.alt
+ - six.pl
+ - five.pl
  - one.pl
- - three.pl 
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
+ - three.pl
+ - dollar.BRACKET.100 
  - zero.pl
  [code: unreachable-glyphs]
 
@@ -1033,46 +1033,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - caron.cap
- - ring.cap
- - uni03060301
- - dotbelow
+ - two.lf
+ - uni03060300
+ - nine.lf
+ - uni0326.alt
+ - tilde.cap
  - dieresis.cap
- - one.lf
- - uni03020309
- - i.loclTRK
- - uni03020300
- - uni03020301
  - uni03060303
- - uni03060309
- - circumflex.cap
+ - uni03020303
+ - four.lf
+ - caron.cap
+ - hungarumlaut.cap
+ - dotaccent.cap
  - eight.lf
- - dollar.BRACKET.100
- - ring_acute.cap
- - five.lf
+ - dotbelow
+ - uni03060309
+ - periodcentered.loclCAT
+ - zero.lf
+ - uni030C.alt
+ - breve.cap
+ - macron.cap
+ - ring.cap
+ - six.lf
+ - caron.alt
+ - uni03020300
  - uni0326
  - grave.cap
- - cent.BRACKET.100
- - four.lf
- - uni0326.alt
- - six.lf
- - tilde.cap
- - seven.lf
- - two.lf
+ - one.lf
  - acute.cap
- - nine.lf
- - caron.alt
- - hungarumlaut.cap
- - uni030C.alt
+ - i.loclTRK
+ - ring_acute.cap
+ - cent.BRACKET.100
+ - three.lf
+ - circumflex.cap
+ - uni03020301
+ - seven.lf
  - ring_acute
- - macron.cap
- - dotaccent.cap
- - breve.cap
- - uni03020303
- - periodcentered.loclCAT
- - three.lf 
- - uni03060300
+ - dollar.BRACKET.100
+ - five.lf
+ - uni03060301 
+ - uni03020309
  [code: unreachable-glyphs]
 
 </details>
@@ -1190,13 +1190,13 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 	* three (U+0033) contains a short segment L<<274.0,396.0>--<290.0,396.0>>
 	* at (U+0040) contains a short segment L<<671.0,492.0>--<665.0,453.0>>
 	* at (U+0040) contains a short segment B<<665.0,453.0>-<662.0,431.0>-<661.0,413.0>>
+	* cent (U+00A2) contains a short segment L<<355.0,558.0>--<357.0,558.0>>
 	* uni03BC.math (U+00B5) contains a short segment B<<505.0,44.0>-<512.0,44.0>-<519.0,45.5>>
 	* uni03BC.math (U+00B5) contains a short segment B<<519.0,45.5>-<526.0,47.0>-<531.0,48.0>>
 	* ae (U+00E6) contains a short segment B<<779.0,280.0>-<779.0,270.0>-<778.5,261.0>>
 	* ae (U+00E6) contains a short segment B<<778.5,261.0>-<778.0,252.0>-<777.0,244.0>>
 	* oe (U+0153) contains a short segment B<<810.5,261.0>-<810.0,252.0>-<809.0,244.0>>
-	* uni018F (U+018F) contains a short segment B<<70.0,325.0>-<70.0,333.0>-<70.5,343.0>>
-	* uni018F (U+018F) contains a short segment B<<70.5,343.0>-<71.0,353.0>-<72.0,360.0>> and 12 more. [code: found-short-segments]
+	* uni018F (U+018F) contains a short segment B<<70.0,325.0>-<70.0,333.0>-<70.5,343.0>> and 13 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -1355,46 +1355,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - caron.cap
- - ring.cap
- - uni03060301
- - dotbelow
+ - two.lf
+ - uni03060300
+ - nine.lf
+ - uni0326.alt
+ - tilde.cap
  - dieresis.cap
- - one.lf
- - uni03020309
- - i.loclTRK
- - uni03020300
- - uni03020301
  - uni03060303
- - uni03060309
- - circumflex.cap
+ - uni03020303
+ - four.lf
+ - caron.cap
+ - hungarumlaut.cap
+ - dotaccent.cap
  - eight.lf
- - dollar.BRACKET.100
- - ring_acute.cap
- - five.lf
+ - dotbelow
+ - uni03060309
+ - periodcentered.loclCAT
+ - zero.lf
+ - uni030C.alt
+ - breve.cap
+ - macron.cap
+ - ring.cap
+ - six.lf
+ - caron.alt
+ - uni03020300
  - uni0326
  - grave.cap
- - cent.BRACKET.100
- - four.lf
- - uni0326.alt
- - six.lf
- - tilde.cap
- - seven.lf
- - two.lf
+ - one.lf
  - acute.cap
- - nine.lf
- - caron.alt
- - hungarumlaut.cap
- - uni030C.alt
+ - i.loclTRK
+ - ring_acute.cap
+ - cent.BRACKET.100
+ - three.lf
+ - circumflex.cap
+ - uni03020301
+ - seven.lf
  - ring_acute
- - macron.cap
- - dotaccent.cap
- - breve.cap
- - uni03020303
- - periodcentered.loclCAT
- - three.lf 
- - uni03060300
+ - dollar.BRACKET.100
+ - five.lf
+ - uni03060301 
+ - uni03020309
  [code: unreachable-glyphs]
 
 </details>
@@ -1494,7 +1494,7 @@ than 100 reported misalignments.</pre>
 	* utilde (U+0169): X=323.0,Y=688.5 (should be at cap-height 690?)
 	* uni022C (U+022C): X=218.0,Y=943.0 (should be at ascender 945?)
 	* uni022C (U+022C): X=514.0,Y=943.0 (should be at ascender 945?)
-	* uni022D (U+022D): X=311.0,Y=688.5 (should be at cap-height 690?) and 12 more. [code: found-misalignments]
+	* uni022D (U+022D): X=311.0,Y=688.5 (should be at cap-height 690?) and 13 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -1518,7 +1518,7 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 	* acircumflex (U+00E2) contains a short segment L<<366.0,308.0>--<366.0,314.0>>
 	* atilde (U+00E3) contains a short segment L<<366.0,308.0>--<366.0,314.0>>
 	* adieresis (U+00E4) contains a short segment L<<366.0,308.0>--<366.0,314.0>>
-	* aring (U+00E5) contains a short segment L<<366.0,308.0>--<366.0,314.0>> and 37 more. [code: found-short-segments]
+	* aring (U+00E5) contains a short segment L<<366.0,308.0>--<366.0,314.0>> and 36 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -1695,18 +1695,18 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - five.pl
- - cent.BRACKET.100
  - nine.pl
- - seven.pl
  - two.pl
- - six.pl
- - uni030C.alt
  - four.pl
- - eight.pl
- - dollar.BRACKET.100
+ - uni030C.alt
+ - six.pl
+ - five.pl
  - one.pl
- - three.pl 
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
+ - three.pl
+ - dollar.BRACKET.100 
  - zero.pl
  [code: unreachable-glyphs]
 
@@ -2020,46 +2020,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - caron.cap
- - ring.cap
- - uni03060301
- - dotbelow
+ - two.lf
+ - uni03060300
+ - nine.lf
+ - uni0326.alt
+ - tilde.cap
  - dieresis.cap
- - one.lf
- - uni03020309
- - i.loclTRK
- - uni03020300
- - uni03020301
  - uni03060303
- - uni03060309
- - circumflex.cap
+ - uni03020303
+ - four.lf
+ - caron.cap
+ - hungarumlaut.cap
+ - dotaccent.cap
  - eight.lf
- - dollar.BRACKET.100
- - ring_acute.cap
- - five.lf
+ - dotbelow
+ - uni03060309
+ - periodcentered.loclCAT
+ - zero.lf
+ - uni030C.alt
+ - breve.cap
+ - macron.cap
+ - ring.cap
+ - six.lf
+ - caron.alt
+ - uni03020300
  - uni0326
  - grave.cap
- - cent.BRACKET.100
- - four.lf
- - uni0326.alt
- - six.lf
- - tilde.cap
- - seven.lf
- - two.lf
+ - one.lf
  - acute.cap
- - nine.lf
- - caron.alt
- - hungarumlaut.cap
- - uni030C.alt
+ - i.loclTRK
+ - ring_acute.cap
+ - cent.BRACKET.100
+ - three.lf
+ - circumflex.cap
+ - uni03020301
+ - seven.lf
  - ring_acute
- - macron.cap
- - dotaccent.cap
- - breve.cap
- - uni03020303
- - periodcentered.loclCAT
- - three.lf 
- - uni03060300
+ - dollar.BRACKET.100
+ - five.lf
+ - uni03060301 
+ - uni03020309
  [code: unreachable-glyphs]
 
 </details>
@@ -2183,7 +2183,7 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 	* uni03BC (U+03BC) contains a short segment B<<445.0,44.0>-<452.0,44.0>-<459.0,45.5>>
 	* uni03BC (U+03BC) contains a short segment B<<459.0,45.5>-<466.0,47.0>-<471.0,48.0>>
 	* pi (U+03C0) contains a short segment B<<399.0,44.0>-<406.0,44.0>-<413.0,45.5>>
-	* pi (U+03C0) contains a short segment B<<413.0,45.5>-<420.0,47.0>-<425.0,48.0>> and 6 more. [code: found-short-segments]
+	* pi (U+03C0) contains a short segment B<<413.0,45.5>-<420.0,47.0>-<425.0,48.0>> and 5 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -2349,46 +2349,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - caron.cap
- - ring.cap
- - uni03060301
- - dotbelow
+ - two.lf
+ - uni03060300
+ - nine.lf
+ - uni0326.alt
+ - tilde.cap
  - dieresis.cap
- - one.lf
- - uni03020309
- - i.loclTRK
- - uni03020300
- - uni03020301
  - uni03060303
- - uni03060309
- - circumflex.cap
+ - uni03020303
+ - four.lf
+ - caron.cap
+ - hungarumlaut.cap
+ - dotaccent.cap
  - eight.lf
- - dollar.BRACKET.100
- - ring_acute.cap
- - five.lf
+ - dotbelow
+ - uni03060309
+ - periodcentered.loclCAT
+ - zero.lf
+ - uni030C.alt
+ - breve.cap
+ - macron.cap
+ - ring.cap
+ - six.lf
+ - caron.alt
+ - uni03020300
  - uni0326
  - grave.cap
- - cent.BRACKET.100
- - four.lf
- - uni0326.alt
- - six.lf
- - tilde.cap
- - seven.lf
- - two.lf
+ - one.lf
  - acute.cap
- - nine.lf
- - caron.alt
- - hungarumlaut.cap
- - uni030C.alt
+ - i.loclTRK
+ - ring_acute.cap
+ - cent.BRACKET.100
+ - three.lf
+ - circumflex.cap
+ - uni03020301
+ - seven.lf
  - ring_acute
- - macron.cap
- - dotaccent.cap
- - breve.cap
- - uni03020303
- - periodcentered.loclCAT
- - three.lf 
- - uni03060300
+ - dollar.BRACKET.100
+ - five.lf
+ - uni03060301 
+ - uni03020309
  [code: unreachable-glyphs]
 
 </details>
@@ -2708,18 +2708,18 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - five.pl
- - cent.BRACKET.100
  - nine.pl
- - seven.pl
  - two.pl
- - six.pl
- - uni030C.alt
  - four.pl
- - eight.pl
- - dollar.BRACKET.100
+ - uni030C.alt
+ - six.pl
+ - five.pl
  - one.pl
- - three.pl 
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
+ - three.pl
+ - dollar.BRACKET.100 
  - zero.pl
  [code: unreachable-glyphs]
 
@@ -2988,46 +2988,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - caron.cap
- - ring.cap
- - uni03060301
- - dotbelow
+ - two.lf
+ - uni03060300
+ - nine.lf
+ - uni0326.alt
+ - tilde.cap
  - dieresis.cap
- - one.lf
- - uni03020309
- - i.loclTRK
- - uni03020300
- - uni03020301
  - uni03060303
- - uni03060309
- - circumflex.cap
+ - uni03020303
+ - four.lf
+ - caron.cap
+ - hungarumlaut.cap
+ - dotaccent.cap
  - eight.lf
- - dollar.BRACKET.100
- - ring_acute.cap
- - five.lf
+ - dotbelow
+ - uni03060309
+ - periodcentered.loclCAT
+ - zero.lf
+ - uni030C.alt
+ - breve.cap
+ - macron.cap
+ - ring.cap
+ - six.lf
+ - caron.alt
+ - uni03020300
  - uni0326
  - grave.cap
- - cent.BRACKET.100
- - four.lf
- - uni0326.alt
- - six.lf
- - tilde.cap
- - seven.lf
- - two.lf
+ - one.lf
  - acute.cap
- - nine.lf
- - caron.alt
- - hungarumlaut.cap
- - uni030C.alt
+ - i.loclTRK
+ - ring_acute.cap
+ - cent.BRACKET.100
+ - three.lf
+ - circumflex.cap
+ - uni03020301
+ - seven.lf
  - ring_acute
- - macron.cap
- - dotaccent.cap
- - breve.cap
- - uni03020303
- - periodcentered.loclCAT
- - three.lf 
- - uni03060300
+ - dollar.BRACKET.100
+ - five.lf
+ - uni03060301 
+ - uni03020309
  [code: unreachable-glyphs]
 
 </details>
@@ -3151,7 +3151,7 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 	* yen (U+00A5) contains a short segment L<<304.0,290.0>--<303.0,290.0>>
 	* uni03BC.math (U+00B5) contains a short segment B<<478.0,88.0>-<483.0,88.0>-<492.0,91.0>>
 	* ae (U+00E6) contains a short segment L<<295.0,311.0>--<295.0,315.0>>
-	* Eng (U+014A) contains a short segment B<<339.0,-92.0>-<351.0,-96.0>-<360.5,-98.5>> and 17 more. [code: found-short-segments]
+	* Eng (U+014A) contains a short segment B<<339.0,-92.0>-<351.0,-96.0>-<360.5,-98.5>> and 18 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -3308,18 +3308,18 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - five.pl
- - cent.BRACKET.100
  - nine.pl
- - seven.pl
  - two.pl
- - six.pl
- - uni030C.alt
  - four.pl
- - eight.pl
- - dollar.BRACKET.100
+ - uni030C.alt
+ - six.pl
+ - five.pl
  - one.pl
- - three.pl 
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
+ - three.pl
+ - dollar.BRACKET.100 
  - zero.pl
  [code: unreachable-glyphs]
 
@@ -3630,18 +3630,18 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - five.pl
- - cent.BRACKET.100
  - nine.pl
- - seven.pl
  - two.pl
- - six.pl
- - uni030C.alt
  - four.pl
- - eight.pl
- - dollar.BRACKET.100
+ - uni030C.alt
+ - six.pl
+ - five.pl
  - one.pl
- - three.pl 
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
+ - three.pl
+ - dollar.BRACKET.100 
  - zero.pl
  [code: unreachable-glyphs]
 
@@ -3928,18 +3928,18 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - five.pl
- - cent.BRACKET.100
  - nine.pl
- - seven.pl
  - two.pl
- - six.pl
- - uni030C.alt
  - four.pl
- - eight.pl
- - dollar.BRACKET.100
+ - uni030C.alt
+ - six.pl
+ - five.pl
  - one.pl
- - three.pl 
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
+ - three.pl
+ - dollar.BRACKET.100 
  - zero.pl
  [code: unreachable-glyphs]
 
@@ -4225,18 +4225,18 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - five.pl
- - cent.BRACKET.100
  - nine.pl
- - seven.pl
  - two.pl
- - six.pl
- - uni030C.alt
  - four.pl
- - eight.pl
- - dollar.BRACKET.100
+ - uni030C.alt
+ - six.pl
+ - five.pl
  - one.pl
- - three.pl 
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
+ - three.pl
+ - dollar.BRACKET.100 
  - zero.pl
  [code: unreachable-glyphs]
 
@@ -4534,46 +4534,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - caron.cap
- - ring.cap
- - uni03060301
- - dotbelow
+ - two.lf
+ - uni03060300
+ - nine.lf
+ - uni0326.alt
+ - tilde.cap
  - dieresis.cap
- - one.lf
- - uni03020309
- - i.loclTRK
- - uni03020300
- - uni03020301
  - uni03060303
- - uni03060309
- - circumflex.cap
+ - uni03020303
+ - four.lf
+ - caron.cap
+ - hungarumlaut.cap
+ - dotaccent.cap
  - eight.lf
- - dollar.BRACKET.100
- - ring_acute.cap
- - five.lf
+ - dotbelow
+ - uni03060309
+ - periodcentered.loclCAT
+ - zero.lf
+ - uni030C.alt
+ - breve.cap
+ - macron.cap
+ - ring.cap
+ - six.lf
+ - caron.alt
+ - uni03020300
  - uni0326
  - grave.cap
- - cent.BRACKET.100
- - four.lf
- - uni0326.alt
- - six.lf
- - tilde.cap
- - seven.lf
- - two.lf
+ - one.lf
  - acute.cap
- - nine.lf
- - caron.alt
- - hungarumlaut.cap
- - uni030C.alt
+ - i.loclTRK
+ - ring_acute.cap
+ - cent.BRACKET.100
+ - three.lf
+ - circumflex.cap
+ - uni03020301
+ - seven.lf
  - ring_acute
- - macron.cap
- - dotaccent.cap
- - breve.cap
- - uni03020303
- - periodcentered.loclCAT
- - three.lf 
- - uni03060300
+ - dollar.BRACKET.100
+ - five.lf
+ - uni03060301 
+ - uni03020309
  [code: unreachable-glyphs]
 
 </details>
@@ -4679,7 +4679,7 @@ than 100 reported misalignments.</pre>
 	* atilde (U+00E3): X=137.5,Y=688.5 (should be at cap-height 690?)
 	* atilde (U+00E3): X=289.0,Y=692.0 (should be at cap-height 690?)
 	* atilde (U+00E3): X=339.0,Y=689.5 (should be at cap-height 690?)
-	* otilde (U+00F5): X=169.5,Y=688.5 (should be at cap-height 690?) and 63 more. [code: found-misalignments]
+	* otilde (U+00F5): X=169.5,Y=688.5 (should be at cap-height 690?) and 62 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -4739,28 +4739,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] RadioCanadaCondensed-Regular.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
-
-* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
-<pre>--- Rationale ---
-We need to check names are not already used, and today the best place to check
-that is http://namecheck.fontdata.com</pre>
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
-
-</details>
+<summary><b>[12] RadioCanadaCondensed-Regular.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -4904,46 +4883,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - caron.cap
- - ring.cap
- - uni03060301
- - dotbelow
+ - two.lf
+ - uni03060300
+ - nine.lf
+ - uni0326.alt
+ - tilde.cap
  - dieresis.cap
- - one.lf
- - uni03020309
- - i.loclTRK
- - uni03020300
- - uni03020301
  - uni03060303
- - uni03060309
- - circumflex.cap
+ - uni03020303
+ - four.lf
+ - caron.cap
+ - hungarumlaut.cap
+ - dotaccent.cap
  - eight.lf
- - dollar.BRACKET.100
- - ring_acute.cap
- - five.lf
+ - dotbelow
+ - uni03060309
+ - periodcentered.loclCAT
+ - zero.lf
+ - uni030C.alt
+ - breve.cap
+ - macron.cap
+ - ring.cap
+ - six.lf
+ - caron.alt
+ - uni03020300
  - uni0326
  - grave.cap
- - cent.BRACKET.100
- - four.lf
- - uni0326.alt
- - six.lf
- - tilde.cap
- - seven.lf
- - two.lf
+ - one.lf
  - acute.cap
- - nine.lf
- - caron.alt
- - hungarumlaut.cap
- - uni030C.alt
+ - i.loclTRK
+ - ring_acute.cap
+ - cent.BRACKET.100
+ - three.lf
+ - circumflex.cap
+ - uni03020301
+ - seven.lf
  - ring_acute
- - macron.cap
- - dotaccent.cap
- - breve.cap
- - uni03020303
- - periodcentered.loclCAT
- - three.lf 
- - uni03060300
+ - dollar.BRACKET.100
+ - five.lf
+ - uni03060301 
+ - uni03020309
  [code: unreachable-glyphs]
 
 </details>
@@ -5043,7 +5022,7 @@ than 100 reported misalignments.</pre>
 	* uni03BC.math (U+00B5): X=476.0,Y=-2.0 (should be at baseline 0?)
 	* uni03BC.math (U+00B5): X=184.5,Y=-1.0 (should be at baseline 0?)
 	* Aring (U+00C5): X=262.0,Y=947.0 (should be at ascender 945?)
-	* germandbls (U+00DF): X=364.0,Y=689.5 (should be at cap-height 690?) and 66 more. [code: found-misalignments]
+	* germandbls (U+00DF): X=364.0,Y=689.5 (should be at cap-height 690?) and 65 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -5104,28 +5083,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[12] RadioCanada-SemiBold.ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
-
-* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
-<pre>--- Rationale ---
-We need to check names are not already used, and today the best place to check
-that is http://namecheck.fontdata.com</pre>
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
-
-</details>
+<summary><b>[11] RadioCanada-SemiBold.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -5269,46 +5227,46 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.lf
- - caron.cap
- - ring.cap
- - uni03060301
- - dotbelow
+ - two.lf
+ - uni03060300
+ - nine.lf
+ - uni0326.alt
+ - tilde.cap
  - dieresis.cap
- - one.lf
- - uni03020309
- - i.loclTRK
- - uni03020300
- - uni03020301
  - uni03060303
- - uni03060309
- - circumflex.cap
+ - uni03020303
+ - four.lf
+ - caron.cap
+ - hungarumlaut.cap
+ - dotaccent.cap
  - eight.lf
- - dollar.BRACKET.100
- - ring_acute.cap
- - five.lf
+ - dotbelow
+ - uni03060309
+ - periodcentered.loclCAT
+ - zero.lf
+ - uni030C.alt
+ - breve.cap
+ - macron.cap
+ - ring.cap
+ - six.lf
+ - caron.alt
+ - uni03020300
  - uni0326
  - grave.cap
- - cent.BRACKET.100
- - four.lf
- - uni0326.alt
- - six.lf
- - tilde.cap
- - seven.lf
- - two.lf
+ - one.lf
  - acute.cap
- - nine.lf
- - caron.alt
- - hungarumlaut.cap
- - uni030C.alt
+ - i.loclTRK
+ - ring_acute.cap
+ - cent.BRACKET.100
+ - three.lf
+ - circumflex.cap
+ - uni03020301
+ - seven.lf
  - ring_acute
- - macron.cap
- - dotaccent.cap
- - breve.cap
- - uni03020303
- - periodcentered.loclCAT
- - three.lf 
- - uni03060300
+ - dollar.BRACKET.100
+ - five.lf
+ - uni03060301 
+ - uni03020309
  [code: unreachable-glyphs]
 
 </details>
@@ -5408,7 +5366,7 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 	* uni03BC.math (U+00B5) contains a short segment B<<563.0,103.0>-<572.0,103.0>-<582.0,106.0>>
 	* agrave (U+00E0) contains a short segment L<<346.0,312.0>--<346.0,317.0>>
 	* aacute (U+00E1) contains a short segment L<<346.0,312.0>--<346.0,317.0>>
-	* acircumflex (U+00E2) contains a short segment L<<346.0,312.0>--<346.0,317.0>> and 45 more. [code: found-short-segments]
+	* acircumflex (U+00E2) contains a short segment L<<346.0,312.0>--<346.0,317.0>> and 46 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -5585,18 +5543,18 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - five.pl
- - cent.BRACKET.100
  - nine.pl
- - seven.pl
  - two.pl
- - six.pl
- - uni030C.alt
  - four.pl
- - eight.pl
- - dollar.BRACKET.100
+ - uni030C.alt
+ - six.pl
+ - five.pl
  - one.pl
- - three.pl 
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
+ - three.pl
+ - dollar.BRACKET.100 
  - zero.pl
  [code: unreachable-glyphs]
 
@@ -5901,18 +5859,18 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - five.pl
- - cent.BRACKET.100
  - nine.pl
- - seven.pl
  - two.pl
- - six.pl
- - uni030C.alt
  - four.pl
- - eight.pl
- - dollar.BRACKET.100
+ - uni030C.alt
+ - six.pl
+ - five.pl
  - one.pl
- - three.pl 
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
+ - three.pl
+ - dollar.BRACKET.100 
  - zero.pl
  [code: unreachable-glyphs]
 
@@ -6151,18 +6109,18 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - five.pl
- - cent.BRACKET.100
  - nine.pl
- - seven.pl
  - two.pl
- - six.pl
- - uni030C.alt
  - four.pl
- - eight.pl
- - dollar.BRACKET.100
+ - uni030C.alt
+ - six.pl
+ - five.pl
  - one.pl
- - three.pl 
+ - eight.pl
+ - seven.pl
+ - cent.BRACKET.100
+ - three.pl
+ - dollar.BRACKET.100 
  - zero.pl
  [code: unreachable-glyphs]
 
@@ -6338,7 +6296,7 @@ by manual inspection.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 2 | 0 | 223 | 2033 | 121 | 1717 | 0 |
+| 0 | 0 | 223 | 2033 | 121 | 1719 | 0 |
 | 0% | 0% | 5% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
