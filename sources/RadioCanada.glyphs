@@ -1,7 +1,8 @@
 {
 .appVersion = "3105";
 DisplayStrings = (
-"/cedi KLY/lira/lira/space/Placeholder/space HH/Placeholder HH\0127/Placeholder 78/Placeholder 80/Placeholder 0"
+"/cedi KLY/lira ¥/space/Placeholder/space HH/Placeholder HH\0127/Placeholder 78/Placeholder 80/Placeholder 0",
+"/won"
 );
 classes = (
 {
@@ -203520,6 +203521,7 @@ com.schriftgestaltung.Glyphs.lastChange = "2021-03-15 22:27:32 +0000";
 width = 600;
 },
 {
+color = 4;
 layerId = master02;
 paths = (
 {
@@ -203641,6 +203643,7 @@ com.schriftgestaltung.Glyphs.lastChange = "2021-03-15 19:51:31 +0000";
 width = 500;
 },
 {
+color = 4;
 layerId = master04;
 paths = (
 {
@@ -203872,6 +203875,7 @@ nodes = (
 }
 );
 };
+color = 4;
 layerId = master06;
 paths = (
 {
@@ -204578,9 +204582,9 @@ nodes = (
 "504 312 OFFCURVE",
 "504 450 CURVE SMOOTH",
 "504 594 OFFCURVE",
-"392 690 OFFCURVE",
-"247 690 CURVE SMOOTH",
-"159 690 LINE",
+"392 640 OFFCURVE",
+"247 640 CURVE SMOOTH",
+"159 640 LINE",
 "159 580 LINE",
 "232 580 LINE SMOOTH",
 "297 580 OFFCURVE",
