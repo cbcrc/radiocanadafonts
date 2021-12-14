@@ -1,5 +1,5 @@
 {
-.appVersion = "3105";
+.appVersion = "3106";
 DisplayStrings = (
 "/cedi KLY/lira ¥/space/Placeholder/space HH/Placeholder HH\0127/Placeholder 78/Placeholder 80/Placeholder 0",
 "/won"
@@ -83,7 +83,7 @@ wght = {
 },
 {
 name = "Enforce Compatibility Check";
-value = 0;
+value = 1;
 },
 {
 name = license;
@@ -218,6 +218,7 @@ code = "    featureNames {
     };
     sub @I_J_alt_off by @I_J_alt_on;";
 name = ss01;
+notes = "Name: ";
 },
 {
 code = "    featureNames {
@@ -228,6 +229,7 @@ code = "    featureNames {
     };
     sub @a_u_alt_off by @a_u_alt_on;";
 name = ss02;
+notes = "Name: ";
 },
 {
 code = "    sub I from [I.alt];
