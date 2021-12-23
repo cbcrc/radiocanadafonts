@@ -147,48 +147,50 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
- - five.lf
- - uni03060303
- - hungarumlaut.cap
- - uni0326
+ - periodcentered.loclCAT
  - uni030C.alt
- - caron.cap
- - zero.lf
- - ring_acute.cap
- - uni03020309
- - three.lf
- - macron.cap
- - acute.cap
- - seven.lf
- - one.lf
- - uni03060300
- - dotbelow
- - i.loclTRK
  - six.lf
  - eight.lf
- - ring.cap
- - nine.lf
  - tilde.cap
- - uni03020300
- - ring_acute
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - uni03020301
+ - ring.cap
+ - uni0313.short
+ - uni20A6.BRACKET.100
  - dotaccent.cap
- - dieresis.cap
- - uni0326.alt
- - grave.cap
- - circumflex.cap
- - breve.cap
- - uni03060301
- - uni20B2.BRACKET.100
  - four.lf
- - periodcentered.loclCAT
- - caron.alt
- - uni03060309
- - uni20A6.BRACKET.100 
  - uni03020303
+ - two.lf
+ - uni03020300
+ - i.loclTRK
+ - uni03020309
+ - acute.cap
+ - uni01E5.001
+ - one.lf
+ - uni0326.alt
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - nine.lf
+ - caron.cap
+ - three.lf
+ - five.lf
+ - macron.cap
+ - seven.lf
+ - cent.BRACKET.100
+ - breve.cap
+ - zero.lf
+ - dotbelow
+ - uni20B2.BRACKET.100
+ - uni03060300
+ - uni03060301
+ - uni03060309
+ - grave.cap
+ - uni03060303
+ - dieresis.cap
+ - hungarumlaut.cap
+ - ring_acute.cap
+ - uni0326
+ - ring_acute
+ - uni03020301 
+ - caron.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -221,8 +223,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -248,8 +248,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: lessequal	Contours detected: 1	Expected: 2
  - Glyph name: ohorn	Contours detected: 3	Expected: 2
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -290,7 +288,7 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 	* aacute (U+00E1) contains a short segment L<<346.0,312.0>--<346.0,317.0>>
 	* acircumflex (U+00E2) contains a short segment L<<346.0,312.0>--<346.0,317.0>>
 	* atilde (U+00E3) contains a short segment L<<346.0,312.0>--<346.0,317.0>>
-	* adieresis (U+00E4) contains a short segment L<<346.0,312.0>--<346.0,317.0>> and 44 more. [code: found-short-segments]
+	* adieresis (U+00E4) contains a short segment L<<346.0,312.0>--<346.0,317.0>> and 45 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -472,48 +470,50 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
- - five.lf
- - uni03060303
- - hungarumlaut.cap
- - uni0326
+ - periodcentered.loclCAT
  - uni030C.alt
- - caron.cap
- - zero.lf
- - ring_acute.cap
- - uni03020309
- - three.lf
- - macron.cap
- - acute.cap
- - seven.lf
- - one.lf
- - uni03060300
- - dotbelow
- - i.loclTRK
  - six.lf
  - eight.lf
- - ring.cap
- - nine.lf
  - tilde.cap
- - uni03020300
- - ring_acute
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - uni03020301
+ - ring.cap
+ - uni0313.short
+ - uni20A6.BRACKET.100
  - dotaccent.cap
- - dieresis.cap
- - uni0326.alt
- - grave.cap
- - circumflex.cap
- - breve.cap
- - uni03060301
- - uni20B2.BRACKET.100
  - four.lf
- - periodcentered.loclCAT
- - caron.alt
- - uni03060309
- - uni20A6.BRACKET.100 
  - uni03020303
+ - two.lf
+ - uni03020300
+ - i.loclTRK
+ - uni03020309
+ - acute.cap
+ - uni01E5.001
+ - one.lf
+ - uni0326.alt
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - nine.lf
+ - caron.cap
+ - three.lf
+ - five.lf
+ - macron.cap
+ - seven.lf
+ - cent.BRACKET.100
+ - breve.cap
+ - zero.lf
+ - dotbelow
+ - uni20B2.BRACKET.100
+ - uni03060300
+ - uni03060301
+ - uni03060309
+ - grave.cap
+ - uni03060303
+ - dieresis.cap
+ - hungarumlaut.cap
+ - ring_acute.cap
+ - uni0326
+ - ring_acute
+ - uni03020301 
+ - caron.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -546,8 +546,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -569,8 +567,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: eogonek	Contours detected: 3	Expected: 2
  - Glyph name: ohorn	Contours detected: 3	Expected: 2
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -615,7 +611,7 @@ than 100 reported misalignments.</pre>
 	* p (U+0070): X=221.5,Y=1.5 (should be at baseline 0?)
 	* ordfeminine (U+00AA): X=109.0,Y=690.5 (should be at cap-height 690?)
 	* uni03BC.math (U+00B5): X=492.0,Y=-1.0 (should be at baseline 0?)
-	* germandbls (U+00DF): X=259.0,Y=-1.0 (should be at baseline 0?) and 59 more. [code: found-misalignments]
+	* germandbls (U+00DF): X=259.0,Y=-1.0 (should be at baseline 0?) and 61 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -818,21 +814,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - dollar.BRACKET.100
+ - two.pl
+ - uni030C.alt
+ - four.pl
  - six.pl
  - zero.pl
- - two.pl
- - three.pl
- - seven.pl
- - dollar.BRACKET.100
- - nine.pl
  - cent.BRACKET.100
- - uni030C.alt
- - one.pl
- - five.pl
- - four.pl
- - uni20B2.BRACKET.100
- - eight.pl 
+ - nine.pl
  - uni20A6.BRACKET.100
+ - uni20B2.BRACKET.100
+ - seven.pl
+ - eight.pl
+ - five.pl
+ - one.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -1091,48 +1087,50 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
- - five.lf
- - uni03060303
- - hungarumlaut.cap
- - uni0326
+ - periodcentered.loclCAT
  - uni030C.alt
- - caron.cap
- - zero.lf
- - ring_acute.cap
- - uni03020309
- - three.lf
- - macron.cap
- - acute.cap
- - seven.lf
- - one.lf
- - uni03060300
- - dotbelow
- - i.loclTRK
  - six.lf
  - eight.lf
- - ring.cap
- - nine.lf
  - tilde.cap
- - uni03020300
- - ring_acute
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - uni03020301
+ - ring.cap
+ - uni0313.short
+ - uni20A6.BRACKET.100
  - dotaccent.cap
- - dieresis.cap
- - uni0326.alt
- - grave.cap
- - circumflex.cap
- - breve.cap
- - uni03060301
- - uni20B2.BRACKET.100
  - four.lf
- - periodcentered.loclCAT
- - caron.alt
- - uni03060309
- - uni20A6.BRACKET.100 
  - uni03020303
+ - two.lf
+ - uni03020300
+ - i.loclTRK
+ - uni03020309
+ - acute.cap
+ - uni01E5.001
+ - one.lf
+ - uni0326.alt
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - nine.lf
+ - caron.cap
+ - three.lf
+ - five.lf
+ - macron.cap
+ - seven.lf
+ - cent.BRACKET.100
+ - breve.cap
+ - zero.lf
+ - dotbelow
+ - uni20B2.BRACKET.100
+ - uni03060300
+ - uni03060301
+ - uni03060309
+ - grave.cap
+ - uni03060303
+ - dieresis.cap
+ - hungarumlaut.cap
+ - ring_acute.cap
+ - uni0326
+ - ring_acute
+ - uni03020301 
+ - caron.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -1166,8 +1164,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
  - Glyph name: uni023A	Contours detected: 4	Expected: 3
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -1190,8 +1186,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ohorn	Contours detected: 3	Expected: 2
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uni023A	Contours detected: 4	Expected: 3
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -1236,7 +1230,7 @@ than 100 reported misalignments.</pre>
 	* ocircumflex (U+00F4): X=272.0,Y=689.0 (should be at cap-height 690?)
 	* otilde (U+00F5): X=253.0,Y=692.0 (should be at cap-height 690?)
 	* ucircumflex (U+00FB): X=281.0,Y=689.0 (should be at cap-height 690?)
-	* ccircumflex (U+0109): X=269.0,Y=689.0 (should be at cap-height 690?) and 63 more. [code: found-misalignments]
+	* ccircumflex (U+0109): X=269.0,Y=689.0 (should be at cap-height 690?) and 61 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -1260,7 +1254,7 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 	* ae (U+00E6) contains a short segment B<<779.0,280.0>-<779.0,270.0>-<778.5,261.0>>
 	* ae (U+00E6) contains a short segment B<<778.5,261.0>-<778.0,252.0>-<777.0,244.0>>
 	* oe (U+0153) contains a short segment B<<810.5,261.0>-<810.0,252.0>-<809.0,244.0>>
-	* uni018F (U+018F) contains a short segment B<<70.0,325.0>-<70.0,333.0>-<70.5,343.0>> and 12 more. [code: found-short-segments]
+	* uni018F (U+018F) contains a short segment B<<70.0,325.0>-<70.0,333.0>-<70.5,343.0>> and 13 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -1440,48 +1434,50 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
- - five.lf
- - uni03060303
- - hungarumlaut.cap
- - uni0326
+ - periodcentered.loclCAT
  - uni030C.alt
- - caron.cap
- - zero.lf
- - ring_acute.cap
- - uni03020309
- - three.lf
- - macron.cap
- - acute.cap
- - seven.lf
- - one.lf
- - uni03060300
- - dotbelow
- - i.loclTRK
  - six.lf
  - eight.lf
- - ring.cap
- - nine.lf
  - tilde.cap
- - uni03020300
- - ring_acute
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - uni03020301
+ - ring.cap
+ - uni0313.short
+ - uni20A6.BRACKET.100
  - dotaccent.cap
- - dieresis.cap
- - uni0326.alt
- - grave.cap
- - circumflex.cap
- - breve.cap
- - uni03060301
- - uni20B2.BRACKET.100
  - four.lf
- - periodcentered.loclCAT
- - caron.alt
- - uni03060309
- - uni20A6.BRACKET.100 
  - uni03020303
+ - two.lf
+ - uni03020300
+ - i.loclTRK
+ - uni03020309
+ - acute.cap
+ - uni01E5.001
+ - one.lf
+ - uni0326.alt
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - nine.lf
+ - caron.cap
+ - three.lf
+ - five.lf
+ - macron.cap
+ - seven.lf
+ - cent.BRACKET.100
+ - breve.cap
+ - zero.lf
+ - dotbelow
+ - uni20B2.BRACKET.100
+ - uni03060300
+ - uni03060301
+ - uni03060309
+ - grave.cap
+ - uni03060303
+ - dieresis.cap
+ - hungarumlaut.cap
+ - ring_acute.cap
+ - uni0326
+ - ring_acute
+ - uni03020301 
+ - caron.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -1514,8 +1510,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -1537,8 +1531,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: eogonek	Contours detected: 3	Expected: 2
  - Glyph name: ohorn	Contours detected: 3	Expected: 2
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -1583,7 +1575,7 @@ than 100 reported misalignments.</pre>
 	* uni03BC.math (U+00B5): X=476.0,Y=-2.0 (should be at baseline 0?)
 	* uni03BC.math (U+00B5): X=184.5,Y=-1.0 (should be at baseline 0?)
 	* Aring (U+00C5): X=262.0,Y=947.0 (should be at ascender 945?)
-	* germandbls (U+00DF): X=364.0,Y=689.5 (should be at cap-height 690?) and 78 more. [code: found-misalignments]
+	* germandbls (U+00DF): X=364.0,Y=689.5 (should be at cap-height 690?) and 82 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -1790,48 +1782,50 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
- - five.lf
- - uni03060303
- - hungarumlaut.cap
- - uni0326
+ - periodcentered.loclCAT
  - uni030C.alt
- - caron.cap
- - zero.lf
- - ring_acute.cap
- - uni03020309
- - three.lf
- - macron.cap
- - acute.cap
- - seven.lf
- - one.lf
- - uni03060300
- - dotbelow
- - i.loclTRK
  - six.lf
  - eight.lf
- - ring.cap
- - nine.lf
  - tilde.cap
- - uni03020300
- - ring_acute
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - uni03020301
+ - ring.cap
+ - uni0313.short
+ - uni20A6.BRACKET.100
  - dotaccent.cap
- - dieresis.cap
- - uni0326.alt
- - grave.cap
- - circumflex.cap
- - breve.cap
- - uni03060301
- - uni20B2.BRACKET.100
  - four.lf
- - periodcentered.loclCAT
- - caron.alt
- - uni03060309
- - uni20A6.BRACKET.100 
  - uni03020303
+ - two.lf
+ - uni03020300
+ - i.loclTRK
+ - uni03020309
+ - acute.cap
+ - uni01E5.001
+ - one.lf
+ - uni0326.alt
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - nine.lf
+ - caron.cap
+ - three.lf
+ - five.lf
+ - macron.cap
+ - seven.lf
+ - cent.BRACKET.100
+ - breve.cap
+ - zero.lf
+ - dotbelow
+ - uni20B2.BRACKET.100
+ - uni03060300
+ - uni03060301
+ - uni03060309
+ - grave.cap
+ - uni03060303
+ - dieresis.cap
+ - hungarumlaut.cap
+ - ring_acute.cap
+ - uni0326
+ - ring_acute
+ - uni03020301 
+ - caron.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -1864,8 +1858,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -1891,8 +1883,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: lessequal	Contours detected: 1	Expected: 2
  - Glyph name: ohorn	Contours detected: 3	Expected: 2
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -1937,7 +1927,7 @@ than 100 reported misalignments.</pre>
 	* f (U+0066): X=210.0,Y=521.0 (should be at x-height 522?)
 	* f (U+0066): X=325.0,Y=521.0 (should be at x-height 522?)
 	* j (U+006A): X=64.0,Y=-2.0 (should be at baseline 0?)
-	* uni03BC.math (U+00B5): X=506.0,Y=-1.0 (should be at baseline 0?) and 71 more. [code: found-misalignments]
+	* uni03BC.math (U+00B5): X=506.0,Y=-1.0 (should be at baseline 0?) and 72 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -1961,7 +1951,7 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 	* aacute (U+00E1) contains a short segment L<<286.0,314.0>--<286.0,323.0>>
 	* acircumflex (U+00E2) contains a short segment L<<286.0,314.0>--<286.0,323.0>>
 	* atilde (U+00E3) contains a short segment L<<286.0,314.0>--<286.0,323.0>>
-	* adieresis (U+00E4) contains a short segment L<<286.0,314.0>--<286.0,323.0>> and 43 more. [code: found-short-segments]
+	* adieresis (U+00E4) contains a short segment L<<286.0,314.0>--<286.0,323.0>> and 44 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -2015,7 +2005,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[11] RadioCanadaCondensed-Bold.ttf</b></summary>
+<summary><b>[10] RadioCanadaCondensed-Bold.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -2138,48 +2128,50 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
- - five.lf
- - uni03060303
- - hungarumlaut.cap
- - uni0326
+ - periodcentered.loclCAT
  - uni030C.alt
- - caron.cap
- - zero.lf
- - ring_acute.cap
- - uni03020309
- - three.lf
- - macron.cap
- - acute.cap
- - seven.lf
- - one.lf
- - uni03060300
- - dotbelow
- - i.loclTRK
  - six.lf
  - eight.lf
- - ring.cap
- - nine.lf
  - tilde.cap
- - uni03020300
- - ring_acute
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - uni03020301
+ - ring.cap
+ - uni0313.short
+ - uni20A6.BRACKET.100
  - dotaccent.cap
- - dieresis.cap
- - uni0326.alt
- - grave.cap
- - circumflex.cap
- - breve.cap
- - uni03060301
- - uni20B2.BRACKET.100
  - four.lf
- - periodcentered.loclCAT
- - caron.alt
- - uni03060309
- - uni20A6.BRACKET.100 
  - uni03020303
+ - two.lf
+ - uni03020300
+ - i.loclTRK
+ - uni03020309
+ - acute.cap
+ - uni01E5.001
+ - one.lf
+ - uni0326.alt
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - nine.lf
+ - caron.cap
+ - three.lf
+ - five.lf
+ - macron.cap
+ - seven.lf
+ - cent.BRACKET.100
+ - breve.cap
+ - zero.lf
+ - dotbelow
+ - uni20B2.BRACKET.100
+ - uni03060300
+ - uni03060301
+ - uni03060309
+ - grave.cap
+ - uni03060303
+ - dieresis.cap
+ - hungarumlaut.cap
+ - ring_acute.cap
+ - uni0326
+ - ring_acute
+ - uni03020301 
+ - caron.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -2212,8 +2204,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -2241,8 +2231,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: lessequal	Contours detected: 1	Expected: 2
  - Glyph name: ohorn	Contours detected: 3	Expected: 2
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -2260,34 +2248,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: uni1EF1	Contours detected: 3	Expected: 2 
  - Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary>
-
-* [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
-<pre>--- Rationale ---
-This check heuristically looks for on-curve points which are close to, but do
-not sit on, significant boundary coordinates. For example, a point which has a
-Y-coordinate of 1 or -1 might be a misplaced baseline point. As well as the
-baseline, here we also check for points near the x-height (but only for lower
-case Latin letters), cap-height, ascender and descender Y coordinates.
-Not all such misaligned curve points are a mistake, and sometimes the design may
-call for points in locations near the boundaries. As this check is liable to
-generate significant numbers of false positives, it will pass if there are more
-than 100 reported misalignments.</pre>
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* dollar (U+0024): X=322.0,Y=-2.0 (should be at baseline 0?)
-	* parenleft (U+0028): X=217.0,Y=-256.0 (should be at descender -255?)
-	* parenright (U+0029): X=29.0,Y=-257.0 (should be at descender -255?)
-	* c (U+0063): X=337.0,Y=526.0 (should be at x-height 525?)
-	* c (U+0063): X=337.0,Y=-1.0 (should be at baseline 0?)
-	* e (U+0065): X=355.0,Y=1.5 (should be at baseline 0?)
-	* s (U+0073): X=302.0,Y=527.0 (should be at x-height 525?)
-	* s (U+0073): X=91.5,Y=0.5 (should be at baseline 0?)
-	* germandbls (U+00DF): X=263.0,Y=-2.0 (should be at baseline 0?)
-	* atilde (U+00E3): X=108.5,Y=689.5 (should be at cap-height 690?) and 88 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -2311,7 +2271,7 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 	* atilde (U+00E3) contains a short segment L<<278.0,317.0>--<278.0,318.0>>
 	* adieresis (U+00E4) contains a short segment L<<278.0,317.0>--<278.0,318.0>>
 	* aring (U+00E5) contains a short segment L<<278.0,317.0>--<278.0,318.0>>
-	* ae (U+00E6) contains a short segment L<<279.0,317.0>--<279.0,318.0>> and 39 more. [code: found-short-segments]
+	* ae (U+00E6) contains a short segment L<<279.0,317.0>--<279.0,318.0>> and 40 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -2346,7 +2306,8 @@ by manual inspection.</pre>
 	* uni023A (U+023A): L<<274.0,509.0>--<211.0,266.0>>/L<<211.0,266.0>--<291.0,444.0>> = 9.666516510618369
 	* uni026C (U+026C): B<<98.0,534.0>-<153.0,534.0>-<169.0,469.0>>/L<<169.0,469.0>--<169.0,715.0>> = 13.828650972280153
 	* uni20A9 (U+20A9): L<<154.0,298.0>--<162.0,177.0>>/L<<162.0,177.0>--<170.0,298.0>> = 7.5652908931925795
-	* uni20A9 (U+20A9): L<<255.0,403.0>--<249.0,496.0>>/L<<249.0,496.0>--<243.0,403.0>> = 7.382771972902524 and uni20A9 (U+20A9): L<<328.0,298.0>--<338.0,172.0>>/L<<338.0,172.0>--<346.0,298.0>> = 8.170723247394802 [code: found-jaggy-segments]
+	* uni20A9 (U+20A9): L<<255.0,403.0>--<249.0,496.0>>/L<<249.0,496.0>--<243.0,403.0>> = 7.382771972902524
+	* uni20A9 (U+20A9): L<<328.0,298.0>--<338.0,172.0>>/L<<338.0,172.0>--<346.0,298.0>> = 8.170723247394802 and uniA7AD (U+A7AD): B<<98.0,564.0>-<153.0,564.0>-<169.0,499.0>>/L<<169.0,499.0>--<169.0,690.0>> = 13.828650972280153 [code: found-jaggy-segments]
 
 </details>
 <br>
@@ -2493,21 +2454,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - dollar.BRACKET.100
+ - two.pl
+ - uni030C.alt
+ - four.pl
  - six.pl
  - zero.pl
- - two.pl
- - three.pl
- - seven.pl
- - dollar.BRACKET.100
- - nine.pl
  - cent.BRACKET.100
- - uni030C.alt
- - one.pl
- - five.pl
- - four.pl
- - uni20B2.BRACKET.100
- - eight.pl 
+ - nine.pl
  - uni20A6.BRACKET.100
+ - uni20B2.BRACKET.100
+ - seven.pl
+ - eight.pl
+ - five.pl
+ - one.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -2811,21 +2772,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - dollar.BRACKET.100
+ - two.pl
+ - uni030C.alt
+ - four.pl
  - six.pl
  - zero.pl
- - two.pl
- - three.pl
- - seven.pl
- - dollar.BRACKET.100
- - nine.pl
  - cent.BRACKET.100
- - uni030C.alt
- - one.pl
- - five.pl
- - four.pl
- - uni20B2.BRACKET.100
- - eight.pl 
+ - nine.pl
  - uni20A6.BRACKET.100
+ - uni20B2.BRACKET.100
+ - seven.pl
+ - eight.pl
+ - five.pl
+ - one.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -3065,21 +3026,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - dollar.BRACKET.100
+ - two.pl
+ - uni030C.alt
+ - four.pl
  - six.pl
  - zero.pl
- - two.pl
- - three.pl
- - seven.pl
- - dollar.BRACKET.100
- - nine.pl
  - cent.BRACKET.100
- - uni030C.alt
- - one.pl
- - five.pl
- - four.pl
- - uni20B2.BRACKET.100
- - eight.pl 
+ - nine.pl
  - uni20A6.BRACKET.100
+ - uni20B2.BRACKET.100
+ - seven.pl
+ - eight.pl
+ - five.pl
+ - one.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -3374,48 +3335,50 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
- - five.lf
- - uni03060303
- - hungarumlaut.cap
- - uni0326
+ - periodcentered.loclCAT
  - uni030C.alt
- - caron.cap
- - zero.lf
- - ring_acute.cap
- - uni03020309
- - three.lf
- - macron.cap
- - acute.cap
- - seven.lf
- - one.lf
- - uni03060300
- - dotbelow
- - i.loclTRK
  - six.lf
  - eight.lf
- - ring.cap
- - nine.lf
  - tilde.cap
- - uni03020300
- - ring_acute
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - uni03020301
+ - ring.cap
+ - uni0313.short
+ - uni20A6.BRACKET.100
  - dotaccent.cap
- - dieresis.cap
- - uni0326.alt
- - grave.cap
- - circumflex.cap
- - breve.cap
- - uni03060301
- - uni20B2.BRACKET.100
  - four.lf
- - periodcentered.loclCAT
- - caron.alt
- - uni03060309
- - uni20A6.BRACKET.100 
  - uni03020303
+ - two.lf
+ - uni03020300
+ - i.loclTRK
+ - uni03020309
+ - acute.cap
+ - uni01E5.001
+ - one.lf
+ - uni0326.alt
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - nine.lf
+ - caron.cap
+ - three.lf
+ - five.lf
+ - macron.cap
+ - seven.lf
+ - cent.BRACKET.100
+ - breve.cap
+ - zero.lf
+ - dotbelow
+ - uni20B2.BRACKET.100
+ - uni03060300
+ - uni03060301
+ - uni03060309
+ - grave.cap
+ - uni03060303
+ - dieresis.cap
+ - hungarumlaut.cap
+ - ring_acute.cap
+ - uni0326
+ - ring_acute
+ - uni03020301 
+ - caron.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -3448,8 +3411,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -3471,8 +3432,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: eogonek	Contours detected: 3	Expected: 2
  - Glyph name: ohorn	Contours detected: 3	Expected: 2
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -3514,10 +3473,10 @@ than 100 reported misalignments.</pre>
 	* atilde (U+00E3): X=290.0,Y=689.5 (should be at cap-height 690?)
 	* otilde (U+00F5): X=168.0,Y=691.5 (should be at cap-height 690?)
 	* otilde (U+00F5): X=315.0,Y=689.5 (should be at cap-height 690?)
-	* Lcaron (U+013D): X=352.0,Y=691.0 (should be at cap-height 690?)
-	* Lcaron (U+013D): X=456.0,Y=691.0 (should be at cap-height 690?)
 	* utilde (U+0169): X=181.0,Y=691.5 (should be at cap-height 690?)
-	* utilde (U+0169): X=328.0,Y=689.5 (should be at cap-height 690?) and 37 more. [code: found-misalignments]
+	* utilde (U+0169): X=328.0,Y=689.5 (should be at cap-height 690?)
+	* uni0194 (U+0194): X=191.0,Y=-2.0 (should be at baseline 0?)
+	* uni0194 (U+0194): X=369.0,Y=-2.0 (should be at baseline 0?) and 38 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -3701,48 +3660,50 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
- - five.lf
- - uni03060303
- - hungarumlaut.cap
- - uni0326
+ - periodcentered.loclCAT
  - uni030C.alt
- - caron.cap
- - zero.lf
- - ring_acute.cap
- - uni03020309
- - three.lf
- - macron.cap
- - acute.cap
- - seven.lf
- - one.lf
- - uni03060300
- - dotbelow
- - i.loclTRK
  - six.lf
  - eight.lf
- - ring.cap
- - nine.lf
  - tilde.cap
- - uni03020300
- - ring_acute
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - uni03020301
+ - ring.cap
+ - uni0313.short
+ - uni20A6.BRACKET.100
  - dotaccent.cap
- - dieresis.cap
- - uni0326.alt
- - grave.cap
- - circumflex.cap
- - breve.cap
- - uni03060301
- - uni20B2.BRACKET.100
  - four.lf
- - periodcentered.loclCAT
- - caron.alt
- - uni03060309
- - uni20A6.BRACKET.100 
  - uni03020303
+ - two.lf
+ - uni03020300
+ - i.loclTRK
+ - uni03020309
+ - acute.cap
+ - uni01E5.001
+ - one.lf
+ - uni0326.alt
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - nine.lf
+ - caron.cap
+ - three.lf
+ - five.lf
+ - macron.cap
+ - seven.lf
+ - cent.BRACKET.100
+ - breve.cap
+ - zero.lf
+ - dotbelow
+ - uni20B2.BRACKET.100
+ - uni03060300
+ - uni03060301
+ - uni03060309
+ - grave.cap
+ - uni03060303
+ - dieresis.cap
+ - hungarumlaut.cap
+ - ring_acute.cap
+ - uni0326
+ - ring_acute
+ - uni03020301 
+ - caron.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -3775,8 +3736,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -3804,8 +3763,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: lessequal	Contours detected: 1	Expected: 2
  - Glyph name: ohorn	Contours detected: 3	Expected: 2
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -3850,7 +3807,7 @@ than 100 reported misalignments.</pre>
 	* atilde (U+00E3): X=137.5,Y=688.5 (should be at cap-height 690?)
 	* atilde (U+00E3): X=289.0,Y=692.0 (should be at cap-height 690?)
 	* atilde (U+00E3): X=339.0,Y=689.5 (should be at cap-height 690?)
-	* otilde (U+00F5): X=169.5,Y=688.5 (should be at cap-height 690?) and 63 more. [code: found-misalignments]
+	* otilde (U+00F5): X=169.5,Y=688.5 (should be at cap-height 690?) and 64 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -3874,7 +3831,7 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 	* uni03BC.math (U+00B5) contains a short segment B<<576.0,118.0>-<585.0,118.0>-<594.0,121.0>>
 	* agrave (U+00E0) contains a short segment L<<337.0,314.0>--<337.0,318.0>>
 	* aacute (U+00E1) contains a short segment L<<337.0,314.0>--<337.0,318.0>>
-	* acircumflex (U+00E2) contains a short segment L<<337.0,314.0>--<337.0,318.0>> and 40 more. [code: found-short-segments]
+	* acircumflex (U+00E2) contains a short segment L<<337.0,314.0>--<337.0,318.0>> and 41 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -3910,7 +3867,8 @@ by manual inspection.</pre>
 	* uni023A (U+023A): L<<326.0,483.0>--<249.0,251.0>>/L<<249.0,251.0>--<345.0,426.0>> = 10.387086745773185
 	* uni026C (U+026C): B<<111.0,534.0>-<174.0,534.0>-<191.0,463.0>>/L<<191.0,463.0>--<191.0,715.0>> = 13.465208094811695
 	* uni20A9 (U+20A9): L<<184.0,298.0>--<191.0,175.0>>/L<<191.0,175.0>--<200.0,298.0>> = 7.44213806578537
-	* uni20A9 (U+20A9): L<<306.0,403.0>--<299.0,490.0>>/L<<299.0,490.0>--<292.0,403.0>> = 9.200191332526574 and uni20A9 (U+20A9): L<<398.0,298.0>--<408.0,169.0>>/L<<408.0,169.0>--<416.0,298.0>> = 7.981350442594271 [code: found-jaggy-segments]
+	* uni20A9 (U+20A9): L<<306.0,403.0>--<299.0,490.0>>/L<<299.0,490.0>--<292.0,403.0>> = 9.200191332526574
+	* uni20A9 (U+20A9): L<<398.0,298.0>--<408.0,169.0>>/L<<408.0,169.0>--<416.0,298.0>> = 7.981350442594271 and uniA7AD (U+A7AD): B<<111.0,534.0>-<174.0,534.0>-<191.0,463.0>>/L<<191.0,463.0>--<191.0,690.0>> = 13.465208094811695 [code: found-jaggy-segments]
 
 </details>
 <br>
@@ -4057,21 +4015,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - dollar.BRACKET.100
+ - two.pl
+ - uni030C.alt
+ - four.pl
  - six.pl
  - zero.pl
- - two.pl
- - three.pl
- - seven.pl
- - dollar.BRACKET.100
- - nine.pl
  - cent.BRACKET.100
- - uni030C.alt
- - one.pl
- - five.pl
- - four.pl
- - uni20B2.BRACKET.100
- - eight.pl 
+ - nine.pl
  - uni20A6.BRACKET.100
+ - uni20B2.BRACKET.100
+ - seven.pl
+ - eight.pl
+ - five.pl
+ - one.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -4377,21 +4335,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - dollar.BRACKET.100
+ - two.pl
+ - uni030C.alt
+ - four.pl
  - six.pl
  - zero.pl
- - two.pl
- - three.pl
- - seven.pl
- - dollar.BRACKET.100
- - nine.pl
  - cent.BRACKET.100
- - uni030C.alt
- - one.pl
- - five.pl
- - four.pl
- - uni20B2.BRACKET.100
- - eight.pl 
+ - nine.pl
  - uni20A6.BRACKET.100
+ - uni20B2.BRACKET.100
+ - seven.pl
+ - eight.pl
+ - five.pl
+ - one.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -4680,21 +4638,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - dollar.BRACKET.100
+ - two.pl
+ - uni030C.alt
+ - four.pl
  - six.pl
  - zero.pl
- - two.pl
- - three.pl
- - seven.pl
- - dollar.BRACKET.100
- - nine.pl
  - cent.BRACKET.100
- - uni030C.alt
- - one.pl
- - five.pl
- - four.pl
- - uni20B2.BRACKET.100
- - eight.pl 
+ - nine.pl
  - uni20A6.BRACKET.100
+ - uni20B2.BRACKET.100
+ - seven.pl
+ - eight.pl
+ - five.pl
+ - one.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -4936,21 +4894,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - dollar.BRACKET.100
+ - two.pl
+ - uni030C.alt
+ - four.pl
  - six.pl
  - zero.pl
- - two.pl
- - three.pl
- - seven.pl
- - dollar.BRACKET.100
- - nine.pl
  - cent.BRACKET.100
- - uni030C.alt
- - one.pl
- - five.pl
- - four.pl
- - uni20B2.BRACKET.100
- - eight.pl 
+ - nine.pl
  - uni20A6.BRACKET.100
+ - uni20B2.BRACKET.100
+ - seven.pl
+ - eight.pl
+ - five.pl
+ - one.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -5221,21 +5179,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - dollar.BRACKET.100
+ - two.pl
+ - uni030C.alt
+ - four.pl
  - six.pl
  - zero.pl
- - two.pl
- - three.pl
- - seven.pl
- - dollar.BRACKET.100
- - nine.pl
  - cent.BRACKET.100
- - uni030C.alt
- - one.pl
- - five.pl
- - four.pl
- - uni20B2.BRACKET.100
- - eight.pl 
+ - nine.pl
  - uni20A6.BRACKET.100
+ - uni20B2.BRACKET.100
+ - seven.pl
+ - eight.pl
+ - five.pl
+ - one.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -5550,48 +5508,50 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
- - five.lf
- - uni03060303
- - hungarumlaut.cap
- - uni0326
+ - periodcentered.loclCAT
  - uni030C.alt
- - caron.cap
- - zero.lf
- - ring_acute.cap
- - uni03020309
- - three.lf
- - macron.cap
- - acute.cap
- - seven.lf
- - one.lf
- - uni03060300
- - dotbelow
- - i.loclTRK
  - six.lf
  - eight.lf
- - ring.cap
- - nine.lf
  - tilde.cap
- - uni03020300
- - ring_acute
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - uni03020301
+ - ring.cap
+ - uni0313.short
+ - uni20A6.BRACKET.100
  - dotaccent.cap
- - dieresis.cap
- - uni0326.alt
- - grave.cap
- - circumflex.cap
- - breve.cap
- - uni03060301
- - uni20B2.BRACKET.100
  - four.lf
- - periodcentered.loclCAT
- - caron.alt
- - uni03060309
- - uni20A6.BRACKET.100 
  - uni03020303
+ - two.lf
+ - uni03020300
+ - i.loclTRK
+ - uni03020309
+ - acute.cap
+ - uni01E5.001
+ - one.lf
+ - uni0326.alt
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - nine.lf
+ - caron.cap
+ - three.lf
+ - five.lf
+ - macron.cap
+ - seven.lf
+ - cent.BRACKET.100
+ - breve.cap
+ - zero.lf
+ - dotbelow
+ - uni20B2.BRACKET.100
+ - uni03060300
+ - uni03060301
+ - uni03060309
+ - grave.cap
+ - uni03060303
+ - dieresis.cap
+ - hungarumlaut.cap
+ - ring_acute.cap
+ - uni0326
+ - ring_acute
+ - uni03020301 
+ - caron.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -5625,8 +5585,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
  - Glyph name: uni023A	Contours detected: 4	Expected: 3
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -5649,8 +5607,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ohorn	Contours detected: 3	Expected: 2
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uni023A	Contours detected: 4	Expected: 3
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -5716,10 +5672,10 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 	* uni01EB (U+01EB) contains a short segment B<<296.0,-7.0>-<290.0,-8.0>-<284.0,-8.0>>
 	* uni01EB (U+01EB) contains a short segment B<<284.0,-8.0>-<278.0,-8.0>-<272.0,-8.0>>
 	* aeacute (U+01FD) contains a short segment B<<646.5,261.0>-<646.0,252.0>-<645.0,244.0>>
+	* uni023C (U+023C) contains a short segment L<<227.0,462.0>--<224.0,462.0>>
 	* uni03BC (U+03BC) contains a short segment B<<445.0,44.0>-<452.0,44.0>-<459.0,45.5>>
 	* uni03BC (U+03BC) contains a short segment B<<459.0,45.5>-<466.0,47.0>-<471.0,48.0>>
-	* pi (U+03C0) contains a short segment B<<399.0,44.0>-<406.0,44.0>-<413.0,45.5>>
-	* pi (U+03C0) contains a short segment B<<413.0,45.5>-<420.0,47.0>-<425.0,48.0>> and 5 more. [code: found-short-segments]
+	* pi (U+03C0) contains a short segment B<<399.0,44.0>-<406.0,44.0>-<413.0,45.5>> and 6 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -5876,21 +5832,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - dollar.BRACKET.100
+ - two.pl
+ - uni030C.alt
+ - four.pl
  - six.pl
  - zero.pl
- - two.pl
- - three.pl
- - seven.pl
- - dollar.BRACKET.100
- - nine.pl
  - cent.BRACKET.100
- - uni030C.alt
- - one.pl
- - five.pl
- - four.pl
- - uni20B2.BRACKET.100
- - eight.pl 
+ - nine.pl
  - uni20A6.BRACKET.100
+ - uni20B2.BRACKET.100
+ - seven.pl
+ - eight.pl
+ - five.pl
+ - one.pl 
+ - three.pl
  [code: unreachable-glyphs]
 
 </details>
@@ -6188,48 +6144,50 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
- - five.lf
- - uni03060303
- - hungarumlaut.cap
- - uni0326
+ - periodcentered.loclCAT
  - uni030C.alt
- - caron.cap
- - zero.lf
- - ring_acute.cap
- - uni03020309
- - three.lf
- - macron.cap
- - acute.cap
- - seven.lf
- - one.lf
- - uni03060300
- - dotbelow
- - i.loclTRK
  - six.lf
  - eight.lf
- - ring.cap
- - nine.lf
  - tilde.cap
- - uni03020300
- - ring_acute
- - dollar.BRACKET.100
- - cent.BRACKET.100
- - uni03020301
+ - ring.cap
+ - uni0313.short
+ - uni20A6.BRACKET.100
  - dotaccent.cap
- - dieresis.cap
- - uni0326.alt
- - grave.cap
- - circumflex.cap
- - breve.cap
- - uni03060301
- - uni20B2.BRACKET.100
  - four.lf
- - periodcentered.loclCAT
- - caron.alt
- - uni03060309
- - uni20A6.BRACKET.100 
  - uni03020303
+ - two.lf
+ - uni03020300
+ - i.loclTRK
+ - uni03020309
+ - acute.cap
+ - uni01E5.001
+ - one.lf
+ - uni0326.alt
+ - dollar.BRACKET.100
+ - circumflex.cap
+ - nine.lf
+ - caron.cap
+ - three.lf
+ - five.lf
+ - macron.cap
+ - seven.lf
+ - cent.BRACKET.100
+ - breve.cap
+ - zero.lf
+ - dotbelow
+ - uni20B2.BRACKET.100
+ - uni03060300
+ - uni03060301
+ - uni03060309
+ - grave.cap
+ - uni03060303
+ - dieresis.cap
+ - hungarumlaut.cap
+ - ring_acute.cap
+ - uni0326
+ - ring_acute
+ - uni03020301 
+ - caron.alt
  [code: unreachable-glyphs]
 
 </details>
@@ -6262,8 +6220,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -6285,8 +6241,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: eogonek	Contours detected: 3	Expected: 2
  - Glyph name: ohorn	Contours detected: 3	Expected: 2
  - Glyph name: uhorn	Contours detected: 2	Expected: 1
- - Glyph name: uni023D	Contours detected: 2	Expected: 1
- - Glyph name: uni1E9E	Contours detected: 2	Expected: 1
  - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDD	Contours detected: 4	Expected: 3
  - Glyph name: uni1EDF	Contours detected: 4	Expected: 3
@@ -6331,7 +6285,7 @@ than 100 reported misalignments.</pre>
 	* utilde (U+0169): X=323.0,Y=688.5 (should be at cap-height 690?)
 	* uni022C (U+022C): X=218.0,Y=943.0 (should be at ascender 945?)
 	* uni022C (U+022C): X=514.0,Y=943.0 (should be at ascender 945?)
-	* uni022D (U+022D): X=311.0,Y=688.5 (should be at cap-height 690?) and 15 more. [code: found-misalignments]
+	* uni022D (U+022D): X=311.0,Y=688.5 (should be at cap-height 690?) and 19 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -6355,7 +6309,7 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 	* acircumflex (U+00E2) contains a short segment L<<366.0,308.0>--<366.0,314.0>>
 	* atilde (U+00E3) contains a short segment L<<366.0,308.0>--<366.0,314.0>>
 	* adieresis (U+00E4) contains a short segment L<<366.0,308.0>--<366.0,314.0>>
-	* aring (U+00E5) contains a short segment L<<366.0,308.0>--<366.0,314.0>> and 38 more. [code: found-short-segments]
+	* aring (U+00E5) contains a short segment L<<366.0,308.0>--<366.0,314.0>> and 39 more. [code: found-short-segments]
 
 </details>
 <details>
@@ -6381,7 +6335,7 @@ vectors.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 223 | 2033 | 121 | 1719 | 0 |
+| 0 | 0 | 222 | 2033 | 121 | 1720 | 0 |
 | 0% | 0% | 5% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
