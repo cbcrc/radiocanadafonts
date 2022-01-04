@@ -1,8 +1,5 @@
 {
 .appVersion = "3108";
-DisplayStrings = (
-"/rdotbelow_commaaboverightcomb_wmod/space/Placeholder ll"
-);
 classes = (
 {
 code = " A AE AEacute Aacute Abreve Acircumflex Adieresis Adotbelow Agrave Amacron Aogonek Aring Aringacute Atilde B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Delta E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Edotbelow Egrave Emacron Eng Eogonek Eth Etilde Euro F G Gbreve Gcaron Gcedilla Gcircumflex Gdotaccent Germandbls H Hbar Hcircumflex I I.alt IJ IJacute Iacute Iacute.alt Ibreve Ibreve.alt Icircumflex Icircumflex.alt Idieresis Idieresis.alt Idotaccent Idotaccent.alt Idotbelow Idotbelow.alt Igrave Igrave.alt Imacron Imacron.alt Iogonek Iogonek.alt Itilde Itilde.alt J J.alt Jcircumflex Jcircumflex.alt K Kcedilla L Lacute Lcaron Lcedilla Ldot Lslash M N Nacute Ncaron Ncedilla Nhookleft Ntilde O OE Oacute Obreve Ocircumflex Odieresis Odotbelow Ograve Ohungarumlaut Omacron Omega Oogonek Oslash Oslashacute Otilde P Q R Racute Rcaron Rcedilla S Sacute Scaron Scedilla Schwa Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent Thorn U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent ";
@@ -186,6 +183,18 @@ code = "    pos @uppercase <25 0 50 0>;";
 name = cpsp;
 },
 {
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub f f ij by f_f_ij;
+sub glottalstopreversed commaaboverightcomb wmod by glottalstopreversed_commaaboverightcomb_wmod;
+sub k commaaboverightcomb wmod by k_commaaboverightcomb_wmod;
+sub q commaaboverightcomb wmod by q_commaaboverightcomb_wmod;
+sub rdotbelow commaaboverightcomb wmod by rdotbelow_commaaboverightcomb_wmod;
+sub f ij by f_ij;
+";
+name = rlig;
+},
+{
 code = "    sub f f ij by f_f_ij;
     sub f ij by f_ij;
     sub f f i by f_f_i;
@@ -269,18 +278,6 @@ code = "    sub I from [I.alt];
     sub uring from [uring.alt];
     sub utilde from [utilde.alt];";
 name = aalt;
-},
-{
-automatic = 1;
-code = "lookupflag IgnoreMarks;
-sub f f ij by f_f_ij;
-sub glottalstopreversed commaaboverightcomb wmod by glottalstopreversed_commaaboverightcomb_wmod;
-sub k commaaboverightcomb wmod by k_commaaboverightcomb_wmod;
-sub q commaaboverightcomb wmod by q_commaaboverightcomb_wmod;
-sub rdotbelow commaaboverightcomb wmod by rdotbelow_commaaboverightcomb_wmod;
-sub f ij by f_ij;
-";
-name = dlig;
 }
 );
 fontMaster = (
