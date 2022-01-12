@@ -1,7 +1,7 @@
 {
 .appVersion = "3110";
 DisplayStrings = (
-"/lcaron/glottalstop/t_commaaboverightcomb/thetamod"
+"AÁ/Alpha-latin/Amacron/Astroke ÆBC/Cacute/Ccaron/Cstroke D/Dlinebelow EÉÊÈ/Eopen/Ereversed/Schwa FG/Gcircumflex/Gscript/Gstroke H/Hdotbelow \012IÍ/Idotbelow Ì/Imacron/Iotaafrican JK/Kacute/Kdotbelow/Klinebelow L/Lacute/Lbar/Lbelt/Lcaron/Ldotbelow/Lmiddletilde/Lslash MN/Nacute/Nlinebelow/Eng OÓ/Ocenteredtilde/Omacron/Oopen PQ\012R/Rdotbelow S/Sacute/Scaron/Sdotbelow T/Tbar/Tdiagonalstroke/Tlinebelow UÚ/Udotbelow/Umacron/Upsilonafrican V/Gammaafrican WXYZ/uniA7AE/Theta/Iota/Chi \012aá/alpha-latin/amacron/astroke æbc/cacute/ccaron/cstroke d/dlinebelow eéêè/eopen/eturned/schwa fg/gamma-latin/gcircumflex/gsingle/gstroke h/hdotbelow \012ií/idotbelow ì/imacron/iota-latin j/jcaron k/kacute/kdotbelow/klinebelow l/l_commaaboverightcomb/lacute/lambdastroke/lbar/lbelt/lcaron/ldotbelow/lmiddletilde/lslash mn/nacute/nlinebelow ñ/eng oó/obarred/omacron/oopen pqr/rdotbelow \012s/sacute/scaron/sdotbelow t/t_commaaboverightcomb/tbar/tdiagonalstroke/tmacronbelow uú/udotbelow/umacron/upsilon-latin vwxyz/theta/iota/chi/space/Asmall/Gsmall/Ismall/Lsmall/space/hmod/wmod/ymod/zmod/thetamod/glottalstopmod/space \012/glottalstop/glottalstopreversed 7.,:;!?·/bullet/midlinehorizontalellipsis/colontriangularmod/uni02D1 *///undertie -/emdash _(/space )/quotedblleft/quotedblright/quoteleft/quoteright «»\"'°/kip"
 );
 classes = (
 {
@@ -207426,7 +207426,7 @@ layers = (
 components = (
 {
 name = period;
-transform = "{1, 0, 0, 1, 0, 231}";
+transform = "{1, 0, 0, 1, 0, 203}";
 }
 );
 layerId = master01;
@@ -207439,7 +207439,7 @@ width = 278;
 components = (
 {
 name = period;
-transform = "{1, 0, 0, 1, 0, 228}";
+transform = "{1, 0, 0, 1, 0, 203}";
 }
 );
 layerId = master02;
@@ -207452,7 +207452,7 @@ width = 244;
 components = (
 {
 name = period;
-transform = "{1, 0, 0, 1, 0, 276}";
+transform = "{1, 0, 0, 1, 0, 238}";
 }
 );
 layerId = master03;
@@ -207465,7 +207465,7 @@ width = 216;
 components = (
 {
 name = period;
-transform = "{1, 0, 0, 1, 0, 262}";
+transform = "{1, 0, 0, 1, 0, 226}";
 }
 );
 layerId = master04;
@@ -207478,7 +207478,7 @@ width = 197;
 components = (
 {
 name = period;
-transform = "{1, 0, 0, 1, 0, 276}";
+transform = "{1, 0, 0, 1, 0, 238}";
 }
 );
 layerId = master05;
@@ -207491,7 +207491,7 @@ width = 216;
 components = (
 {
 name = period;
-transform = "{1, 0, 0, 1, 0, 260}";
+transform = "{1, 0, 0, 1, 0, 226}";
 }
 );
 layerId = master06;
@@ -234374,15 +234374,15 @@ width = 732;
 components = (
 {
 name = period;
-transform = "{1, 0, 0, 1, 0, 239}";
+transform = "{1, 0, 0, 1, 0, 238}";
 },
 {
 name = period;
-transform = "{1, 0, 0, 1, 216, 239}";
+transform = "{1, 0, 0, 1, 216, 238}";
 },
 {
 name = period;
-transform = "{1, 0, 0, 1, 432, 239}";
+transform = "{1, 0, 0, 1, 432, 238}";
 }
 );
 layerId = master05;
@@ -234395,15 +234395,15 @@ width = 648;
 components = (
 {
 name = period;
-transform = "{1, 0, 0, 1, 0, 223}";
+transform = "{1, 0, 0, 1, 0, 226}";
 },
 {
 name = period;
-transform = "{1, 0, 0, 1, 222, 223}";
+transform = "{1, 0, 0, 1, 222, 226}";
 },
 {
 name = period;
-transform = "{1, 0, 0, 1, 444, 223}";
+transform = "{1, 0, 0, 1, 444, 226}";
 }
 );
 layerId = master06;
@@ -234416,15 +234416,15 @@ width = 666;
 components = (
 {
 name = period;
-transform = "{1, 0, 0, 1, 0, 198}";
+transform = "{1, 0, 0, 1, 0, 203}";
 },
 {
 name = period;
-transform = "{1, 0, 0, 1, 278, 198}";
+transform = "{1, 0, 0, 1, 278, 203}";
 },
 {
 name = period;
-transform = "{1, 0, 0, 1, 556, 198}";
+transform = "{1, 0, 0, 1, 556, 203}";
 }
 );
 layerId = master01;
