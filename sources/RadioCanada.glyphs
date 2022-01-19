@@ -1,5 +1,8 @@
 {
 .appVersion = "3110";
+DisplayStrings = (
+z
+);
 classes = (
 {
 code = " A AE AEacute Aacute Abreve Acircumflex Adieresis Adotbelow Agrave Amacron Aogonek Aring Aringacute Atilde B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Delta E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Edotbelow Egrave Emacron Eng Eogonek Eth Etilde Euro F G Gbreve Gcaron Gcedilla Gcircumflex Gdotaccent Germandbls H Hbar Hcircumflex I I.alt IJ IJacute Iacute Iacute.alt Ibreve Ibreve.alt Icircumflex Icircumflex.alt Idieresis Idieresis.alt Idotaccent Idotaccent.alt Idotbelow Idotbelow.alt Igrave Igrave.alt Imacron Imacron.alt Iogonek Iogonek.alt Itilde Itilde.alt J J.alt Jcircumflex Jcircumflex.alt K Kcedilla L Lacute Lcaron Lcedilla Ldot Lslash M N Nacute Ncaron Ncedilla Nhookleft Ntilde O OE Oacute Obreve Ocircumflex Odieresis Odotbelow Ograve Ohungarumlaut Omacron Omega Oogonek Oslash Oslashacute Otilde P Q R Racute Rcaron Rcedilla S Sacute Scaron Scedilla Schwa Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent Thorn U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent ";
@@ -229,16 +232,6 @@ name = case;
 {
 code = "    pos @uppercase <25 0 50 0>;";
 name = cpsp;
-},
-{
-code = "lookupflag IgnoreMarks;
-sub f f ij by f_f_ij;
-sub glottalstopreversed commaaboverightcomb wmod by glottalstopreversed_commaaboverightcomb_wmod;
-sub rdotbelow commaaboverightcomb wmod by rdotbelow_commaaboverightcomb_wmod;
-sub f ij by f_ij;
-";
-disabled = 1;
-name = rlig;
 },
 {
 code = "    sub f f ij by f_f_ij;
@@ -12079,6 +12072,16 @@ color = 9;
 glyphname = Schwa;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{362, 0}";
+},
+{
+name = top;
+position = "{362, 690}";
+}
+);
 layerId = master01;
 paths = (
 {
@@ -12125,6 +12128,16 @@ com.schriftgestaltung.Glyphs.lastChange = "2021-03-11 23:13:14 +0000";
 width = 724;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{305, 0}";
+},
+{
+name = top;
+position = "{305, 690}";
+}
+);
 layerId = master02;
 paths = (
 {
@@ -12171,6 +12184,16 @@ com.schriftgestaltung.Glyphs.lastChange = "2021-03-11 21:09:29 +0000";
 width = 610;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{273, 0}";
+},
+{
+name = top;
+position = "{273, 690}";
+}
+);
 layerId = master03;
 paths = (
 {
@@ -12217,6 +12240,16 @@ com.schriftgestaltung.Glyphs.lastChange = "2021-03-11 20:56:43 +0000";
 width = 546;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{285, 0}";
+},
+{
+name = top;
+position = "{285, 690}";
+}
+);
 layerId = master04;
 paths = (
 {
@@ -12263,6 +12296,16 @@ com.schriftgestaltung.Glyphs.lastChange = "2021-03-11 21:03:33 +0000";
 width = 569;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{363, 0}";
+},
+{
+name = top;
+position = "{363, 690}";
+}
+);
 layerId = master05;
 paths = (
 {
@@ -12309,6 +12352,16 @@ com.schriftgestaltung.Glyphs.lastChange = "2021-03-11 21:44:58 +0000";
 width = 726;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{353, 0}";
+},
+{
+name = top;
+position = "{353, 690}";
+}
+);
 layerId = master06;
 paths = (
 {
@@ -12599,7 +12652,7 @@ position = "{377, 690}";
 },
 {
 name = topright;
-position = "{623, 800}";
+position = "{566, 965}";
 }
 );
 layerId = master01;
@@ -12671,7 +12724,7 @@ position = "{318, 690}";
 },
 {
 name = topright;
-position = "{526, 800}";
+position = "{475, 965}";
 }
 );
 layerId = master02;
@@ -12743,7 +12796,7 @@ position = "{256, 690}";
 },
 {
 name = topright;
-position = "{440, 800}";
+position = "{426, 980}";
 }
 );
 layerId = master03;
@@ -12815,7 +12868,7 @@ position = "{293, 690}";
 },
 {
 name = topright;
-position = "{485, 800}";
+position = "{458, 975}";
 }
 );
 layerId = master04;
@@ -12887,7 +12940,7 @@ position = "{361, 690}";
 },
 {
 name = topright;
-position = "{575, 800}";
+position = "{561, 980}";
 }
 );
 layerId = master05;
@@ -12959,7 +13012,13 @@ position = "{363, 690}";
 },
 {
 name = topright;
-position = "{600, 800}";
+position = "{532, 975}";
+}
+);
+guideLines = (
+{
+angle = 90;
+position = "{621, 213}";
 }
 );
 layerId = master06;
@@ -15748,38 +15807,38 @@ paths = (
 {
 closed = 1;
 nodes = (
-"172 0 LINE",
-"172 690 LINE",
-"110 690 LINE",
-"110 0 LINE"
+"139 0 LINE",
+"139 690 LINE",
+"77 690 LINE",
+"77 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"298 3 OFFCURVE",
-"338 -8 OFFCURVE",
-"382 -8 CURVE SMOOTH",
-"486 -8 OFFCURVE",
-"546 68 OFFCURVE",
-"546 215 CURVE SMOOTH",
-"546 690 LINE",
-"484 690 LINE",
-"484 220 LINE SMOOTH",
-"484 106 OFFCURVE",
-"452 49 OFFCURVE",
-"382 49 CURVE SMOOTH",
-"347 49 OFFCURVE",
-"315 60 OFFCURVE",
-"290 77 CURVE",
-"262 27 LINE"
+"265 3 OFFCURVE",
+"305 -8 OFFCURVE",
+"349 -8 CURVE SMOOTH",
+"453 -8 OFFCURVE",
+"513 68 OFFCURVE",
+"513 215 CURVE SMOOTH",
+"513 690 LINE",
+"451 690 LINE",
+"451 220 LINE SMOOTH",
+"451 106 OFFCURVE",
+"419 49 OFFCURVE",
+"349 49 CURVE SMOOTH",
+"314 49 OFFCURVE",
+"282 60 OFFCURVE",
+"257 77 CURVE",
+"229 27 LINE"
 );
 }
 );
 userData = {
 com.schriftgestaltung.Glyphs.lastChange = "2021-03-17 00:53:09 +0000";
 };
-width = 646;
+width = 582;
 },
 {
 layerId = master04;
@@ -15900,7 +15959,9 @@ width = 739;
 }
 );
 leftKerningGroup = H;
+leftMetricsKey = H;
 rightKerningGroup = U;
+rightMetricsKey = J;
 unicode = 0132;
 },
 {
@@ -26661,6 +26722,16 @@ color = 9;
 glyphname = Oopen;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{242, 0}";
+},
+{
+name = top;
+position = "{242, 690}";
+}
+);
 background = {
 paths = (
 {
@@ -26733,6 +26804,16 @@ nodes = (
 width = 483;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{259, 0}";
+},
+{
+name = top;
+position = "{259, 690}";
+}
+);
 background = {
 paths = (
 {
@@ -26805,6 +26886,16 @@ nodes = (
 width = 518;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{275, 0}";
+},
+{
+name = top;
+position = "{275, 690}";
+}
+);
 background = {
 paths = (
 {
@@ -26877,6 +26968,16 @@ nodes = (
 width = 550;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{314, 0}";
+},
+{
+name = top;
+position = "{314, 690}";
+}
+);
 layerId = master05;
 paths = (
 {
@@ -26914,6 +27015,16 @@ nodes = (
 width = 627;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{323, 0}";
+},
+{
+name = top;
+position = "{323, 690}";
+}
+);
 background = {
 paths = (
 {
@@ -26986,6 +27097,16 @@ nodes = (
 width = 645;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{327, 0}";
+},
+{
+name = top;
+position = "{327, 690}";
+}
+);
 layerId = master01;
 paths = (
 {
@@ -38992,12 +39113,20 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+position = "{323, 0}";
+},
+{
+name = center;
+position = "{323, 345}";
+},
+{
 name = top;
 position = "{323, 690}";
 },
 {
 name = topright;
-position = "{631, 800}";
+position = "{581, 965}";
 }
 );
 layerId = master01;
@@ -39040,12 +39169,20 @@ width = 646;
 {
 anchors = (
 {
+name = bottom;
+position = "{273, 0}";
+},
+{
+name = center;
+position = "{273, 345}";
+},
+{
 name = top;
 position = "{273, 690}";
 },
 {
 name = topright;
-position = "{542, 800}";
+position = "{492, 965}";
 }
 );
 layerId = master02;
@@ -39088,12 +39225,20 @@ width = 546;
 {
 anchors = (
 {
+name = bottom;
+position = "{221, 0}";
+},
+{
+name = center;
+position = "{221, 345}";
+},
+{
 name = top;
 position = "{230, 690}";
 },
 {
 name = topright;
-position = "{436, 800}";
+position = "{386, 980}";
 }
 );
 layerId = master03;
@@ -39136,12 +39281,20 @@ width = 441;
 {
 anchors = (
 {
+name = bottom;
+position = "{249, 0}";
+},
+{
+name = center;
+position = "{249, 345}";
+},
+{
 name = top;
 position = "{249, 690}";
 },
 {
 name = topright;
-position = "{493, 800}";
+position = "{443, 975}";
 }
 );
 layerId = master04;
@@ -39184,12 +39337,20 @@ width = 498;
 {
 anchors = (
 {
+name = bottom;
+position = "{299, 0}";
+},
+{
+name = center;
+position = "{299, 345}";
+},
+{
 name = top;
 position = "{298, 690}";
 },
 {
 name = topright;
-position = "{574, 800}";
+position = "{524, 980}";
 }
 );
 layerId = master05;
@@ -39232,12 +39393,20 @@ width = 597;
 {
 anchors = (
 {
+name = bottom;
+position = "{307, 0}";
+},
+{
+name = center;
+position = "{307, 345}";
+},
+{
 name = top;
 position = "{307, 690}";
 },
 {
 name = topright;
-position = "{594, 800}";
+position = "{544, 975}";
 }
 );
 layerId = master06;
@@ -55193,7 +55362,7 @@ position = "{306, 515}";
 },
 {
 name = topright;
-position = "{500, 800}";
+position = "{460, 800}";
 }
 );
 layerId = master01;
@@ -55273,7 +55442,7 @@ position = "{250, 515}";
 },
 {
 name = topright;
-position = "{419, 800}";
+position = "{389, 800}";
 }
 );
 layerId = master02;
@@ -55353,7 +55522,7 @@ position = "{225, 510}";
 },
 {
 name = topright;
-position = "{340, 800}";
+position = "{349, 800}";
 }
 );
 layerId = master03;
@@ -55433,7 +55602,7 @@ position = "{251, 515}";
 },
 {
 name = topright;
-position = "{387, 800}";
+position = "{381, 800}";
 }
 );
 layerId = master04;
@@ -55513,7 +55682,7 @@ position = "{274, 510}";
 },
 {
 name = topright;
-position = "{422, 800}";
+position = "{431, 800}";
 }
 );
 layerId = master05;
@@ -55593,7 +55762,7 @@ position = "{286, 515}";
 },
 {
 name = topright;
-position = "{461, 800}";
+position = "{450, 800}";
 }
 );
 layerId = master06;
@@ -91536,6 +91705,8 @@ nodes = (
 width = 368;
 }
 );
+leftKerningGroup = mod;
+rightKerningGroup = mod;
 unicode = 02B0;
 },
 {
@@ -254289,19 +254460,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"300 570 LINE",
-"350 748 LINE",
-"290 748 LINE",
-"250 570 LINE"
-);
-}
-);
-};
-layerId = master03;
-paths = (
-{
-closed = 1;
-nodes = (
 "42 726 OFFCURVE",
 "24 745 OFFCURVE",
 "0 745 CURVE SMOOTH",
@@ -254320,6 +254478,30 @@ nodes = (
 );
 }
 );
+};
+layerId = master03;
+paths = (
+{
+closed = 1;
+nodes = (
+"44 736 OFFCURVE",
+"26 755 OFFCURVE",
+"2 755 CURVE SMOOTH",
+"-23 755 OFFCURVE",
+"-40 736 OFFCURVE",
+"-40 712 CURVE SMOOTH",
+"-40 692 OFFCURVE",
+"-29 676 OFFCURVE",
+"-10 671 CURVE",
+"-31 585 LINE",
+"11 585 LINE",
+"32 655 LINE SMOOTH",
+"40 682 OFFCURVE",
+"44 696 OFFCURVE",
+"44 709 CURVE SMOOTH"
+);
+}
+);
 userData = {
 com.schriftgestaltung.Glyphs.lastChange = "2021-03-12 03:51:56 +0000";
 };
@@ -254332,7 +254514,7 @@ name = _caron.alt;
 position = "{0, 720}";
 }
 );
-layerId = master04;
+background = {
 paths = (
 {
 closed = 1;
@@ -254352,6 +254534,30 @@ nodes = (
 "55 675 OFFCURVE",
 "59 692 OFFCURVE",
 "59 711 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = master04;
+paths = (
+{
+closed = 1;
+nodes = (
+"57 752 OFFCURVE",
+"34 775 OFFCURVE",
+"3 775 CURVE SMOOTH",
+"-28 775 OFFCURVE",
+"-51 752 OFFCURVE",
+"-51 721 CURVE SMOOTH",
+"-51 698 OFFCURVE",
+"-36 678 OFFCURVE",
+"-15 670 CURVE",
+"-35 585 LINE",
+"18 585 LINE",
+"42 655 LINE SMOOTH",
+"53 686 OFFCURVE",
+"57 702 OFFCURVE",
+"57 721 CURVE SMOOTH"
 );
 }
 );
@@ -254368,25 +254574,6 @@ position = "{0, 720}";
 }
 );
 background = {
-anchors = (
-{
-name = _caron.alt;
-position = "{300, 720}";
-}
-);
-paths = (
-{
-closed = 1;
-nodes = (
-"300 570 LINE",
-"350 748 LINE",
-"290 748 LINE",
-"250 570 LINE"
-);
-}
-);
-};
-layerId = master05;
 paths = (
 {
 closed = 1;
@@ -254409,6 +254596,30 @@ nodes = (
 );
 }
 );
+};
+layerId = master05;
+paths = (
+{
+closed = 1;
+nodes = (
+"44 736 OFFCURVE",
+"26 755 OFFCURVE",
+"2 755 CURVE SMOOTH",
+"-23 755 OFFCURVE",
+"-40 736 OFFCURVE",
+"-40 712 CURVE SMOOTH",
+"-40 692 OFFCURVE",
+"-29 676 OFFCURVE",
+"-10 671 CURVE",
+"-31 585 LINE",
+"11 585 LINE",
+"32 655 LINE SMOOTH",
+"40 682 OFFCURVE",
+"44 696 OFFCURVE",
+"44 709 CURVE SMOOTH"
+);
+}
+);
 userData = {
 com.schriftgestaltung.Glyphs.lastChange = "2021-03-12 04:23:03 +0000";
 };
@@ -254421,7 +254632,7 @@ name = _caron.alt;
 position = "{0, 720}";
 }
 );
-layerId = master06;
+background = {
 paths = (
 {
 closed = 1;
@@ -254441,6 +254652,30 @@ nodes = (
 "55 675 OFFCURVE",
 "59 692 OFFCURVE",
 "59 711 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = master06;
+paths = (
+{
+closed = 1;
+nodes = (
+"57 752 OFFCURVE",
+"34 775 OFFCURVE",
+"3 775 CURVE SMOOTH",
+"-28 775 OFFCURVE",
+"-51 752 OFFCURVE",
+"-51 721 CURVE SMOOTH",
+"-51 698 OFFCURVE",
+"-36 678 OFFCURVE",
+"-15 670 CURVE",
+"-35 585 LINE",
+"18 585 LINE",
+"42 655 LINE SMOOTH",
+"53 686 OFFCURVE",
+"57 702 OFFCURVE",
+"57 721 CURVE SMOOTH"
 );
 }
 );
@@ -258483,7 +258718,7 @@ layerId = master03;
 userData = {
 com.schriftgestaltung.Glyphs.lastChange = "2021-03-11 22:24:46 +0000";
 };
-width = 646;
+width = 582;
 },
 {
 components = (
