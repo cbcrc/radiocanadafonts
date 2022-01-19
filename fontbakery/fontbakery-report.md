@@ -108,6 +108,9 @@ https://github.com/impallari/Raleway/issues/14).</pre>
 	- f + l
 	- l + f
 	- i + l
+	- uni0295 + uni0315
+	- uni0315 + uni02B7
+	- uni1E5B + uni0315
 
    [code: lacks-kern-info]
 
@@ -163,17 +166,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - uni006C0315
+ - zero.pl
+ - uni20A6.BRACKET.100
  - three.pl
+ - five.pl
+ - dollar.BRACKET.100
+ - uni20B2.BRACKET.100
+ - six.pl
  - one.pl
- - uni00740315
- - uni1E5B031502B7
- - two.pl
- - cent.BRACKET.100
- - seven.pl
- - dollar.BRACKET.100 
- - And 10 more.
+ - nine.pl
+ - seven.pl 
+ - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -210,7 +213,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
  - Glyph name: uni01EB	Contours detected: 3	Expected: 2
  - Glyph name: uni02BA	Contours detected: 1	Expected: 2 
- - And 44 more.
+ - And 42 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -241,7 +244,7 @@ than 100 reported misalignments.</pre>
 	* braceright (U+007D): X=180.0,Y=691.5 (should be at cap-height 690?)
 	* dieresis (U+00A8): X=-66.0,Y=690.5 (should be at cap-height 690?)
 	* dieresis (U+00A8): X=138.0,Y=690.5 (should be at cap-height 690?)
-	* uni03BC.math (U+00B5): X=169.0,Y=1.5 (should be at baseline 0?) and 56 more.
+	* uni03BC.math (U+00B5): X=169.0,Y=1.5 (should be at baseline 0?) and 57 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 
@@ -259,7 +262,6 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 	* R (U+0052) contains a short segment B<<305.0,247.0>-<301.0,247.0>-<297.0,247.0>>
-	* h (U+0068) contains a short segment B<<419.0,333.5>-<420.0,342.0>-<420.0,351.0>>
 	* m (U+006D) contains a short segment B<<705.0,314.0>-<707.0,325.0>-<708.0,333.5>>
 	* m (U+006D) contains a short segment B<<708.0,333.5>-<709.0,342.0>-<709.0,351.0>>
 	* m (U+006D) contains a short segment B<<392.0,314.0>-<394.0,325.0>-<395.0,333.5>>
@@ -267,7 +269,8 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 	* Oslash (U+00D8) contains a short segment B<<195.0,265.0>-<195.0,265.0>-<195.0,263.0>>
 	* ae (U+00E6) contains a short segment B<<357.0,336.0>-<358.0,344.0>-<358.0,349.0>>
 	* ae (U+00E6) contains a short segment B<<482.0,219.0>-<476.0,219.0>-<470.0,219.0>>
-	* ae (U+00E6) contains a short segment B<<470.0,219.0>-<469.0,209.0>-<469.0,199.0>> and 47 more.
+	* ae (U+00E6) contains a short segment B<<470.0,219.0>-<469.0,209.0>-<469.0,199.0>>
+	* hbar (U+0127) contains a short segment B<<421.0,314.0>-<423.0,325.0>-<424.0,333.5>> and 44 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 
@@ -400,6 +403,9 @@ https://github.com/impallari/Raleway/issues/14).</pre>
 	- f + l
 	- l + f
 	- i + l
+	- uni0295 + uni0315
+	- uni0315 + uni02B7
+	- uni1E5B + uni0315
 
    [code: lacks-kern-info]
 
@@ -476,17 +482,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - uni006C0315
+ - zero.pl
+ - uni20A6.BRACKET.100
  - three.pl
+ - five.pl
+ - dollar.BRACKET.100
+ - uni20B2.BRACKET.100
+ - six.pl
  - one.pl
- - uni00740315
- - uni1E5B031502B7
- - two.pl
- - cent.BRACKET.100
- - seven.pl
- - dollar.BRACKET.100 
- - And 10 more.
+ - nine.pl
+ - seven.pl 
+ - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -523,7 +529,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
  - Glyph name: uni01EB	Contours detected: 3	Expected: 2
  - Glyph name: uni02BA	Contours detected: 1	Expected: 2 
- - And 40 more.
+ - And 38 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -550,11 +556,11 @@ than 100 reported misalignments.</pre>
 	* g (U+0067): X=156.0,Y=-1.0 (should be at baseline 0?)
 	* braceright (U+007D): X=40.5,Y=2.0 (should be at baseline 0?)
 	* braceright (U+007D): X=122.5,Y=-1.5 (should be at baseline 0?)
-	* Aring (U+00C5): X=430.0,Y=691.5 (should be at cap-height 690?)
-	* Aring (U+00C5): X=278.5,Y=691.5 (should be at cap-height 690?)
+	* Aring (U+00C5): X=420.0,Y=691.5 (should be at cap-height 690?)
+	* Aring (U+00C5): X=268.5,Y=691.5 (should be at cap-height 690?)
 	* atilde (U+00E3): X=329.0,Y=691.5 (should be at cap-height 690?)
 	* aring (U+00E5): X=238.0,Y=689.0 (should be at cap-height 690?)
-	* aring (U+00E5): X=453.0,Y=689.0 (should be at cap-height 690?) and 84 more.
+	* aring (U+00E5): X=453.0,Y=689.0 (should be at cap-height 690?) and 90 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 
@@ -709,6 +715,9 @@ https://github.com/impallari/Raleway/issues/14).</pre>
 	- f + l
 	- l + f
 	- i + l
+	- uni0295 + uni0315
+	- uni0315 + uni02B7
+	- uni1E5B + uni0315
 
    [code: lacks-kern-info]
 
@@ -785,17 +794,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - uni006C0315
+ - zero.pl
+ - uni20A6.BRACKET.100
  - three.pl
+ - five.pl
+ - dollar.BRACKET.100
+ - uni20B2.BRACKET.100
+ - six.pl
  - one.pl
- - uni00740315
- - uni1E5B031502B7
- - two.pl
- - cent.BRACKET.100
- - seven.pl
- - dollar.BRACKET.100 
- - And 10 more.
+ - nine.pl
+ - seven.pl 
+ - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -832,7 +841,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
  - Glyph name: uni01EB	Contours detected: 3	Expected: 2
  - Glyph name: uni023E	Contours detected: 1	Expected: 2 
- - And 46 more.
+ - And 44 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -863,7 +872,7 @@ than 100 reported misalignments.</pre>
 	* section (U+00A7): X=387.0,Y=-1.0 (should be at baseline 0?)
 	* dieresis (U+00A8): X=-51.5,Y=692.0 (should be at cap-height 690?)
 	* dieresis (U+00A8): X=129.5,Y=692.0 (should be at cap-height 690?)
-	* uni03BC.math (U+00B5): X=444.0,Y=-1.0 (should be at baseline 0?) and 74 more.
+	* uni03BC.math (U+00B5): X=444.0,Y=-1.0 (should be at baseline 0?) and 77 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 
@@ -1019,6 +1028,9 @@ https://github.com/impallari/Raleway/issues/14).</pre>
 	- f + l
 	- l + f
 	- i + l
+	- uni0295 + uni0315
+	- uni0315 + uni02B7
+	- uni1E5B + uni0315
 
    [code: lacks-kern-info]
 
@@ -1074,17 +1086,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - uni006C0315
+ - zero.pl
+ - uni20A6.BRACKET.100
  - three.pl
+ - five.pl
+ - dollar.BRACKET.100
+ - uni20B2.BRACKET.100
+ - six.pl
  - one.pl
- - uni00740315
- - uni1E5B031502B7
- - two.pl
- - cent.BRACKET.100
- - seven.pl
- - dollar.BRACKET.100 
- - And 10 more.
+ - nine.pl
+ - seven.pl 
+ - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1121,7 +1133,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
  - Glyph name: uni01EB	Contours detected: 3	Expected: 2
  - Glyph name: uni02BA	Contours detected: 1	Expected: 2 
- - And 44 more.
+ - And 42 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1145,10 +1157,10 @@ positives, it will pass if there are more than 100 reported short segments.</pre
 	* bracketright (U+005D) contains a short segment L<<132.0,-175.0>--<133.0,-175.0>>
 	* e (U+0065) contains a short segment B<<175.0,214.0>-<175.0,210.0>-<175.0,205.0>>
 	* f (U+0066) contains a short segment L<<153.0,525.0>--<156.0,538.0>>
-	* h (U+0068) contains a short segment B<<411.0,315.0>-<413.0,324.0>-<414.0,332.0>>
-	* h (U+0068) contains a short segment B<<414.0,332.0>-<415.0,340.0>-<415.0,347.0>>
 	* m (U+006D) contains a short segment B<<702.0,315.0>-<704.0,324.0>-<705.0,332.0>>
-	* m (U+006D) contains a short segment B<<705.0,332.0>-<706.0,340.0>-<706.0,347.0>> and 86 more.
+	* m (U+006D) contains a short segment B<<705.0,332.0>-<706.0,340.0>-<706.0,347.0>>
+	* m (U+006D) contains a short segment B<<387.0,315.0>-<389.0,324.0>-<390.0,332.0>>
+	* m (U+006D) contains a short segment B<<390.0,332.0>-<391.0,340.0>-<391.0,347.0>> and 80 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 
@@ -1289,6 +1301,9 @@ https://github.com/impallari/Raleway/issues/14).</pre>
 	- f + l
 	- l + f
 	- i + l
+	- uni0295 + uni0315
+	- uni0315 + uni02B7
+	- uni1E5B + uni0315
 
    [code: lacks-kern-info]
 
@@ -1344,17 +1359,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - uni006C0315
+ - zero.pl
+ - uni20A6.BRACKET.100
  - three.pl
+ - five.pl
+ - dollar.BRACKET.100
+ - uni20B2.BRACKET.100
+ - six.pl
  - one.pl
- - uni00740315
- - uni1E5B031502B7
- - two.pl
- - cent.BRACKET.100
- - seven.pl
- - dollar.BRACKET.100 
- - And 10 more.
+ - nine.pl
+ - seven.pl 
+ - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1391,7 +1406,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
  - Glyph name: uni01EB	Contours detected: 3	Expected: 2
  - Glyph name: uni023A	Contours detected: 4	Expected: 3 
- - And 42 more.
+ - And 40 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1659,16 +1674,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
+ - one.lf
+ - caron.cap
  - breve.cap
- - five.lf
+ - uni20B2.BRACKET.100
  - zero.lf
- - dotbelow
+ - nine.lf
+ - five.lf
  - cent.BRACKET.100
- - dollar.BRACKET.100
- - three.lf
- - seven.lf
- - uni20B2.BRACKET.100 
+ - ring.cap
+ - circumflex.cap 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -1878,6 +1893,9 @@ https://github.com/impallari/Raleway/issues/14).</pre>
 	- f + l
 	- l + f
 	- i + l
+	- uni0295 + uni0315
+	- uni0315 + uni02B7
+	- uni1E5B + uni0315
 
    [code: lacks-kern-info]
 
@@ -1954,17 +1972,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - uni006C0315
+ - zero.pl
+ - uni20A6.BRACKET.100
  - three.pl
+ - five.pl
+ - dollar.BRACKET.100
+ - uni20B2.BRACKET.100
+ - six.pl
  - one.pl
- - uni00740315
- - uni1E5B031502B7
- - two.pl
- - cent.BRACKET.100
- - seven.pl
- - dollar.BRACKET.100 
- - And 10 more.
+ - nine.pl
+ - seven.pl 
+ - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2001,7 +2019,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
  - Glyph name: uni01EB	Contours detected: 3	Expected: 2
  - Glyph name: uni023E	Contours detected: 1	Expected: 2 
- - And 46 more.
+ - And 44 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -2032,7 +2050,7 @@ than 100 reported misalignments.</pre>
 	* braceleft (U+007B): X=318.5,Y=688.5 (should be at cap-height 690?)
 	* exclamdown (U+00A1): X=18.0,Y=-1.0 (should be at baseline 0?)
 	* exclamdown (U+00A1): X=170.0,Y=-1.0 (should be at baseline 0?)
-	* uni03BC.math (U+00B5): X=451.0,Y=-2.0 (should be at baseline 0?) and 82 more.
+	* uni03BC.math (U+00B5): X=451.0,Y=-2.0 (should be at baseline 0?) and 85 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 
@@ -2227,16 +2245,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
+ - one.lf
+ - caron.cap
  - breve.cap
- - five.lf
+ - uni20B2.BRACKET.100
  - zero.lf
- - dotbelow
+ - nine.lf
+ - five.lf
  - cent.BRACKET.100
- - dollar.BRACKET.100
- - three.lf
- - seven.lf
- - uni20B2.BRACKET.100 
+ - ring.cap
+ - circumflex.cap 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -2546,16 +2564,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
+ - one.lf
+ - caron.cap
  - breve.cap
- - five.lf
+ - uni20B2.BRACKET.100
  - zero.lf
- - dotbelow
+ - nine.lf
+ - five.lf
  - cent.BRACKET.100
- - dollar.BRACKET.100
- - three.lf
- - seven.lf
- - uni20B2.BRACKET.100 
+ - ring.cap
+ - circumflex.cap 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -2624,7 +2642,7 @@ than 100 reported misalignments.</pre>
 	* ecircumflex (U+00EA): X=228.0,Y=689.0 (should be at cap-height 690?)
 	* icircumflex (U+00EE): X=102.0,Y=689.0 (should be at cap-height 690?)
 	* ocircumflex (U+00F4): X=225.0,Y=689.0 (should be at cap-height 690?)
-	* ucircumflex (U+00FB): X=230.0,Y=689.0 (should be at cap-height 690?) and 48 more.
+	* ucircumflex (U+00FB): X=230.0,Y=689.0 (should be at cap-height 690?) and 47 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 
@@ -2861,16 +2879,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
+ - one.lf
+ - caron.cap
  - breve.cap
- - five.lf
+ - uni20B2.BRACKET.100
  - zero.lf
- - dotbelow
+ - nine.lf
+ - five.lf
  - cent.BRACKET.100
- - dollar.BRACKET.100
- - three.lf
- - seven.lf
- - uni20B2.BRACKET.100 
+ - ring.cap
+ - circumflex.cap 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -3156,16 +3174,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
+ - one.lf
+ - caron.cap
  - breve.cap
- - five.lf
+ - uni20B2.BRACKET.100
  - zero.lf
- - dotbelow
+ - nine.lf
+ - five.lf
  - cent.BRACKET.100
- - dollar.BRACKET.100
- - three.lf
- - seven.lf
- - uni20B2.BRACKET.100 
+ - ring.cap
+ - circumflex.cap 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -3234,7 +3252,7 @@ than 100 reported misalignments.</pre>
 	* ccircumflex (U+0109): X=269.0,Y=689.0 (should be at cap-height 690?)
 	* gcircumflex (U+011D): X=274.0,Y=689.0 (should be at cap-height 690?)
 	* jcircumflex (U+0135): X=125.0,Y=689.0 (should be at cap-height 690?)
-	* Lcaron (U+013D): X=382.0,Y=692.0 (should be at cap-height 690?) and 42 more.
+	* scircumflex (U+015D): X=241.0,Y=689.0 (should be at cap-height 690?) and 41 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 
@@ -3448,16 +3466,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
+ - one.lf
+ - caron.cap
  - breve.cap
- - five.lf
+ - uni20B2.BRACKET.100
  - zero.lf
- - dotbelow
+ - nine.lf
+ - five.lf
  - cent.BRACKET.100
- - dollar.BRACKET.100
- - three.lf
- - seven.lf
- - uni20B2.BRACKET.100 
+ - ring.cap
+ - circumflex.cap 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -3525,8 +3543,8 @@ than 100 reported misalignments.</pre>
 	* aring (U+00E5): X=219.0,Y=691.0 (should be at cap-height 690?)
 	* aring (U+00E5): X=311.0,Y=691.0 (should be at cap-height 690?)
 	* aring (U+00E5): X=219.0,Y=691.0 (should be at cap-height 690?)
-	* uni0123 (U+0123): X=313.0,Y=692.0 (should be at cap-height 690?)
-	* Uring (U+016E): X=276.0,Y=943.5 (should be at ascender 945?) and 55 more.
+	* dcaron (U+010F): X=561.0,Y=690.5 (should be at cap-height 690?)
+	* uni0123 (U+0123): X=313.0,Y=692.0 (should be at cap-height 690?) and 58 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 
@@ -3680,6 +3698,9 @@ https://github.com/impallari/Raleway/issues/14).</pre>
 	- f + l
 	- l + f
 	- i + l
+	- uni0295 + uni0315
+	- uni0315 + uni02B7
+	- uni1E5B + uni0315
 
    [code: lacks-kern-info]
 
@@ -3756,17 +3777,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - uni006C0315
+ - zero.pl
+ - uni20A6.BRACKET.100
  - three.pl
+ - five.pl
+ - dollar.BRACKET.100
+ - uni20B2.BRACKET.100
+ - six.pl
  - one.pl
- - uni00740315
- - uni1E5B031502B7
- - two.pl
- - cent.BRACKET.100
- - seven.pl
- - dollar.BRACKET.100 
- - And 10 more.
+ - nine.pl
+ - seven.pl 
+ - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -3803,7 +3824,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
  - Glyph name: uni01EB	Contours detected: 3	Expected: 2
  - Glyph name: uni02BA	Contours detected: 1	Expected: 2 
- - And 40 more.
+ - And 38 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -3834,7 +3855,7 @@ than 100 reported misalignments.</pre>
 	* uni03BC.math (U+00B5): X=436.0,Y=-1.0 (should be at baseline 0?)
 	* onequarter (U+00BC): X=295.0,Y=691.0 (should be at cap-height 690?)
 	* onequarter (U+00BC): X=355.0,Y=691.0 (should be at cap-height 690?)
-	* onehalf (U+00BD): X=295.0,Y=691.0 (should be at cap-height 690?) and 63 more.
+	* onehalf (U+00BD): X=295.0,Y=691.0 (should be at cap-height 690?) and 67 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 
@@ -4050,16 +4071,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
+ - one.lf
+ - caron.cap
  - breve.cap
- - five.lf
+ - uni20B2.BRACKET.100
  - zero.lf
- - dotbelow
+ - nine.lf
+ - five.lf
  - cent.BRACKET.100
- - dollar.BRACKET.100
- - three.lf
- - seven.lf
- - uni20B2.BRACKET.100 
+ - ring.cap
+ - circumflex.cap 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -4267,6 +4288,9 @@ https://github.com/impallari/Raleway/issues/14).</pre>
 	- f + l
 	- l + f
 	- i + l
+	- uni0295 + uni0315
+	- uni0315 + uni02B7
+	- uni1E5B + uni0315
 
    [code: lacks-kern-info]
 
@@ -4322,17 +4346,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - uni006C0315
+ - zero.pl
+ - uni20A6.BRACKET.100
  - three.pl
+ - five.pl
+ - dollar.BRACKET.100
+ - uni20B2.BRACKET.100
+ - six.pl
  - one.pl
- - uni00740315
- - uni1E5B031502B7
- - two.pl
- - cent.BRACKET.100
- - seven.pl
- - dollar.BRACKET.100 
- - And 10 more.
+ - nine.pl
+ - seven.pl 
+ - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -4369,7 +4393,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
  - Glyph name: uni01EB	Contours detected: 3	Expected: 2
  - Glyph name: uni02BA	Contours detected: 1	Expected: 2 
- - And 40 more.
+ - And 38 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -4400,7 +4424,7 @@ than 100 reported misalignments.</pre>
 	* braceright (U+007D): X=197.5,Y=691.0 (should be at cap-height 690?)
 	* dieresis (U+00A8): X=-9.0,Y=689.0 (should be at cap-height 690?)
 	* dieresis (U+00A8): X=187.0,Y=689.0 (should be at cap-height 690?)
-	* uni03BC.math (U+00B5): X=158.5,Y=-1.5 (should be at baseline 0?) and 63 more.
+	* uni03BC.math (U+00B5): X=158.5,Y=-1.5 (should be at baseline 0?) and 69 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 
@@ -4625,16 +4649,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
+ - one.lf
+ - caron.cap
  - breve.cap
- - five.lf
+ - uni20B2.BRACKET.100
  - zero.lf
- - dotbelow
+ - nine.lf
+ - five.lf
  - cent.BRACKET.100
- - dollar.BRACKET.100
- - three.lf
- - seven.lf
- - uni20B2.BRACKET.100 
+ - ring.cap
+ - circumflex.cap 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -4703,7 +4727,7 @@ than 100 reported misalignments.</pre>
 	* p (U+0070): X=221.5,Y=1.5 (should be at baseline 0?)
 	* ordfeminine (U+00AA): X=109.0,Y=690.5 (should be at cap-height 690?)
 	* uni03BC.math (U+00B5): X=492.0,Y=-1.0 (should be at baseline 0?)
-	* germandbls (U+00DF): X=259.0,Y=-1.0 (should be at baseline 0?) and 54 more.
+	* germandbls (U+00DF): X=259.0,Y=-1.0 (should be at baseline 0?) and 57 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 
@@ -4858,6 +4882,9 @@ https://github.com/impallari/Raleway/issues/14).</pre>
 	- f + l
 	- l + f
 	- i + l
+	- uni0295 + uni0315
+	- uni0315 + uni02B7
+	- uni1E5B + uni0315
 
    [code: lacks-kern-info]
 
@@ -4934,17 +4961,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - uni006C0315
+ - zero.pl
+ - uni20A6.BRACKET.100
  - three.pl
+ - five.pl
+ - dollar.BRACKET.100
+ - uni20B2.BRACKET.100
+ - six.pl
  - one.pl
- - uni00740315
- - uni1E5B031502B7
- - two.pl
- - cent.BRACKET.100
- - seven.pl
- - dollar.BRACKET.100 
- - And 10 more.
+ - nine.pl
+ - seven.pl 
+ - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -4981,7 +5008,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
  - Glyph name: uni01EB	Contours detected: 3	Expected: 2
  - Glyph name: uni023A	Contours detected: 4	Expected: 3 
- - And 42 more.
+ - And 40 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -5228,16 +5255,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
+ - one.lf
+ - caron.cap
  - breve.cap
- - five.lf
+ - uni20B2.BRACKET.100
  - zero.lf
- - dotbelow
+ - nine.lf
+ - five.lf
  - cent.BRACKET.100
- - dollar.BRACKET.100
- - three.lf
- - seven.lf
- - uni20B2.BRACKET.100 
+ - ring.cap
+ - circumflex.cap 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -5345,7 +5372,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[13] RadioCanada-MediumItalic.ttf</b></summary>
+<summary><b>[12] RadioCanada-MediumItalic.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
 
@@ -5434,6 +5461,9 @@ https://github.com/impallari/Raleway/issues/14).</pre>
 	- f + l
 	- l + f
 	- i + l
+	- uni0295 + uni0315
+	- uni0315 + uni02B7
+	- uni1E5B + uni0315
 
    [code: lacks-kern-info]
 
@@ -5489,17 +5519,17 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - eight.pl
- - uni006C0315
+ - zero.pl
+ - uni20A6.BRACKET.100
  - three.pl
+ - five.pl
+ - dollar.BRACKET.100
+ - uni20B2.BRACKET.100
+ - six.pl
  - one.pl
- - uni00740315
- - uni1E5B031502B7
- - two.pl
- - cent.BRACKET.100
- - seven.pl
- - dollar.BRACKET.100 
- - And 10 more.
+ - nine.pl
+ - seven.pl 
+ - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -5536,40 +5566,10 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: uni01EA	Contours detected: 3	Expected: 2
  - Glyph name: uni01EB	Contours detected: 3	Expected: 2
  - Glyph name: uni02BA	Contours detected: 1	Expected: 2 
- - And 40 more.
+ - And 38 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary>
-
-* [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
-<pre>--- Rationale ---
-This check heuristically looks for on-curve points which are close to, but do
-not sit on, significant boundary coordinates. For example, a point which has a
-Y-coordinate of 1 or -1 might be a misplaced baseline point. As well as the
-baseline, here we also check for points near the x-height (but only for lower
-case Latin letters), cap-height, ascender and descender Y coordinates.
-Not all such misaligned curve points are a mistake, and sometimes the design may
-call for points in locations near the boundaries. As this check is liable to
-generate significant numbers of false positives, it will pass if there are more
-than 100 reported misalignments.</pre>
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* dollar (U+0024): X=437.0,Y=691.0 (should be at cap-height 690?)
-	* six (U+0036): X=537.5,Y=689.5 (should be at cap-height 690?)
-	* nine (U+0039): X=97.5,Y=1.0 (should be at baseline 0?)
-	* at (U+0040): X=393.0,Y=-2.0 (should be at baseline 0?)
-	* d (U+0064): X=379.5,Y=519.5 (should be at x-height 519?)
-	* braceright (U+007D): X=188.5,Y=691.5 (should be at cap-height 690?)
-	* braceright (U+007D): X=155.0,Y=-2.0 (should be at baseline 0?)
-	* section (U+00A7): X=463.0,Y=-1.0 (should be at baseline 0?)
-	* dieresis (U+00A8): X=30.0,Y=688.0 (should be at cap-height 690?)
-	* dieresis (U+00A8): X=230.0,Y=688.0 (should be at cap-height 690?) and 87 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 
 </details>
 <details>
@@ -5810,16 +5810,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.lf
+ - one.lf
+ - caron.cap
  - breve.cap
- - five.lf
+ - uni20B2.BRACKET.100
  - zero.lf
- - dotbelow
+ - nine.lf
+ - five.lf
  - cent.BRACKET.100
- - dollar.BRACKET.100
- - three.lf
- - seven.lf
- - uni20B2.BRACKET.100 
+ - ring.cap
+ - circumflex.cap 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -5888,7 +5888,7 @@ than 100 reported misalignments.</pre>
 	* Aring (U+00C5): X=248.0,Y=689.0 (should be at cap-height 690?)
 	* aring (U+00E5): X=153.0,Y=689.0 (should be at cap-height 690?)
 	* aring (U+00E5): X=376.0,Y=689.0 (should be at cap-height 690?)
-	* aring (U+00E5): X=153.0,Y=689.0 (should be at cap-height 690?) and 86 more.
+	* aring (U+00E5): X=153.0,Y=689.0 (should be at cap-height 690?) and 87 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 
@@ -5957,7 +5957,7 @@ by manual inspection.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 41 | 0 | 225 | 2052 | 121 | 1697 | 0 |
+| 41 | 0 | 224 | 2052 | 121 | 1698 | 0 |
 | 1% | 0% | 5% | 50% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
