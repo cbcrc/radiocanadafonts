@@ -166,16 +166,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
- - uni20A6.BRACKET.100
  - three.pl
  - five.pl
- - dollar.BRACKET.100
+ - zero.pl
+ - cent.BRACKET.100
+ - ring_acute.cap
+ - four.pl
  - uni20B2.BRACKET.100
- - six.pl
- - one.pl
- - nine.pl
- - seven.pl 
+ - eight.pl
+ - seven.pl
+ - two.pl 
  - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -482,16 +482,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
- - uni20A6.BRACKET.100
  - three.pl
  - five.pl
- - dollar.BRACKET.100
+ - zero.pl
+ - cent.BRACKET.100
+ - ring_acute.cap
+ - four.pl
  - uni20B2.BRACKET.100
- - six.pl
- - one.pl
- - nine.pl
- - seven.pl 
+ - eight.pl
+ - seven.pl
+ - two.pl 
  - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -794,16 +794,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
- - uni20A6.BRACKET.100
  - three.pl
  - five.pl
- - dollar.BRACKET.100
+ - zero.pl
+ - cent.BRACKET.100
+ - ring_acute.cap
+ - four.pl
  - uni20B2.BRACKET.100
- - six.pl
- - one.pl
- - nine.pl
- - seven.pl 
+ - eight.pl
+ - seven.pl
+ - two.pl 
  - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -1086,16 +1086,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
- - uni20A6.BRACKET.100
  - three.pl
  - five.pl
- - dollar.BRACKET.100
+ - zero.pl
+ - cent.BRACKET.100
+ - ring_acute.cap
+ - four.pl
  - uni20B2.BRACKET.100
- - six.pl
- - one.pl
- - nine.pl
- - seven.pl 
+ - eight.pl
+ - seven.pl
+ - two.pl 
  - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -1359,16 +1359,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
- - uni20A6.BRACKET.100
  - three.pl
  - five.pl
- - dollar.BRACKET.100
+ - zero.pl
+ - cent.BRACKET.100
+ - ring_acute.cap
+ - four.pl
  - uni20B2.BRACKET.100
- - six.pl
- - one.pl
- - nine.pl
- - seven.pl 
+ - eight.pl
+ - seven.pl
+ - two.pl 
  - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -1674,16 +1674,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - cent.BRACKET.100
+ - circumflex.cap
  - one.lf
- - caron.cap
- - breve.cap
+ - uni030C.alt
+ - uni0313.short
+ - uni0326.alt
  - uni20B2.BRACKET.100
  - zero.lf
  - nine.lf
- - five.lf
- - cent.BRACKET.100
- - ring.cap
- - circumflex.cap 
+ - uni20A6.BRACKET.100 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -1972,16 +1972,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
- - uni20A6.BRACKET.100
  - three.pl
  - five.pl
- - dollar.BRACKET.100
+ - zero.pl
+ - cent.BRACKET.100
+ - ring_acute.cap
+ - four.pl
  - uni20B2.BRACKET.100
- - six.pl
- - one.pl
- - nine.pl
- - seven.pl 
+ - eight.pl
+ - seven.pl
+ - two.pl 
  - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -2245,16 +2245,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - cent.BRACKET.100
+ - circumflex.cap
  - one.lf
- - caron.cap
- - breve.cap
+ - uni030C.alt
+ - uni0313.short
+ - uni0326.alt
  - uni20B2.BRACKET.100
  - zero.lf
  - nine.lf
- - five.lf
- - cent.BRACKET.100
- - ring.cap
- - circumflex.cap 
+ - uni20A6.BRACKET.100 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -2564,16 +2564,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - cent.BRACKET.100
+ - circumflex.cap
  - one.lf
- - caron.cap
- - breve.cap
+ - uni030C.alt
+ - uni0313.short
+ - uni0326.alt
  - uni20B2.BRACKET.100
  - zero.lf
  - nine.lf
- - five.lf
- - cent.BRACKET.100
- - ring.cap
- - circumflex.cap 
+ - uni20A6.BRACKET.100 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -2879,16 +2879,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - cent.BRACKET.100
+ - circumflex.cap
  - one.lf
- - caron.cap
- - breve.cap
+ - uni030C.alt
+ - uni0313.short
+ - uni0326.alt
  - uni20B2.BRACKET.100
  - zero.lf
  - nine.lf
- - five.lf
- - cent.BRACKET.100
- - ring.cap
- - circumflex.cap 
+ - uni20A6.BRACKET.100 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -3174,16 +3174,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - cent.BRACKET.100
+ - circumflex.cap
  - one.lf
- - caron.cap
- - breve.cap
+ - uni030C.alt
+ - uni0313.short
+ - uni0326.alt
  - uni20B2.BRACKET.100
  - zero.lf
  - nine.lf
- - five.lf
- - cent.BRACKET.100
- - ring.cap
- - circumflex.cap 
+ - uni20A6.BRACKET.100 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -3466,16 +3466,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - cent.BRACKET.100
+ - circumflex.cap
  - one.lf
- - caron.cap
- - breve.cap
+ - uni030C.alt
+ - uni0313.short
+ - uni0326.alt
  - uni20B2.BRACKET.100
  - zero.lf
  - nine.lf
- - five.lf
- - cent.BRACKET.100
- - ring.cap
- - circumflex.cap 
+ - uni20A6.BRACKET.100 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -3777,16 +3777,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
- - uni20A6.BRACKET.100
  - three.pl
  - five.pl
- - dollar.BRACKET.100
+ - zero.pl
+ - cent.BRACKET.100
+ - ring_acute.cap
+ - four.pl
  - uni20B2.BRACKET.100
- - six.pl
- - one.pl
- - nine.pl
- - seven.pl 
+ - eight.pl
+ - seven.pl
+ - two.pl 
  - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -4071,16 +4071,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - cent.BRACKET.100
+ - circumflex.cap
  - one.lf
- - caron.cap
- - breve.cap
+ - uni030C.alt
+ - uni0313.short
+ - uni0326.alt
  - uni20B2.BRACKET.100
  - zero.lf
  - nine.lf
- - five.lf
- - cent.BRACKET.100
- - ring.cap
- - circumflex.cap 
+ - uni20A6.BRACKET.100 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -4346,16 +4346,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
- - uni20A6.BRACKET.100
  - three.pl
  - five.pl
- - dollar.BRACKET.100
+ - zero.pl
+ - cent.BRACKET.100
+ - ring_acute.cap
+ - four.pl
  - uni20B2.BRACKET.100
- - six.pl
- - one.pl
- - nine.pl
- - seven.pl 
+ - eight.pl
+ - seven.pl
+ - two.pl 
  - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -4649,16 +4649,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - cent.BRACKET.100
+ - circumflex.cap
  - one.lf
- - caron.cap
- - breve.cap
+ - uni030C.alt
+ - uni0313.short
+ - uni0326.alt
  - uni20B2.BRACKET.100
  - zero.lf
  - nine.lf
- - five.lf
- - cent.BRACKET.100
- - ring.cap
- - circumflex.cap 
+ - uni20A6.BRACKET.100 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -4961,16 +4961,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
- - uni20A6.BRACKET.100
  - three.pl
  - five.pl
- - dollar.BRACKET.100
+ - zero.pl
+ - cent.BRACKET.100
+ - ring_acute.cap
+ - four.pl
  - uni20B2.BRACKET.100
- - six.pl
- - one.pl
- - nine.pl
- - seven.pl 
+ - eight.pl
+ - seven.pl
+ - two.pl 
  - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -5255,16 +5255,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - cent.BRACKET.100
+ - circumflex.cap
  - one.lf
- - caron.cap
- - breve.cap
+ - uni030C.alt
+ - uni0313.short
+ - uni0326.alt
  - uni20B2.BRACKET.100
  - zero.lf
  - nine.lf
- - five.lf
- - cent.BRACKET.100
- - ring.cap
- - circumflex.cap 
+ - uni20A6.BRACKET.100 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -5519,16 +5519,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.pl
- - uni20A6.BRACKET.100
  - three.pl
  - five.pl
- - dollar.BRACKET.100
+ - zero.pl
+ - cent.BRACKET.100
+ - ring_acute.cap
+ - four.pl
  - uni20B2.BRACKET.100
- - six.pl
- - one.pl
- - nine.pl
- - seven.pl 
+ - eight.pl
+ - seven.pl
+ - two.pl 
  - And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -5810,16 +5810,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - cent.BRACKET.100
+ - circumflex.cap
  - one.lf
- - caron.cap
- - breve.cap
+ - uni030C.alt
+ - uni0313.short
+ - uni0326.alt
  - uni20B2.BRACKET.100
  - zero.lf
  - nine.lf
- - five.lf
- - cent.BRACKET.100
- - ring.cap
- - circumflex.cap 
+ - uni20A6.BRACKET.100 
  - And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
