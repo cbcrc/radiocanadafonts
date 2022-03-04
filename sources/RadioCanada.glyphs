@@ -145,18 +145,43 @@ name = Prefix;
 );
 features = (
 {
-automatic = 1;
-code = "feature calt;
-feature locl;
-feature sups;
-feature frac;
-feature ordn;
-feature pnum;
-feature tnum;
-feature case;
-feature salt;
-feature ss01;
-feature ss02;
+code = "    sub I from [I.alt];
+    sub Iacute from [Iacute.alt];
+    sub Ibreve from [Ibreve.alt];
+    sub Icircumflex from [Icircumflex.alt];
+    sub Idieresis from [Idieresis.alt];
+    sub Idotaccent from [Idotaccent.alt];
+    sub Idotbelow from [Idotbelow.alt];
+    sub Igrave from [Igrave.alt];
+    sub Imacron from [Imacron.alt];
+    sub Iogonek from [Iogonek.alt];
+    sub Itilde from [Itilde.alt];
+    sub J from [J.alt];
+    sub Jcircumflex from [Jcircumflex.alt];
+    sub a from [a.alt];
+    sub aacute from [aacute.alt];
+    sub abreve from [abreve.alt];
+    sub acircumflex from [acircumflex.alt];
+    sub adieresis from [adieresis.alt];
+    sub adotbelow from [adotbelow.alt];
+    sub agrave from [agrave.alt];
+    sub amacron from [amacron.alt];
+    sub aogonek from [aogonek.alt];
+    sub aring from [aring.alt];
+    sub aringacute from [aringacute.alt];
+    sub atilde from [atilde.alt];
+    sub u from [u.alt];
+    sub uacute from [uacute.alt];
+    sub ubreve from [ubreve.alt];
+    sub ucircumflex from [ucircumflex.alt];
+    sub udieresis from [udieresis.alt];
+    sub udotbelow from [udotbelow.alt];
+    sub ugrave from [ugrave.alt];
+    sub uhungarumlaut from [uhungarumlaut.alt];
+    sub umacron from [umacron.alt];
+    sub uogonek from [uogonek.alt];
+    sub uring from [uring.alt];
+    sub utilde from [utilde.alt];
 ";
 tag = aalt;
 },
@@ -322,8 +347,8 @@ sub nine.lf by nine;
 tag = tnum;
 },
 {
-automatic = 1;
-code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+code = "pos @case_punctuation <0 50 0 0>;
+sub periodcentered.loclCAT by periodcentered.loclCAT.case;
 sub ringcomb_acutecomb by ringcomb_acutecomb.case;
 sub dieresis by dieresis.case;
 sub dotaccent by dotaccent.case;
@@ -341,7 +366,6 @@ tag = case;
 },
 {
 code = "pos @Uppercase <25 0 50 0>;
-pos @case_punctuation <0 50 0 0>;
 ";
 tag = cpsp;
 },
@@ -368,7 +392,13 @@ sub @a_u_alt_off by @a_u_alt_on;
 tag = salt;
 },
 {
-code = "sub @I_J_alt_off by @I_J_alt_on;
+code = "featureNames {
+	name \"Alternate I and J\"; # Windows English
+	name 3 1 0xC0C \"I et J alternatifs\"; # Windows French Canada
+	name 1 0 0 \"Alternate I and J\"; # Mac English
+	name 1 0 1 \"I et J alternatifs\"; # Mac French
+};
+sub @I_J_alt_off by @I_J_alt_on;
 ";
 labels = (
 {
@@ -379,7 +409,13 @@ value = "Alternate I and J";
 tag = ss01;
 },
 {
-code = "sub @a_u_alt_off by @a_u_alt_on;
+code = "featureNames {
+	name \"Alternate a and u\"; # Windows English
+	name 3 1 0xC0C \"a et u alternatifs\"; # Windows French Canada
+	name 1 0 0 \"Alternate a and u\"; # Mac English
+	name 1 0 1 \"a et u alternatifs\"; # Mac French
+};
+sub @a_u_alt_off by @a_u_alt_on;
 ";
 labels = (
 {

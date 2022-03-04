@@ -18,6 +18,10 @@ classes = (
 automatic = 1;
 code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Alpha-latin Amacron Aogonek Aring Aringacute Astroke Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Cstroke D DZcaron Eth Dcaron Dcroat Dmacronbelow Dzcaron E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Eogonek Eopen Ereversed Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gscript Gstroke H Hbar Hcircumflex Hdotbelow I IJ Iacute Ibreve Icircumflex Idblgrave Idieresis Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Iota-latin Itilde J Jcircumflex K Kacute Kcommaaccent Kdotbelow Kmacronbelow L LJ Lacute Lbar Lbelt Lcaron Lcommaaccent Ldot Ldotbelow Lj Lmacronbelow Lmiddletilde Lslash M N NJ Nacute Ncaron Ncommaaccent Nhookleft Nj Nmacronbelow Ntilde Eng O Oacute Obreve Ocenteredtilde Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Oogonek Oopen Oslash Oslashacute Otilde Otildemacron OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotbelow Germandbls T Tbar Tcaron Tcedilla Tcommaaccent Tdiagonalstroke Tmacronbelow U Uacute Ubreve Ucircumflex Udblgrave Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Uogonek Upsilon-latin Uring Utilde V Gamma-latin W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Delta Theta Iota Chi Omega";
 name = Uppercase;
+},
+{
+code = " hyphen endash emdash parenleft parenright bracketleft bracketright braceleft braceright guilsinglleft guilsinglright guillemetleft guillemetright ";
+name = case_punctuation;
 }
 );
 customParameters = (
@@ -250,8 +254,8 @@ sub nine.lf by nine;
 tag = tnum;
 },
 {
-automatic = 1;
-code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+code = "pos @case_punctuation <0 50 0 0>;
+sub periodcentered.loclCAT by periodcentered.loclCAT.case;
 sub acutecomb by acutecomb.case;
 sub ringcomb_acutecomb by ringcomb_acutecomb.case;
 ";
@@ -272,6 +276,11 @@ sub l commaaboverightcomb by l_commaaboverightcomb.liga;
 sub t commaaboverightcomb by t_commaaboverightcomb.liga;
 ";
 tag = liga;
+},
+{
+code = "pos @Uppercase <25 0 50 0>;
+";
+tag = cpsp;
 }
 );
 fontMaster = (
@@ -144031,8 +144040,6 @@ F = {
 "@MMK_R_punc_low" = -60;
 "@MMK_R_seven" = -20;
 };
-Lcaron = {
-};
 Lsmall = {
 "@MMK_R_punc_high" = -40;
 };
@@ -144472,8 +144479,6 @@ F = {
 "@MMK_R_punc_low" = -50;
 "@MMK_R_seven" = -20;
 };
-Lcaron = {
-};
 Lsmall = {
 "@MMK_R_punc_high" = -50;
 };
@@ -144909,8 +144914,6 @@ F = {
 "@MMK_R_o" = -10;
 "@MMK_R_punc_low" = -40;
 "@MMK_R_seven" = -5;
-};
-Lcaron = {
 };
 Lsmall = {
 "@MMK_R_punc_high" = -60;
@@ -145350,8 +145353,6 @@ F = {
 "@MMK_R_punc_low" = -60;
 "@MMK_R_seven" = -40;
 };
-Lcaron = {
-};
 Lsmall = {
 "@MMK_R_punc_high" = -60;
 };
@@ -145787,8 +145788,6 @@ F = {
 "@MMK_R_o" = -10;
 "@MMK_R_punc_low" = -50;
 "@MMK_R_seven" = -20;
-};
-Lcaron = {
 };
 Lsmall = {
 "@MMK_R_punc_high" = -70;
@@ -146226,8 +146225,6 @@ F = {
 "@MMK_R_o" = -10;
 "@MMK_R_punc_low" = -40;
 "@MMK_R_seven" = -15;
-};
-Lcaron = {
 };
 Lsmall = {
 "@MMK_R_punc_high" = -90;
