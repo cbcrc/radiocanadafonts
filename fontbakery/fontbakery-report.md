@@ -53,7 +53,7 @@ Fontbakery version: 0.8.8
 	* braceright (U+007D): X=197.5,Y=691.0 (should be at cap-height 690?) and 85 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[6] RadioCanada[wdth,wght].ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] RadioCanada[wdth,wght].ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -84,6 +84,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- macronmod
+ [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -109,7 +115,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 12 | 203 | 15 | 204 | 0 |
+| 0 | 0 | 13 | 203 | 15 | 203 | 0 |
 | 0% | 0% | 3% | 47% | 3% | 47% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
