@@ -251345,120 +251345,6 @@ anchors = (
 {
 name = _top;
 pos = (0,525);
-}
-);
-layerId = master01;
-shapes = (
-{
-ref = caroncomb;
-}
-);
-userData = {
-com.schriftgestaltung.Glyphs.lastChange = "2021-03-12 05:28:29 +0000";
-};
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (0,525);
-}
-);
-layerId = master02;
-shapes = (
-{
-ref = caroncomb;
-}
-);
-userData = {
-com.schriftgestaltung.Glyphs.lastChange = "2021-03-12 04:19:51 +0000";
-};
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (0,510);
-}
-);
-layerId = master03;
-shapes = (
-{
-ref = caroncomb;
-}
-);
-userData = {
-com.schriftgestaltung.Glyphs.lastChange = "2021-03-12 03:51:56 +0000";
-};
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (0,515);
-}
-);
-layerId = master04;
-shapes = (
-{
-ref = caroncomb;
-}
-);
-userData = {
-com.schriftgestaltung.Glyphs.lastChange = "2021-03-12 04:06:09 +0000";
-};
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (0,510);
-}
-);
-layerId = master05;
-shapes = (
-{
-ref = caroncomb;
-}
-);
-userData = {
-com.schriftgestaltung.Glyphs.lastChange = "2021-03-12 04:23:03 +0000";
-};
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (0,515);
-}
-);
-layerId = master06;
-shapes = (
-{
-ref = caroncomb;
-}
-);
-userData = {
-com.schriftgestaltung.Glyphs.lastChange = "2021-03-12 03:02:57 +0000";
-};
-width = 0;
-}
-);
-},
-{
-color = 3;
-glyphname = caroncomb.case;
-layers = (
-{
-anchors = (
-{
-name = _top;
-pos = (0,525);
 },
 {
 name = top;
@@ -251669,6 +251555,120 @@ nodes = (
 (51,735,l),
 (-45,735,l)
 );
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-12 03:02:57 +0000";
+};
+width = 0;
+}
+);
+},
+{
+color = 3;
+glyphname = caroncomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (0,525);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = caroncomb;
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-12 05:28:29 +0000";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,525);
+}
+);
+layerId = master02;
+shapes = (
+{
+ref = caroncomb;
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-12 04:19:51 +0000";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,510);
+}
+);
+layerId = master03;
+shapes = (
+{
+ref = caroncomb;
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-12 03:51:56 +0000";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,515);
+}
+);
+layerId = master04;
+shapes = (
+{
+ref = caroncomb;
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-12 04:06:09 +0000";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,510);
+}
+);
+layerId = master05;
+shapes = (
+{
+ref = caroncomb;
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-12 04:23:03 +0000";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (0,515);
+}
+);
+layerId = master06;
+shapes = (
+{
+ref = caroncomb;
 }
 );
 userData = {
