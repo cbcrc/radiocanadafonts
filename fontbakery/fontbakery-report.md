@@ -2,23 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[8] RadioCanada[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
-
-
-* 🔥 **FAIL** Compulsory STAT Axis Values are incorrect:
-
- | Name | Axis | Current Value | Current Flags | Current LinkedValue | Expected Value | Expected Flags | Expected LinkedValue |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Normal | wdth | 100.0 | 2 | None | 100.0 | 2 | None |
-| Condensed | wdth | 75.0 | 0 | None | 75.0 | 0 | None |
-| SemiCondensed | wdth | N/A | N/A | N/A | 87.5 | 0 | None |
-| Light | wght | 300.0 | 0 | None | 300.0 | 0 | None |
-| Regular | wght | 400.0 | 2 | 700.0 | 400.0 | 2 | 700.0 |
-| Medium | wght | 500.0 | 0 | None | 500.0 | 0 | None |
-| SemiBold | wght | 600.0 | 0 | None | 600.0 | 0 | None |
-| Bold | wght | 700.0 | 0 | None | 700.0 | 0 | None |
- [code: bad-axis-values]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+<details><summary><b>[7] RadioCanada[wdth,wght].ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -98,23 +82,7 @@ Fontbakery version: 0.8.10
 	* And 12 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[7] RadioCanada-Italic[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
-
-
-* 🔥 **FAIL** Compulsory STAT Axis Values are incorrect:
-
- | Name | Axis | Current Value | Current Flags | Current LinkedValue | Expected Value | Expected Flags | Expected LinkedValue |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Normal | wdth | 100.0 | 2 | None | 100.0 | 2 | None |
-| Condensed | wdth | 75.0 | 0 | None | 75.0 | 0 | None |
-| SemiCondensed | wdth | N/A | N/A | N/A | 87.5 | 0 | None |
-| Light | wght | 300.0 | 0 | None | 300.0 | 0 | None |
-| Regular | wght | 400.0 | 2 | 700.0 | 400.0 | 2 | 700.0 |
-| Medium | wght | 500.0 | 0 | None | 500.0 | 0 | None |
-| SemiBold | wght | 600.0 | 0 | None | 600.0 | 0 | None |
-| Bold | wght | 700.0 | 0 | None | 700.0 | 0 | None |
- [code: bad-axis-values]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] RadioCanada-Italic[wdth,wght].ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -192,8 +160,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 2 | 13 | 193 | 15 | 216 | 0 |
-| 0% | 0% | 3% | 44% | 3% | 49% | 0% |
+| 0 | 0 | 13 | 193 | 15 | 218 | 0 |
+| 0% | 0% | 3% | 44% | 3% | 50% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
