@@ -2,17 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[9] RadioCanada[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x01CD (LATIN CAPITAL LETTER A WITH CARON)
- 
-
-	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
+<details><summary><b>[8] RadioCanada[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
 
 
 * 🔥 **FAIL** Compulsory STAT Axis Values are incorrect:
@@ -108,17 +98,7 @@ Fontbakery version: 0.8.10
 	* And 12 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[8] RadioCanada-Italic[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x01CD (LATIN CAPITAL LETTER A WITH CARON)
- 
-
-	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] RadioCanada-Italic[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
 
 
 * 🔥 **FAIL** Compulsory STAT Axis Values are incorrect:
@@ -212,8 +192,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 13 | 193 | 15 | 214 | 0 |
-| 0% | 1% | 3% | 44% | 3% | 49% | 0% |
+| 0 | 2 | 13 | 193 | 15 | 216 | 0 |
+| 0% | 0% | 3% | 44% | 3% | 49% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
