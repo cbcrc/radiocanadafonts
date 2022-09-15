@@ -63,6 +63,7 @@ name = "Axis Mappings";
 value = {
 wdth = {
 75 = 75;
+87.5 = 87.5;
 100 = 100;
 };
 wght = {
@@ -2070,6 +2071,90 @@ width = 656;
 }
 );
 unicode = 7860;
+},
+{
+glyphname = Acaron;
+layers = (
+{
+layerId = master03;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (240,180);
+ref = caroncomb;
+}
+);
+width = 490;
+},
+{
+layerId = master04;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (262,175);
+ref = caroncomb;
+}
+);
+width = 525;
+},
+{
+layerId = master02;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (275,165);
+ref = caroncomb;
+}
+);
+width = 551;
+},
+{
+layerId = master05;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (295,180);
+ref = caroncomb;
+}
+);
+width = 590;
+},
+{
+layerId = master06;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (328,175);
+ref = caroncomb;
+}
+);
+width = 656;
+},
+{
+layerId = master01;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (327,165);
+ref = caroncomb;
+}
+);
+width = 656;
+}
+);
+unicode = 461;
 },
 {
 color = 3;
@@ -43992,6 +44077,90 @@ width = 543;
 }
 );
 unicode = 7861;
+},
+{
+glyphname = acaron;
+layers = (
+{
+layerId = master03;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (214,0);
+ref = caroncomb;
+}
+);
+width = 427;
+},
+{
+layerId = master04;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (223,-1);
+ref = caroncomb;
+}
+);
+width = 460;
+},
+{
+layerId = master02;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (222,0);
+ref = caroncomb;
+}
+);
+width = 467;
+},
+{
+layerId = master05;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (249,0);
+ref = caroncomb;
+}
+);
+width = 514;
+},
+{
+layerId = master06;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (265,0);
+ref = caroncomb;
+}
+);
+width = 543;
+},
+{
+layerId = master01;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (264,0);
+ref = caroncomb;
+}
+);
+width = 557;
+}
+);
+unicode = 462;
 },
 {
 color = 3;
@@ -255433,7 +255602,9 @@ value = master06;
 );
 exports = 0;
 instanceInterpolations = {
-master03 = 1;
+master02 = -0.66667;
+master03 = 4.66667;
+master05 = -3;
 };
 name = Regular;
 type = variable;
