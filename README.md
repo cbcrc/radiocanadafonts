@@ -3,7 +3,7 @@
 ![Nameplate image](documentation/images/nameplate.png)
 CBC/Radio-Canada is a Canadian Crown corporation serving as the national public radio and television broadcaster. The English- and French-language service units of the corporation are commonly known as CBC and Radio-Canada, respectively. 
 
-In early 2017, work started on a custom typeface for use by CBC/Radio-Canada. In 2021 this typeface was expanded to cover a wider range of weights and now includes roman and italic variable fonts. Work to include the [Unified Canadian Aboriginal Syllabics](https://en.wikipedia.org/wiki/Canadian_Aboriginal_syllabics) Unicode block into this typeface family continues.
+In early 2017, work started on a custom typeface for use by CBC/Radio-Canada. In 2021, this typeface was expanded to cover a wider range of weights and now includes roman and italic variable fonts, and in early 2023, the family was extended to include the [Unified Canadian Aboriginal Syllabics](https://en.wikipedia.org/wiki/Canadian_Aboriginal_syllabics) Unicode block.
 
 This project has been selected as a winner at the 2018 Communication Arts Typography competition in the Typeface Design category.
 
